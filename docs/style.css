@@ -6436,6 +6436,18 @@ div ~ :last-child .progress-layout2:before {
     margin-bottom: 0;
   }
 }
+.comingsoon-page .comingsoon-content h2 {
+  letter-spacing: 1px;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'cubanoregular';
+}
+@media only screen and (max-width: 767px) {
+  .comingsoon-page .comingsoon-content h2 {
+    margin-bottom: 0;
+  }
+}
 .comingsoon-page .comingsoon-content .upcoming-event-info {
   margin-bottom: 0;
   font-size: 24px;
