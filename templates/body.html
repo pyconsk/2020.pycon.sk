@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="{% if lang_code %}{{ lang_code }}{% else %}sk{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="keywords" content="pycon sk, python, community, conference, bratislava, slovakia">
+  <meta name="description" content="{{ _('Official PyCon SK 2020 website') }}">
+  <meta name="author" content="SPy o.z.">
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:image"
+        content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
+  <meta property="og:url" content="{{ domain }}"/>
+  <meta property="og:title" content="{{ _('PyCon SK 2020, Bratislava') }}"/>
+  <meta property="og:site_name" content="2020.pycon.sk"/>
+  <meta property="og:description"
+        content="{{ _('PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March 27 - 29., 2020.') }}"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@pyconsk"/>
+  <meta name="twitter:title" content="{{ _('PyCon SK 2020, Bratislava') }}"/>
+  <meta name="twitter:description"
+        content="{{ _('PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March 27 - 29., 2020.') }}"/>
+  <meta name="twitter:url" content="{{ domain }}"/>
+  <meta name="twitter:image"
+        content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
+  <title>{{ title }}</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" sizes="16x16" type="image/x-icon">
+  <link rel="shortcut icon" type="image/x-icon"
+        href="{{ url_for('static', filename='img/pycon_logo_square_60x60.png') }}">
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/normalize.css') }}">
+  <!-- Main CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/animate.min.css') }}">
+  <!-- Font-awesome CSS-->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+  <!-- Main Menu CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/meanmenu.min.css') }}">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+  {% block header %}{% endblock %}
+
+  {% if lang_code == 'sk' %}
+  <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/en', 1) }}" hreflang="en">
+  {% else %}
+  <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/sk', 1) }}" hreflang="sk">
+  {% endif %}
+  <link rel="canonical" href="{{ domain }}{{ request.path }}"/>
+
+  <!-- Modernizr Js -->
+  <script src="{{ url_for('static', filename='js/modernizr-2.8.3.min.js') }}"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">
+  {{ _('You are using an<strong>outdated</strong> browser.') }}
+  {{ _('Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.') }}
+</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<!-- Preloader Start Here -->
+<div id="preloader" class="preloader">
+  <div class="items">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+</div>
+<!-- Preloader End Here -->
+<div id="wrapper" class="wrapper">
+  <!-- Header Area Start Here -->
+  <header>
+    <div id="header-one" class="header-area header-fixed full-width-compress">
+      <div class="main-menu-area" id="sticker">
+        <div class="container-fluid">
+          <div class="row no-gutters d-flex align-items-center">
+            <div class="col-lg-2 col-md-2 d-none d-lg-block">
+              <div class="logo-area">
+                <!--                                        <a href="index.html">-->
+                <!--                                            <img src="img/pycon_logo_square_60x60.png" alt="logo">-->
+                <!--                                        </a>-->
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-6 possition-static">
+              <div class="eventalk-main-menu">
+
+                <nav class="d-none d-lg-block">
+                  <ul>
+                    <li>
+                      <a href="/">Home</a>
+                    </li>
+                    {% if lang_code == 'sk' %}
+                    <li class="menu-justify current">
+                      <a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to English"
+                         hreflang="en"><img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACJElEQVQokYWQW0jTYQDFv8ceehELCx96CoqlYaxSQYaZoWBCNTNl6JbLkKGV+RBZy3mp8Ia3LooammGY5TIyAzOHKVmRQ52xdIREMMlVkLKm///362HVk9B5OnA4F45oaB5m0LVE8a1xzGXjmMtGMdlGcHt8PMyx0Wu04vb4SLYMkJQ7SJzBTqbtOa1HzlDcNobouv8GHvcgJcwtLNNpn+NO3zxSAk3VUFuBlNDQMU1Nm5OJ15+RlZeQaoC6fifiZLmDoYlvcK8bHC8AuHrTBQCn8sBoAqCodorlzl78VVUAtPdMsVV7OxjQYfdgrXexMPwJpfQK/2AwQPqJIM/PA68X57yP+ORuCktfERJRj3B7fMG56yEtDVJT15WkhHezi4he02VovA5mM2RnQ0YG6PVBY0oKMjGRVZ2OQEwMfq2WlchIVjQaAscOUbEt9j8L4uJQ9kX/7QRAVVUUVWFNUZhweRG6rH6qWyfJzB1kxvUdfEsEcrKDlj1a1nZH/QlQ+XIgnpfNT9kS3oLe2IcItSD2H3/E3b7g6z9tVn5UVmIoGgdA0USwulMDUhKr6yIALLe04TUaKL3xHhFyGtH4ZBopVfzXLjA2Mse5EgcFJaNICao+ibWjCUhVJT13gLSsBzwb/Yiq/OKr8TCWwi7ExfYRmg7mkJDXSciuVjbuaGTD9jomZ71UhEdTHqbl7cwiIuw8YvNZRGg+m6Ks1Ax9IHFvAb8B0rMYCWdRNDQAAAAASUVORK5CYII="
+                          alt="english language"></a>
+                    </li>
+                    {% else %}
+                    <li class="menu-justify current">
+                      <a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovečinu"
+                         hreflang="sk"><img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACO0lEQVQokXXMTUiTARzH8T94FOrgyYsddkkQJcFIyhQ1kUzQUHMTRRMNU6xMLXpRMLVS8gWkrKhDXesk0TFKIgzTXPMt2ea0JWOutT179uzlefbtUlKHfvA5/r5iqBqGqv5LUYgrCvGAQtQfQPP7UX1+VK8PxeMlsOPB73bj23YjhqrxZ4lEYo9hJDAMA13X0XWdeDxOLBYjGo0SiUTQNA2vaxsxVBWA8NNnhCfuo45PERqdJDQ6/t9jOBxG0zR27E4k37zOi9c/ULpvkGhuwnA4MIYGiVnqmHjk4s70N4amthiY3KRvzMm1ETu9tze4+8CJJL1CkkxzDD7eJdDRjfFpHsO3i77lQqut42aflZrOr9ScX6Gy1cap5i+UNixRaFmk4dIyIk8QOTDHrYde/G1d6C2N6A4H8bvDRC0WLl61cbpjncpzK5Q32yhtsFJkWeL4mUXqLuwFFhmY9mB9a2e4Z5b2nmXaOxfYnJnFfNlOedsGJ1vWONG0SkH9CsfMNo5UW6nqXEPkOfJGBNeVEb4PT2F/v0Zjr53Vd+u4+sewFpj5fLSahcMVzB8q42NGKXMHi/hgymehqI57IkhUBL21lVhxMbHuLn6+nCFwvR8tM5NwejqqyUQoLQ0lNZVgSgqB/fsIJCcTzMrCKYJoIsSbzhKrrydaW0u0qppIRQVaWRlaSQnhwkLUvDxCubkoOTkEs7MJZmURzMjALoKoIigiBETwi+D7zSuCR4QdEdwibIvgEsEpgv0vvwCcffbRnUTGYAAAAABJRU5ErkJggg=="
+                          alt="slovenský jazyk"></a>
+                    </li>
+                    {% endif %}
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 d-none d-lg-block">
+              <ul class="header-action-items">
+                <li>
+                  <a href="https://ti.to/pyconsk/pyconsk-2020" title="Buy Tickets"
+                     class="btn-fill size-xs color-yellow border-radius-5">Buy Tickets</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header Area End Here -->
+  {% block content %}{% endblock %}
+</div>
+<!-- Wrapper End -->
+<!-- jquery-->
+<script src="{{ url_for('static', filename='js/jquery-2.2.4.min.js') }}"></script>
+<!-- Plugins js -->
+<script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+<!-- Popper js -->
+<script src="{{ url_for('static', filename='js/popper.js') }}"></script>
+<!-- Bootstrap js -->
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<!-- Meanmenu Js -->
+<script src="{{ url_for('static', filename='js/jquery.meanmenu.min.js') }}"></script>
+<!-- Srollup js -->
+<script src="{{ url_for('static', filename='js/jquery.scrollUp.min.js') }}"></script>
+<!-- Countdown js -->
+<script src="{{ url_for('static', filename='js/jquery.countdown.min.js') }}"></script>
+<!-- Custom Js -->
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69278502-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-69278502-1');
+</script>
+
+</body>
+
+</html>

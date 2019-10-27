@@ -1,0 +1,115 @@
+# Slovak translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-10-27 20:00+0100\n"
+"PO-Revision-Date: 2018-11-27 22:00+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sk\n"
+"Language-Team: sk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: pycon.py:8
+msgid "PyCon SK 2020 | 27 - 29. March 2020 | Bratislava, Slovakia"
+msgstr "PyCon SK 2020 | 27 - 29. Marec 2020 | Bratislava"
+
+#: templates/body.html:8
+msgid "Official PyCon SK 2020 website"
+msgstr "Oficialna stránka PyCon SK 2020"
+
+#: templates/body.html:15 templates/body.html:21
+msgid "PyCon SK 2020, Bratislava"
+msgstr "PyCon SK 2020, Bratislava"
+
+#: templates/body.html:18 templates/body.html:23
+msgid ""
+"PyCon SK is a community-organized conference for the Python programming "
+"language, which will be held in Bratislava on March 27 - 29., 2020."
+msgstr ""
+"PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
+"Python, ktorá sa bude konať v Bratislave 27 až 29 marca 2019."
+
+#: templates/body.html:63
+msgid "You are using an<strong>outdated</strong> browser."
+msgstr "Používate <strong>zastaralý</strong> prehliadač."
+
+#: templates/body.html:64
+msgid ""
+"Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to "
+"improve your experience."
+msgstr ""
+"Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšíu verziu"
+" prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
+
+#: templates/index.html:32
+msgid "Your Email Here"
+msgstr "Emailová adresa"
+
+#: templates/index.html:33
+msgid "email address for the newsletter"
+msgstr "emailová adresa pre newsletter"
+
+#: templates/index.html:35
+msgid "Subscribe"
+msgstr "Prihlásiť sa"
+
+#: templates/index.html:43
+msgid ""
+"You can unsubscribe at any time by clicking the link in the footer of our"
+" emails."
+msgstr "Odhlásiť sa môžeš kedykoľvek kliknutím na link na konci našich emailov."
+
+#: templates/index.html:45
+msgid "View previous campaigns."
+msgstr "Zobraziť predchádzajúce kampane."
+
+#: templates/index.html:49
+msgid "We use Mailchimp as our marketing platform."
+msgstr "Ako našu marketingovú platformu používame Mailchimp."
+
+#: templates/index.html:50
+msgid ""
+"By clicking to subscribe, you acknowledge that your information will be "
+"transferred to Mailchimp for processing."
+msgstr ""
+
+#: templates/index.html:95
+#, python-format
+msgid ""
+"%(pycontm)s is a trademark for worldwide conference activities claimed by"
+" the %(psf)s."
+msgstr ""
+"%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
+"aktivity."
+
+#: templates/index.html:97
+msgid "Python Software foundation"
+msgstr "Python Software foundation"
+
+#: templates/index.html:99
+#, python-format
+msgid "PyCon SK is organized by volunteers from %(spy)s."
+msgstr "PyCon SK je organizovaný dobrovoľníkmi z %(spy)s."
+
+#: templates/index.html:100
+msgid "SPy o.z."
+msgstr "SPy o.z."
+
+#: templates/index.html:103
+#, python-format
+msgid ""
+"Found a bug? Missing some information? This is a community managed "
+"website, so feel free to contribute to our %(github)s repository."
+msgstr ""
+"Našiel/našla si chybu? Chýba ti nejaká informácia? Toto je komunitou "
+"manažovaná webstránka, prispej na našom %(github)se."
+

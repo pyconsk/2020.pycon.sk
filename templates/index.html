@@ -1,120 +1,6 @@
-<!doctype html>
-<html lang="{% if lang_code %}{{ lang_code }}{% else %}sk{% endif %}">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <meta name="keywords" content="pycon sk, python, community, conference, bratislava, slovakia">
-  <meta name="description" content="{{ _('Official PyCon SK 2020 website') }}">
-  <meta name="author" content="SPy o.z.">
+{% extends "body.html" %}
 
-  <meta property="og:type" content="website"/>
-  <meta property="og:image" content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
-  <meta property="og:url" content="{{ domain }}"/>
-  <meta property="og:title" content="{{ _('PyCon SK 2020, Bratislava') }}"/>
-  <meta property="og:site_name" content="2020.pycon.sk"/>
-  <meta property="og:description" content="{{ _('PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March 27 - 29., 2020.') }}"/>
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:site" content="@pyconsk"/>
-  <meta name="twitter:title" content="{{ _('PyCon SK 2020, Bratislava') }}"/>
-  <meta name="twitter:description" content="{{ _('PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on March 27 - 29., 2020.') }}"/>
-  <meta name="twitter:url" content="{{ domain }}"/>
-  <meta name="twitter:image" content="{{ domain }}{{ url_for('static', filename='img/pycon_logo_square_400x400.png') }}"/>
-  <title>{{ title }}</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" sizes="16x16" type="image/x-icon">
-  <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/pycon_logo_square_60x60.png') }}">
-  <!-- Normalize CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/normalize.css') }}">
-  <!-- Main CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
-  <!-- Animate CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/animate.min.css') }}">
-  <!-- Font-awesome CSS-->
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
-  <!-- Main Menu CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/meanmenu.min.css') }}">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-
-  {% block header %}{% endblock %}
-
-  {% if lang_code == 'sk' %}
-  <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/en', 1) }}" hreflang="en">
-  {% else %}
-  <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/sk', 1) }}" hreflang="sk">
-  {% endif %}
-  <link rel="canonical" href="{{ domain }}{{ request.path }}"/>
-
-  <!-- Modernizr Js -->
-  <script src="{{ url_for('static', filename='js/modernizr-2.8.3.min.js') }}"></script>
-</head>
-<body>
-<!--[if lt IE 8]>
-<p class="browserupgrade">
-  {{ _('You are using an<strong>outdated</strong> browser. Please
-  <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.') }}
-</p>
-<![endif]-->
-<!-- Add your site or application content here -->
-<!-- Preloader Start Here -->
-<div id="preloader" class="preloader">
-  <div class="items">
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-  </div>
-</div>
-<!-- Preloader End Here -->
-<div id="wrapper" class="wrapper">
-  <!-- Header Area Start Here -->
-  <header>
-    <div id="header-one" class="header-area header-fixed full-width-compress">
-      <div class="main-menu-area" id="sticker">
-        <div class="container-fluid">
-          <div class="row no-gutters d-flex align-items-center">
-            <div class="col-lg-2 col-md-2 d-none d-lg-block">
-              <div class="logo-area">
-                <!--                                        <a href="index.html">-->
-                <!--                                            <img src="img/pycon_logo_square_60x60.png" alt="logo">-->
-                <!--                                        </a>-->
-              </div>
-            </div>
-            <div class="col-lg-7 col-md-6 possition-static">
-              <div class="eventalk-main-menu">
-
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 d-none d-lg-block">
-              <ul class="header-action-items">
-                <li>
-                  <a href="https://ti.to/pyconsk/pyconsk-2020" title="Buy Tickets"
-                     class="btn-fill size-xs color-yellow border-radius-5">Buy Tickets</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- Header Area End Here -->
+{% block content %}
   <!-- Coming Soon Page Area Start Here -->
   <section class="comingsoon-page">
     <div class="comingsoon-back-img"></div>
@@ -143,11 +29,11 @@
               <div class="input-group stylish-input-group justify-content-center">
 
                 <input type="email" value="" name="EMAIL" id="mce-EMAIL newsletter-form-email"
-                       class="form-control form-control-lg required email" required="" placeholder="Your Email Here"
-                       autocomplete="off" aria-describedby="email address for the newsletter">
+                       class="form-control form-control-lg required email" required="" placeholder="{{ _('Your Email Here') }}"
+                       autocomplete="off" aria-describedby="{{ _('email address for the newsletter') }}">
                 <span class="input-group-addon">
-
-            <button class="btn btn-primary">Subscribe</button>                    </span>
+                  <button class="btn btn-primary">{{ _('Subscribe') }}</button>
+                </span>
 
               </div>
 
@@ -160,8 +46,8 @@
                 </p>
                 <p>
                   <small>
-                    {{ _('We use Mailchimp as our marketing platform. By clicking to subscribe, you acknowledge that your
-                    information will be transferred to Mailchimp for processing.') }}
+                    {{ _('We use Mailchimp as our marketing platform.') }}
+                    {{ _('By clicking to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.') }}
                   </small>
                 </p>
               </div>
@@ -205,42 +91,21 @@
           </li>
         </ul>
 
-        <p>{{ _('PyCon™ is a trademark for worldwide conference activities claimed by the Python Software foundation.') }}</p>
-        <p>{{ _('PyCon SK is organized by volunteers from SPy o.z.') }}</p>
-        <p>{{ _('2020 SPy o.z. All Rights Reserved.') }}</p>
+        {% autoescape false %}
+        <p>{{ _('%(pycontm)s is a trademark for worldwide conference activities claimed by the %(psf)s.',
+                pycontm = '<a href="https://www.python.org/psf/trademarks/pycon/" target="_blank" class="external">PyCon™</a>',
+                psf = '<a href="https://www.python.org/psf-landing/" target="_blank" class="external">%s</a>' % _('Python Software foundation')) }}
+        </p>
+        <p>{{ _('PyCon SK is organized by volunteers from %(spy)s.',
+                spy = '<a href="https://spy.python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }}
+        </p>
+        <p><span class="oi oi-bug"></span>
+           {{ _('Found a bug? Missing some information? This is a community managed website, so feel free to contribute to our %(github)s repository.',
+                github = '<a href="https://github.com/pyconsk/2020.pycon.sk" target="_blank" class="external">GitHub</a>') }}
+        </p>
+        {% endautoescape %}
       </div>
     </div>
   </section>
   <!-- Coming Soon Page Area End Here -->
-</div>
-<!-- Wrapper End -->
-<!-- jquery-->
-<script src="{{ url_for('static', filename='js/jquery-2.2.4.min.js') }}"></script>
-<!-- Plugins js -->
-<script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
-<!-- Popper js -->
-<script src="{{ url_for('static', filename='js/popper.js') }}"></script>
-<!-- Bootstrap js -->
-<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-<!-- Meanmenu Js -->
-<script src="{{ url_for('static', filename='js/jquery.meanmenu.min.js') }}"></script>
-<!-- Srollup js -->
-<script src="{{ url_for('static', filename='js/jquery.scrollUp.min.js') }}"></script>
-<!-- Countdown js -->
-<script src="{{ url_for('static', filename='js/jquery.countdown.min.js') }}"></script>
-<!-- Custom Js -->
-<script src="{{ url_for('static', filename='js/main.js') }}"></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69278502-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-69278502-1');
-</script>
-
-</body>
-
-</html>
+{% endblock %}
