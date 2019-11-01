@@ -569,6 +569,7 @@ button {
 
 .media-body-box {
     padding: 5px 5px 5px 30px;
+    margin: 3rem;
     p {
         margin-bottom: 0;
     }
@@ -1811,6 +1812,9 @@ button {
 .bg-blue {
     background-color: @colorBlue;
 }
+.bg-figure3 {
+  background-image: url('img/figure/figure3.png');
+}
 
 .overlay-primary90 {
     position: relative;
@@ -1834,6 +1838,23 @@ button {
     &:before {
         .rgbaColorIn(@primaryColor,
         80%);
+        background-color: @result;
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+.overlay-primary60 {
+    position: relative;
+    &:before {
+        .rgbaColorIn(@primaryColor,
+        60%);
         background-color: @result;
         content: "";
         height: 100%;

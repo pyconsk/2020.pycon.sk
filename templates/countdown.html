@@ -1,0 +1,113 @@
+{% extends "body.html" %}
+
+{% block content %}
+  <!-- Coming Soon Page Area Start Here -->
+  <section class="comingsoon-page">
+    <div class="comingsoon-back-img"></div>
+    <div class="comingsoon-content-wrap">
+      <div class="comingsoon-content">
+        <h1 class="text-underline-light2">PyCon SK 2020</h1><br/>
+        <h2 class="text-underline-light2">27 - 29. March 2020</h2>
+        <ul class="upcoming-event-info">
+          <li>STU FIIT</li>
+          <li>&nbsp;<img src="{{ url_for('static', filename='img/pycon_logo_square_60x60.png') }}" alt="logo">&nbsp;</li>
+          <li>Bratislava</li>
+        </ul>
+        <div class="countdown-layout2">
+          <div id="countdown"></div>
+        </div>
+        <div class="comingsoon-newsletter">
+
+          <div class="newsletter-form clearfix">
+
+
+            <form
+                action="https://pycon.us12.list-manage.com/subscribe/post?u=89d883ce643e7200aabe34fa1&amp;id=e1520cb152"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank" novalidate>
+
+              <div class="input-group stylish-input-group justify-content-center">
+
+                <input type="email" value="" name="EMAIL" id="mce-EMAIL newsletter-form-email"
+                       class="form-control form-control-lg required email" required="" placeholder="{{ _('Your Email Here') }}"
+                       autocomplete="off" aria-describedby="{{ _('email address for the newsletter') }}">
+                <span class="input-group-addon">
+                  <button class="btn btn-primary">{{ _('Subscribe') }}</button>
+                </span>
+
+              </div>
+
+              <div class="form-group">
+
+                <p>
+                  {{ _('You can unsubscribe at any time by clicking the link in the footer of our emails.') }}
+                  <a href="https://us12.campaign-archive.com/home/?u=89d883ce643e7200aabe34fa1&id=e1520cb152"
+                     class="external" title="{{ _('View previous campaigns.') }}">{{ _('View previous campaigns.') }}</a>
+                </p>
+                <p>
+                  <small>
+                    {{ _('We use Mailchimp as our marketing platform.') }}
+                    {{ _('By clicking to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.') }}
+                  </small>
+                </p>
+              </div>
+
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_89d883ce643e7200aabe34fa1_e1520cb152" tabindex="-1" value="">
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+        <ul class="comingsoon-social">
+          <li>
+            <a href="https://www.facebook.com/pyconsk">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/pyconsk">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/spy-o--z-/">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://pyconsk.slack.com/">
+              <i class="fa fa-slack" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/pyconsk/">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+
+        {% autoescape false %}
+        <p>{{ _('%(pycontm)s is a trademark for worldwide conference activities claimed by the %(psf)s.',
+                pycontm = '<a href="https://www.python.org/psf/trademarks/pycon/" target="_blank" class="external">PyCon™</a>',
+                psf = '<a href="https://www.python.org/psf-landing/" target="_blank" class="external">%s</a>' % _('Python Software foundation')) }}
+        </p>
+        <p>{{ _('PyCon SK is organized by volunteers from %(spy)s.',
+                spy = '<a href="https://spy.python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }}
+        </p>
+        <p><span class="oi oi-bug"></span>
+           {{ _('Found a bug? Missing some information? This is a community managed website, so feel free to contribute to our %(github)s repository.',
+                github = '<a href="https://github.com/pyconsk/2020.pycon.sk" target="_blank" class="external">GitHub</a>') }}
+        </p>
+        {% endautoescape %}
+      </div>
+    </div>
+  </section>
+  <!-- Coming Soon Page Area End Here -->
+{% endblock %}
+
+{% block footer %}{% endblock %}
+{% block js %}{% endblock %}

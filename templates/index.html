@@ -1,111 +1,152 @@
 {% extends "body.html" %}
 
 {% block content %}
-  <!-- Coming Soon Page Area Start Here -->
-  <section class="comingsoon-page">
-    <div class="comingsoon-back-img"></div>
-    <div class="comingsoon-content-wrap">
+<!-- Slider Area Start Here -->
+<section class="slider-layout2 overlay-icon-layout6">
+  <img src="{{ url_for('static', filename='img/about/header1.jpg') }}" class="img-fluid" alt="banner">
+  <div class="comingsoon-inner">
+    <div class="container">
       <div class="comingsoon-content">
-        <h1 class="text-underline-light2">PyCon SK 2020</h1><br/>
-        <h2 class="text-underline-light2">27 - 29. March 2020</h2>
+        <p class="text-underline">PyCon SK 2020</p>
         <ul class="upcoming-event-info">
-          <li>STU FIIT</li>
-          <li>&nbsp;<img src="{{ url_for('static', filename='img/pycon_logo_square_60x60.png') }}" alt="logo">&nbsp;</li>
-          <li>Bratislava</li>
+          <li>{{ _('27 - 29. March 2020') }}</li>
+          <li>{{ _('Bratislava, Slovakia') }}</li>
         </ul>
-        <div class="countdown-layout2">
+        <div class="countdown-layout2 d-none d-sm-block">
           <div id="countdown"></div>
         </div>
-        <div class="comingsoon-newsletter">
-
-          <div class="newsletter-form clearfix">
-
-
-            <form
-                action="https://pycon.us12.list-manage.com/subscribe/post?u=89d883ce643e7200aabe34fa1&amp;id=e1520cb152"
-                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                target="_blank" novalidate>
-
-              <div class="input-group stylish-input-group justify-content-center">
-
-                <input type="email" value="" name="EMAIL" id="mce-EMAIL newsletter-form-email"
-                       class="form-control form-control-lg required email" required="" placeholder="{{ _('Your Email Here') }}"
-                       autocomplete="off" aria-describedby="{{ _('email address for the newsletter') }}">
-                <span class="input-group-addon">
-                  <button class="btn btn-primary">{{ _('Subscribe') }}</button>
-                </span>
-
-              </div>
-
-              <div class="form-group">
-
-                <p>
-                  {{ _('You can unsubscribe at any time by clicking the link in the footer of our emails.') }}
-                  <a href="https://us12.campaign-archive.com/home/?u=89d883ce643e7200aabe34fa1&id=e1520cb152"
-                     class="external" title="{{ _('View previous campaigns.') }}">{{ _('View previous campaigns.') }}</a>
-                </p>
-                <p>
-                  <small>
-                    {{ _('We use Mailchimp as our marketing platform.') }}
-                    {{ _('By clicking to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.') }}
-                  </small>
-                </p>
-              </div>
-
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                <input type="text" name="b_89d883ce643e7200aabe34fa1_e1520cb152" tabindex="-1" value="">
-              </div>
-
-            </form>
+        <div class="row">
+          <div class="col-12 text-center d-none d-md-block ">
+            <a href="https://ti.to/pyconsk/pyconsk-2020" title="{{ _('Buy Tickets') }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Buy Tickets') }}</a>
           </div>
-
-
         </div>
-
-        <ul class="comingsoon-social">
-          <li>
-            <a href="https://www.facebook.com/pyconsk">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/pyconsk">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/company/spy-o--z-/">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://pyconsk.slack.com/">
-              <i class="fa fa-slack" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/pyconsk/">
-              <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
-
-        {% autoescape false %}
-        <p>{{ _('%(pycontm)s is a trademark for worldwide conference activities claimed by the %(psf)s.',
-                pycontm = '<a href="https://www.python.org/psf/trademarks/pycon/" target="_blank" class="external">PyCon™</a>',
-                psf = '<a href="https://www.python.org/psf-landing/" target="_blank" class="external">%s</a>' % _('Python Software foundation')) }}
-        </p>
-        <p>{{ _('PyCon SK is organized by volunteers from %(spy)s.',
-                spy = '<a href="https://spy.python.sk" target="_blank" class="external">%s</a>' % _('SPy o.z.')) }}
-        </p>
-        <p><span class="oi oi-bug"></span>
-           {{ _('Found a bug? Missing some information? This is a community managed website, so feel free to contribute to our %(github)s repository.',
-                github = '<a href="https://github.com/pyconsk/2020.pycon.sk" target="_blank" class="external">GitHub</a>') }}
-        </p>
-        {% endautoescape %}
       </div>
     </div>
-  </section>
-  <!-- Coming Soon Page Area End Here -->
+  </div>
+</section>
+<!-- Slider Area End Here -->
+<!-- About Area Start Here -->
+<section class="section-space-default bg-common bg-accent bg-figure3">
+  <div class="container">
+    <div class="section-heading title-black color-dark text-center">
+      <h2>{{ _('About PyCon SK Conference') }}</h2>
+    </div>
+    <div class="about-layout2">
+      <div class="media align-items-center media-none--md">
+        <div class="video-area overlay-primary60">
+          <img src="{{ url_for('static', filename='img/about/lecture.jpg') }}" alt="about" class="img-fluid width-100">
+          <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=rOlGoEaz-DA">
+            <img src="{{ url_for('static', filename='img/figure/play.svg') }}" alt="play" class="img-fluid">
+          </a>
+        </div>
+        <div class="media-body media-body-box">
+          <h3 class="title-bold color-primary size-lg margin-b-10">{{ _('27 - 29. March 2020') }}</h3>
+          <p>
+            {{ _('The PyCon SK 2020 conference, which will be held in Bratislava, is the annual gathering for the community using and developing the open-source Python programming language.') }}
+            {{ _('It is organized by the volunteers from the SPy o.z., civic association dedicated to advancing and promoting Python and other Open Source technologies and ideas.') }}
+            {{ _('Through PyCon, the SPy o.z. advances its mission of growing the Slovak (and also international) community of Python programmers and Open Source supporters.') }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <div class="about-layout2">
+      <div class="media align-items-center media-none--md">
+        <div class="media-body media-body-box">
+          <h3 class="title-bold color-primary size-lg margin-b-10">{{ _('Edu Summit') }}</h3>
+          <p>
+            {{ _('EduSummit is a special section of the conference focused on teaching programming at primary and secondary schools.') }}
+            {{ _('After two years of having an EduTrack at PyCon SK, consisting of a single day of talks for teachers, we are now organising a two day summit during which teachers will be introduced to innovative ways and methods of teaching programming, share their knowledge of useful tools and last but not least participate in numerous workshops given by experienced educators.') }}
+          </p>
+        </div>
+        <div class="video-area overlay-primary60">
+          <img src="{{ url_for('static', filename='img/about/edu_summit.jpg') }}" alt="about" class="img-fluid width-100">
+          <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=ioJjB5RUqTE">
+            <img src="{{ url_for('static', filename='img/figure/play.svg') }}" alt="play" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Area End Here -->
+<!-- Progress Area Start Here -->
+<section class="progress-section-space bg-common progress-bg-color"
+         style="background-image: url(img/figure/figure1.png);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>FIIT STU<br >Bratislava</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-microphone" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>50+<br />{{ _('Speakers') }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12">
+        <div class="progress-layout1">
+          <div class="media">
+            <div class="item-icon">
+              <i class="fa fa-users" aria-hidden="true"></i>
+            </div>
+            <div class="media-body">
+              <h3>500+<br />{{ _('Participants') }}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Progress Area End Here -->
+<!-- Sponsonrs Area Start Here -->
+<section class="section-space-default bg-light">
+  <div class="container">
+    <div class="section-heading title-black color-dark text-center">
+      <h2>{{ _("Offcial Sponsonrs &amp; Partners") }}</h2>
+      <p>{{ _("We are looking for sponsors and partners. Please get in touch with us.") }}</p>
+<!--      <p>{{ _("Check Who Makes This Event Possible!") }}</p>-->
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="mailto:sponsors@pycon.sk" title="{{ _('Become a Sponsor') }}" class="btn-fill size-lg color-yellow border-radius-5 margin-t-30">
+            {{ _('Become a Sponsor') }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Sponsonrs Area End Here -->
+<!-- Call To Action Area Start Here -->
+<section class="overlay-primary90 overlay-icon-layout1 section-space-default bg-common"
+         style="background-image: url(img/figure/figure1.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="call-to-action-layout1 zindex-up">
+          <h2>{{ _('Get Your Ticket Now') }}</h2>
+          <p>{{ _('Conference tickets are available for purchase. So far each PyCon SK edition has been sold out, do not leave the ticket purchase to the last moment, because they might be gone...') }}</p>
+          <a href="https://ti.to/pyconsk/pyconsk-2020" title="{{ _('Buy Tickets') }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Buy Tickets') }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call To Action Area End Here -->
 {% endblock %}

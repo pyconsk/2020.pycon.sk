@@ -46,6 +46,11 @@ def index():
     return render_template('index.html', **_get_template_variables(li_index='active'))
 
 
+@app.route('/<lang_code>/countdown.html')
+def countdown():
+    return render_template('countdown.html', **_get_template_variables(li_index='active'))
+
+
 def _get_template_variables(**kwargs):
     """Collect variables for template that repeats, e.g. are in body.html template"""
     variables = {

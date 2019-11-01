@@ -1931,6 +1931,9 @@ button:hover {
 .bg-blue {
   background-color: #00b0ff;
 }
+.bg-figure3 {
+  background-image: url('img/figure/figure3.png');
+}
 .overlay-primary90 {
   position: relative;
 }
@@ -1950,6 +1953,20 @@ button:hover {
 }
 .overlay-primary80:before {
   background-color: rgba(76, 24, 100, 0.8);
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.overlay-primary60 {
+  position: relative;
+}
+.overlay-primary60:before {
+  background-color: rgba(76, 24, 100, 0.6);
   content: "";
   height: 100%;
   width: 100%;
@@ -3889,6 +3906,9 @@ span.menu-trigger i {
   .about-layout2 .media-none--md .media-body.media-body-box {
     padding: 7rem 5rem 7.5rem;
   }
+}
+.media-body-box {
+  margin: 3rem;
 }
 .about-layout2 p {
   margin-bottom: 0;
