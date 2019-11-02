@@ -8480,6 +8480,17 @@ div ~ :last-child .progress-layout2:before {
 .footer-layout2 .footer-top-area .widget .footer-widget-about {
   margin-bottom: 30px;
 }
+.footer-layout2 .footer-top-area .widget .footer-widget-icon {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-layout2 .footer-top-area .widget p a {
+  color: #ffffff;
+}
+.footer-layout2 .footer-top-area .widget p a:hover {
+  color: #fad03b;
+}
 .footer-layout2 .footer-top-area .widget .footer-widget-contact {
   position: relative;
   padding-left: 30px;
@@ -8626,7 +8637,7 @@ div ~ :last-child .progress-layout2:before {
   color: #b1b1b1;
   padding: 25px 0 1px;
 }
-.footer-layout2 .footer-bottom-area a {
+.footer-layout2 .footer-bottom-area p a {
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
