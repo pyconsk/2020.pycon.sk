@@ -200,7 +200,7 @@ msgstr "Účastníkov"
 
 #: templates/index.html:122
 msgid "Offcial Sponsonrs &amp; Partners"
-msgstr "Oficialny sponzory a partnery"
+msgstr "Oficialni sponzori a partneri"
 
 #: templates/index.html:123
 msgid "We are looking for sponsors and partners. Please get in touch with us."
@@ -275,3 +275,4 @@ msgid ""
 "For information about privacy practices, please visit our <a "
 "href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
+
