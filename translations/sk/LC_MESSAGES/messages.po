@@ -47,7 +47,7 @@ msgid ""
 "Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to "
 "improve your experience."
 msgstr ""
-"Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšíu verziu"
+"Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
 #: templates/body.html:137 templates/body.html:138 templates/index.html:20
@@ -143,6 +143,8 @@ msgid ""
 "By clicking to subscribe, you acknowledge that your information will be "
 "transferred to Mailchimp for processing."
 msgstr ""
+"Kliknutím na odber, súhlasíš, že odošleme tvoje informácie na spracovanie"
+" do Mailchimpu."
 
 #: templates/index.html:12 templates/index.html:43
 msgid "27 - 29. March 2020"
@@ -154,7 +156,7 @@ msgstr "Bratislava"
 
 #: templates/index.html:32
 msgid "About PyCon SK Conference"
-msgstr "O konferencií PyCon SK"
+msgstr "O konferencii PyCon SK"
 
 #: templates/index.html:46
 msgid ""
@@ -162,6 +164,9 @@ msgid ""
 "dedicated to advancing and promoting Python and other Open Source "
 "technologies and ideas."
 msgstr ""
+"Je organizovaná dobrovoľníkmi z občianskeho združenia SPy o.z. "
+"zameraného na šírenie jazyka Python a ďalších Open sourcových technológií"
+" a myšlienok."
 
 #: templates/index.html:47
 msgid ""
@@ -169,16 +174,21 @@ msgid ""
 "(and also international) community of Python programmers and Open Source "
 "supporters."
 msgstr ""
+"Prostredníctvom PyConu, SPy o.z. napĺňa svoj cieľ rozširovať slovenskú "
+"(a aj medzinárodnú) komunitu Python programátorov a podporovateľov "
+"Open source."
 
 #: templates/index.html:56
 msgid "Edu Summit"
-msgstr ""
+msgstr "Edu Summit"
 
 #: templates/index.html:58
 msgid ""
 "EduSummit is a special section of the conference focused on teaching "
 "programming at primary and secondary schools."
 msgstr ""
+"EduSummit je špecializovaná časť konferencie zameraná na vyučovanie "
+"programovania na základných a stredných školách."
 
 #: templates/index.html:59
 msgid ""
@@ -189,6 +199,12 @@ msgid ""
 "not least participate in numerous workshops given by experienced "
 "educators."
 msgstr ""
+"Po dvoch rokoch, kedy sme mali na PyCon SK Edu Track, ktorý tvoril jeden "
+"deň plný prednášok pre učiteľov, tentokrát organiyujeme dvojdňový summit, "
+"počas ktorého učiteľov oboznámime s inovatívnymi spôsobmi a metódami "
+"vyučovania programovania, budeme zdieľať informácie o užitočných "
+"nástrojoch a budú sa tiež môcť zapojiť do množstva workshopov pod vedením"
+" skúsených mentorov."
 
 #: templates/index.html:97
 msgid "Speakers"
@@ -224,6 +240,9 @@ msgid ""
 "edition has been sold out, do not leave the ticket purchase to the last "
 "moment, because they might be gone..."
 msgstr ""
+"Lístky na konferenciu sú už v predaji. Doteraz sa každý PyCon Sk vypredal,"
+" takže si nenechávajte nákup lístka na poslednú chvíľu, lebo už môžu byť "
+"vypredané..."
 
 #: templates/mailchimp.html:2
 msgid "Subscribe to our newsletter"
@@ -275,4 +294,6 @@ msgid ""
 "For information about privacy practices, please visit our <a "
 "href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
+"Pre informácie o našich postupy pri ochrane súkromia, navštívte naše <a "
+"href=\"%(url)s\">Zásady ochrany súkromia</a>."
 
