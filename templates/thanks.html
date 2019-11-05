@@ -1,0 +1,32 @@
+{% extends "body.html" %}
+{% block content %}
+<!-- Inner Page Banner Area Start Here -->
+<section class="inner-page-banner" style="background-image: url({{ url_for('static', filename='img/about/header1.jpg') }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('Thank you') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inner Page Banner Area End Here -->
+<!-- Content Page Area Start Here -->
+<section class="section-space-less30">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="title title-bold color-dark">{{ _('We\'ll get in touch as soon as possible.') }}</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Page Area End Here -->
+{% endblock %}

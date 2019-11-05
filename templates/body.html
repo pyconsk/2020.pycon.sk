@@ -113,6 +113,9 @@
                       <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
                     </li>
                     <li>
+                      <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
+                    </li>
+                    <li>
                       <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
                     </li>
                     {% if lang_code == 'sk' %}
