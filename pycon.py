@@ -45,6 +45,9 @@ def root():
 def index():
     return render_template('index.html', **_get_template_variables(li_index='active'))
 
+@app.route('/<lang_code>/coc.html')
+def coc():
+    return render_template('coc.html', **_get_template_variables(li_index='active'))
 
 @app.route('/<lang_code>/countdown.html')
 def countdown():

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-02 13:49+0100\n"
+"POT-Creation-Date: 2019-11-05 21:39+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -50,28 +50,32 @@ msgstr ""
 "Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšíu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
-#: templates/body.html:137 templates/body.html:138 templates/index.html:20
+#: templates/body.html:116 templates/coc.html:10 templates/coc.html:15
+msgid "Code of Conduct"
+msgstr ""
+
+#: templates/body.html:140 templates/body.html:141 templates/index.html:20
 #: templates/index.html:145
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:164
+#: templates/body.html:167
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:179
+#: templates/body.html:182
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:193
+#: templates/body.html:196
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:207
+#: templates/body.html:210
 msgid "Sponsor Queries"
 msgstr "Otázky o sponzorovaní"
 
-#: templates/body.html:223 templates/index.html:45
+#: templates/body.html:226 templates/index.html:45
 msgid ""
 "The PyCon SK 2020 conference, which will be held in Bratislava, is the "
 "annual gathering for the community using and developing the open-source "
@@ -81,16 +85,16 @@ msgstr ""
 " stretnutie komunity využívajúcej a vyvíjajúcej otvorený programovací "
 "jazyk Python."
 
-#: templates/body.html:225 templates/body.html:275 templates/countdown.html:98
+#: templates/body.html:228 templates/body.html:278 templates/countdown.html:98
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi z %(spy)s."
 
-#: templates/body.html:226 templates/body.html:276 templates/countdown.html:99
+#: templates/body.html:229 templates/body.html:279 templates/countdown.html:99
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:278 templates/countdown.html:94
+#: templates/body.html:281 templates/countdown.html:94
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -99,11 +103,11 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:280 templates/countdown.html:96
+#: templates/body.html:283 templates/countdown.html:96
 msgid "Python Software foundation"
 msgstr "Python Software foundation"
 
-#: templates/body.html:283 templates/countdown.html:102
+#: templates/body.html:286 templates/countdown.html:102
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is a community managed "
@@ -111,6 +115,131 @@ msgid ""
 msgstr ""
 "Našiel/našla si chybu? Chýba ti nejaká informácia? Toto je komunitou "
 "manažovaná webstránka, prispej na našom %(github)se."
+
+#: templates/coc.html:29
+msgid ""
+"The Python community is made up of members from around the globe with a "
+"diverse set of skills, personalities, and experiences. It is through "
+"these differences that our community experiences great successes and "
+"continued growth. When you're working with members of the community, we "
+"encourage you to follow these guidelines which help steer our "
+"interactions and strive to keep Python a positive, successful, and "
+"growing community."
+msgstr ""
+"Python komunitu tvoria ľudia z celého sveta s rôznorodým súborom "
+"zručností, osobností a skúseností. Tieto rozdiely prispievajú k tomu, že "
+"naša komunita prežíva veľké úspechy a pokračuje v raste. Keď pracujete s "
+"členmi komunity, odporúčame vám dodržiavať tieto pokyny, ktoré pomáhajú "
+"riadiť váš styk s ostatnými a snažiť sa udržať Python komunitu pozitívnu,"
+" úspešnú a rastúcu."
+
+#: templates/coc.html:32
+msgid "A member of the Python community is:"
+msgstr "Člen Python komunity je:"
+
+#: templates/coc.html:33
+msgid "Open"
+msgstr "Otvorený"
+
+#: templates/coc.html:35
+msgid ""
+"Members of the community are open to collaboration, whether it's on PEPs,"
+" patches, problems, or otherwise. We're receptive to constructive "
+"comments and criticism, as the experiences and skill sets of other "
+"members contribute to the whole of our efforts. We're accepting of all "
+"who wish to take part in our activities, fostering an environment where "
+"anyone can participate and everyone can make a difference."
+msgstr ""
+"Členovia komunity sú otvorení k spolupráci, či už ide priamo o vývoj "
+"samotného Pythonu, štandardnej knižnice, dokumentácie, PEPov, vývoj iných"
+" Python projektov, iných open source projektov, riešenie spoločensko "
+"prospešných problémov, alebo o prácu na iných spriatelených projektoch. "
+"Sme vnímaví ku komentárom a konštruktívnej kritike, pretože skúsenosti a "
+"zručnosti ostatných členov prispievajú k celému nášmu úsiliu. Prijímame "
+"všetkých, ktorí sa chcú zúčastniť našich aktivít, podporujeme prostredie,"
+" kde sa môže ktokoľvek podieľať a každý ho môže zlepšiť."
+
+#: templates/coc.html:38
+msgid "Considerate"
+msgstr "Ohľaduplný"
+
+#: templates/coc.html:40
+msgid ""
+"Members of the community are considerate of their peers -- other Python "
+"users. We're thoughtful when addressing the efforts of others, keeping in"
+" mind that often times the labor was completed simply for the good of the"
+" community. We're attentive in our communications, whether in person or "
+"online, and we're tactful when approaching differing views."
+msgstr ""
+"Členovia komunity sú ohľaduplní voči ostatným používateľom Pythonu. "
+"Rešpektujeme úsilie druhých, pričom máme na pamäti, že častokrát ich "
+"práca bola venovaná len pre dobro komunity. Sme všímaví v našich "
+"vyjadreniach, či už osobne alebo on-line a sme taktní, keď príde na "
+"rozdielne názory."
+
+#: templates/coc.html:43
+msgid "Respectful"
+msgstr "Úctivý"
+
+#: templates/coc.html:45
+msgid ""
+"Members of the community are respectful. We're respectful of others, "
+"their positions, their skills, their commitments, and their efforts. "
+"We're respectful of the volunteer efforts that permeate the Python "
+"community. We're respectful of the processes set forth in the community, "
+"and we work within them. When we disagree, we are courteous in raising "
+"our issues."
+msgstr ""
+"Členovia komunity sú úctiví. Rešpektujeme ostatných, ich pozíciu, ich "
+"zručnosti, ich záväzky a ich úsilie. Rešpektujeme dobrovoľné úsilie, "
+"ktoré venujú Python komunite. Rešpektujeme postupy stanovené v komunite a"
+" využívame ich pri práci. Keď nesúhlasíme, sme zdvorilí pri adresovaní "
+"našich problémov."
+
+#: templates/coc.html:48
+msgid ""
+"Overall, we're good to each other. We contribute to this community not "
+"because we have to, but because we want to. If we remember that, these "
+"guidelines will come naturally."
+msgstr ""
+"Celkovo sme dobrí k sebe navzájom. Prispievame k tejto komunite nie "
+"preto, že musíme, ale preto, že chceme. Ak si to uvedomíme, tak nám tieto"
+" pokyny prídu prirodzené."
+
+#: templates/coc.html:51
+msgid "Slovak Python Community"
+msgstr "Slovenská Python komunita"
+
+#: templates/coc.html:53
+msgid ""
+"PyCon SK and Python Meetup fully identify with the Code of Conduct of the"
+" Python community. We create an environment, which is open to everyone, "
+"independently of sex, sexual orientation, race, education or religion. "
+"All communication should be respectful and on professional level. We will"
+" be tolerant to each other."
+msgstr ""
+"PyCon SK aj Python stretnutia sa plne stotožňujú s kódexom správania "
+"členov Python komunity. Prinášame prostredie, ktoré je otvorené pre "
+"všetkých, nezávisle na pohlaví, sexuálnej orientácii, postihnutí, "
+"fyzickom vzhľade, veľkosti, rase, vzdelaní či vierovyznaní. Každá "
+"komunikácia by mala byť úctivá a na profesionálnej úrovni. Buďme k sebe "
+"navzájom tolerantní."
+
+#: templates/coc.html:56
+msgid ""
+"We do not offend, vilify other members. We behave professionally. "
+"Harassment, sexist, racist or otherwise demeaning jokes are improper at "
+"our meetings. We will not tolerate any harassment of participants of "
+"meetups in any form."
+msgstr ""
+"Neurážame, ani nezhadzujeme iných účastníkov. Správame sa profesionálne. "
+"Obťažovanie, sexistické, rasistické, alebo inak vyraďujúce vtipy sú "
+"nevhodné na našom stretnutí. Nebudeme tolerovať obťažovanie účastníkov "
+"stretnutia v akejkoľvek forme."
+
+#: templates/coc.html:62
+msgid "Read more about code of conduct"
+msgstr ""
 
 #: templates/countdown.html:32 templates/mailchimp.html:11
 msgid "Your Email Here"

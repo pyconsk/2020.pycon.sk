@@ -110,7 +110,10 @@
                 <nav class="d-none d-lg-block">
                   <ul>
                     <li>
-                      <a href="/">Home</a>
+                      <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
+                    </li>
+                    <li>
+                      <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
                     </li>
                     {% if lang_code == 'sk' %}
                     <li class="menu-justify current">
@@ -267,7 +270,7 @@
       </div>
       <div class="footer-bottom-area">
         <p>
-          <a href="/{% if lang_code %}{{ lang_code }}{% else %}sk{% endif %}/index.html">
+          <a href="{{ url_for('index', lang_code=lang_code) }}">
             <img class="img-fluid" src="{{ url_for('static', filename='img/pycon_logo_square.png') }}" alt="PyCon SK logo">
           </a>
         </p>
@@ -303,10 +306,10 @@
 <script src="{{ url_for('static', filename='js/jquery.meanmenu.min.js') }}" type="text/javascript"></script>
 <!-- Srollup js -->
 <script src="{{ url_for('static', filename='js/jquery.scrollUp.min.js') }}" type="text/javascript"></script>
-<!-- Countdown js -->
-<script src="{{ url_for('static', filename='js/jquery.countdown.min.js') }}" type="text/javascript"></script>
 
 {% block js %}
+<!-- Countdown js -->
+<script src="{{ url_for('static', filename='js/jquery.countdown.min.js') }}" type="text/javascript"></script>
 <!-- jquery.counterup js -->
 <script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}" type="text/javascript"></script>
 <script src="{{ url_for('static', filename='js/waypoints.min.js') }}" type="text/javascript"></script>
