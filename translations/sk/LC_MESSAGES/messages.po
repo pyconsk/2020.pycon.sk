@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-06 21:45+0100\n"
+"POT-Creation-Date: 2019-11-06 22:39+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -24,7 +24,7 @@ msgstr "PyCon SK 2020 | 27 - 29. Marec 2020 | Bratislava"
 
 #: templates/body.html:8
 msgid "Official PyCon SK 2020 website"
-msgstr "Oficialna stránka PyCon SK 2020"
+msgstr "Oficiálna stránka PyCon SK 2020"
 
 #: templates/body.html:15 templates/body.html:21
 msgid "PyCon SK 2020, Bratislava"
@@ -180,6 +180,9 @@ msgid ""
 "submitting your proposal, you will receive a confirmation email with a "
 "link on which you can return to your proposal and make changes."
 msgstr ""
+"Nie si si istý/á ohľadne svojho návrhu? Buď bez obáv :-) Po odoslaní "
+"návrhu, dostaneš konfirmačný email s linkom, pomocou ktorého sa môžeš "
+"vrátiť k svojmu návrhu a upraviť ho."
 
 #: templates/cfp.html:44
 msgid ""
@@ -187,6 +190,9 @@ msgid ""
 "chosen and also the abstract. If you need mentoring we'd love to help, "
 "just ask."
 msgstr ""
+"Kontaktovať nás môžeš pomocou emailu a môžeme prediskutovať tému "
+"prednášky a tiež abstrakt. Ak potrebuješ mentora, radi ti pomôžeme, "
+"stačí sa spýtať."
 
 #: templates/cfp.html:48 templates/cfp_form.html:17 templates/recording.html:60
 msgid "Submit your proposal"
@@ -903,6 +909,10 @@ msgid ""
 "programming, share their knowledge of useful tools and last but not least"
 " participate in numerous workshops given by experienced educators."
 msgstr ""
+"Už po štvrtý krát organizujeme tentokrát dvojdňový summit, počas ktorého "
+"učiteľom predstavíme inovatívne spôsoby a metódy vyučovania programovania,"
+" podelíme sa o skúsenosti s užitočnými nástrojmi a taktiež sa spolu "
+"zúčastníme workshopov pod vedením skúsených mentorov."
 
 #: templates/index.html:97
 msgid "Speakers"
