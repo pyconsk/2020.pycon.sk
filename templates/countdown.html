@@ -110,4 +110,7 @@
 {% endblock %}
 
 {% block footer %}{% endblock %}
-{% block js %}{% endblock %}
+{% block js %}
+<!-- Countdown js -->
+<script src="{{ url_for('static', filename='js/jquery.countdown.min.js') }}" type="text/javascript"></script>
+{% endblock %}

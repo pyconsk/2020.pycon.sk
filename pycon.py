@@ -46,6 +46,41 @@ def index():
     return render_template('index.html', **_get_template_variables(li_index='active'))
 
 
+@app.route('/<lang_code>/coc.html')
+def coc():
+    return render_template('coc.html', **_get_template_variables(li_coc='active'))
+
+
+@app.route('/<lang_code>/cfp.html')
+def cfp():
+    return render_template('cfp.html', **_get_template_variables(li_cfp='active'))
+
+
+@app.route('/<lang_code>/cfp_form.html')
+def cfp_form():
+    return render_template('cfp_form.html', **_get_template_variables(li_cfp='active'))
+
+
+@app.route('/<lang_code>/recording.html')
+def recording():
+    return render_template('recording.html', **_get_template_variables(li_recording='active'))
+
+
+@app.route('/<lang_code>/cfv.html')
+def cfv():
+    return render_template('cfv.html', **_get_template_variables(li_cfv='active'))
+
+
+@app.route('/<lang_code>/thanks.html')
+def thanks():
+    return render_template('thanks.html', **_get_template_variables(li_cfp='active'))
+
+
+@app.route('/<lang_code>/privacy-policy.html')
+def privacy_policy():
+    return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active'))
+
+
 @app.route('/<lang_code>/countdown.html')
 def countdown():
     return render_template('countdown.html', **_get_template_variables(li_index='active'))

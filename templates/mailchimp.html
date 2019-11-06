@@ -52,7 +52,7 @@
         <p>
           <small>
             {{ _('We use Mailchimp as our marketing platform.') }} {{ _('By clicking to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.') }}
-            {{ _('For information about privacy practices, please visit our <a href="%(url)s">Privacy Policy</a>.', url='TBD-SOON') }}
+            {{ _('For information about privacy practices, please visit our <a href="%(url)s">Privacy Policy</a>.', url=url_for('privacy_policy', lang_code=lang_code)) }}
           </small>
         </p>
       </div>

@@ -1,0 +1,127 @@
+{% extends "body.html" %}
+{% block content %}
+<!-- Inner Page Banner Area Start Here -->
+<section class="inner-page-banner" style="background-image: url({{ url_for('static', filename='img/about/header1.jpg') }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('Call for proposals') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
+            </li>
+            <li>{{ _('Call for proposals') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inner Page Banner Area End Here -->
+<!-- Content Page Area Start Here -->
+<section class="section-space-less30">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>{{ _('Anyone can be part of the conference') }}</h3>
+        <p class="text-justify">
+          {{ _('PyCon SK is organized by the Python community and for the Python community.') }}
+          {{ _('You\'re coming to the event, and that makes you part of the community. If you\'ve done something that you think other people might be interested in, or that you think they should know about, please do consider telling us about it. We don\'t just want to hear from the experts or famous names - other perspectives are just as valuable, so don\'t let the idea that you\'re not expert or famous enough stop you. This is your invitation to submit a talk proposal if you haven\'t spoken at the conference before. First-time speakers talk proposals are preferred.') }}
+        </p>
+
+        <h3>{{ _('Don\'t hesitate') }}</h3>
+        <p class="text-center">
+          <b>{{ _('The Call For Proposals is open!') }}</b>
+        </p>
+
+        <p class="text-justify">
+          {{ _('We are trying to finalize the conference program as soon as possible, the earlier you submit your proposal the higher chance of acceptance it has. <b>The deadline for submissions is 14st January 2020.</b>') }}
+        </p>
+
+        <p class="text-justify">
+          {{ _('Still not sure about the details your proposal? No worries :-) After submitting your proposal, you will receive a confirmation email with a link on which you can return to your proposal and make changes.') }}
+          {{ _('You can reach to us via email and we can discuss the topic you have chosen and also the abstract. If you need mentoring we\'d love to help, just ask.') }}
+        </p>
+
+        <p class="text-center">
+          <a href="{{ url_for('cfp_form', lang_code=lang_code) }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Submit your proposal') }}</a>
+        </p>
+
+        <h3>{{ _('Give us a tip') }}</h3>
+
+        <p class="text-justify">
+          {{ _('Do you know about a speaker that would be a good fit for our conference? <b>Let us know:</b>') }} <a href="mailto:info@pycon.sk">info@pycon.sk</a>
+        </p>
+
+        <h3>{{ _('Guidelines for Proposal Submission') }}</h3>
+        <p class="text-justify">
+          {{ _('There is no official restriction on the topic that you propose a talk session. Talks about Python or the Python community are most likely to line up with the interests of PyCon\'s audience, and a key consideration that the talk selection committee will be thinking about is your talk\'s ability to draw an audience. You may propose more than one, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.') }}
+        </p>
+
+        <p class="text-justify">
+          {{ _('If you have any questions, please contact us via email: info@pycon.sk or join our Slack channel') }}
+        </p>
+
+        <p class="text-justify">
+          {{ _('All selected speakers get a complimentary ticket to the conference.') }}
+        </p>
+
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="sponsor-details">
+              <div class="sponsor-info">
+                <h4 class="sponsor-name"><i class="fa fa-microphone" aria-hidden="true"></i> {{ _('Talks') }}</h4>
+                <p class="text-justify">
+                  {{ _('Most talks are 30 minutes long, but we do offer a limited number of 45-minute slots for important topics that promise to benefit from a more extensive treatment.') }}
+                </p>
+              </div><!-- Info end -->
+            </div><!-- Sponsor details -->
+          </div><!-- Col 1 end -->
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="sponsor-details">
+              <div class="sponsor-info">
+                <h4 class="sponsor-name"><i class="fa fa-wrench" aria-hidden="true"></i> {{ _('Workshops') }}</h4>
+                <p class="text-justify">
+                  {{ _('As with the talks, we are looking for tutorials that can grow this community at any level! We aim for tutorials that will advance Python, advance this community, and shape the future. As tutorials are longer than talks and are in an interactive classroom-like setting, they require much more preparation.') }}
+                </p>
+              </div><!-- Info end -->
+            </div><!-- Sponsor details -->
+          </div><!-- Col 1 end -->
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="sponsor-details">
+              <div class="sponsor-info">
+                <h4 class="sponsor-name"><i class="fa fa-file-image-o"></i> {{ _('Poster') }}</h4>
+                <p class="text-justify">
+                  {{ _('Are you involved in an interesting project, new service or application of technology? We would like to see your talk but if you - for any reason - prefer not to talk in large auditorium or you think your achievements are of limited interest and therefore not suitable for general audience why not present what you are doing in PyCon SK Poster Session?') }}
+                </p>
+              </div><!-- Info end -->
+            </div><!-- Sponsor details -->
+          </div><!-- Col 1 end -->
+
+        </div>
+
+        <h3>{{ _('Recording release') }}</h3>
+        <p class="text-justify">
+          {{ _('Part of the motivation for PyCon SK is to help with Python education and advocacy in Slovakia and around the world. Accordingly, we intend to record all PyCon SK presentations and live stream and release the recordings on the web.') }}
+        </p>
+        <p class="text-justify">
+          {{ _('By submitting your talk or workshop proposal, or by signing up to give a lightning talk, you agree to give permission to the SPy o.z. to record, edit, and release audio and/or video of your presentation.') }}
+        </p>
+        <p class="text-center">
+          <a href="{{ url_for('recording', lang_code=lang_code) }}" class="btn-fill size-md border-radius-5 color-blue"> {{ _('Full recording release statement') }}
+          </a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Page Area End Here -->
+{% endblock %}
+
+{% block js %}
+{% endblock %}
