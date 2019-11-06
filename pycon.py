@@ -48,7 +48,7 @@ def index():
 
 @app.route('/<lang_code>/coc.html')
 def coc():
-    return render_template('coc.html', **_get_template_variables(li_index='active'))
+    return render_template('coc.html', **_get_template_variables(li_coc='active'))
 
 
 @app.route('/<lang_code>/cfp.html')
@@ -74,6 +74,11 @@ def cfv():
 @app.route('/<lang_code>/thanks.html')
 def thanks():
     return render_template('thanks.html', **_get_template_variables(li_cfp='active'))
+
+
+@app.route('/<lang_code>/privacy-policy.html')
+def privacy_policy():
+    return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active'))
 
 
 @app.route('/<lang_code>/countdown.html')
