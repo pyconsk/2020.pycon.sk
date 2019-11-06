@@ -1,0 +1,141 @@
+{% extends "body.html" %}
+
+{% block content %}
+<section class="inner-page-banner" style="background-image: url({{ url_for('static', filename='img/about/header1.jpg') }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('Call for volunteers') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
+            </li>
+            <li>{{ _('Call for volunteers') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inner Page Banner Area End Here -->
+<!-- Content Page Area Start Here -->
+<section class="section-space-less30">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <p class="text-justify">
+          {{ _('PyCon SK is organized by the Python community and for the Python community.') }}
+          {{ _('All of our staff members are volunteers. We are looking for new members to join the team of organizers.') }}
+          {{ _('This is a great opportunity to meet people, make new friends and learn new things.') }}
+        </p>
+
+        <p class="text-justify">
+          {{ _('As a volunteer you get a free ticket to the conference as a thank you for making the change in our society.') }}
+          {{ _('If you are a Slovak citizen and you work at least 40 hours a year as a volunteer, you can donate 3%% of your tax liability to any registered non-profit.') }}
+        </p>
+
+        <p class="text-justify">
+          {{ _('For all of the "paperwork" we use Google forms. You fill it on our page (just the form below), or you can submit the form directly: ') }}
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSduilZhP3V_4SpTWgatoXI_yfIcVMqSFd9NcQA5q0UGFdjauA/viewform?usp=sf_link" target="_blank" class="external">Google form</a>.
+        </p>
+        
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSduilZhP3V_4SpTWgatoXI_yfIcVMqSFd9NcQA5q0UGFdjauA/formResponse"
+              target="_self"
+              id="bootstrapForm"
+              method="POST">
+          <fieldset>
+            <legend for="">Email <span class="required">*</span></legend>
+            <div class="form-group">
+              <input id="emailAddress" type="email" name="emailAddress" class="form-control" required>
+            </div>
+          </fieldset>
+
+
+          <!-- Field type: "short" id: "2142309847" -->
+          <fieldset>
+            <legend for="2142309847">{{ _('Your name') }} <span class="required">*</span></legend>
+            <div class="form-group">
+              <input id="1380932580" type="text" name="entry.1380932580" class="form-control" required>
+            </div>
+          </fieldset>
+
+
+          <!-- Field type: "short" id: "214745337" -->
+          <fieldset>
+            <legend for="214745337">{{ _('Your phone') }} <span class="required">*</span></legend>
+            <div class="form-group">
+              <input id="982333403" type="text" name="entry.982333403" class="form-control" required>
+            </div>
+          </fieldset>
+
+
+          <!-- Field type: "paragraph" id: "1579718046" -->
+          <fieldset>
+            <legend for="1579718046">{{ _('Something about you') }}</legend>
+            <div class="form-group">
+              <p class="help-block">{{ _('We would like to know you, write something about yourself and also why you would like to help out...') }}</p>
+              <textarea id="2072744410" name="entry.2072744410" class="form-control"></textarea>
+            </div>
+          </fieldset>
+
+
+          <!-- Field type: "short" id: "712730357" -->
+          <fieldset>
+            <legend for="712730357">{{ _('How much time can you spend volunteering?') }}
+              <span class="required">*</span></legend>
+            <div class="form-group">
+              <p class="help-block">{{ _('We need just a rough estimate, for example: an hour a day, two hours a week...') }}</p>
+              <input id="332887087" type="text" name="entry.332887087" class="form-control" required>
+            </div>
+          </fieldset>
+
+
+          <!-- Field type: "paragraph" id: "1780493620" -->
+          <fieldset>
+            <legend for="1780493620">{{ _('What would you like to do?') }} <span class="required">*</span></legend>
+            <div class="form-group">
+              <p class="help-block">{{ _('Let us know what you are experienced in. If you have a vision and no experience, that is alright, write down what you would like to do and surely we\'ll find tasks to realize the vision.') }}</p>
+              <textarea id="287506974" name="entry.287506974" class="form-control" required></textarea>
+            </div>
+          </fieldset>
+
+
+          <!-- Field type: "short" id: "400429884" -->
+          <fieldset>
+            <legend for="400429884">{{ _('Where did you find out about SPy o.z.?') }} <span class="required">*</span>
+            </legend>
+            <div class="form-group">
+              <input id="1889735954" type="text" name="entry.1889735954" class="form-control" required>
+            </div>
+          </fieldset>
+
+          <input type="hidden" name="fvv" value="1">
+          <input type="hidden" name="fbzx" value="-1757665975123586609">
+          <!--
+              CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+              This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+              Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+              We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+          -->
+          <input type="hidden" name="pageHistory" value="0">
+
+          <p class="text-center">
+            <input class="btn-fill size-lg border-radius-5 color-yellow" type="submit" value="{{ _('Submit') }}">
+          </p>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Page Area End Here -->
+{% endblock %}
+
+
+{% block js %}
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>-->
+<!--&lt;!&ndash; Countdown form.js &ndash;&gt;-->
+<!--<script async src="{{ url_for('static', filename='form.js') }}"></script>-->
+{% endblock %}

@@ -51,6 +51,21 @@ def coc():
     return render_template('coc.html', **_get_template_variables(li_index='active'))
 
 
+@app.route('/<lang_code>/cfp.html')
+def cfp():
+    return render_template('cfp.html', **_get_template_variables(li_cfp='active'))
+
+
+@app.route('/<lang_code>/cfp_form.html')
+def cfp_form():
+    return render_template('cfp_form.html', **_get_template_variables(li_cfp='active'))
+
+
+@app.route('/<lang_code>/recording.html')
+def recording():
+    return render_template('recording.html', **_get_template_variables(li_recording='active'))
+
+
 @app.route('/<lang_code>/cfv.html')
 def cfv():
     return render_template('cfv.html', **_get_template_variables(li_cfv='active'))
