@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-06 21:45+0100\n"
+"POT-Creation-Date: 2019-11-06 22:39+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -24,7 +24,7 @@ msgstr "PyCon SK 2020 | 27 - 29. Marec 2020 | Bratislava"
 
 #: templates/body.html:8
 msgid "Official PyCon SK 2020 website"
-msgstr "Oficialna stránka PyCon SK 2020"
+msgstr "Oficiálna stránka PyCon SK 2020"
 
 #: templates/body.html:15 templates/body.html:21
 msgid "PyCon SK 2020, Bratislava"
@@ -47,7 +47,7 @@ msgid ""
 "Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to "
 "improve your experience."
 msgstr ""
-"Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšíu verziu"
+"Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
 #: templates/body.html:116 templates/cfp.html:9 templates/cfp.html:14
@@ -180,6 +180,9 @@ msgid ""
 "submitting your proposal, you will receive a confirmation email with a "
 "link on which you can return to your proposal and make changes."
 msgstr ""
+"Nie si si istý/á ohľadne svojho návrhu? Buď bez obáv :-) Po odoslaní "
+"návrhu, dostaneš konfirmačný email s linkom, pomocou ktorého sa môžeš "
+"vrátiť k svojmu návrhu a upraviť ho."
 
 #: templates/cfp.html:44
 msgid ""
@@ -187,6 +190,9 @@ msgid ""
 "chosen and also the abstract. If you need mentoring we'd love to help, "
 "just ask."
 msgstr ""
+"Kontaktovať nás môžeš pomocou emailu a môžeme prediskutovať tému "
+"prednášky a tiež abstrakt. Ak potrebuješ mentora, radi ti pomôžeme, "
+"stačí sa spýtať."
 
 #: templates/cfp.html:48 templates/cfp_form.html:17 templates/recording.html:60
 msgid "Submit your proposal"
@@ -849,6 +855,8 @@ msgid ""
 "By clicking to subscribe, you acknowledge that your information will be "
 "transferred to Mailchimp for processing."
 msgstr ""
+"Kliknutím na odber, súhlasíš, že odošleme tvoje informácie na spracovanie"
+" do Mailchimpu."
 
 #: templates/index.html:12 templates/index.html:43
 msgid "27 - 29. March 2020"
@@ -860,7 +868,7 @@ msgstr "Bratislava"
 
 #: templates/index.html:32
 msgid "About PyCon SK Conference"
-msgstr "O konferencií PyCon SK"
+msgstr "O konferencii PyCon SK"
 
 #: templates/index.html:46
 msgid ""
@@ -868,6 +876,9 @@ msgid ""
 "dedicated to advancing and promoting Python and other Open Source "
 "technologies and ideas."
 msgstr ""
+"Je organizovaná dobrovoľníkmi z občianskeho združenia SPy o.z. zameraného"
+" na šírenie jazyka Python a ďalších Open sourcových technológií a "
+"myšlienok."
 
 #: templates/index.html:47
 msgid ""
@@ -875,16 +886,21 @@ msgid ""
 "(and also international) community of Python programmers and Open Source "
 "supporters."
 msgstr ""
+"Prostredníctvom PyConu, SPy o.z. napĺňa svoj cieľ rozširovať slovenskú (a"
+" aj medzinárodnú) komunitu Python programátorov a podporovateľov Open "
+"source."
 
 #: templates/index.html:56
 msgid "Edu Summit"
-msgstr ""
+msgstr "Edu Summit"
 
 #: templates/index.html:58
 msgid ""
 "EduSummit is a special section of the conference focused on teaching "
 "programming at primary and secondary schools."
 msgstr ""
+"EduSummit je špecializovaná časť konferencie zameraná na vyučovanie "
+"programovania na základných a stredných školách."
 
 #: templates/index.html:59
 msgid ""
@@ -893,6 +909,10 @@ msgid ""
 "programming, share their knowledge of useful tools and last but not least"
 " participate in numerous workshops given by experienced educators."
 msgstr ""
+"Už po štvrtý krát organizujeme tentokrát dvojdňový summit, počas ktorého "
+"učiteľom predstavíme inovatívne spôsoby a metódy vyučovania programovania,"
+" podelíme sa o skúsenosti s užitočnými nástrojmi a taktiež sa spolu "
+"zúčastníme workshopov pod vedením skúsených mentorov."
 
 #: templates/index.html:97
 msgid "Speakers"
@@ -904,7 +924,7 @@ msgstr "Účastníkov"
 
 #: templates/index.html:122
 msgid "Offcial Sponsonrs &amp; Partners"
-msgstr "Oficialni sponzori a partneri"
+msgstr "Oficiálni sponzori a partneri"
 
 #: templates/index.html:123
 msgid "We are looking for sponsors and partners. Please get in touch with us."
@@ -928,6 +948,9 @@ msgid ""
 "edition has been sold out, do not leave the ticket purchase to the last "
 "moment, because they might be gone..."
 msgstr ""
+"Lístky na konferenciu sú už v predaji. Doteraz sa každý PyCon Sk "
+"vypredal, takže si nenechávajte nákup lístka na poslednú chvíľu, lebo už "
+"môžu byť vypredané..."
 
 #: templates/mailchimp.html:2
 msgid "Subscribe to our newsletter"
@@ -979,6 +1002,8 @@ msgid ""
 "For information about privacy practices, please visit our <a "
 "href=\"%(url)s\">Privacy Policy</a>."
 msgstr ""
+"Pre informácie o našich postupy pri ochrane súkromia, navštívte naše <a "
+"href=\"%(url)s\">Zásady ochrany súkromia</a>."
 
 #: templates/privacy-policy.html:8 templates/privacy-policy.html:13
 msgid "Privacy Policy"
