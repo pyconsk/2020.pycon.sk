@@ -111,7 +111,6 @@ h4 {
   font-family: 'Roboto', sans-serif;
   margin: 0 0 20px 0;
   color: #111111;
-  text-transform: capitalize;
 }
 h1 {
   font-size: 7rem;
@@ -1445,14 +1444,12 @@ button:hover {
   z-index: 5;
 }
 .title-light {
-  text-transform: capitalize;
   font-weight: 300;
 }
 .title-light h1,
 .title-light h2,
 .title-light h3,
 .title-light h4 {
-  text-transform: capitalize;
   font-weight: 300;
 }
 .title-light p {
@@ -1460,14 +1457,12 @@ button:hover {
   font-weight: 400;
 }
 .title-regular {
-  text-transform: capitalize;
   font-weight: 400;
 }
 .title-regular h1,
 .title-regular h2,
 .title-regular h3,
 .title-regular h4 {
-  text-transform: capitalize;
   font-weight: 400;
 }
 .title-regular p {
@@ -1475,14 +1470,12 @@ button:hover {
   font-weight: 400;
 }
 .title-medium {
-  text-transform: capitalize;
   font-weight: 500;
 }
 .title-medium h1,
 .title-medium h2,
 .title-medium h3,
 .title-medium h4 {
-  text-transform: capitalize;
   font-weight: 500;
 }
 .title-medium p {
@@ -1490,14 +1483,12 @@ button:hover {
   font-weight: 400;
 }
 .title-semibold {
-  text-transform: capitalize;
   font-weight: 600;
 }
 .title-semibold h1,
 .title-semibold h2,
 .title-semibold h3,
 .title-semibold h4 {
-  text-transform: capitalize;
   font-weight: 600;
 }
 .title-semibold p {
@@ -1505,14 +1496,12 @@ button:hover {
   font-weight: 400;
 }
 .title-bold {
-  text-transform: capitalize;
   font-weight: 700;
 }
 .title-bold h1,
 .title-bold h2,
 .title-bold h3,
 .title-bold h4 {
-  text-transform: capitalize;
   font-weight: 700;
 }
 .title-bold p {
@@ -1520,14 +1509,12 @@ button:hover {
   font-weight: 400;
 }
 .title-black {
-  text-transform: capitalize;
   font-weight: 900;
 }
 .title-black h1,
 .title-black h2,
 .title-black h3,
 .title-black h4 {
-  text-transform: capitalize;
   font-weight: 900;
 }
 .title-black p {
@@ -2568,7 +2555,6 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   z-index: 1;
 }
 .inner-page-banner .breadcrumbs-area h1 {
-  text-transform: capitalize;
   font-weight: 700;
   color: #ffffff;
   font-size: 7.2rem;
@@ -2766,7 +2752,6 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   display: block;
   color: #ffffff;
   padding: 10px 10px 10px 15px;
-  text-transform: capitalize;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -2839,7 +2824,6 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   display: block;
   color: #ffffff;
   padding: 8px 0px;
-  text-transform: capitalize;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -3101,7 +3085,6 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   display: inline-block;
 }
 .cart-area .cart-wrapper > li .media .cart-content ul li .cart-title-line1 {
-  text-transform: capitalize;
   font-size: 16px;
   margin-bottom: 5px;
   font-weight: 500;
@@ -3525,7 +3508,6 @@ span.menu-trigger i {
   padding: 0;
   line-height: 1.2;
   font-size: 7rem;
-  text-transform: capitalize;
   margin-bottom: 0;
   font-weight: 700;
   letter-spacing: 2px;
@@ -3576,7 +3558,6 @@ span.menu-trigger i {
 .slider-layout1 .slide-3 .slider-sub-text ul li {
   font-size: 24px;
   color: #f8f8f8;
-  text-transform: capitalize;
   display: inline-block;
   margin-right: 15px;
   padding-right: 15px;
@@ -3749,7 +3730,6 @@ span.menu-trigger i {
   padding: 0;
   line-height: 1.2;
   font-size: 7rem;
-  text-transform: capitalize;
   margin-bottom: 0;
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
@@ -4066,17 +4046,14 @@ div ~ :last-child .progress-layout2:before {
   color: #111111;
   font-weight: 700;
   margin-bottom: 12px;
-  text-transform: capitalize;
 }
 .upcoming-event-layout1 .date {
   color: #8cc63e;
   font-size: 20px;
-  text-transform: capitalize;
   font-weight: 700;
 }
 .upcoming-event-layout1 p {
   font-size: 18px;
-  text-transform: capitalize;
 }
 @media only screen and (max-width: 991px) {
   .upcoming-event-layout1 {
@@ -5667,7 +5644,6 @@ div ~ :last-child .progress-layout2:before {
   left: 0;
   right: 0;
   color: #111111;
-  text-transform: capitalize;
   font-size: 16px;
 }
 @media only screen and (max-width: 767px) {
@@ -5801,7 +5777,6 @@ div ~ :last-child .progress-layout2:before {
   left: 0;
   right: 0;
   color: #ffffff;
-  text-transform: capitalize;
   font-size: 16px;
 }
 @media only screen and (max-width: 1199px) {
@@ -5903,7 +5878,6 @@ div ~ :last-child .progress-layout2:before {
   left: 0;
   right: 0;
   color: #ffffff;
-  text-transform: capitalize;
   font-size: 16px;
 }
 @media only screen and (max-width: 767px) {
@@ -6917,7 +6891,6 @@ div ~ :last-child .progress-layout2:before {
   background: #f4f4f4;
   color: #111111;
   padding: 14px 30px;
-  text-transform: capitalize;
   font-size: 18px;
   font-weight: 500;
   -webkit-transition: all 0.5s ease-out;
@@ -7726,7 +7699,6 @@ div ~ :last-child .progress-layout2:before {
   -o-border-radius: 0;
   border-radius: 0;
   background: transparent;
-  text-transform: capitalize;
   color: #111111;
 }
 .sidebar-widget-area .widget-search .stylish-input-group .input-group-addon {
