@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-06 22:39+0100\n"
+"POT-Creation-Date: 2019-11-07 19:14+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -191,8 +191,8 @@ msgid ""
 "just ask."
 msgstr ""
 "Kontaktovať nás môžeš pomocou emailu a môžeme prediskutovať tému "
-"prednášky a tiež abstrakt. Ak potrebuješ mentora, radi ti pomôžeme, "
-"stačí sa spýtať."
+"prednášky a tiež abstrakt. Ak potrebuješ mentora, radi ti pomôžeme, stačí"
+" sa spýtať."
 
 #: templates/cfp.html:48 templates/cfp_form.html:17 templates/recording.html:60
 msgid "Submit your proposal"
@@ -910,9 +910,9 @@ msgid ""
 " participate in numerous workshops given by experienced educators."
 msgstr ""
 "Už po štvrtý krát organizujeme tentokrát dvojdňový summit, počas ktorého "
-"učiteľom predstavíme inovatívne spôsoby a metódy vyučovania programovania,"
-" podelíme sa o skúsenosti s užitočnými nástrojmi a taktiež sa spolu "
-"zúčastníme workshopov pod vedením skúsených mentorov."
+"učiteľom predstavíme inovatívne spôsoby a metódy vyučovania "
+"programovania, podelíme sa o skúsenosti s užitočnými nástrojmi a taktiež "
+"sa spolu zúčastníme workshopov pod vedením skúsených mentorov."
 
 #: templates/index.html:97
 msgid "Speakers"
@@ -1333,9 +1333,277 @@ msgstr "Ďakujeme"
 msgid "We'll get in touch as soon as possible."
 msgstr "Ozveme sa čo najskôr"
 
+#: templates/tickets.html:15 templates/tickets.html:20
+msgid "Tickets"
+msgstr "Lístky"
+
+#: templates/tickets.html:35
+msgid ""
+"You can also buy tickets directly on the <a class=\"external\" "
+"href=\"https://ti.to/pyconsk/pyconsk-2020\"\n"
+"                                                             "
+"target=\"_blank\">https://ti.to/pyconsk/pyconsk-2020</a>\n"
+"          website in case the tito widget is not displayed correctly."
+msgstr ""
+"Lístky si môžeš kúpiť aj priamo na webstránke <a "
+"href=\"https://ti.to/pyconsk/pyconsk-2020\" "
+"target=\"_blank\">https://ti.to/pyconsk/pyconsk-2020</a>, ak sa ti tito "
+"widget nezobrazuje správne."
+
+#: templates/tickets.html:38
+msgid ""
+"For transaction in Bitcoin use:  <a href=\"https://tallyco.in/s/e51yzw/\""
+" target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
+msgstr ""
+
+#: templates/tickets.html:43
+msgid "What am I paying for?"
+msgstr "Za čo platím?"
+
+#: templates/tickets.html:56
+msgid "Speakers and Lecturers"
+msgstr "Rečníci a prednášajúci"
+
+#: templates/tickets.html:57
+msgid ""
+"Our speakers are the best. And they do it for free! However, we have to "
+"pay for their conference ticket\n"
+"          and sometimes we cover the travel budget."
+msgstr ""
+"Naši rečníci sú najlepší. A robia to zadarmo! Platíme im však ich "
+"vstupenky \n"
+" a niekdy im preplatíme cestovné náklady."
+
+#: templates/tickets.html:59
+msgid ""
+"Expenses for flight tickets and hotel in Bratislava are a big part of our"
+" budget. We also\n"
+"          do cover all the costs of recording and releasing the all of "
+"the talks."
+msgstr ""
+"Výdavky za letenky a ubytovanie v bratislavských hoteloch tvoria veľkú "
+"časť nášho rozpočtu. Taktiež znášame všetky náklady súvisiace so záznamom"
+"\n"
+"              a zverejnením všetkých príspevkov."
+
+#: templates/tickets.html:68
+msgid "Community & Inclusion"
+msgstr "Komunita a inklúzia"
+
+#: templates/tickets.html:69
+msgid ""
+"PyCon is a special type of conference - it is organised by the community "
+"for the community"
+msgstr "PyCon je špeciálna konferencia - je organizovaná komunitou pre komunitu"
+
+#: templates/tickets.html:71
+msgid ""
+"By attending, you have a chance to meet like minded people and hear a lot"
+" of interesting\n"
+"          stories. However, for those who can not afford to attend "
+"because of financial reasons we have opened a\n"
+"          financial aid scheme and give free tickets."
+msgstr ""
+"Ak sa zúčastníš konferencie, máš šancu stretnúť podobne naladených ľudí a"
+" vypočuť si množstvo zaujímavých príbehov.\n"
+"              Pre tých, ktorí si z finančných dôvodov nemôžu dovoliť "
+"kúpiť lístok na konferenciu, sme pripravili program na podporu\n"
+"              a máme pripravené určité množstvo lístkov zadarmo."
+
+#: templates/tickets.html:94
+msgid "Conference T-shirt and other swag"
+msgstr "Tričko z konferencie a ďalšie drobnosti"
+
+#: templates/tickets.html:95
+msgid ""
+"What kind of conference would PyCon Slovakia be without a conference "
+"T-shirt?"
+msgstr "Čo by to bola za konferenciu bez konferenčného trička?"
+
+#: templates/tickets.html:96
+msgid ""
+"Each attendee receives one 100&#37; cotton T-shirt and other swag. "
+"Possibly a water bottle\n"
+"          with our fancy PyCon Slovakia logo. We would love to hear your "
+"ideas..."
+msgstr ""
+"Každý účastník získa jedno 100&#37; bavlnené tričko a ďalšie veci. Možno "
+"to bude fľaša na vodu s naším super logom. Ale sme otvorení aj ďalším "
+"návrhom..."
+
+#: templates/tickets.html:105
+msgid "Venue"
+msgstr "Miesto konania"
+
+#: templates/tickets.html:106
+msgid ""
+"The conference takes place at the Faculty of Informatics and Information "
+"Technologies (Slovak\n"
+"          University of Technology)"
+msgstr ""
+"Konferencia sa koná na Fakulte informatiky a informačných technológií "
+"(Slovenskej technickej univerzity)"
+
+#: templates/tickets.html:108
+msgid ""
+"Venue is in new building and have well equipped and pleasant auditoriums "
+"and lobbies. The\n"
+"          first PyCon SK was one of the first conferences in this "
+"auditorium!"
+msgstr ""
+"Miesto konania je v novej budove, ktorá má príjemné a dobre vybavené "
+"prednáškové miestnosti a príslušné priestory. Prvý PyCon SK bol jednou\n"
+"              z prvých konferencií v týchto priestoroch!"
+
+#: templates/tickets.html:129
+msgid "Refreshments"
+msgstr "Občerstvenie"
+
+#: templates/tickets.html:130
+msgid ""
+"Afraid of falling asleep during a talk? Don't worry, we have your back - "
+"All you can drink coffee, tea\n"
+"          and water."
+msgstr ""
+"Obávaš sa, že zaspíš počas prednášky? Už nemusíš, máme všetko - \n"
+"              kávu, čaj či vodu."
+
+#: templates/tickets.html:132
+msgid ""
+"We will have two proffesional baristas serving fresh coffee and tea all "
+"day long. Water\n"
+"          fountains will be available on multiple spots in the lobby."
+msgstr ""
+"Budeme mať dvoch profesionálnych baristov, ktorí vám počas celého dňa "
+"budú pripravovať čerstvú kávu alebo čaj. Zásobníky s vodou budú k "
+"dispozícii\n"
+"              na viacerých miestach rovnomerne v celej lobby."
+
+#: templates/tickets.html:141
+msgid "Lunch"
+msgstr "Obed"
+
+#: templates/tickets.html:142
+msgid "During all three days, a variety of warm food will be served for lunch"
+msgstr "Počas všetkých troch dní sa budú na obed servírovať rôzne teplé jedlá"
+
+#: templates/tickets.html:143
+msgid "Meat and vegetarian alternatives will be available."
+msgstr "K dispozícii budú mäsité aj vegetariánske alternatívy"
+
+#: templates/tickets.html:144
+msgid ""
+"We also try to be as eco friendly as possible, and so we serve food on "
+"ceramic plates, eat\n"
+"          with metal cutlery and drink water from reusable plastic "
+"bottles."
+msgstr ""
+"Snažíme sa tiež byť čo možno najekologickejší, takže jedlo podávame na "
+"keramických tanieroch, jeme s kovovým príborom \n"
+"              a pitnú vodu poskytujeme z recyklovateľných plastových "
+"fliaš."
+
+#: templates/tickets.html:165
+msgid "Real Conference Ticket Price"
+msgstr "Skutočná cena vstupenky"
+
+#: templates/tickets.html:166
+msgid ""
+"The <b>real price</b> of one conference ticket would be much higher had "
+"it not been for our sponsors and\n"
+"          partners, thanks to which we can afford to sell cheaper tickets."
+msgstr ""
+"Skutočná cena vstupenky na konferenciu by bola oveľa vyššia, keby nás "
+"nepodporovali naši\n"
+"              sponzori a partneri, vďaka ktorým môžeme lístky predávať"
+"               oveľa lacnejšie."
+
+#: templates/tickets.html:169
+msgid ""
+"Without sponsors and partners all tickets would cost over 90&euro; "
+"(including student and teacher\n"
+"          tickets) and this price still does not include the enormous "
+"amount of volunteer work, which is done by the\n"
+"          Python commnity before and during each PyCon."
+msgstr ""
+"Bez sponzorov a partnerov by lístky stáli vyše 90&euro; (vrátane "
+"študentských a učiteľských\n"
+"              lístkov) a táto cena stále nezahŕňa obrovské množstvo "
+"dobrovoľníckej práce, ktorú robí Python komunita pred\n"
+"              a počas každého PyConu."
+
 #~ msgid "We need you to help organize PyCon SK 2020!"
 #~ msgstr "Potrebujeme ťa, aby si pomohol s organizáciou PyCon SK 2020!"
 
 #~ msgid "SPy o.z. Privacy and Security"
 #~ msgstr "SPy o.z. Súkromie a bezpečnosť"
+
+#~ msgid "micro:bit Education Supporter Ticket"
+#~ msgstr "Lístok podporovateľa vzdelávania s micro:bitom"
+
+#~ msgid ""
+#~ "<i>Teaching with Hardware</i> is a "
+#~ "project of the Slovak Python User "
+#~ "Group which strives to\n"
+#~ "          increase digital literacy and "
+#~ "bring joy to computing classes on "
+#~ "primary and secondary schools in "
+#~ "Slovakia.\n"
+#~ "          We do this by using an"
+#~ " educational physical computing board "
+#~ "called BBC micro:bit. The board can "
+#~ "be\n"
+#~ "          programmed to interact with "
+#~ "external devices, such as LED strips,"
+#~ " buzzers, motion sensors, temperature\n"
+#~ "          sensors, and so on. By "
+#~ "buying a <i>micro:bit Education Supporter "
+#~ "Ticket</i> you provide one school in"
+#~ "\n"
+#~ "          Slovakia with a kit of "
+#~ "20 micro:bits, LED strips, speakers, "
+#~ "crocodile cables, robots, servo motors "
+#~ "and so\n"
+#~ "          on."
+#~ msgstr ""
+#~ "<i>Učíme s hardvérom</i> je projekt "
+#~ "slovenských používateľov Pythonu (Slovak "
+#~ "Python User Group), ktorý sa snaží\n"
+#~ ""
+#~ "              zvyšovať digitálnu gramotnosť a"
+#~ " priniesť zábavu na hodiny programovania"
+#~ " na základné a stredná školy na "
+#~ "Slovensku.\n"
+#~ "              Robíme to pomocou edukačného "
+#~ "mikropočítača, ktorý sa volá BBC "
+#~ "micro:bit. Mikropočítač je možné \n"
+#~ "              naprogramovať tak, aby "
+#~ "interaqoval s externými zariadeniami, ako "
+#~ "sú LED pásiky, bzučiaky, senzory pohybu"
+#~ " či teploty a tak ďalej.\n"
+#~ "              Kúpou <i>lístku podporovateľa "
+#~ "výuky s micro:bitom</i> vybavíte jednu "
+#~ "školu na Slovensku s balíkom 20 "
+#~ "micro:bitov, LED pásikov,               "
+#~ "reproduktorov, krokodíliek, robotov, servo "
+#~ "motorov a ďalšieho vybavenia."
+
+#~ msgid ""
+#~ "Within several weeks you will be "
+#~ "informed which school received the kit"
+#~ " and after several\n"
+#~ "          months we will inform you "
+#~ "how successful were the students at "
+#~ "creating their own hardware projects "
+#~ "with the\n"
+#~ "          provided\n"
+#~ "          kits. More details about the"
+#~ " project can be found in this "
+#~ "<a href=\"%(pdf)s\" target=\"_blank\">PDF</a>. "
+#~ "During\n"
+#~ "          PyCon SK 2020 there\n"
+#~ "          will be several presentations "
+#~ "and workshops connected to the "
+#~ "<i>Teaching with Hardware</i> project."
+#~ msgstr ""
 
