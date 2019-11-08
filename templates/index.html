@@ -17,7 +17,7 @@
         </div>
         <div class="row">
           <div class="col-12 text-center d-none d-md-block ">
-            <a href="https://ti.to/pyconsk/pyconsk-2020" title="{{ _('Buy Tickets') }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Buy Tickets') }}</a>
+            <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Buy Tickets') }}</a>
           </div>
         </div>
       </div>
@@ -142,7 +142,7 @@
         <div class="call-to-action-layout1 zindex-up">
           <h2>{{ _('Get Your Ticket Now') }}</h2>
           <p>{{ _('Conference tickets are available for purchase. So far each PyCon SK edition has been sold out, do not leave the ticket purchase to the last moment, because they might be gone...') }}</p>
-          <a href="https://ti.to/pyconsk/pyconsk-2020" title="{{ _('Buy Tickets') }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Buy Tickets') }}</a>
+          <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}" class="btn-fill size-lg border-radius-5 color-yellow">{{ _('Buy Tickets') }}</a>
         </div>
       </div>
     </div>
