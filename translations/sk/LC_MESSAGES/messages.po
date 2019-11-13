@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-07 19:14+0100\n"
+"POT-Creation-Date: 2019-11-08 22:53+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -347,6 +347,9 @@ msgid ""
 "For all of the \"paperwork\" we use Google forms. You fill it on our page"
 " (just the form below), or you can submit the form directly: "
 msgstr ""
+"Na všetky \"papierovačky\" používame Google formuláre. Vyplň ich na našej"
+" stránke (ten formulár hneď pod týmto textom), alebo ho môžeš odoslať aj "
+"priamo: "
 
 #: templates/cfp_form.html:44
 msgid "About speaker"
@@ -400,13 +403,15 @@ msgstr ""
 
 #: templates/cfp_form.html:83
 msgid "Which country are you from?"
-msgstr ""
+msgstr "Odkiaľ pochádzaš?"
 
 #: templates/cfp_form.html:85
 msgid ""
 "We would like to publish a country name next to the speaker on our "
 "website if your talk is accepted."
 msgstr ""
+"Radi by sme pre prednášajúcom zverejnili aj názov krajiny ak bude "
+"prednáška akceptovaná."
 
 #: templates/cfp_form.html:92
 msgid "Phone"
@@ -523,27 +528,27 @@ msgstr "4 hodiny (workshop)"
 
 #: templates/cfp_form.html:225
 msgid "Skill level"
-msgstr ""
+msgstr "Úroveň"
 
 #: templates/cfp_form.html:228
-msgid "What describes you best (Ktorá možnosť Vás vystihuje)?"
-msgstr ""
+msgid "What describes you best?"
+msgstr "Ktorá možnosť Vás vystihuje?"
 
 #: templates/cfp_form.html:233
 msgid "I have never presented in front of 100+ people before."
-msgstr ""
+msgstr "Nikdy som neprednášal pred 100 a viac ľuďmi."
 
 #: templates/cfp_form.html:239
 msgid "I gave a few (2-5) presentations at a conference of 100+ people."
-msgstr ""
+msgstr "Už som mal pár (2-5) prednášok na konferencii pred 100+ ľuďmi."
 
 #: templates/cfp_form.html:245
 msgid "I spoke at a conference of 100+ people more than 5 times."
-msgstr ""
+msgstr "Prednášal som na konferenciách pre 100 a viac ľudí viac ako päťkrát."
 
 #: templates/cfp_form.html:253
 msgid "Would you be interested in mentoring?"
-msgstr ""
+msgstr "Máš záujem o mentoring?"
 
 #: templates/cfp_form.html:255 templates/cfp_form.html:320
 msgid ""
@@ -555,7 +560,7 @@ msgstr ""
 
 #: templates/cfp_form.html:259
 msgid "Yes (if available)"
-msgstr ""
+msgstr "Áno (ak je to možné)"
 
 #: templates/cfp_form.html:265 templates/cfp_form.html:301
 #: templates/cfp_form.html:330
@@ -564,11 +569,11 @@ msgstr "Nie"
 
 #: templates/cfp_form.html:271
 msgid "Unsure"
-msgstr ""
+msgstr "Nie som si istý/á"
 
 #: templates/cfp_form.html:279
 msgid "Link to you previous presentation?"
-msgstr ""
+msgstr "Link na tvoju predchádzajúcu prednášku?"
 
 #: templates/cfp_form.html:281
 msgid ""
@@ -579,6 +584,12 @@ msgid ""
 "create a quick 30-second recording. For example, you can read your Talk "
 "Abstract and upload it to YouTube (or elsewhere). Instructions:"
 msgstr ""
+"PyConSK navštevujú každoročne stovky návštevníkov, ktorých materským "
+"jazykom nie je angličtina. Radi by sme sa uistili, že ti budeme dobre "
+"rozumieť. Prosím pošli nám link s nahrávkou, kde prezentuješ niečo po "
+"anglicky. Ak taký link nemáš, prosím vytvor najskôr krátku 30-sekundovú "
+"nahrávku. Napríklad môžeš prečítať svoj abstrakt a nahrať to na Youtube "
+"(alebo kdekoľvek inde). Inštrukcie:"
 
 #: templates/cfp_form.html:286
 msgid "Travel funding"
@@ -822,7 +833,7 @@ msgstr ""
 
 #: templates/coc.html:62
 msgid "Read more about code of conduct"
-msgstr ""
+msgstr "Prečítať si viac o kódexe správania"
 
 #: templates/countdown.html:32 templates/mailchimp.html:11
 msgid "Your Email Here"
@@ -909,7 +920,7 @@ msgid ""
 "programming, share their knowledge of useful tools and last but not least"
 " participate in numerous workshops given by experienced educators."
 msgstr ""
-"Už po štvrtý krát organizujeme tentokrát dvojdňový summit, počas ktorého "
+"Už po štvrtý raz organizujeme tentokrát dvojdňový summit, počas ktorého "
 "učiteľom predstavíme inovatívne spôsoby a metódy vyučovania "
 "programovania, podelíme sa o skúsenosti s užitočnými nástrojmi a taktiež "
 "sa spolu zúčastníme workshopov pod vedením skúsených mentorov."
@@ -1355,6 +1366,9 @@ msgid ""
 "For transaction in Bitcoin use:  <a href=\"https://tallyco.in/s/e51yzw/\""
 " target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
 msgstr ""
+"Pre bitcoinové transakcie použite:  <a "
+"href=\"https://tallyco.in/s/e51yzw/\" "
+"target=\"_blank\">https://tallyco.in/s/e51yzw</a>"
 
 #: templates/tickets.html:43
 msgid "What am I paying for?"
@@ -1531,79 +1545,4 @@ msgstr ""
 "              lístkov) a táto cena stále nezahŕňa obrovské množstvo "
 "dobrovoľníckej práce, ktorú robí Python komunita pred\n"
 "              a počas každého PyConu."
-
-#~ msgid "We need you to help organize PyCon SK 2020!"
-#~ msgstr "Potrebujeme ťa, aby si pomohol s organizáciou PyCon SK 2020!"
-
-#~ msgid "SPy o.z. Privacy and Security"
-#~ msgstr "SPy o.z. Súkromie a bezpečnosť"
-
-#~ msgid "micro:bit Education Supporter Ticket"
-#~ msgstr "Lístok podporovateľa vzdelávania s micro:bitom"
-
-#~ msgid ""
-#~ "<i>Teaching with Hardware</i> is a "
-#~ "project of the Slovak Python User "
-#~ "Group which strives to\n"
-#~ "          increase digital literacy and "
-#~ "bring joy to computing classes on "
-#~ "primary and secondary schools in "
-#~ "Slovakia.\n"
-#~ "          We do this by using an"
-#~ " educational physical computing board "
-#~ "called BBC micro:bit. The board can "
-#~ "be\n"
-#~ "          programmed to interact with "
-#~ "external devices, such as LED strips,"
-#~ " buzzers, motion sensors, temperature\n"
-#~ "          sensors, and so on. By "
-#~ "buying a <i>micro:bit Education Supporter "
-#~ "Ticket</i> you provide one school in"
-#~ "\n"
-#~ "          Slovakia with a kit of "
-#~ "20 micro:bits, LED strips, speakers, "
-#~ "crocodile cables, robots, servo motors "
-#~ "and so\n"
-#~ "          on."
-#~ msgstr ""
-#~ "<i>Učíme s hardvérom</i> je projekt "
-#~ "slovenských používateľov Pythonu (Slovak "
-#~ "Python User Group), ktorý sa snaží\n"
-#~ ""
-#~ "              zvyšovať digitálnu gramotnosť a"
-#~ " priniesť zábavu na hodiny programovania"
-#~ " na základné a stredná školy na "
-#~ "Slovensku.\n"
-#~ "              Robíme to pomocou edukačného "
-#~ "mikropočítača, ktorý sa volá BBC "
-#~ "micro:bit. Mikropočítač je možné \n"
-#~ "              naprogramovať tak, aby "
-#~ "interaqoval s externými zariadeniami, ako "
-#~ "sú LED pásiky, bzučiaky, senzory pohybu"
-#~ " či teploty a tak ďalej.\n"
-#~ "              Kúpou <i>lístku podporovateľa "
-#~ "výuky s micro:bitom</i> vybavíte jednu "
-#~ "školu na Slovensku s balíkom 20 "
-#~ "micro:bitov, LED pásikov,               "
-#~ "reproduktorov, krokodíliek, robotov, servo "
-#~ "motorov a ďalšieho vybavenia."
-
-#~ msgid ""
-#~ "Within several weeks you will be "
-#~ "informed which school received the kit"
-#~ " and after several\n"
-#~ "          months we will inform you "
-#~ "how successful were the students at "
-#~ "creating their own hardware projects "
-#~ "with the\n"
-#~ "          provided\n"
-#~ "          kits. More details about the"
-#~ " project can be found in this "
-#~ "<a href=\"%(pdf)s\" target=\"_blank\">PDF</a>. "
-#~ "During\n"
-#~ "          PyCon SK 2020 there\n"
-#~ "          will be several presentations "
-#~ "and workshops connected to the "
-#~ "<i>Teaching with Hardware</i> project."
-#~ msgstr ""
 
