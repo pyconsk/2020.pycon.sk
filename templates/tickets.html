@@ -46,6 +46,24 @@
     <hr>
 
     <div class="row featurette">
+      <div class="col-8">
+        <h3 class="title-bold size-md margin-b-10">{{ _('Venue') }}</h3>
+        <p>{{ _('The conference takes place at the Faculty of Informatics and Information Technologies (Slovak
+          University of Technology)') }}</p>
+        <p class="lead">{{ _('Venue is in new building and have well equipped and pleasant auditoriums and lobbies. The
+          first PyCon SK was one of the first conferences in this auditorium!') }}</p>
+      </div>
+      <div class="col-4">
+        <img alt=""
+             class="image-border img-fluid mx-auto"
+             src="{{ url_for('static', filename='img/pyconsk/venue_640x480.jpg') }}"
+             srcset="{{ url_for('static', filename='img/pyconsk/venue_320x240.jpg') }} 320w, {{ url_for('static', filename='img/pyconsk/venue_160x120.jpg') }} 160w">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row featurette">
       <div class="col-4">
         <img alt=""
              class="image-border img-fluid mx-auto"
@@ -83,40 +101,22 @@
 
     <hr>
 
-    <div class="row featurette">
-      <div class="col-4">
-        <img alt=""
-             class="image-border img-fluid mx-auto"
-             src="{{ url_for('static', filename='img/pyconsk/tshirts_640x480.jpg') }}"
-             srcset="{{ url_for('static', filename='img/pyconsk/tshirts_320x240.jpg') }} 320w, {{ url_for('static', filename='img/pyconsk/tshirts_160x120.jpg') }} 160w">
-      </div>
-      <div class="col-8">
-        <h3 class="title-bold size-md margin-b-10">{{ _('Conference T-shirt and other swag') }}</h3>
-        <p>{{ _('What kind of conference would PyCon Slovakia be without a conference T-shirt?') }}</p>
-        <p class="lead">{{ _('Each attendee receives one 100&#37; cotton T-shirt and other swag. Possibly a water bottle
-          with our fancy PyCon Slovakia logo. We would love to hear your ideas...') }}</p>
-      </div>
-    </div>
+<!--    <div class="row featurette">-->
+<!--      <div class="col-4">-->
+<!--        <img alt=""-->
+<!--             class="image-border img-fluid mx-auto"-->
+<!--             src="{{ url_for('static', filename='img/pyconsk/tshirts_640x480.jpg') }}"-->
+<!--             srcset="{{ url_for('static', filename='img/pyconsk/tshirts_320x240.jpg') }} 320w, {{ url_for('static', filename='img/pyconsk/tshirts_160x120.jpg') }} 160w">-->
+<!--      </div>-->
+<!--      <div class="col-8">-->
+<!--        <h3 class="title-bold size-md margin-b-10">{{ _('Conference T-shirt and other swag') }}</h3>-->
+<!--        <p>{{ _('What kind of conference would PyCon Slovakia be without a conference T-shirt?') }}</p>-->
+<!--        <p class="lead">{{ _('Each attendee receives one 100&#37; cotton T-shirt and other swag. Possibly a water bottle-->
+<!--          with our fancy PyCon Slovakia logo. We would love to hear your ideas...') }}</p>-->
+<!--      </div>-->
+<!--    </div>-->
 
-    <hr>
-
-    <div class="row featurette">
-      <div class="col-8">
-        <h3 class="title-bold size-md margin-b-10">{{ _('Venue') }}</h3>
-        <p>{{ _('The conference takes place at the Faculty of Informatics and Information Technologies (Slovak
-          University of Technology)') }}</p>
-        <p class="lead">{{ _('Venue is in new building and have well equipped and pleasant auditoriums and lobbies. The
-          first PyCon SK was one of the first conferences in this auditorium!') }}</p>
-      </div>
-      <div class="col-4">
-        <img alt=""
-             class="image-border img-fluid mx-auto"
-             src="{{ url_for('static', filename='img/pyconsk/venue_640x480.jpg') }}"
-             srcset="{{ url_for('static', filename='img/pyconsk/venue_320x240.jpg') }} 320w, {{ url_for('static', filename='img/pyconsk/venue_160x120.jpg') }} 160w">
-      </div>
-    </div>
-
-    <hr>
+<!--    <hr>-->
 
     <div class="row featurette">
       <div class="col-4">

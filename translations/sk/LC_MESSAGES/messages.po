@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-08 22:53+0100\n"
+"POT-Creation-Date: 2019-11-15 18:26+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -50,41 +50,43 @@ msgstr ""
 "Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
-#: templates/body.html:116 templates/cfp.html:9 templates/cfp.html:14
-#: templates/cfp_form.html:15 templates/recording.html:15
+#: templates/body.html:116 templates/body.html:148 templates/cfp.html:9
+#: templates/cfp.html:14 templates/cfp_form.html:15 templates/recording.html:15
 msgid "Call for proposals"
 msgstr "Prihlás svoj príspevok"
 
-#: templates/body.html:119 templates/cfv.html:9 templates/cfv.html:14
+#: templates/body.html:119 templates/body.html:151 templates/cfv.html:9
+#: templates/cfv.html:14
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
-#: templates/body.html:122 templates/coc.html:10 templates/coc.html:15
+#: templates/body.html:122 templates/body.html:154 templates/coc.html:10
+#: templates/coc.html:15
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:146 templates/body.html:147 templates/index.html:20
-#: templates/index.html:145
+#: templates/body.html:157 templates/body.html:182 templates/body.html:183
+#: templates/index.html:20 templates/index.html:145
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:173
+#: templates/body.html:209
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:188
+#: templates/body.html:224
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:202
+#: templates/body.html:238
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:216
+#: templates/body.html:252
 msgid "Sponsor Queries"
 msgstr "Otázky o sponzorovaní"
 
-#: templates/body.html:232 templates/index.html:45
+#: templates/body.html:268 templates/index.html:45
 msgid ""
 "The PyCon SK 2020 conference, which will be held in Bratislava, is the "
 "annual gathering for the community using and developing the open-source "
@@ -94,16 +96,16 @@ msgstr ""
 " stretnutie komunity využívajúcej a vyvíjajúcej otvorený programovací "
 "jazyk Python."
 
-#: templates/body.html:234 templates/body.html:284 templates/countdown.html:98
+#: templates/body.html:270 templates/body.html:320 templates/countdown.html:98
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi z %(spy)s."
 
-#: templates/body.html:235 templates/body.html:285 templates/countdown.html:99
+#: templates/body.html:271 templates/body.html:321 templates/countdown.html:99
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:287 templates/countdown.html:94
+#: templates/body.html:323 templates/countdown.html:94
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -112,11 +114,11 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:289 templates/countdown.html:96
+#: templates/body.html:325 templates/countdown.html:96
 msgid "Python Software foundation"
 msgstr "Python Software foundation"
 
-#: templates/body.html:292 templates/countdown.html:102
+#: templates/body.html:328 templates/countdown.html:102
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is a community managed "
@@ -1374,11 +1376,35 @@ msgstr ""
 msgid "What am I paying for?"
 msgstr "Za čo platím?"
 
-#: templates/tickets.html:56
+#: templates/tickets.html:50
+msgid "Venue"
+msgstr "Miesto konania"
+
+#: templates/tickets.html:51
+msgid ""
+"The conference takes place at the Faculty of Informatics and Information "
+"Technologies (Slovak\n"
+"          University of Technology)"
+msgstr ""
+"Konferencia sa koná na Fakulte informatiky a informačných technológií "
+"(Slovenskej technickej univerzity)"
+
+#: templates/tickets.html:53
+msgid ""
+"Venue is in new building and have well equipped and pleasant auditoriums "
+"and lobbies. The\n"
+"          first PyCon SK was one of the first conferences in this "
+"auditorium!"
+msgstr ""
+"Miesto konania je v novej budove, ktorá má príjemné a dobre vybavené "
+"prednáškové miestnosti a príslušné priestory. Prvý PyCon SK bol jednou\n"
+"              z prvých konferencií v týchto priestoroch!"
+
+#: templates/tickets.html:74
 msgid "Speakers and Lecturers"
 msgstr "Rečníci a prednášajúci"
 
-#: templates/tickets.html:57
+#: templates/tickets.html:75
 msgid ""
 "Our speakers are the best. And they do it for free! However, we have to "
 "pay for their conference ticket\n"
@@ -1388,7 +1414,7 @@ msgstr ""
 "vstupenky \n"
 " a niekdy im preplatíme cestovné náklady."
 
-#: templates/tickets.html:59
+#: templates/tickets.html:77
 msgid ""
 "Expenses for flight tickets and hotel in Bratislava are a big part of our"
 " budget. We also\n"
@@ -1400,17 +1426,17 @@ msgstr ""
 "\n"
 "              a zverejnením všetkých príspevkov."
 
-#: templates/tickets.html:68
+#: templates/tickets.html:86
 msgid "Community & Inclusion"
 msgstr "Komunita a inklúzia"
 
-#: templates/tickets.html:69
+#: templates/tickets.html:87
 msgid ""
 "PyCon is a special type of conference - it is organised by the community "
 "for the community"
 msgstr "PyCon je špeciálna konferencia - je organizovaná komunitou pre komunitu"
 
-#: templates/tickets.html:71
+#: templates/tickets.html:89
 msgid ""
 "By attending, you have a chance to meet like minded people and hear a lot"
 " of interesting\n"
@@ -1424,50 +1450,23 @@ msgstr ""
 "kúpiť lístok na konferenciu, sme pripravili program na podporu\n"
 "              a máme pripravené určité množstvo lístkov zadarmo."
 
-#: templates/tickets.html:94
+#: templates/tickets.html:112
 msgid "Conference T-shirt and other swag"
 msgstr "Tričko z konferencie a ďalšie drobnosti"
 
-#: templates/tickets.html:95
+#: templates/tickets.html:113
 msgid ""
 "What kind of conference would PyCon Slovakia be without a conference "
 "T-shirt?"
 msgstr "Čo by to bola za konferenciu bez konferenčného trička?"
 
-#: templates/tickets.html:96
+#: templates/tickets.html:114
 msgid ""
 "Each attendee receives one 100&#37; cotton T-shirt and other swag. "
-"Possibly a water bottle\n"
-"          with our fancy PyCon Slovakia logo. We would love to hear your "
-"ideas..."
+"Possibly a water bottle-->\n"
+"<!--          with our fancy PyCon Slovakia logo. We would love to hear "
+"your ideas..."
 msgstr ""
-"Každý účastník získa jedno 100&#37; bavlnené tričko a ďalšie veci. Možno "
-"to bude fľaša na vodu s naším super logom. Ale sme otvorení aj ďalším "
-"návrhom..."
-
-#: templates/tickets.html:105
-msgid "Venue"
-msgstr "Miesto konania"
-
-#: templates/tickets.html:106
-msgid ""
-"The conference takes place at the Faculty of Informatics and Information "
-"Technologies (Slovak\n"
-"          University of Technology)"
-msgstr ""
-"Konferencia sa koná na Fakulte informatiky a informačných technológií "
-"(Slovenskej technickej univerzity)"
-
-#: templates/tickets.html:108
-msgid ""
-"Venue is in new building and have well equipped and pleasant auditoriums "
-"and lobbies. The\n"
-"          first PyCon SK was one of the first conferences in this "
-"auditorium!"
-msgstr ""
-"Miesto konania je v novej budove, ktorá má príjemné a dobre vybavené "
-"prednáškové miestnosti a príslušné priestory. Prvý PyCon SK bol jednou\n"
-"              z prvých konferencií v týchto priestoroch!"
 
 #: templates/tickets.html:129
 msgid "Refreshments"
@@ -1545,4 +1544,18 @@ msgstr ""
 "              lístkov) a táto cena stále nezahŕňa obrovské množstvo "
 "dobrovoľníckej práce, ktorú robí Python komunita pred\n"
 "              a počas každého PyConu."
+
+#~ msgid ""
+#~ "Each attendee receives one 100&#37; "
+#~ "cotton T-shirt and other swag. Possibly"
+#~ " a water bottle\n"
+#~ "          with our fancy PyCon Slovakia"
+#~ " logo. We would love to hear "
+#~ "your ideas..."
+#~ msgstr ""
+#~ "Každý účastník získa jedno 100&#37; "
+#~ "bavlnené tričko a ďalšie veci. Možno "
+#~ "to bude fľaša na vodu s naším "
+#~ "super logom. Ale sme otvorení aj "
+#~ "ďalším návrhom..."
 
