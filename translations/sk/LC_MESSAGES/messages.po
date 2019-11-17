@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-15 22:12+0100\n"
+"POT-Creation-Date: 2019-11-16 14:51+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -65,7 +65,7 @@ msgid "Code of Conduct"
 msgstr "Kódex správania"
 
 #: templates/body.html:157 templates/body.html:182 templates/body.html:183
-#: templates/index.html:20 templates/index.html:145
+#: templates/index.html:20 templates/index.html:252
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
@@ -948,7 +948,7 @@ msgstr ""
 "sa spolu zúčastníme workshopov pod vedením skúsených mentorov a "
 "mentoriek."
 
-#: templates/index.html:97
+#: templates/index.html:97 templates/index.html:122
 msgid "Speakers"
 msgstr "rečníkov a rečníčok"
 
@@ -965,18 +965,18 @@ msgid "We are looking for sponsors and partners. Please get in touch with us."
 msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
 #: templates/index.html:124
-msgid "Check Who Makes This Event Possible!"
-msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
+msgid "Speakers that who have alerady confirmed attandance at PyCon SK 2020."
+msgstr ""
 
-#: templates/index.html:128 templates/index.html:129
-msgid "Become a Sponsor"
-msgstr "Staň sa sponzorom"
+#: templates/index.html:125
+msgid "You can fill the Call for Proposals and join this list..."
+msgstr ""
 
-#: templates/index.html:143
+#: templates/index.html:250
 msgid "Get Your Ticket Now"
 msgstr "Kúp si lístok teraz"
 
-#: templates/index.html:144
+#: templates/index.html:251
 msgid ""
 "Conference tickets are available for purchase. So far each PyCon SK "
 "edition has sold out, so do not leave buying your ticket to the last "
@@ -985,6 +985,22 @@ msgstr ""
 "Lístky na konferenciu sú už v predaji. Doteraz sa každý PyCon SK "
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
+
+#: templates/index.html:263
+msgid "Offcial Sponsonrs &amp; Partners"
+msgstr "Oficiálni sponzori a partneri"
+
+#: templates/index.html:264
+msgid "We are looking for sponsors and partners. Please get in touch with us."
+msgstr "Hľadáme sponzorov a partnerov. Prosím kontaktujte nás."
+
+#: templates/index.html:265
+msgid "Check Who Makes This Event Possible!"
+msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
+
+#: templates/index.html:269 templates/index.html:270
+msgid "Become a Sponsor"
+msgstr "Staň sa sponzorom"
 
 #: templates/mailchimp.html:2
 msgid "Subscribe to our newsletter"

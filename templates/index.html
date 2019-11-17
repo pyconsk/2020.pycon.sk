@@ -115,24 +115,132 @@
   </div>
 </section>
 <!-- Progress Area End Here -->
-<!-- Sponsonrs Area Start Here -->
-<section class="section-space-default bg-light">
-  <div class="container">
-    <div class="section-heading title-black color-dark text-center">
-      <h2>{{ _("Official Sponsors &amp; Partners") }}</h2>
-      <p>{{ _("We are looking for sponsors and partners. Please get in touch with us.") }}</p>
-<!--      <p>{{ _("Check Who Makes This Event Possible!") }}</p>-->
+
+<!-- Speaker Area Start Here -->
+<section class="section-space-top-default bg-light">
+    <div class="container-fluid">
+        <div class="section-heading title-black color-dark text-center">
+            <h2>{{ _('Speakers') }}</h2>
+            <p>
+              {{ _('Speakers that who have alerady confirmed attandance at PyCon SK 2020.') }}
+              {{ _('You can fill the Call for Proposals and join this list...') }}
+            </p>
+        </div>
+        <div class="row no-gutters full-width">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6"></div>
+
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="speaker-layout2">
+                    <img src="{{ url_for('static', filename='img/speakers/tom_dyson.jpg') }}" alt="speaker" class="img-fluid">
+                    <div class="item-title">
+                        <h3 class="title-medium size-md color-light hover-yellow">
+                            <a href="#">Tom Dyson</a>
+                        </h3>
+                    </div>
+                    <div class="item-social">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/tomdyson/" title="LinkedIn" target="_blank">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://torchbox.com/team/tom-dyson/" title="torchbox.com" target="_blank">
+                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="speaker-layout2">
+                    <img src="{{ url_for('static', filename='img/speakers/peter_eisentraut.jpeg') }}" alt="speaker" class="img-fluid">
+                    <div class="item-title">
+                        <h3 class="title-medium size-md color-light hover-yellow">
+                            <a href="#">Peter Eisentraut</a>
+                        </h3>
+                    </div>
+                    <div class="item-social">
+                        <ul>
+                            <li>
+                                <a href="https://twitter.com/petereisentraut/" title="Twitter" target="_blank">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/petereisentraut/" title="LinkedIn" target="_blank">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="speaker-layout2">
+                    <img src="{{ url_for('static', filename='img/speakers/nick_thapen.png') }}" alt="speaker" class="img-fluid">
+                    <div class="item-title">
+                        <h3 class="title-medium size-md color-light hover-yellow">
+                            <a href="#">Nicholas Thapen</a>
+                        </h3>
+                    </div>
+                    <div class="item-social">
+                        <ul>
+                            <li>
+                                <a href="https://twitter.com/nthapen" title="Twitter" target="_blank">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/nicholas-thapen/" title="LinkedIn" target="_blank">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://sourcery.ai/" title="sourcery.ai" target="_blank">
+                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="speaker-layout2">
+                    <img src="{{ url_for('static', filename='img/speakers/roman_imankulov.jpg') }}" alt="speaker" class="img-fluid">
+                    <div class="item-title">
+                        <h3 class="title-medium size-md color-light hover-yellow">
+                            <a href="https://twitter.com/rdotpy">Roman Imankulov</a>
+                        </h3>
+                    </div>
+                    <div class="item-social">
+                        <ul>
+                            <li>
+                                <a href="https://twitter.com/rdotpy" title="Twitter" target="_blank">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/roman-imankulov-91076144/" title="LinkedIn" target="_blank">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/imankulov" title="GitHub" target="_blank">
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6"></div>
+
+        </div>
     </div>
-    <div class="row">
-      <div class="col-12 text-center">
-        <a href="mailto:sponsors@pycon.sk" title="{{ _('Become a Sponsor') }}" class="btn-fill size-lg color-yellow border-radius-5 margin-t-30">
-            {{ _('Become a Sponsor') }}
-        </a>
-      </div>
-    </div>
-  </div>
 </section>
-<!-- Sponsonrs Area End Here -->
+<!-- Speaker Area End Here -->
 <!-- Call To Action Area Start Here -->
 <section class="overlay-primary90 overlay-icon-layout1 section-space-default bg-common"
          style="background-image: url(img/figure/figure1.jpg);">
@@ -149,4 +257,22 @@
   </div>
 </section>
 <!-- Call To Action Area End Here -->
+<!-- Sponsonrs Area Start Here -->
+<section class="section-space-default bg-light">
+  <div class="container">
+    <div class="section-heading title-black color-dark text-center">
+      <h2>{{ _("Offcial Sponsonrs &amp; Partners") }}</h2>
+      <p>{{ _("We are looking for sponsors and partners. Please get in touch with us.") }}</p>
+<!--      <p>{{ _("Check Who Makes This Event Possible!") }}</p>-->
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="mailto:sponsors@pycon.sk" title="{{ _('Become a Sponsor') }}" class="btn-fill size-lg color-yellow border-radius-5 margin-t-30">
+            {{ _('Become a Sponsor') }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Sponsonrs Area End Here -->
 {% endblock %}
