@@ -5,7 +5,7 @@ from os.path import isfile, join
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext
 
-EVENT = gettext('PyCon SK 2020 | 27 - 29. March 2020 | Bratislava, Slovakia')
+EVENT = gettext('PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia')
 DOMAIN = 'https://2020.pycon.sk'
 API_DOMAIN = 'https://api.pycon.sk'
 
