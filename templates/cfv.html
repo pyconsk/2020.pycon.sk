@@ -41,90 +41,95 @@
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSduilZhP3V_4SpTWgatoXI_yfIcVMqSFd9NcQA5q0UGFdjauA/viewform?usp=sf_link" target="_blank" class="external">Google form</a>.
         </p>
 
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSduilZhP3V_4SpTWgatoXI_yfIcVMqSFd9NcQA5q0UGFdjauA/formResponse"
-              target="_self"
-              id="bootstrapForm"
-              method="POST">
-          <fieldset>
-            <legend for="">Email <span class="required">*</span></legend>
-            <div class="form-group">
-              <input id="emailAddress" type="email" name="emailAddress" class="form-control" required>
-            </div>
-          </fieldset>
+        <div class="contact-form">
 
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSduilZhP3V_4SpTWgatoXI_yfIcVMqSFd9NcQA5q0UGFdjauA/formResponse"
+                id="bootstrapForm"
+                method="POST">
 
-          <!-- Field type: "short" id: "2142309847" -->
-          <fieldset>
-            <legend for="2142309847">{{ _('Your name') }} <span class="required">*</span></legend>
-            <div class="form-group">
-              <input id="1380932580" type="text" name="entry.1380932580" class="form-control" required>
-            </div>
-          </fieldset>
+            <!-- Field type: "short" id: "2142309847" -->
+            <fieldset>
+              <div class="form-group row">
+                <legend for="1380932580" class="col-md-3 col-form-label">{{ _('Your name') }} <span class="required">*</span></legend>
+                <div class="col-md-9">
+                  <input id="1380932580" type="text" name="entry.1380932580" class="form-control" placeholder="{{ _('Your name') }} *" required>
+                </div>
+              </div>
+            </fieldset>
 
+            <!-- Field type: "short" id: "214745337" -->
+            <fieldset>
+              <div class="form-group row">
+                <legend for="1669311895" class="col-md-3 col-form-label">{{ _('Your email') }} <span class="required">*</span></legend>
+                <div class="col-md-9">
+                  <input id="1669311895" type="email" name="entry.1669311895" class="form-control" placeholder="{{ _('Your email') }} *" required>
+                </div>
+              </div>
+            </fieldset>
 
-          <!-- Field type: "short" id: "214745337" -->
-          <fieldset>
-            <legend for="214745337">{{ _('Your phone') }} <span class="required">*</span></legend>
-            <div class="form-group">
-              <input id="982333403" type="text" name="entry.982333403" class="form-control" required>
-            </div>
-          </fieldset>
+            <!-- Field type: "short" id: "214745337" -->
+            <fieldset>
+              <div class="form-group row">
+                <legend for="982333403" class="col-md-3 col-form-label">{{ _('Your phone') }} <span class="required">*</span></legend>
+                <div class="col-md-9">
+                  <input id="982333403" type="text" name="entry.982333403" class="form-control" placeholder="{{ _('Your phone') }} *" required>
+                </div>
+              </div>
+            </fieldset>
 
+            <!-- Field type: "paragraph" id: "1579718046" -->
+            <fieldset>
+              <div class="form-group row">
+                <legend for="2072744410" class="col-md-3 col-form-label">{{ _('Something about you') }}</legend>
+                <div class="col-md-9">
+                  <textarea id="2072744410" name="entry.2072744410" class="form-control">{{ _('We would like to get to know you, write something about yourself and also why you would like to help out...') }}</textarea>
+                </div>
+              </div>
+            </fieldset>
 
-          <!-- Field type: "paragraph" id: "1579718046" -->
-          <fieldset>
-            <legend for="1579718046">{{ _('Something about you') }}</legend>
-            <div class="form-group">
-              <p class="help-block">{{ _('We would like to get to know you, write something about yourself and also why you would like to help out...') }}</p>
-              <textarea id="2072744410" name="entry.2072744410" class="form-control"></textarea>
-            </div>
-          </fieldset>
+            <!-- Field type: "short" id: "712730357" -->
+            <fieldset>
+              <div class="form-group row">
+                <legend for="332887087" class="col-md-3 col-form-label">{{ _('How much time can you spend volunteering?') }} <span class="required">*</span></legend>
+                <div class="col-md-9">
+                  <input id="332887087" type="text" name="entry.332887087" class="form-control" placeholder="{{ _('We need just a rough estimate, for example: an hour a day, two hours a week...') }} *" required>
+                </div>
+              </div>
+            </fieldset>
 
+            <!-- Field type: "paragraph" id: "1780493620" -->
+            <fieldset>
+              <div class="form-group row">
+                <legend for="287506974" class="col-md-3 col-form-label">{{ _('What would you like to do?') }} <span class="required">*</span></legend>
+                <div class="col-md-9">
+                  <textarea id="287506974" name="entry.287506974" class="form-control" required>{{ _('Let us know what you are experienced in. If you have a vision and no experience, that is alright, write down what you would like to do and surely we\'ll find tasks to realize the vision.') }} *</textarea>
+                </div>
+              </div>
+            </fieldset>
 
-          <!-- Field type: "short" id: "712730357" -->
-          <fieldset>
-            <legend for="712730357">{{ _('How much time can you spend volunteering?') }}
-              <span class="required">*</span></legend>
-            <div class="form-group">
-              <p class="help-block">{{ _('We need just a rough estimate, for example: an hour a day, two hours a week...') }}</p>
-              <input id="332887087" type="text" name="entry.332887087" class="form-control" required>
-            </div>
-          </fieldset>
+            <!-- Field type: "short" id: "400429884" -->
+            <fieldset>
+              <div class="form-group row">
+                <legend for="1889735954" class="col-md-3 col-form-label">{{ _('Where did you find out about SPy o.z.?') }} <span class="required">*</span></legend>
+                <div class="col-md-9">
+                  <input id="1889735954" type="text" name="entry.1889735954" class="form-control" placeholder="{{ _('Where did you find out about SPy o.z.?') }} *" required>
+                </div>
+              </div>
+            </fieldset>
 
+            <!--
+                CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+                This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+                Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+                We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+            -->
+            <input type="hidden" name="pageHistory" value="0">
 
-          <!-- Field type: "paragraph" id: "1780493620" -->
-          <fieldset>
-            <legend for="1780493620">{{ _('What would you like to do?') }} <span class="required">*</span></legend>
-            <div class="form-group">
-              <p class="help-block">{{ _('Let us know what you are experienced in. If you have a vision and no experience, that is alright, write down what you would like to do and surely we\'ll find tasks to realize the vision.') }}</p>
-              <textarea id="287506974" name="entry.287506974" class="form-control" required></textarea>
-            </div>
-          </fieldset>
-
-
-          <!-- Field type: "short" id: "400429884" -->
-          <fieldset>
-            <legend for="400429884">{{ _('Where did you find out about SPy o.z.?') }} <span class="required">*</span>
-            </legend>
-            <div class="form-group">
-              <input id="1889735954" type="text" name="entry.1889735954" class="form-control" required>
-            </div>
-          </fieldset>
-
-          <input type="hidden" name="fvv" value="1">
-          <input type="hidden" name="fbzx" value="-1757665975123586609">
-          <!--
-              CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
-              This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
-              Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
-              We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
-          -->
-          <input type="hidden" name="pageHistory" value="0">
-
-          <p class="text-center">
-            <input class="btn-fill size-lg border-radius-5 color-yellow" type="submit" value="{{ _('Submit') }}">
-          </p>
-        </form>
+            <p class="text-center">
+              <input class="btn-fill size-lg border-radius-5 color-yellow" type="submit" value="{{ _('Submit') }}">
+            </p>
+          </form>
+        </div>
 
       </div>
     </div>
