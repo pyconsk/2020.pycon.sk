@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-16 14:51+0100\n"
+"POT-Creation-Date: 2019-11-23 18:57+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -65,7 +65,7 @@ msgid "Code of Conduct"
 msgstr "Kódex správania"
 
 #: templates/body.html:157 templates/body.html:182 templates/body.html:183
-#: templates/index.html:20 templates/index.html:252
+#: templates/index.html:20 templates/index.html:361
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
@@ -130,9 +130,9 @@ msgstr ""
 msgid "Call for Proposals"
 msgstr "Prihlás svoj príspevok"
 
-#: templates/cfp.html:27
-msgid "Anyone can be part of the conference"
-msgstr "Aj ty môžeš byť súčasťou konferencie"
+#: templates/cfp.html:27 templates/index.html:216
+msgid "Anyone can be part of the conference."
+msgstr "Aj ty môžeš byť súčasťou konferencie."
 
 #: templates/cfp.html:29 templates/cfv.html:29
 msgid ""
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Don't hesitate"
 msgstr "Neváhaj"
 
-#: templates/cfp.html:35
+#: templates/cfp.html:35 templates/index.html:210
 msgid "The Call for Proposals is open!"
 msgstr "Predkladanie prednášok a workshopov je otvorené!"
 
@@ -948,7 +948,7 @@ msgstr ""
 "sa spolu zúčastníme workshopov pod vedením skúsených mentorov a "
 "mentoriek."
 
-#: templates/index.html:97 templates/index.html:122
+#: templates/index.html:97 templates/index.html:230
 msgid "Speakers"
 msgstr "rečníkov a rečníčok"
 
@@ -957,26 +957,92 @@ msgid "Participants"
 msgstr "účastníkov a účastníčok"
 
 #: templates/index.html:122
-msgid "Official Sponsors &amp; Partners"
-msgstr "Oficiálni sponzori a partneri"
+msgid "News"
+msgstr "Novinky"
 
 #: templates/index.html:123
-msgid "We are looking for sponsors and partners. Please get in touch with us."
-msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
+msgid ""
+"There is a lot of things going on around conference... Here is some of "
+"them..."
+msgstr ""
 
-#: templates/index.html:124
+#: templates/index.html:138
+msgid "Conference chat."
+msgstr ""
+
+#: templates/index.html:143
+msgid ""
+"Last year we have used Slack as our conference chat so you can get in "
+"touch with organizers and also with fellow participants."
+msgstr ""
+
+#: templates/index.html:144
+msgid "For PyCon SK 2020 chat we are going to use the Slack."
+msgstr ""
+
+#: templates/index.html:145
+msgid "Channel is open for anyone!"
+msgstr ""
+
+#: templates/index.html:164
+msgid "First batch of speakers."
+msgstr ""
+
+#: templates/index.html:168
+msgid ""
+"We are honoured to announce the first batch of speakers that will be part"
+" of PyCon SK 2020."
+msgstr ""
+
+#: templates/index.html:186
+msgid "Oslavujeme deň boja za slobodu a demokraciu."
+msgstr ""
+
+#: templates/index.html:190
+msgid ""
+"17.11. oslavujeme deň boja za slobodu a demokraciu. Vďaka tejto udalosti "
+"môžeme slobodne organizovať PyCon SK."
+msgstr ""
+
+#: templates/index.html:191
+msgid "Chceme aby ste oslavovali aj vy."
+msgstr ""
+
+#: templates/index.html:192
+msgid ""
+"Počas celého sviatku môže využiť zľavu 17&#37; na lístky s promo kódom "
+"\"30-rokov-slobody\"."
+msgstr ""
+
+#: templates/index.html:214
+msgid ""
+"Do you know any one in underrepresented group in IT who would like to do "
+"a conference talk?"
+msgstr ""
+
+#: templates/index.html:215
+msgid ""
+"Let us know, and try to encourage him/her to submit Call for Proposals "
+"for PyCon SK 2020."
+msgstr ""
+
+#: templates/index.html:216
+msgid "We are trying to support diversity."
+msgstr ""
+
+#: templates/index.html:232
 msgid "Speakers that who have alerady confirmed attandance at PyCon SK 2020."
 msgstr ""
 
-#: templates/index.html:125
+#: templates/index.html:233
 msgid "You can fill the Call for Proposals and join this list..."
 msgstr ""
 
-#: templates/index.html:250
+#: templates/index.html:359
 msgid "Get Your Ticket Now"
 msgstr "Kúp si lístok teraz"
 
-#: templates/index.html:251
+#: templates/index.html:360
 msgid ""
 "Conference tickets are available for purchase. So far each PyCon SK "
 "edition has sold out, so do not leave buying your ticket to the last "
@@ -986,19 +1052,19 @@ msgstr ""
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
 
-#: templates/index.html:263
+#: templates/index.html:372
 msgid "Offcial Sponsonrs &amp; Partners"
 msgstr "Oficiálni sponzori a partneri"
 
-#: templates/index.html:264
+#: templates/index.html:373
 msgid "We are looking for sponsors and partners. Please get in touch with us."
-msgstr "Hľadáme sponzorov a partnerov. Prosím kontaktujte nás."
+msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
-#: templates/index.html:265
+#: templates/index.html:374
 msgid "Check Who Makes This Event Possible!"
 msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
 
-#: templates/index.html:269 templates/index.html:270
+#: templates/index.html:378 templates/index.html:379
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
@@ -1607,3 +1673,5 @@ msgstr ""
 #~ "super logom. Ale sme otvorení aj "
 #~ "ďalším návrhom..."
 
+#~ msgid "Official Sponsors &amp; Partners"
+#~ msgstr "Oficiálni sponzori a partneri"

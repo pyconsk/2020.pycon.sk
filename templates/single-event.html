@@ -1,0 +1,101 @@
+{% extends "body.html" %}
+
+{% block content %}
+<!-- Inne Page Banner Area Start Here -->
+<section class="inner-page-banner" style="background-image: url(img/figure/inner-page-figure.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>Event Details</h1>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>Single Event</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inne Page Banner Area End Here -->
+<!-- Error Page Area Start Here -->
+<section class="section-space-less30">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="single-event-img">
+          <div class="et-carousel dot-control" data-loop="true" data-items="1" data-margin="30" data-autoplay="true"
+               data-autoplay-timeout="5000"
+               data-smart-speed="2000" data-dots="true" data-nav="false" data-nav-speed="false" data-r-x-small="1"
+               data-r-x-small-nav="false" data-r-x-small-dots="true" data-r-x-medium="1" data-r-x-medium-nav="false"
+               data-r-x-medium-dots="true" data-r-small="1" data-r-small-nav="false" data-r-small-dots="true"
+               data-r-medium="1" data-r-medium-nav="false" data-r-medium-dots="true" data-r-Large="1"
+               data-r-Large-nav="false"
+               data-r-Large-dots="true">
+            <img src="{{ url_for('static', filename='img/figure/single-event1.jpg') }}" class="img-fluid" alt="single-event">
+            <img src="{{ url_for('static', filename='img/figure/single-event2.jpg') }}" class="img-fluid" alt="single-event">
+            <img src="{{ url_for('static', filename='img/figure/single-event3.jpg') }}" class="img-fluid" alt="single-event">
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="event-description">
+          <h2 class="title title-bold color-dark">Introduction to business</h2>
+          <p>Aimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit hendrerit
+            faucibus. Suspendisse hendrerit turpis dui, eget ultricies erat consequat ut. Sed ac
+            velit iaculis, condimentum neque eu, maximus urna. Maecenas vitae nunc sit amet risus
+            aliquet facilisis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus. In facilisis mi sit amet metus sagittis rhoncus. Nullam vel euismod nulla.
+            Sed at fermentum lacus. Praesent consectetur, nisi conNunc eleifeo aliquet, fringilla
+            odiofeature.</p>
+          <a href="#" title="More Speakers"
+             class="loadmore-four-item btn-fill border-radius-5 size-lg color-yellow margin-t-20">Buy Now Ticket</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h3 class="title-bold color-dark title-bar">Upcoming Events</h3>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="profile-event">
+          <h3 class="title title-bold color-dark">
+            <a href="#">Digital marketing</a>
+          </h3>
+          <div class="profile-event-date">July 23, 2018 10.00-11.30</div>
+          <div class="profile-event-place">CineHall_1</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="profile-event">
+          <h3 class="title title-bold color-dark">
+            <a href="#">Growth Hacking</a>
+          </h3>
+          <div class="profile-event-date">August 17, 2018 10.00-11.30</div>
+          <div class="profile-event-place">CineHall_1</div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="profile-event">
+          <h3 class="title title-bold color-dark">
+            <a href="#">Usability and Design</a>
+          </h3>
+          <div class="profile-event-date">September 29, 2018 10.00-11.30</div>
+          <div class="profile-event-place">CineHall_1</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Error Page Area End Here -->
+{% endblock %}
+
+{% block js %}
+{% endblock %}
