@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-24 17:41+0100\n"
+"POT-Creation-Date: 2019-11-24 23:28+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -282,7 +282,7 @@ msgstr ""
 "Vzhľadom na to, že workshopy trvajú dlhšie a sú omnoho interaktívnejšie, "
 "vyžadujú oveľa viac prípravy."
 
-#: templates/cfp.html:97 templates/cfp_form.html:137
+#: templates/cfp.html:97 templates/cfp_form.html:200
 msgid "Poster"
 msgstr "Poster"
 
@@ -301,11 +301,11 @@ msgstr ""
 "zaujme iba obmedzený počeť ľudí a nie je vhodná pre všeobecné publikum, "
 "príď nám ukázať, čo robíš, na PyCon SK Poster Session."
 
-#: templates/cfp.html:107 templates/cfp_form.html:350
+#: templates/cfp.html:107 templates/cfp_form.html:448
 msgid "Recording release"
 msgstr "Súhlas so zverejnením nahrávok"
 
-#: templates/cfp.html:109 templates/cfp_form.html:352
+#: templates/cfp.html:109 templates/cfp_form.html:450
 #: templates/recording.html:31
 msgid ""
 "Part of the motivation for PyCon SK is to help with Python education and "
@@ -318,7 +318,7 @@ msgstr ""
 "zahraničí. Aj preto plánujeme nahrávať všetky prezentácie z konferencie a"
 " naživo streamovať a následne všetky zverejniť na webe."
 
-#: templates/cfp.html:112 templates/cfp_form.html:355
+#: templates/cfp.html:112 templates/cfp_form.html:453
 msgid ""
 "By submitting your talk or workshop proposal, or by signing up to give a "
 "lightning talk, you agree to give permission to the SPy o.z. to record, "
@@ -328,7 +328,7 @@ msgstr ""
 "lightning talk dávaš súhlas SPy o.z. na nahrávanie, úpravu a zverejnenie "
 "audio a/alebo video záznamu z tvojej prezentácie."
 
-#: templates/cfp.html:115 templates/cfp_form.html:358
+#: templates/cfp.html:115 templates/cfp_form.html:456
 msgid "Full recording release statement"
 msgstr "Plné znenie súhlasu s nahrávaním"
 
@@ -357,19 +357,19 @@ msgstr ""
 " stránke (formulár hneď pod týmto textom), alebo ho môžeš odoslať aj "
 "priamo: "
 
-#: templates/cfp_form.html:43
+#: templates/cfp_form.html:46
 msgid "About the speaker"
 msgstr "O rečníkovi/rečníčke"
 
-#: templates/cfp_form.html:53 templates/cfv.html:58
+#: templates/cfp_form.html:52 templates/cfv.html:53 templates/cfv.html:55
 msgid "Your name"
 msgstr "Tvoje meno"
 
-#: templates/cfp_form.html:55
+#: templates/cfp_form.html:59
 msgid "Your name will be displayed on our website if your talk is accepted."
 msgstr "Tvoje meno bude zobrazené na našom webe, ak bude prednáška akceptovaná."
 
-#: templates/cfp_form.html:56
+#: templates/cfp_form.html:60 templates/cfp_form.html:78
 msgid ""
 "If two or more people will be presenting, please separate the names with "
 "commas."
@@ -377,17 +377,27 @@ msgstr ""
 "V prípade, že príspevok bude prezentovať viacero ľudí, oddeľ mená "
 "prezentujúcich čiarkami."
 
-#: templates/cfp_form.html:63
+#: templates/cfp_form.html:70 templates/cfv.html:63 templates/cfv.html:65
+msgid "Your email"
+msgstr ""
+
+#: templates/cfp_form.html:77
+msgid ""
+"Your email will not be published! We need it to get in touch and send you"
+" notification once the CfP ends."
+msgstr ""
+
+#: templates/cfp_form.html:88
 msgid "Biography"
 msgstr "Životopis"
 
-#: templates/cfp_form.html:65
+#: templates/cfp_form.html:90
 msgid "Your biography will be displayed on our website if your talk is accepted."
 msgstr ""
 "Tvoj životopis bude zobrazený na našom webe, ak bude prednáška "
 "akceptovaná."
 
-#: templates/cfp_form.html:66
+#: templates/cfp_form.html:91
 msgid ""
 "If two or more people will be presenting, please separate the bios with a"
 " blank line."
@@ -395,23 +405,27 @@ msgstr ""
 "V prípade, že príspevok bude prezentovať viacero ľudí, oddeľ životopisy "
 "prázdnym riadkom."
 
-#: templates/cfp_form.html:73
-msgid "Profile picture"
-msgstr "Profilová fotka"
-
-#: templates/cfp_form.html:75
-msgid ""
-"Please provide us with a URL where we can download your profile picture "
-"that will be published on our website if your talk is accepted."
+#: templates/cfp_form.html:104
+msgid "Profile picture URL"
 msgstr ""
-"Uveď, prosím, URL, odkiaľ si môžeme stiahnuť tvoju profilovú fotku, ktorá"
-" bude zverejnená na našom webe, ak bude prednáška akceptovaná."
 
-#: templates/cfp_form.html:82
+#: templates/cfp_form.html:111
+msgid ""
+"URL to your profile picture that will be displayed on our website if your"
+" talk is accepted."
+msgstr ""
+
+#: templates/cfp_form.html:112
+msgid ""
+"If two or more people will be presenting, please separate the URLs with a"
+" blank line."
+msgstr ""
+
+#: templates/cfp_form.html:122
 msgid "Which country are you from?"
 msgstr "Odkiaľ pochádzaš?"
 
-#: templates/cfp_form.html:84
+#: templates/cfp_form.html:128
 msgid ""
 "We would like to publish a country name next to the speaker on our "
 "website if your talk is accepted."
@@ -419,11 +433,11 @@ msgstr ""
 "Radi by sme pri prednášajúcom/-ej zverejnili aj názov krajiny, ak bude "
 "prednáška akceptovaná."
 
-#: templates/cfp_form.html:91
+#: templates/cfp_form.html:137
 msgid "Phone"
 msgstr "Telefón"
 
-#: templates/cfp_form.html:93
+#: templates/cfp_form.html:143
 msgid ""
 "Your phone will not be published! It is just for organizers to get in "
 "touch with you in case we need to discuss something with you or in case "
@@ -432,15 +446,15 @@ msgstr ""
 "Tvoj telefón nebude zverejnený! Je pre organizátorov, aby sa s tebou "
 "vedeli v prípade potreby spojiť pred alebo počas konferencie."
 
-#: templates/cfp_form.html:98
+#: templates/cfp_form.html:148
 msgid "About talk"
 msgstr "O prednáške"
 
-#: templates/cfp_form.html:101
+#: templates/cfp_form.html:153
 msgid "Title"
 msgstr "Názov"
 
-#: templates/cfp_form.html:103
+#: templates/cfp_form.html:159
 msgid ""
 "The name of your talk/workshop as it will be displayed on our website if "
 "it is accepted."
@@ -448,11 +462,11 @@ msgstr ""
 "Názov tvojej prednášky/workshopu, ktorý bude zobrazený na našom webe, ak "
 "bude príspevok akceptovaný."
 
-#: templates/cfp_form.html:110
+#: templates/cfp_form.html:168
 msgid "Abstract"
 msgstr "Abstrakt"
 
-#: templates/cfp_form.html:112
+#: templates/cfp_form.html:169
 msgid ""
 "The abstract of your talk will be published on our website if your talk "
 "is accepted."
@@ -460,103 +474,103 @@ msgstr ""
 "Abstrakt tvojho príspevku bude zverejnený na našom webe, ak bude "
 "príspevok akceptovaný."
 
-#: templates/cfp_form.html:119
+#: templates/cfp_form.html:181
 msgid "Type"
 msgstr "Typ"
 
-#: templates/cfp_form.html:121
+#: templates/cfp_form.html:182
 msgid "What kind of session will you do?"
 msgstr "Aký typ príspevku plánuješ?"
 
-#: templates/cfp_form.html:125
+#: templates/cfp_form.html:188
 msgid "Talk"
 msgstr "Prednáška"
 
-#: templates/cfp_form.html:131
+#: templates/cfp_form.html:194
 msgid "Workshop"
 msgstr "Workshop"
 
-#: templates/cfp_form.html:143
+#: templates/cfp_form.html:206
 msgid "Hardware Projects Showcase"
 msgstr "Ukážka hardvérových projektov"
 
-#: templates/cfp_form.html:151
+#: templates/cfp_form.html:217
 msgid "Language"
 msgstr "Jazyk"
 
-#: templates/cfp_form.html:153
+#: templates/cfp_form.html:218
 msgid "What language will your session be in?"
 msgstr "V akom jazyku bude tvoj príspevok?"
 
-#: templates/cfp_form.html:157
+#: templates/cfp_form.html:224
 msgid "English"
 msgstr "Anglicky"
 
-#: templates/cfp_form.html:163
+#: templates/cfp_form.html:230
 msgid "Slovak"
 msgstr "Slovensky"
 
-#: templates/cfp_form.html:169
+#: templates/cfp_form.html:236
 msgid "Czech"
 msgstr "Česky"
 
-#: templates/cfp_form.html:177
+#: templates/cfp_form.html:247
 msgid "Time Slot"
 msgstr "Časový blok"
 
-#: templates/cfp_form.html:182
+#: templates/cfp_form.html:253
 msgid "30 minutes (talks)"
 msgstr "30 minút (prednáška)"
 
-#: templates/cfp_form.html:188
+#: templates/cfp_form.html:259
 msgid "45 minutes (talks/workshops)"
 msgstr "45 minút (prednáška/workshop)"
 
-#: templates/cfp_form.html:194
+#: templates/cfp_form.html:265
 msgid "60 minutes (workshops/Hardware Projects Showcase)"
 msgstr "60 minút (prednáška/ukážka hardvérových projektov)"
 
-#: templates/cfp_form.html:200
+#: templates/cfp_form.html:271
 msgid "90 minutes (workshops)"
 msgstr "90 minút (workshop)"
 
-#: templates/cfp_form.html:206
+#: templates/cfp_form.html:277
 msgid "120 minutes (workshops)"
 msgstr "120 minút (workshop)"
 
-#: templates/cfp_form.html:212
+#: templates/cfp_form.html:283
 msgid "3 hours (workshops)"
 msgstr "3 hodiny (workshop)"
 
-#: templates/cfp_form.html:218
+#: templates/cfp_form.html:289
 msgid "4 hours (workshops)"
 msgstr "4 hodiny (workshop)"
 
-#: templates/cfp_form.html:224
+#: templates/cfp_form.html:296
 msgid "Skill level"
 msgstr "Úroveň"
 
-#: templates/cfp_form.html:227
+#: templates/cfp_form.html:301
 msgid "Which describes you best?"
 msgstr "Ktorá z týchto možností ťa najviac vystihuje?"
 
-#: templates/cfp_form.html:232
+#: templates/cfp_form.html:307
 msgid "I have never presented in front of 100+ people before."
 msgstr "Nikdy som neprednášal(a) pred 100+ ľuďmi."
 
-#: templates/cfp_form.html:238
+#: templates/cfp_form.html:313
 msgid "I gave a few (2-5) presentations at a conference of 100+ people."
 msgstr "Už som mal(a) pár (2-5) prednášok na konferencii pred 100+ ľuďmi."
 
-#: templates/cfp_form.html:244
+#: templates/cfp_form.html:319
 msgid "I spoke at a conference of 100+ people more than 5 times."
 msgstr "Prednášal(a) som na konferenciách pre 100 a viac ľudí viac ako päťkrát."
 
-#: templates/cfp_form.html:252
+#: templates/cfp_form.html:330
 msgid "Would you be interested in mentoring?"
 msgstr "Máš záujem o mentoring?"
 
-#: templates/cfp_form.html:254 templates/cfp_form.html:319
+#: templates/cfp_form.html:331 templates/cfp_form.html:416
 msgid ""
 "Please provide us with this answer only if you need travel funding so "
 "that we can calculate the ticket price."
@@ -564,24 +578,24 @@ msgstr ""
 "Prosím, odpovedz na túto otázku iba v prípade, že potrebuješ preplatiť "
 "cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
-#: templates/cfp_form.html:258
+#: templates/cfp_form.html:337
 msgid "Yes (if available)"
 msgstr "Áno (ak je to možné)"
 
-#: templates/cfp_form.html:264 templates/cfp_form.html:300
-#: templates/cfp_form.html:329
+#: templates/cfp_form.html:343 templates/cfp_form.html:389
+#: templates/cfp_form.html:428
 msgid "No"
 msgstr "Nie"
 
-#: templates/cfp_form.html:270
+#: templates/cfp_form.html:349
 msgid "Unsure"
 msgstr "Nie som si istý/-á"
 
-#: templates/cfp_form.html:278
+#: templates/cfp_form.html:360
 msgid "Link to a previous presentation?"
 msgstr "Odkaz na predchádzajúcu prezentáciu?"
 
-#: templates/cfp_form.html:280
+#: templates/cfp_form.html:366
 msgid ""
 "PyCon SK receives hundreds of visitors each year who are not native "
 "English speakers. We&#x27;d like to be sure that we can understand you "
@@ -597,15 +611,15 @@ msgstr ""
 "napríklad môžeš prečítať svoj abstrakt a nahrať to na YouTube (alebo "
 "kdekoľvek inde). Inštrukcie:"
 
-#: templates/cfp_form.html:285
+#: templates/cfp_form.html:371
 msgid "Travel funding"
 msgstr "Cestovné náklady"
 
-#: templates/cfp_form.html:288
+#: templates/cfp_form.html:376
 msgid "Do you need travel funding?"
 msgstr "Potrebuješ príspevok na cestovanie?"
 
-#: templates/cfp_form.html:290
+#: templates/cfp_form.html:377
 msgid ""
 "Please bear in mind that we are a community conference with a limited "
 "budget and we might not be able to fund you."
@@ -613,15 +627,15 @@ msgstr ""
 "Maj, prosím, na pamäti, že sme komunitná konferencia s obmedzeným "
 "rozpočtom a je možné, že ti nebudeme môcť preplatiť náklady."
 
-#: templates/cfp_form.html:294 templates/cfp_form.html:323
+#: templates/cfp_form.html:383 templates/cfp_form.html:422
 msgid "Yes"
 msgstr "Áno"
 
-#: templates/cfp_form.html:308
+#: templates/cfp_form.html:400
 msgid "What city will you be traveling from?"
 msgstr "Z ktorého mesta budeš cestovať?"
 
-#: templates/cfp_form.html:310
+#: templates/cfp_form.html:406
 msgid ""
 "Please provide us with this city only if you need travel funding so that "
 "we can calculate the ticket price."
@@ -629,11 +643,11 @@ msgstr ""
 "Prosím, zadaj, z ktorého mesta budeš cestovať, ak potrebuješ preplatiť "
 "cestovné náklady, aby sme mohli vypočítať cenu lístka."
 
-#: templates/cfp_form.html:317
+#: templates/cfp_form.html:415
 msgid "Do you need accommodation?"
 msgstr "Potrebuješ ubytovanie?"
 
-#: templates/cfp_form.html:346 templates/cfv.html:125
+#: templates/cfp_form.html:444 templates/cfv.html:129
 msgid "Submit"
 msgstr "Odoslať"
 
@@ -676,37 +690,37 @@ msgstr ""
 "dobrovoľníčka, môžeš darovať až 3%% zo svojich daní ktorejkoľvek "
 "zaregistrovanej neziskovke."
 
-#: templates/cfv.html:67
+#: templates/cfv.html:73 templates/cfv.html:75
 msgid "Your phone"
 msgstr "Tvoj mobil"
 
-#: templates/cfv.html:76
+#: templates/cfv.html:83
 msgid "Something about you"
 msgstr "Niečo o tebe"
 
-#: templates/cfv.html:78
+#: templates/cfv.html:85
 msgid ""
 "We would like to get to know you, write something about yourself and also"
 " why you would like to help out..."
 msgstr "Radi by sme vedeli niečo o tebe, ale aj prečo nám chceš pomôcť..."
 
-#: templates/cfv.html:86
+#: templates/cfv.html:93
 msgid "How much time can you spend volunteering?"
 msgstr ""
 "Napíš časový odhad, koľko by si sa mohol/mohla venovať dobrovoľníctvu pre"
 " SPy o.z.."
 
-#: templates/cfv.html:89
+#: templates/cfv.html:95
 msgid ""
 "We need just a rough estimate, for example: an hour a day, two hours a "
 "week..."
 msgstr "Stačí orientačná informácia, napr. hodina denne, dve hodiny týždenne..."
 
-#: templates/cfv.html:97
+#: templates/cfv.html:103
 msgid "What would you like to do?"
 msgstr "Je niečo konkrétne, čo by si rád/rada robil(a)?"
 
-#: templates/cfv.html:99
+#: templates/cfv.html:105
 msgid ""
 "Let us know what you are experienced in. If you have a vision and no "
 "experience, that is alright, write down what you would like to do and "
@@ -717,7 +731,7 @@ msgstr ""
 "skúsenosti, nevadí, podeľ sa s nami o svoje predstavy a určite nájdeme "
 "úlohy, v ktorých sa môžeš realizovať..."
 
-#: templates/cfv.html:107
+#: templates/cfv.html:113 templates/cfv.html:115
 msgid "Where did you find out about SPy o.z.?"
 msgstr "Odkiaľ si sa dozvedel(a) o SPy o.z.?"
 
@@ -1671,4 +1685,18 @@ msgstr ""
 "              lístkov) a táto cena stále nezahŕňa obrovské množstvo "
 "dobrovoľníckej práce, ktorú robí Python komunita pred\n"
 "              a počas každého PyConu."
+
+#~ msgid "Profile picture"
+#~ msgstr "Profilová fotka"
+
+#~ msgid ""
+#~ "Please provide us with a URL where"
+#~ " we can download your profile picture"
+#~ " that will be published on our "
+#~ "website if your talk is accepted."
+#~ msgstr ""
+#~ "Uveď, prosím, URL, odkiaľ si môžeme "
+#~ "stiahnuť tvoju profilovú fotku, ktorá "
+#~ "bude zverejnená na našom webe, ak "
+#~ "bude prednáška akceptovaná."
 
