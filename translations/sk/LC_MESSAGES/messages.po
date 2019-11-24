@@ -968,7 +968,7 @@ msgstr "Okolo konferencie sa stále deje kopec vecí... Tu je niekoľko z nich..
 
 #: templates/index.html:138
 msgid "Conference chat."
-msgstr ""
+msgstr "Konferenčný chat."
 
 #: templates/index.html:143
 msgid ""
@@ -1041,9 +1041,9 @@ msgid "We are trying to support diversity."
 msgstr "Snažíme sa podporovať rôznorodosť."
 
 #: templates/index.html:230
-msgctxt "numbers in footer"
-msgid "Speakers"
-msgstr "rečníkov a rečníčok"
+msgctxt "Speakers"
+msgid "numbers in footer"
+msgstr ""
 
 #: templates/index.html:232
 msgid "Speakers that who have already confirmed attendance at PyCon SK 2020."
@@ -1676,4 +1676,8 @@ msgstr ""
 
 #~ msgid "Offcial Sponsonrs &amp; Partners"
 #~ msgstr "Oficiálni sponzori a partneri"
+
+#~ msgctxt "numbers in footer"
+#~ msgid "Speakers"
+#~ msgstr "rečníkov a rečníčok"
 
