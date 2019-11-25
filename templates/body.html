@@ -109,16 +109,19 @@
                                     <div class="eventalk-main-menu">
                                         <nav class="d-none d-lg-block">
                                             <ul>
-                                                <li>
+                                                <li{% if li_index %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
                                                 </li>
-                                                <li>
+                                                <li{% if li_news %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('News') }}</a>
+                                                </li>
+                                                <li{% if li_cfp %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('Call for proposals') }}</a>
                                                 </li>
-                                                <li>
+                                                <li{% if li_cfv %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
                                                 </li>
-                                                <li>
+                                                <li{% if li_coc %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
                                                 </li>
                                                 {% if lang_code == 'sk' %}

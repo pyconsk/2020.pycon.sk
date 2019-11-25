@@ -1,0 +1,136 @@
+{% extends "body.html" %}
+{% block content %}
+<!-- Inner Page Banner Area Start Here -->
+<section class="inner-page-banner" style="background-image: url({{ url_for('static', filename='img/about/header1.jpg') }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('News') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
+            </li>
+            <li>{{ _('News') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inner Page Banner Area End Here -->
+<!-- Blog Page Area Start Here -->
+<section class="section-space-less30">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 margin-b-30rem">
+                {% for item in news %}
+                <div class="blog-layout5">
+                    <div class="entry-image">
+                        <div class="item-content">
+                            <h3 class="title title-bold color-dark size-lg hover-primary">
+                              {% if item['url'] %}<a href="{{ item.url }}">{% endif %}
+                                {{ item.title }}
+                              {% if item.url %}</a>{% endif %}
+                            </h3>
+                            <ul class="news-meta-info">
+                                <li>{{ item.date }}</li>
+                                {% for tag in item.tags %}
+                                <li>
+                                    <a href="#{{ tag }}">{{ tags[tag] }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            <p>{{ item.meta }}</p>
+<!--                            <a href="#" title="Continue Reading" class="btn-text color-green hover-yellow">{{ _('Continue Reading') }}</a>-->
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+<!--                <div class="pagination-area margin-t-30">-->
+<!--                    <ul>-->
+<!--                        <li class="active">-->
+<!--                            <a href="#">1</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">2</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">3</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">4</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+
+            </div>
+            <div class="sidebar-widget-area sidebar-break-md col-lg-4 col-md-12">
+
+                <div class="widget widget-categories">
+                    <h3 class="title title-bold color-dark sidebar-title-bar">{{ _('Categories') }}</h3>
+                    <ul>
+                        {% for key, value in tags.items() %}
+                        <li>
+                            <a href="#{{ key }}">{{ value }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+<!--                <div class="widget widget-recent-entries">-->
+<!--                    <h3 class="title title-bold color-dark sidebar-title-bar">Recent Posts</h3>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            <a href="#">How to Select a Small Business Coach or Consultant</a>-->
+<!--                            <span class="post-date">10th Oct 2018</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">How to Select a Small Business Coach or Consultant</a>-->
+<!--                            <span class="post-date">10th Oct 2018</span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">How to Select a Small Business Coach or Consultant</a>-->
+<!--                            <span class="post-date">10th Oct 2018</span>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--                <div class="widget widget-archives">-->
+<!--                    <h3 class="title title-bold color-dark sidebar-title-bar">Archives</h3>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            <a href="#">March 2016 (4)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">Febuary 2016 (9)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">January 2016 (34)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">December 2015 (22)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">November 2015 (35)</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a href="#">Octorber 2015 (4)</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--                <div class="widget widget-tag">-->
+<!--                    <h3 class="title title-bold color-dark sidebar-title-bar">{{ _('Categories') }}</h3>-->
+<!--                    <ul>-->
+<!--                        {% for key, value in tags.items() %}-->
+<!--                        <li>-->
+<!--                            <a href="#{{ key }}">{{ value }}</a>-->
+<!--                        </li>-->
+<!--                        {% endfor %}-->
+<!--                    </ul>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Page Area End Here -->
+{% endblock %}

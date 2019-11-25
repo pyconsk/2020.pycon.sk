@@ -17,6 +17,48 @@ app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)  # pylint: disable=invalid-name
 
+TAGS = {
+    'conference': gettext('Conference'),
+    'media': gettext('Media'),
+    'speakers': gettext('Speakers'),
+}
+
+NEWS = (
+    {
+        'date': date(2019, 11, 23),
+        'title': gettext('Conference chat.'),
+        'meta': gettext('Last year we have used Slack as our conference chat so you can get in touch with organizers '
+                        'and also with fellow participants. For PyCon SK 2020 chat we are going to use the Slack.'),
+        'tags': ('media',),
+        'url': 'https://join.slack.com/t/pyconsk/shared_invite/enQtODQ4NjU1NzM2NzI3LTA2ZGNiOTA4YzM5OWM3NmQyZjAxMDlmNzJj'
+               'OGIzNjM4ZjEwZGI0MTJiYzAxZmNhZmVjMTZjZjliNWQ4ZjVlNjE',
+    },
+    {
+        'date': date(2019, 11, 16),
+        'title': gettext('First batch of speakers.'),
+        'meta': gettext('We are honoured to announce the first batch of speakers that will be part of PyCon SK 2020.'),
+        'tags': ('speakers',),
+    },
+    {
+        'date': date(2019, 11, 15),
+        'title': gettext('We celebrate the Day of Fighting for Freedom and Democracy.'),
+        'meta': gettext('On 17th November we celebrate the Day of Fighting for Freedom and Democracy. Thanks to this '
+                        'event we can freely organize PyCon SK. We want you to celebrate with us. During the holiday '
+                        'you can use 17&#37; discount for tickets using discount code "30-rokov-slobody".'),
+        'tags': ('conference',),
+        'url': 'https://en.wikipedia.org/wiki/Velvet_Revolution',
+    },
+    {
+        'date': date(2019, 10, 20),
+        'title': gettext('The Call for Proposals is open!'),
+        'meta': gettext('Do you know anyone in underrepresented group in IT who would like to do a conference talk?'
+                        ' Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2020.'
+                        'We are trying to support diversity. Anyone can be part of the conference.'),
+        'tags': ('speakers',),
+    },
+)
+
+
 @app.route('/sitemap.xml')
 def sitemap():
     excluded = {'static', 'sitemap'}
@@ -43,7 +85,12 @@ def root():
 
 @app.route('/<lang_code>/index.html')
 def index():
-    return render_template('index.html', **_get_template_variables(li_index='active'))
+    return render_template('index.html', **_get_template_variables(li_index='active', news=NEWS, tags=TAGS))
+
+
+@app.route('/<lang_code>/news.html')
+def news():
+    return render_template('news.html', **_get_template_variables(li_news='active', news=NEWS, tags=TAGS))
 
 
 @app.route('/<lang_code>/coc.html')
