@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-26 15:02+0100\n"
+"POT-Creation-Date: 2019-11-26 15:36+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -21,26 +21,6 @@ msgstr ""
 #: pycon.py:8
 msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
 msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
-
-#: pycon.py:21
-msgid "Conference"
-msgstr "Konferencia"
-
-#: pycon.py:22
-msgid "Media"
-msgstr ""
-
-#: pycon.py:23 templates/index.html:97 templates/index.html:230
-msgid "Speakers"
-msgstr "Rečníci a rečníčky"
-
-#: utils.py:21
-msgid "title"
-msgstr ""
-
-#: utils.py:22
-msgid "meta"
-msgstr ""
 
 #: templates/body.html:8
 msgid "Official PyCon SK 2020 website"
@@ -986,6 +966,10 @@ msgstr ""
 "sa spolu zúčastníme workshopov pod vedením skúsených mentorov a "
 "mentoriek."
 
+#: templates/index.html:97 templates/index.html:230
+msgid "Speakers"
+msgstr "Rečníci a rečníčky"
+
 #: templates/index.html:109
 msgid "Participants"
 msgstr "účastníkov a účastníčok"
@@ -1722,48 +1706,5 @@ msgstr ""
 "dobrovoľníckej práce, ktorú robí Python komunita pred\n"
 "              a počas každého PyConu."
 
-#~ msgid "Profile picture"
-#~ msgstr "Profilová fotka"
-
-#~ msgid ""
-#~ "Please provide us with a URL where"
-#~ " we can download your profile picture"
-#~ " that will be published on our "
-#~ "website if your talk is accepted."
-#~ msgstr ""
-#~ "Uveď, prosím, URL, odkiaľ si môžeme "
-#~ "stiahnuť tvoju profilovú fotku, ktorá "
-#~ "bude zverejnená na našom webe, ak "
-#~ "bude prednáška akceptovaná."
-
-#~ msgid ""
-#~ "Last year we have used Slack as"
-#~ " our conference chat so you can "
-#~ "get in touch with organizers and "
-#~ "also with fellow participants. For PyCon"
-#~ " SK 2020 chat we are going to"
-#~ " use the Slack."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "On 17th November we celebrate the "
-#~ "Day of Fighting for Freedom and "
-#~ "Democracy. Thanks to this event we "
-#~ "can freely organize PyCon SK. We "
-#~ "want you to celebrate with us. "
-#~ "During the holiday you can use "
-#~ "17&#37; discount for tickets using "
-#~ "discount code \"30-rokov-slobody\"."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Do you know anyone in underrepresented"
-#~ " group in IT who would like to"
-#~ " do a conference talk? Let us "
-#~ "know, and try to encourage him/her "
-#~ "to submit Call for Proposals for "
-#~ "PyCon SK 2020.We are trying to "
-#~ "support diversity. Anyone can be part"
-#~ " of the conference."
-#~ msgstr ""
-
+#~ msgid "Conference"
+#~ msgstr "Konferencia"
