@@ -1,7 +1,7 @@
 PyCon SK 2020 Website
 #####################
 
-Official `PyCon SK 2020 <https://2020.pycon.sk/>`_ website.
+Official `PyCon SK 2020 <https://2020.pycon.sk/>`_ website. And a `staging site <https://staging-2020.pycon.sk/>`_ deployed to GitHub pages.
 
 .. image:: https://travis-ci.org/pyconsk/2020.pycon.sk.svg?branch=master
     :target: https://travis-ci.org/pyconsk/2020.pycon.sk
