@@ -1,7 +1,7 @@
 from datetime import date
 
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
-from flask_babel import Babel, gettext
+from flask_babel import Babel, gettext, lazy_gettext
 
 from utils import get_news
 
@@ -18,9 +18,9 @@ app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)  # pylint: disable=invalid-name
 
 CATEGORIES = {
-    'conference': gettext('Conference'),
-    'media': gettext('Media'),
-    'speakers': gettext('Speakers'),
+    'conference': lazy_gettext('Conference'),
+    'media': lazy_gettext('Media'),
+    'speakers': lazy_gettext('Speakers'),
 }
 
 NEWS = get_news()
