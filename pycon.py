@@ -59,12 +59,14 @@ def root():
 
 @app.route('/<lang_code>/index.html')
 def index():
-    return render_template('index.html', **_get_template_variables(li_index='active', news=NEWS, categories=CATEGORIES))
+    template_vars = _get_template_variables(li_index='active', news=get_news(get_locale()), categories=CATEGORIES)
+    return render_template('index.html', **template_vars)
 
 
 @app.route('/<lang_code>/news.html')
 def news():
-    return render_template('news.html', **_get_template_variables(li_news='active', news=NEWS, categories=CATEGORIES))
+    template_vars = _get_template_variables(li_news='active', news=get_news(get_locale()), categories=CATEGORIES)
+    return render_template('news.html', **template_vars)
 
 
 @app.route('/<lang_code>/news/<category>.html')
@@ -72,14 +74,15 @@ def news_category(category):
     if category not in CATEGORIES.keys():
         abort(404)
 
+    template_vars = _get_template_variables(li_news='active', categories=CATEGORIES)
     news = []
 
     for item in NEWS:
         if category in item['categories']:
             news.append(item)
 
-    return render_template('news.html', **_get_template_variables(li_news='active', news=news, categories=CATEGORIES,
-                                                                  category=CATEGORIES[category]))
+    template_vars['news'] = news
+    return render_template('news.html', **template_vars)
 
 
 @app.route('/<lang_code>/coc.html')
@@ -124,7 +127,8 @@ def privacy_policy():
 
 @app.route('/<lang_code>/countdown.html')
 def countdown():
-    return render_template('countdown.html', **_get_template_variables(li_index='active'))
+    template_vars = _get_template_variables(li_index='active')
+    return render_template('countdown.html', **template_vars)
 
 
 def _get_template_variables(**kwargs):
@@ -132,13 +136,9 @@ def _get_template_variables(**kwargs):
     variables = {
         'title': EVENT,
         'domain': DOMAIN,
+        'lang_code': get_locale(),
     }
     variables.update(kwargs)
-
-    if 'current_lang' in g:
-        variables['lang_code'] = g.current_lang
-    else:
-        variables['lang_code'] = app.config['BABEL_DEFAULT_LOCALE']
 
     return variables
 

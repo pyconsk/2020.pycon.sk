@@ -1,28 +1,36 @@
 [
   {
     "date": "2019-11-23",
-    "title": "Conference chat.",
-    "meta": "Last year we have used Slack as our conference chat so you can get in touch with organizers and also with fellow participants. For PyCon SK 2020 chat we are going to use the Slack.",
+    "title_en": "Conference chat.",
+    "meta_en": "Last year we have used Slack as our conference chat so you can get in touch with organizers and also with fellow participants. For PyCon SK 2020 chat we are going to use the Slack.",
+    "title_sk": "Konferenčný chat.",
+    "meta_sk": "Minulý rok sme používali Slack ako konferenčný chat, pomocou ktorého ste mohli komunikovať s organizátormi a aj s ďalšími účastníkmi. Aj na PyCon SK 2020 budeme používať Slack.",
     "categories": ["media"],
     "url": "https://join.slack.com/t/pyconsk/shared_invite/enQtODQ4NjU1NzM2NzI3LTA2ZGNiOTA4YzM5OWM3NmQyZjAxMDlmNzJjOGIzNjM4ZjEwZGI0MTJiYzAxZmNhZmVjMTZjZjliNWQ4ZjVlNjE"
   },
   {
     "date": "2019-11-16",
-    "title": "First batch of speakers.",
-    "meta": "We are honoured to announce the first batch of speakers that will be part of PyCon SK 2020.",
+    "title_en": "First batch of speakers.",
+    "meta_en": "We are honoured to announce the first batch of speakers that will be part of PyCon SK 2020.",
+    "title_sk": "Prvá várka rečníkov.",
+    "meta_sk": "Je nám cťou predstaviť prvých potvrdených rečníkov na PyCon SK 2020.",
     "categories": ["speakers"]
   },
   {
     "date": "2019-11-15",
-    "title": "We celebrate the Day of Fighting for Freedom and Democracy.",
-    "meta": "On 17th November we celebrate the Day of Fighting for Freedom and Democracy. Thanks to this event we can freely organize PyCon SK. We want you to celebrate with us. During the holiday you can use 17&#37; discount for tickets using discount code \"30-rokov-slobody\".",
+    "title_en": "We celebrate the Day of Fighting for Freedom and Democracy.",
+    "meta_en": "On 17th November we celebrate the Day of Fighting for Freedom and Democracy. Thanks to this event we can freely organize PyCon SK. We want you to celebrate with us. During the holiday you can use 17% discount for tickets using discount code \"30-rokov-slobody\".",
+    "title_sk": "Oslavujeme Deň boja za slobodu a demokraciu.",
+    "meta_sk": "17. novembra oslavujeme Deň boja za slobodu a demokraciu. Vďaka tejto udalosti môžeme slobodne organizovať PyCon SK. Chceme, aby ste oslavovali aj vy. Počas celého sviatku môže využiť zľavu 17% na lístky s promo kódom \"30-rokov-slobody\".",
     "categories": ["conference"],
     "url": "https://en.wikipedia.org/wiki/Velvet_Revolution"
   },
   {
     "date": "2019-10-20",
-    "title": "The Call for Proposals is open!",
-    "meta": "Do you know anyone in underrepresented group in IT who would like to do a conference talk? Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2020. We are trying to support diversity. Anyone can be part of the conference.",
+    "title_en": "The Call for Proposals is open!",
+    "meta_en": "Do you know anyone in underrepresented group in IT who would like to do a conference talk? Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2020. We are trying to support diversity. Anyone can be part of the conference.",
+    "title_sk": "Predkladanie prednášok a workshopov je otvorené!",
+    "meta_sk": "Poznáš niekoho z málo zastúpenej skupiny v IT, kto by chcel urobiť prednášku na konferencii? Daj nám vedieť a povzbuď ho/ju, aby si podal/a návrh na prednášku na PyCon SK 2020. Snažíme sa podporovať rôznorodosť.",
     "categories": ["speakers"],
     "url": "/en/cfp.html"
   }
