@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-26 00:11+0100\n"
+"POT-Creation-Date: 2019-11-26 15:02+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -24,7 +24,7 @@ msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
 
 #: pycon.py:21
 msgid "Conference"
-msgstr ""
+msgstr "Konferencia"
 
 #: pycon.py:22
 msgid "Media"
@@ -34,49 +34,12 @@ msgstr ""
 msgid "Speakers"
 msgstr "Rečníci a rečníčky"
 
-#: pycon.py:29 templates/index.html:138
-msgid "Conference chat."
-msgstr "Konferenčný chat."
-
-#: pycon.py:30
-msgid ""
-"Last year we have used Slack as our conference chat so you can get in "
-"touch with organizers and also with fellow participants. For PyCon SK "
-"2020 chat we are going to use the Slack."
+#: utils.py:21
+msgid "title"
 msgstr ""
 
-#: pycon.py:38 templates/index.html:164
-msgid "First batch of speakers."
-msgstr "Prvá várka rečníkov."
-
-#: pycon.py:39 templates/index.html:168
-msgid ""
-"We are honoured to announce the first batch of speakers that will be part"
-" of PyCon SK 2020."
-msgstr "Je nám cťou predstaviť prvých potvrdených rečníkov na PyCon SK 2020."
-
-#: pycon.py:44 templates/index.html:186
-msgid "We celebrate the Day of Fighting for Freedom and Democracy."
-msgstr "Oslavujeme Deň boja za slobodu a demokraciu."
-
-#: pycon.py:45
-msgid ""
-"On 17th November we celebrate the Day of Fighting for Freedom and "
-"Democracy. Thanks to this event we can freely organize PyCon SK. We want "
-"you to celebrate with us. During the holiday you can use 17&#37; discount"
-" for tickets using discount code \"30-rokov-slobody\"."
-msgstr ""
-
-#: pycon.py:53 templates/cfp.html:35 templates/index.html:210
-msgid "The Call for Proposals is open!"
-msgstr "Predkladanie prednášok a workshopov je otvorené!"
-
-#: pycon.py:54
-msgid ""
-"Do you know anyone in underrepresented group in IT who would like to do a"
-" conference talk? Let us know, and try to encourage him/her to submit "
-"Call for Proposals for PyCon SK 2020.We are trying to support diversity. "
-"Anyone can be part of the conference."
+#: utils.py:22
+msgid "meta"
 msgstr ""
 
 #: templates/body.html:8
@@ -107,9 +70,8 @@ msgstr ""
 "Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
-#: templates/body.html:116 templates/index.html:122 templates/news.html:9
-#: templates/news.html:14
-msgid "News"
+#: templates/body.html:116 templates/news.html:10 templates/news.html:18
+msgid "Newsroom"
 msgstr "Novinky"
 
 #: templates/body.html:119 templates/body.html:151 templates/cfp_form.html:15
@@ -226,6 +188,10 @@ msgstr ""
 #: templates/cfp.html:33
 msgid "Don't hesitate"
 msgstr "Neváhaj"
+
+#: templates/cfp.html:35 templates/index.html:210
+msgid "The Call for Proposals is open!"
+msgstr "Predkladanie prednášok a workshopov je otvorené!"
 
 #: templates/cfp.html:39
 msgid ""
@@ -1024,11 +990,19 @@ msgstr ""
 msgid "Participants"
 msgstr "účastníkov a účastníčok"
 
+#: templates/index.html:122
+msgid "News"
+msgstr "Novinky"
+
 #: templates/index.html:123
 msgid ""
 "There are a lot of things going on around conference... Here are some of "
 "them..."
 msgstr "Okolo konferencie sa stále deje kopec vecí... Tu je niekoľko z nich..."
+
+#: templates/index.html:138
+msgid "Conference chat."
+msgstr "Konferenčný chat."
 
 #: templates/index.html:143
 msgid ""
@@ -1045,6 +1019,20 @@ msgstr "Aj na PyCon SK 2020 budeme používať Slack."
 #: templates/index.html:145
 msgid "Channel is open for anyone!"
 msgstr "Kanál je otvorený pre všetkých!"
+
+#: templates/index.html:164
+msgid "First batch of speakers."
+msgstr "Prvá várka rečníkov."
+
+#: templates/index.html:168
+msgid ""
+"We are honoured to announce the first batch of speakers that will be part"
+" of PyCon SK 2020."
+msgstr "Je nám cťou predstaviť prvých potvrdených rečníkov na PyCon SK 2020."
+
+#: templates/index.html:186
+msgid "We celebrate the Day of Fighting for Freedom and Democracy."
+msgstr "Oslavujeme Deň boja za slobodu a demokraciu."
 
 #: templates/index.html:190
 msgid ""
@@ -1177,13 +1165,21 @@ msgstr ""
 "Pre informácie o našich postupoch na ochranu súkromia navštív naše <a "
 "href=\"%(url)s\">Zásady ochrany súkromia</a>."
 
-#: templates/news.html:45
-msgid "Continue Reading"
-msgstr ""
+#: templates/news.html:22
+msgid "Category"
+msgstr "Kategória"
 
-#: templates/news.html:72 templates/news.html:122
+#: templates/news.html:55
+msgid "Read more"
+msgstr "Čítaj viac"
+
+#: templates/news.html:84 templates/news.html:137
 msgid "Categories"
-msgstr ""
+msgstr "Kategórie"
+
+#: templates/news.html:92
+msgid "All"
+msgstr "Všetky"
 
 #: templates/privacy-policy.html:8 templates/privacy-policy.html:13
 msgid "Privacy Policy"
@@ -1739,4 +1735,35 @@ msgstr ""
 #~ "stiahnuť tvoju profilovú fotku, ktorá "
 #~ "bude zverejnená na našom webe, ak "
 #~ "bude prednáška akceptovaná."
+
+#~ msgid ""
+#~ "Last year we have used Slack as"
+#~ " our conference chat so you can "
+#~ "get in touch with organizers and "
+#~ "also with fellow participants. For PyCon"
+#~ " SK 2020 chat we are going to"
+#~ " use the Slack."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On 17th November we celebrate the "
+#~ "Day of Fighting for Freedom and "
+#~ "Democracy. Thanks to this event we "
+#~ "can freely organize PyCon SK. We "
+#~ "want you to celebrate with us. "
+#~ "During the holiday you can use "
+#~ "17&#37; discount for tickets using "
+#~ "discount code \"30-rokov-slobody\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Do you know anyone in underrepresented"
+#~ " group in IT who would like to"
+#~ " do a conference talk? Let us "
+#~ "know, and try to encourage him/her "
+#~ "to submit Call for Proposals for "
+#~ "PyCon SK 2020.We are trying to "
+#~ "support diversity. Anyone can be part"
+#~ " of the conference."
+#~ msgstr ""
 

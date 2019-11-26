@@ -3,27 +3,27 @@
     "date": "2019-11-23",
     "title": "Conference chat.",
     "meta": "Last year we have used Slack as our conference chat so you can get in touch with organizers and also with fellow participants. For PyCon SK 2020 chat we are going to use the Slack.",
-    "tags": ["media"],
+    "categories": ["media"],
     "url": "https://join.slack.com/t/pyconsk/shared_invite/enQtODQ4NjU1NzM2NzI3LTA2ZGNiOTA4YzM5OWM3NmQyZjAxMDlmNzJjOGIzNjM4ZjEwZGI0MTJiYzAxZmNhZmVjMTZjZjliNWQ4ZjVlNjE"
   },
   {
     "date": "2019-11-16",
     "title": "First batch of speakers.",
     "meta": "We are honoured to announce the first batch of speakers that will be part of PyCon SK 2020.",
-    "tags": ["speakers"]
+    "categories": ["speakers"]
   },
   {
     "date": "2019-11-15",
     "title": "We celebrate the Day of Fighting for Freedom and Democracy.",
     "meta": "On 17th November we celebrate the Day of Fighting for Freedom and Democracy. Thanks to this event we can freely organize PyCon SK. We want you to celebrate with us. During the holiday you can use 17&#37; discount for tickets using discount code \"30-rokov-slobody\".",
-    "tags": ["conference"],
+    "categories": ["conference"],
     "url": "https://en.wikipedia.org/wiki/Velvet_Revolution"
   },
   {
     "date": "2019-10-20",
     "title": "The Call for Proposals is open!",
     "meta": "Do you know anyone in underrepresented group in IT who would like to do a conference talk? Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2020. We are trying to support diversity. Anyone can be part of the conference.",
-    "tags": ["speakers"],
+    "categories": ["speakers"],
     "url": "/en/cfp.html"
   }
 ]

@@ -17,7 +17,7 @@ app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)  # pylint: disable=invalid-name
 
-TAGS = {
+CATEGORIES = {
     'conference': gettext('Conference'),
     'media': gettext('Media'),
     'speakers': gettext('Speakers'),
@@ -33,11 +33,18 @@ def sitemap():
 
     for lang in LANGS:
         for rule in app.url_map.iter_rules():
+
             if 'GET' in rule.methods and rule.endpoint not in excluded:
                 # `url_for` appends unknown arguments as query parameters.
                 # We want to avoid that when a page isn't localized.
                 values = {'lang_code': lang} if 'lang_code' in rule.arguments else {}
-                pages.append(DOMAIN + url_for(rule.endpoint, **values))
+
+                if 'category' in rule.arguments:
+                    for category in CATEGORIES.keys():
+                        values['category'] = category
+                        pages.append(DOMAIN + url_for(rule.endpoint, **values))
+                else:
+                    pages.append(DOMAIN + url_for(rule.endpoint, **values))
 
     sitemap_xml = render_template('sitemap.xml', pages=pages, today=date.today())
     response = make_response(sitemap_xml)
@@ -52,12 +59,27 @@ def root():
 
 @app.route('/<lang_code>/index.html')
 def index():
-    return render_template('index.html', **_get_template_variables(li_index='active', news=NEWS, tags=TAGS))
+    return render_template('index.html', **_get_template_variables(li_index='active', news=NEWS, categories=CATEGORIES))
 
 
 @app.route('/<lang_code>/news.html')
 def news():
-    return render_template('news.html', **_get_template_variables(li_news='active', news=NEWS, tags=TAGS))
+    return render_template('news.html', **_get_template_variables(li_news='active', news=NEWS, categories=CATEGORIES))
+
+
+@app.route('/<lang_code>/news/<category>.html')
+def news_category(category):
+    if category not in CATEGORIES.keys():
+        abort(404)
+
+    news = []
+
+    for item in NEWS:
+        if category in item['categories']:
+            news.append(item)
+
+    return render_template('news.html', **_get_template_variables(li_news='active', news=news, categories=CATEGORIES,
+                                                                  category=CATEGORIES[category]))
 
 
 @app.route('/<lang_code>/coc.html')

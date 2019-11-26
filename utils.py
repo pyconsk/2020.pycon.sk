@@ -20,7 +20,7 @@ def get_news():
             "date": datetime.strptime(item['date'], '%Y-%m-%d').date(),
             "title": gettext(item['title']),
             "meta": gettext(item['meta']),
-            "tags": item['tags']
+            "categories": item['categories']
         }
 
         if 'url' in item.keys():

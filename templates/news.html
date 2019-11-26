@@ -6,12 +6,21 @@
     <div class="row">
       <div class="col-12">
         <div class="breadcrumbs-area">
-          <h1>{{ _('News') }}</h1>
+          <h1>
+            {{ _('Newsroom') }}{% if category %}: {{ category }}{% endif %}
+          </h1>
           <ul>
             <li>
               <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
             </li>
-            <li>{{ _('News') }}</li>
+            <li>
+              {% if category %}<a href="{{ url_for('news', lang_code=lang_code) }}">{% endif %}
+              {{ _('Newsroom') }}
+              {% if category %}</a>{% endif %}
+            </li>
+            {% if category %}
+            <li>{{ _('Category') }}: {{ category }}</li>
+            {% endif %}
           </ul>
         </div>
       </div>
@@ -35,14 +44,17 @@
                             </h3>
                             <ul class="news-meta-info">
                                 <li>{{ item.date }}</li>
-                                {% for tag in item.tags %}
+                                {% for category in item.categories %}
                                 <li>
-                                    <a href="#{{ tag }}">{{ tags[tag] }}</a>
+                                    <a href="{{ url_for('news_category', lang_code=lang_code, category=category) }}">{{ categories[category] }}</a>
                                 </li>
                                 {% endfor %}
                             </ul>
                             <p>{{ item.meta }}</p>
-<!--                            <a href="#" title="Continue Reading" class="btn-text color-green hover-yellow">{{ _('Continue Reading') }}</a>-->
+                            {% if item['url'] %}
+                              <a href="{{ item.url }}" title="{{ _('Read more') }}" class="btn-text color-green hover-yellow">{{ _('Read more') }}</a>
+                            {% endif %}
+
                         </div>
                     </div>
                 </div>
@@ -71,11 +83,14 @@
                 <div class="widget widget-categories">
                     <h3 class="title title-bold color-dark sidebar-title-bar">{{ _('Categories') }}</h3>
                     <ul>
-                        {% for key, value in tags.items() %}
+                        {% for key, value in categories.items() %}
                         <li>
-                            <a href="#{{ key }}">{{ value }}</a>
+                            <a href="{{ url_for('news_category', lang_code=lang_code, category=key) }}">{{ value }}</a>
                         </li>
                         {% endfor %}
+                        <li>
+                            <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('All') }}</a>
+                        </li>
                     </ul>
                 </div>
 <!--                <div class="widget widget-recent-entries">-->
@@ -121,9 +136,9 @@
 <!--                <div class="widget widget-tag">-->
 <!--                    <h3 class="title title-bold color-dark sidebar-title-bar">{{ _('Categories') }}</h3>-->
 <!--                    <ul>-->
-<!--                        {% for key, value in tags.items() %}-->
+<!--                        {% for key, value in categories.items() %}-->
 <!--                        <li>-->
-<!--                            <a href="#{{ key }}">{{ value }}</a>-->
+<!--                            <a href="{{ url_for('news_category', lang_code=lang_code, category=key) }}">{{ value }}</a>-->
 <!--                        </li>-->
 <!--                        {% endfor %}-->
 <!--                    </ul>-->
