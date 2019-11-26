@@ -30,11 +30,13 @@ COVERS = {
     'cfp_form': 'img/about/workshop.jpg',
     'cfv': 'img/about/cfv.jpg',
     'coc': 'img/about/chillout.jpg',
+    'countdown': 'img/about/header1.jpg',
     'index': 'img/about/header1.jpg',
     'news': 'img/about/news.jpg',
     'privacy': 'img/about/privacy.jpg',
     'recording': 'img/about/snake.jpg',
     'tickets': 'img/about/full_room.jpg',
+    'thanks': 'img/about/header1.jpg',
 }
 
 
@@ -93,7 +95,7 @@ def news_category(category):
             news.append(item)
 
     return render_template('news.html', **_get_template_variables(li_news='active', news=news, categories=CATEGORIES,
-                                                                  category=CATEGORIES[category]))
+                                                                  category=CATEGORIES[category], cover_name='index'))
 
 
 @app.route('/<lang_code>/coc.html')
