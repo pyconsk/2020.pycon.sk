@@ -1,9 +1,9 @@
 from datetime import date
-from os import listdir
-from os.path import isfile, join
 
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext
+
+from utils import get_news
 
 EVENT = gettext('PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia')
 DOMAIN = 'https://2020.pycon.sk'
@@ -16,6 +16,15 @@ app = Flask(__name__, static_url_path='/static')  # pylint: disable=invalid-name
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)  # pylint: disable=invalid-name
+
+TAGS = {
+    'conference': gettext('Conference'),
+    'media': gettext('Media'),
+    'speakers': gettext('Speakers'),
+}
+
+NEWS = get_news()
+
 
 @app.route('/sitemap.xml')
 def sitemap():
@@ -43,7 +52,12 @@ def root():
 
 @app.route('/<lang_code>/index.html')
 def index():
-    return render_template('index.html', **_get_template_variables(li_index='active'))
+    return render_template('index.html', **_get_template_variables(li_index='active', news=NEWS, tags=TAGS))
+
+
+@app.route('/<lang_code>/news.html')
+def news():
+    return render_template('news.html', **_get_template_variables(li_news='active', news=NEWS, tags=TAGS))
 
 
 @app.route('/<lang_code>/coc.html')
