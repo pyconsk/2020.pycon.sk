@@ -1,9 +1,9 @@
 from datetime import date
-from os import listdir
-from os.path import isfile, join
 
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext
+
+from utils import get_news
 
 EVENT = gettext('PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia')
 DOMAIN = 'https://2020.pycon.sk'
@@ -23,40 +23,7 @@ TAGS = {
     'speakers': gettext('Speakers'),
 }
 
-NEWS = (
-    {
-        'date': date(2019, 11, 23),
-        'title': gettext('Conference chat.'),
-        'meta': gettext('Last year we have used Slack as our conference chat so you can get in touch with organizers '
-                        'and also with fellow participants. For PyCon SK 2020 chat we are going to use the Slack.'),
-        'tags': ('media',),
-        'url': 'https://join.slack.com/t/pyconsk/shared_invite/enQtODQ4NjU1NzM2NzI3LTA2ZGNiOTA4YzM5OWM3NmQyZjAxMDlmNzJj'
-               'OGIzNjM4ZjEwZGI0MTJiYzAxZmNhZmVjMTZjZjliNWQ4ZjVlNjE',
-    },
-    {
-        'date': date(2019, 11, 16),
-        'title': gettext('First batch of speakers.'),
-        'meta': gettext('We are honoured to announce the first batch of speakers that will be part of PyCon SK 2020.'),
-        'tags': ('speakers',),
-    },
-    {
-        'date': date(2019, 11, 15),
-        'title': gettext('We celebrate the Day of Fighting for Freedom and Democracy.'),
-        'meta': gettext('On 17th November we celebrate the Day of Fighting for Freedom and Democracy. Thanks to this '
-                        'event we can freely organize PyCon SK. We want you to celebrate with us. During the holiday '
-                        'you can use 17&#37; discount for tickets using discount code "30-rokov-slobody".'),
-        'tags': ('conference',),
-        'url': 'https://en.wikipedia.org/wiki/Velvet_Revolution',
-    },
-    {
-        'date': date(2019, 10, 20),
-        'title': gettext('The Call for Proposals is open!'),
-        'meta': gettext('Do you know anyone in underrepresented group in IT who would like to do a conference talk?'
-                        ' Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2020.'
-                        'We are trying to support diversity. Anyone can be part of the conference.'),
-        'tags': ('speakers',),
-    },
-)
+NEWS = get_news()
 
 
 @app.route('/sitemap.xml')
