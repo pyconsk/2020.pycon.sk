@@ -25,20 +25,6 @@ CATEGORIES = {
 
 NEWS = get_news()
 
-COVERS = {
-    'cfp': 'img/about/speaker1.jpg',
-    'cfp_form': 'img/about/workshop.jpg',
-    'cfv': 'img/about/cfv.jpg',
-    'coc': 'img/about/chillout.jpg',
-    'countdown': 'img/about/header1.jpg',
-    'index': 'img/about/header1.jpg',
-    'news': 'img/about/news.jpg',
-    'privacy': 'img/about/privacy.jpg',
-    'recording': 'img/about/snake.jpg',
-    'tickets': 'img/about/full_room.jpg',
-    'thanks': 'img/about/header1.jpg',
-}
-
 
 @app.route('/sitemap.xml')
 def sitemap():
@@ -74,14 +60,14 @@ def root():
 @app.route('/<lang_code>/index.html')
 def index():
     template_vars = _get_template_variables(li_index='active', news=get_news(get_locale()), categories=CATEGORIES,
-                                            cover_name='index')
+                                            background_filename='img/about/header1.jpg')
     return render_template('index.html', **template_vars)
 
 
 @app.route('/<lang_code>/news.html')
 def news():
     template_vars = _get_template_variables(li_news='active', news=get_news(get_locale()), categories=CATEGORIES,
-                                            cover_name='news')
+                                            background='bkg-news')
     return render_template('news.html', **template_vars)
 
 
@@ -90,7 +76,7 @@ def news_category(category):
     if category not in CATEGORIES.keys():
         abort(404)
 
-    template_vars = _get_template_variables(li_news='active', categories=CATEGORIES, cover_name='news')
+    template_vars = _get_template_variables(li_news='active', categories=CATEGORIES, background='bkg-news')
     news = []
 
     for item in NEWS:
@@ -103,58 +89,48 @@ def news_category(category):
 
 @app.route('/<lang_code>/coc.html')
 def coc():
-    return render_template('coc.html', **_get_template_variables(li_coc='active', cover_name='coc'))
+    return render_template('coc.html', **_get_template_variables(li_coc='active', background='bkg-chillout'))
 
 
 @app.route('/<lang_code>/tickets.html')
 def tickets():
-    return render_template('tickets.html', **_get_template_variables(li_tickets='active', cover_name='tickets'))
+    return render_template('tickets.html', **_get_template_variables(li_tickets='active', background='bkg-index'))
 
 
 @app.route('/<lang_code>/cfp.html')
 def cfp():
-    return render_template('cfp.html', **_get_template_variables(li_cfp='active', cover_name='cfp'))
+    return render_template('cfp.html', **_get_template_variables(li_cfp='active', background='bkg-speaker'))
 
 
 @app.route('/<lang_code>/cfp_form.html')
 def cfp_form():
-    return render_template('cfp_form.html', **_get_template_variables(li_cfp='active', cover_name='cfp_form'))
+    return render_template('cfp_form.html', **_get_template_variables(li_cfp='active', background='bkg-workshop'))
 
 
 @app.route('/<lang_code>/recording.html')
 def recording():
-    return render_template('recording.html', **_get_template_variables(li_recording='active', cover_name='recording'))
+    return render_template('recording.html', **_get_template_variables(li_recording='active', background='bkg-snake'))
 
 
 @app.route('/<lang_code>/cfv.html')
 def cfv():
-    return render_template('cfv.html', **_get_template_variables(li_cfv='active', cover_name='cfv'))
+    return render_template('cfv.html', **_get_template_variables(li_cfv='active', background='bkg-cfv'))
 
 
 @app.route('/<lang_code>/thanks.html')
 def thanks():
-    return render_template('thanks.html', **_get_template_variables(li_cfp='active', cover_name='thanks'))
+    return render_template('thanks.html', **_get_template_variables(li_cfp='active', background='bkg-index'))
 
 
 @app.route('/<lang_code>/privacy-policy.html')
 def privacy_policy():
-    return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active', cover_name='privacy'))
+    return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active', background='bkg-privacy'))
 
 
 @app.route('/<lang_code>/countdown.html')
 def countdown():
-    template_vars = _get_template_variables(li_index='active', cover_name='countdown')
+    template_vars = _get_template_variables(li_index='active', background='bkg-index')
     return render_template('countdown.html', **template_vars)
-
-
-def get_cover(name=None, path=None):
-    base_cover = 'img/about/header1.jpg'
-    if not name and not path:
-        path = base_cover
-    elif name:
-        path = COVERS.get(name, base_cover)
-    # todo check if path exists
-    return {'cover': path}
 
 
 def _get_template_variables(**kwargs):
@@ -165,10 +141,6 @@ def _get_template_variables(**kwargs):
         'lang_code': get_locale(),
     }
     variables.update(kwargs)
-
-    cover_name = kwargs.get('cover_name')
-    if cover_name:
-        variables.update(**get_cover(name=cover_name))
 
     return variables
 
