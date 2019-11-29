@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+  <atom:link href="https://2020.pycon.sk{{ url_for('rss_feed', lang_code=language) }}" rel="self" type="application/rss+xml" />
+  <title>{{ title }}</title>
+  <link>https://2020.pycon.sk{{ url_for('news', lang_code=language) }}</link>
+  <description>{{ description }}</description>
+  <language>{{ language }}</language>{% for item in items %}
+  <item>
+    <title>{{ item.title }}</title>
+    <link>{{ item.link }}</link>
+    <description>{{ item.description }}</description>
+    <pubDate>{{ item.pubdate }}</pubDate>
+    <guid isPermaLink="false">{{ item.guid }}</guid>{% for cat in item.categories %}
+    <category>{{ cat }}</category>{% endfor %}
+  </item>{% endfor %}
+</channel>
+
+</rss>

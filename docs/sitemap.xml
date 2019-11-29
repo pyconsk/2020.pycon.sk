@@ -75,6 +75,11 @@
       <loc>https://2020.pycon.sk/en/cfv.html</loc>
       <lastmod>2020-01-04</lastmod>
     </url>
+
+    <url>
+      <loc>https://2020.pycon.sk/en/feed.rss</loc>
+      <lastmod>2020-01-04</lastmod>
+    </url>
   
     <url>
       <loc>https://2020.pycon.sk/</loc>
@@ -148,6 +153,11 @@
   
     <url>
       <loc>https://2020.pycon.sk/sk/cfv.html</loc>
+      <lastmod>2020-01-04</lastmod>
+    </url>
+
+    <url>
+      <loc>https://2020.pycon.sk/sk/feed.rss</loc>
       <lastmod>2020-01-04</lastmod>
     </url>
   

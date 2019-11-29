@@ -52,8 +52,10 @@
 
   {% if lang_code == 'sk' %}
   <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/en', 1) }}" hreflang="en">
+  <link rel="alternate" type="application/rss+xml" title="Odoberať RSS" href="{{ domain }}/{{ lang_code }}/rss" />
   {% else %}
   <link rel="alternate" href="{{ domain }}{{ request.path|replace('/'+lang_code, '/sk', 1) }}" hreflang="sk">
+  <link rel="alternate" type="application/rss+xml" title="Subscribe to RSS feed" href="{{ domain }}/{{ lang_code }}/rss" />
   {% endif %}
   <link rel="canonical" href="{{ domain }}{{ request.path }}"/>
   <!-- Custom Js -->

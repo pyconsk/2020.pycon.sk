@@ -3,14 +3,8 @@ from datetime import date
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext, lazy_gettext
 
-from utils import get_news, get_speakers
-
-EVENT = gettext('PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia')
-DOMAIN = 'https://2020.pycon.sk'
-API_DOMAIN = 'https://api.pycon.sk'
-
-LANGS = ('en', 'sk')
-TIME_FORMAT = '%Y-%m-%dT%H:%M:%S+00:00'
+from settings import EVENT, DOMAIN, API_DOMAIN, LANGUAGES, TIME_FORMAT
+from utils import get_news, get_rss, get_speakers
 
 app = Flask(__name__, static_url_path='/static')  # pylint: disable=invalid-name
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
@@ -32,7 +26,7 @@ def sitemap():
     excluded = {'static', 'sitemap'}
     pages = []
 
-    for lang in LANGS:
+    for lang in LANGUAGES:
         for rule in app.url_map.iter_rules():
 
             if 'GET' in rule.methods and rule.endpoint not in excluded:
@@ -134,6 +128,15 @@ def countdown():
     return render_template('countdown.html', **template_vars)
 
 
+@app.route('/<lang_code>/feed.rss')
+def rss_feed():
+    rss_content = get_rss(get_locale())
+    rss_xml = render_template('rss.xml', **rss_content)
+    response = make_response(rss_xml)
+    response.headers['Content-Type'] = 'application/x-rss+xml'
+    return response
+
+
 def _get_template_variables(**kwargs):
     """Collect variables for template that repeats, e.g. are in body.html template"""
     variables = {
@@ -150,7 +153,7 @@ def _get_template_variables(**kwargs):
 def before():  # pylint: disable=inconsistent-return-statements
     if request.view_args and 'lang_code' in request.view_args:
         g.current_lang = request.view_args['lang_code']
-        if request.view_args['lang_code'] not in LANGS:
+        if request.view_args['lang_code'] not in LANGUAGES:
             return abort(404)
         request.view_args.pop('lang_code')
 
