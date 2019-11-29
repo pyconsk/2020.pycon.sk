@@ -1,0 +1,24 @@
+.bkg-index {
+    background-image: url('/static/img/about/header1.jpg');
+}
+.bkg-news {
+    background-image: url('/static/img/about/news.jpg');
+}
+.bkg-speaker {
+    background-image: url('/static/img/about/speaker1.jpg');
+}
+.bkg-workshop {
+    background-image: url('/static/img/about/workshop.jpg');
+}
+.bkg-cfv {
+    background-image: url('/static/img/about/cfv.jpg');
+}
+.bkg-chillout {
+    background-image: url('/static/img/about/chillout.jpg');
+}
+.bkg-privacy {
+    background-image: url('/static/img/about/privacy.jpg');
+}
+.bkg-snake {
+    background-image: url('/static/img/about/snake.jpg');
+}
