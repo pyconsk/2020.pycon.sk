@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-11-28 17:03+0100\n"
+"POT-Creation-Date: 2020-01-04 22:46+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: pycon.py:8
 msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
@@ -69,7 +69,7 @@ msgid "Code of Conduct"
 msgstr "Kódex správania"
 
 #: templates/body.html:161 templates/body.html:186 templates/body.html:187
-#: templates/index.html:20 templates/index.html:361
+#: templates/index.html:20 templates/index.html:277
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
@@ -1066,11 +1066,11 @@ msgstr "Rečníci, ktorí už potvrdili účasť na PyCon SK 2020."
 msgid "You can fill the Call for Proposals and join this list..."
 msgstr "Vyplň návrh na prednášku a pridaj sa do zoznamu..."
 
-#: templates/index.html:359
+#: templates/index.html:275
 msgid "Get Your Ticket Now"
 msgstr "Kúp si lístok teraz"
 
-#: templates/index.html:360
+#: templates/index.html:276
 msgid ""
 "Conference tickets are available for purchase. So far each PyCon SK "
 "edition has sold out, so do not leave buying your ticket to the last "
@@ -1080,19 +1080,19 @@ msgstr ""
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
 
-#: templates/index.html:372
+#: templates/index.html:288
 msgid "Official Sponsors &amp; Partners"
 msgstr "Oficiálni sponzori a partneri"
 
-#: templates/index.html:373
+#: templates/index.html:289
 msgid "We are looking for sponsors and partners. Please get in touch with us."
 msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
-#: templates/index.html:374
+#: templates/index.html:290
 msgid "Check Who Makes This Event Possible!"
 msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
 
-#: templates/index.html:378 templates/index.html:379
+#: templates/index.html:294 templates/index.html:295
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
