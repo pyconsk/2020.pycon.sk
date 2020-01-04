@@ -34,3 +34,7 @@ def get_news(lang='sk'):
         news.append(data)
 
     return news
+
+
+def get_speakers():
+    return read_json_file(os.path.join('data', 'speakers.json'))
