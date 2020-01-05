@@ -3,7 +3,7 @@ from datetime import date
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext, lazy_gettext
 
-from utils import get_news
+from utils import get_news, get_speakers
 
 EVENT = gettext('PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia')
 DOMAIN = 'https://2020.pycon.sk'
@@ -23,6 +23,7 @@ CATEGORIES = {
     'speakers': lazy_gettext('Speakers'),
 }
 
+SPEAKERS = get_speakers()
 NEWS = get_news()
 
 
@@ -60,7 +61,7 @@ def root():
 @app.route('/<lang_code>/index.html')
 def index():
     template_vars = _get_template_variables(li_index='active', news=get_news(get_locale()), categories=CATEGORIES,
-                                            background_filename='img/about/header1.jpg')
+                                            background_filename='img/about/header1.jpg', speakers=SPEAKERS)
     return render_template('index.html', **template_vars)
 
 

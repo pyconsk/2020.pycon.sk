@@ -235,116 +235,28 @@
         </div>
         <div class="row no-gutters full-width">
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6"></div>
+{% for speaker in speakers %}
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="speaker-layout2">
+                    <img src="{{ url_for('static', filename=speaker['avatar']) }}" alt="speaker" class="img-fluid">
+                    <div class="item-title">
+                        <h3 class="title-medium size-md color-light hover-yellow">
+                            <a href="#">{{ speaker['name'] }}</a>
+                        </h3>
+                    </div>
+                    <div class="item-social">
+                        <ul>{% for link, url in speaker['links'].items() %}
+                            <li>
+                                <a href="{{ url }}" title="{{ link }}" target="_blank">
+                                    <i class="fa fa-{{ link }}" aria-hidden="true"></i>
+                                </a>
+                            </li>{% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+{% endfor %}
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6"></div>
-
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
-                <div class="speaker-layout2">
-                    <img src="{{ url_for('static', filename='img/speakers/tom_dyson.jpg') }}" alt="speaker" class="img-fluid">
-                    <div class="item-title">
-                        <h3 class="title-medium size-md color-light hover-yellow">
-                            <a href="#">Tom Dyson</a>
-                        </h3>
-                    </div>
-                    <div class="item-social">
-                        <ul>
-                            <li>
-                                <a href="https://www.linkedin.com/in/tomdyson/" title="LinkedIn" target="_blank">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://torchbox.com/team/tom-dyson/" title="torchbox.com" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-	    {#            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
-                <div class="speaker-layout2">
-                    <img src="{{ url_for('static', filename='img/speakers/speaker.jpg') }}" alt="speaker" class="img-fluid">
-                    <div class="item-title">
-                        <h3 class="title-medium size-md color-light hover-yellow">
-                            <a href="#"></a>
-                        </h3>
-                    </div>
-                    <div class="item-social">
-                        <ul>
-                            <li>
-                                <a href="" title="Twitter" target="_blank">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" title="LinkedIn" target="_blank">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-	    </div> #}
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
-                <div class="speaker-layout2">
-                    <img src="{{ url_for('static', filename='img/speakers/nick_thapen.png') }}" alt="speaker" class="img-fluid">
-                    <div class="item-title">
-                        <h3 class="title-medium size-md color-light hover-yellow">
-                            <a href="#">Nicholas Thapen</a>
-                        </h3>
-                    </div>
-                    <div class="item-social">
-                        <ul>
-                            <li>
-                                <a href="https://twitter.com/nthapen" title="Twitter" target="_blank">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/nicholas-thapen/" title="LinkedIn" target="_blank">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://sourcery.ai/" title="sourcery.ai" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
-                <div class="speaker-layout2">
-                    <img src="{{ url_for('static', filename='img/speakers/roman_imankulov.jpg') }}" alt="speaker" class="img-fluid">
-                    <div class="item-title">
-                        <h3 class="title-medium size-md color-light hover-yellow">
-                            <a href="https://twitter.com/rdotpy">Roman Imankulov</a>
-                        </h3>
-                    </div>
-                    <div class="item-social">
-                        <ul>
-                            <li>
-                                <a href="https://twitter.com/rdotpy" title="Twitter" target="_blank">
-                                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/roman-imankulov-91076144/" title="LinkedIn" target="_blank">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/imankulov" title="GitHub" target="_blank">
-                                    <i class="fa fa-github" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6"></div>
-
         </div>
     </div>
 </section>
