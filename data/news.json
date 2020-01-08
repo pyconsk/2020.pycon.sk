@@ -1,5 +1,14 @@
 [
   {
+    "date": "2020-01-09",
+    "title_en": "We are extending CfP deadline.",
+    "meta_en": "We have received a lot of high quality proposals, but also few requests to extend the period for the CfP since it ends earlier than in the past years. We have decided to extend CfP to the end of January.",
+    "title_sk": "Predlžujeme termín prihlasovania prednášok na konferenciu.",
+    "meta_sk": "Obdržali sme veľa kvalitných návrhov na prednášku, ale aj niekoľko žiadostí o predĺženie termínu na prihlásenie prednášky. Vzhľadom na to že tento ročník uzatvára prihlasovanie prednášok skôr, sme sa rozhodli predĺžiť prihlasovanie prednášok do konca Januára.",
+    "categories": ["speakers"],
+    "url": "/en/cfp.html"
+  },
+  {
     "date": "2019-11-23",
     "title_en": "Conference chat.",
     "meta_en": "Last year we have used Slack as our conference chat so you can get in touch with organizers and also with fellow participants. For PyCon SK 2020 chat we are going to use the Slack.",
