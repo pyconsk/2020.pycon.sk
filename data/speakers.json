@@ -28,6 +28,14 @@
         }
     },
     {
+        "name": "Emilie Sengstschmid",
+        "bio": "Emilie Sengstschmid is working as a software engineer at the University of Applied Arts Vienna. In 2016 she joined the Portfolio/Showroom project, whose main aim is to enable artists and scientists to announce, store and publish their own work and to exchange ideas with colleagues. Her responsibilities concern the entire development process from requirements engineering to deployment. She had worked on high performance applications at the Austrian Federal Computing Center before. She holds a bachelor's degree in Engineering.",
+        "country": "AT",
+        "avatar": "img/speakers/emilie_sengstschmid.jpg",
+        "links": {
+        }
+    },
+    {
         "name": "Roman Imankulov",
         "bio": "Roman is a software developer who started his career creating web apps with Django before it was cool. Eventually he sticks to Python for more than a decade, successfully using it as a golden hammer it to solve all kinds of problems. Originally Russian, at the moment he lives in Porto and works at Doist as head of the back-end development team.",
         "avatar": "img/speakers/roman_imankulov.jpg",
@@ -35,6 +43,23 @@
             "linkedin": "https://www.linkedin.com/in/roman-imankulov-91076144/",
             "twitter": "https://twitter.com/rdotpy",
             "github": "https://github.com/imankulov"
+        }
+    },
+    {
+        "name": "Filipa Andrade",
+        "bio": "I am a software engineer working mainly with python, django and recently with flask. I love programming, I enjoy developing a project from scratch but also I have fun debugging, fixing and refactoring legacy code. Currently my main interest in programming is writing readable and beautiful code, I believe you can't have one without the other.",
+        "country": "Portugal",
+        "avatar": "img/speakers/filipa_andrade.jpg",
+        "links": {
+        }
+    },
+    {
+        "name": "Dom Weldon",
+        "bio": "Dom Weldon is a Principal Software Engineer at decisionLab, a London-based mathematical modelling consultancy with expertise in machine learning, simulation, optimization and visualization. Dom's team specialize in taking models from data scientists and turning them into production ready tools. Current clients include the Royal Navy, Siemens and various UK public bodies.\n\nDom came to decisionLab from his PhD studies in Computational Geography at King's College London, his initial degree was in Natural Sciences at the University of Cambridge, and holds a master's in the historical and cultural geography of the Cold War United States. Outside of work, Dom is interested in languages and travelling, and holds a voluntary statutory appointment on a board monitoring the welfare and dignity of prisoners in a challenging North London jail.",
+        "country": "UK",
+        "avatar": "img/speakers/dom_weldon.jpg",
+        "links": {
+            "link": "https://www.decisionlab.co.uk/"
         }
     }
 ]

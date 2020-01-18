@@ -123,102 +123,34 @@
                         <p>{{ _('There are a lot of things going on around conference... Here are some of them...') }}</p>
                     </div>
                     <div class="row">
+                        {% for item in news %}
                         <div class="col-12">
                             <div class="blog-layout2">
                                 <div class="media align-items-center media-none--sm">
                                     <div class="item-img">
                                         <img src="img/blog/blog4.jpg" alt="blog" class="img-fluid">
-                                        <div class="item-date">23
-                                            <span> Nov</span>
+                                        <div class="item-date">
+                                            {{ item.date.strftime('%d') }}
+                                            <span> {{ item.date.strftime('%b') }}</span>
                                         </div>
                                     </div>
                                     <div class="media-body media-body-box">
                                         <div class="item-title">
                                             <h3 class="title title-medium color-dark hover-primary">
-                                              <a href="https://join.slack.com/t/pyconsk/shared_invite/enQtODQ4NjU1NzM2NzI3LTA2ZGNiOTA4YzM5OWM3NmQyZjAxMDlmNzJjOGIzNjM4ZjEwZGI0MTJiYzAxZmNhZmVjMTZjZjliNWQ4ZjVlNjE" target="_blank">{{ _('Conference chat.') }}</a>
+                                              <a href="{{ item.url }}"{% if item['url']|first != '/' %} target="_blank"{% endif %}>{{ item.title }}</a>
                                             </h3>
                                         </div>
                                         <div class="item-description">
-                                            <p>
-                                              {{ _('Last year we have used Slack as our conference chat so you can get in touch with organizers and also with fellow participants.') }}
-                                              {{ _('For PyCon SK 2020 chat we are going to use the Slack.') }}
-                                              <a href="https://join.slack.com/t/pyconsk/shared_invite/enQtODQ4NjU1NzM2NzI3LTA2ZGNiOTA4YzM5OWM3NmQyZjAxMDlmNzJjOGIzNjM4ZjEwZGI0MTJiYzAxZmNhZmVjMTZjZjliNWQ4ZjVlNjE" target="_blank">{{ _('Channel is open for anyone!') }}</a>
-                                            </p>
+                                            <p>{{ item.meta }}</p>
+                                            {% if item['url'] %}
+                                                <a href="{{ item.url }}" title="{{ _('Read more') }}"{% if item['url']|first != '/' %} target="_blank"{% endif %} class="btn-text color-green hover-yellow pull-right">{{ _('Read more') }}</a>
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="blog-layout2">
-                                <div class="media align-items-center media-none--sm">
-                                    <div class="item-img">
-                                        <img src="img/blog/blog4.jpg" alt="blog" class="img-fluid">
-                                        <div class="item-date">16
-                                            <span> Nov</span>
-                                        </div>
-                                    </div>
-                                    <div class="media-body media-body-box">
-                                        <div class="item-title">
-                                            <h3 class="title title-medium color-dark hover-primary">
-                                                {{ _('First batch of speakers.') }}
-                                            </h3>
-                                        </div>
-                                        <div class="item-description">
-                                            <p>{{ _('We are honoured to announce the first batch of speakers that will be part of PyCon SK 2020.') }}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="blog-layout2">
-                                <div class="media align-items-center media-none--sm">
-                                    <div class="item-img">
-                                        <img src="img/blog/blog5.jpg" alt="blog" class="img-fluid">
-                                        <div class="item-date">15
-                                            <span> Nov</span>
-                                        </div>
-                                    </div>
-                                    <div class="media-body media-body-box">
-                                        <div class="item-title">
-                                            <h3 class="title title-medium color-dark hover-primary">
-                                                <a href="https://en.wikipedia.org/wiki/Velvet_Revolution" target="_blank">{{ _('We celebrate the Day of Fighting for Freedom and Democracy.') }}</a>
-                                            </h3>
-                                        </div>
-                                        <div class="item-description">
-                                            <p>{{ _('On 17th November we celebrate the Day of Fighting for Freedom and Democracy. Thanks to this event we can freely organize PyCon SK.') }}
-                                              {{ _('We want you to celebrate with us.') }}
-                                              {{ _('During the holiday you can use 17&#37; discount for tickets using discount code "30-rokov-slobody".') }}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="blog-layout2">
-                                <div class="media align-items-center media-none--sm">
-                                    <div class="item-img">
-                                        <img src="img/blog/blog6.jpg" alt="blog" class="img-fluid">
-                                        <div class="item-date">20
-                                            <span> Oct</span>
-                                        </div>
-                                    </div>
-                                    <div class="media-body media-body-box">
-                                        <div class="item-title">
-                                            <h3 class="title title-medium color-dark hover-primary">
-                                                <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('The Call for Proposals is open!') }}</a>
-                                            </h3>
-                                        </div>
-                                        <div class="item-description">
-                                            <p>{{ _('Do you know anyone in underrepresented group in IT who would like to do a conference talk?') }}
-                                              {{ _('Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2020.') }}
-                                              {{ _('We are trying to support diversity.') }}{{ _('Anyone can be part of the conference.') }}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </section>
@@ -234,7 +166,6 @@
             </p>
         </div>
         <div class="row no-gutters full-width">
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6"></div>
 {% for speaker in speakers %}
             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
                 <div class="speaker-layout2">
@@ -256,7 +187,6 @@
                 </div>
             </div>
 {% endfor %}
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6"></div>
         </div>
     </div>
 </section>

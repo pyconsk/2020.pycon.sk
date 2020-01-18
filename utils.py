@@ -11,10 +11,12 @@ def read_json_file(path):
     return data
 
 
-def get_news(lang='sk'):
+def get_news(lang='sk', items=None):
     news = []
+    counter = 0
 
     for item in read_json_file(os.path.join('data', 'news.json')):
+        counter += 1
         data = {
             "date": datetime.strptime(item['date'], '%Y-%m-%d').date(),
             "categories": item['categories']
@@ -32,6 +34,9 @@ def get_news(lang='sk'):
             data['url'] = item['url']
 
         news.append(data)
+
+        if items and counter >= items:
+            break
 
     return news
 

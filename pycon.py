@@ -60,8 +60,9 @@ def root():
 
 @app.route('/<lang_code>/index.html')
 def index():
-    template_vars = _get_template_variables(li_index='active', news=get_news(get_locale()), categories=CATEGORIES,
-                                            background_filename='img/about/header1.jpg', speakers=SPEAKERS)
+    template_vars = _get_template_variables(li_index='active', news=get_news(get_locale(), items=3),
+                                            categories=CATEGORIES, background_filename='img/about/header1.jpg',
+                                            speakers=SPEAKERS)
     return render_template('index.html', **template_vars)
 
 
