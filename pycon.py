@@ -134,6 +134,25 @@ def privacy_policy():
     return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active', background='bkg-privacy'))
 
 
+@app.route('/<lang_code>/speakers/index.html')
+def speakers():
+    variables = _get_template_variables(li_schedule_nav='active', background='bkg-speaker', speakers=SPEAKERS)
+
+    return render_template('speaker_list.html', **variables)
+
+@app.route('/<lang_code>/speakers/<name>.html')
+def profile(name):
+    name = ' '.join(name.split('-')).title()
+    variables = _get_template_variables(li_schedule_nav='active', background='bkg-speaker')
+
+    for speaker in SPEAKERS:
+        if speaker['name'] == name:
+            variables['speaker'] = speaker
+            break
+
+    return render_template('speaker.html', **variables)
+
+
 @app.route('/<lang_code>/countdown.html')
 def countdown():
     template_vars = _get_template_variables(li_index='active', background='bkg-index')

@@ -2,7 +2,7 @@
     {
         "name": "Tom Dyson",
         "bio": "Tom graduated from Balliol College, Oxford, in 1995, swapping the later philosophy of Wittgenstein for Netscape 2 and a 9600 baud modem. He ran a little agency called Naïve (“Why don’t you just call yourselves ‘Stupid’?”) until he joined forces with Olly in 2000, starting Torchbox with the aim of building beautiful online software for people who make the world a better place. As Technical Director, Tom is responsible for making sure the things we build are fast and reliable and easy to maintain. He manages the tech team and account directs many of our large technical projects. Along with Olly, Tom tries to make Torchbox a fun and inspiring place to work. Tom lives with his family in the countryside. He reads novels and gets cross at tennis. He plays in three bands who will probably never make it. He composed the theme tune to Charlie and Lola.",
-        "country": "UK",
+        "country": "United Kingdom",
         "avatar": "img/speakers/tom_dyson.jpg",
         "links": {
             "linkedin": "https://www.linkedin.com/in/tomdyson/",
@@ -12,7 +12,7 @@
     {
         "name": "Hannah Hazi",
         "bio": "I am an Engineer based in Cambridge, UK. I currently work at Stratasys as a C++, Python and Typescript developer, working on tools to support our GrabCAD Print software. In my spare time I love tinkering with Raspberry Pi and playing complicated board games.",
-        "country": "UK",
+        "country": "United Kingdom",
         "avatar": "img/speakers/female.png",
         "links": {
         }
@@ -20,6 +20,7 @@
     {
         "name": "Nicholas Thapen",
         "bio": "Nick is a founder of Sourcery, a startup that is using AI to help everyone write better code faster. He is a developer and architect with over a decade of experience in both academia and industry. He worked on machine learning and Twitter analytics at Imperial College London, and has also spent time as a developer and architect in the financial sector.",
+        "country": "",
         "avatar": "img/speakers/nick_thapen.png",
         "links": {
             "linkedin": "https://www.linkedin.com/in/nicholas-thapen/",
@@ -30,7 +31,7 @@
     {
         "name": "Emilie Sengstschmid",
         "bio": "Emilie Sengstschmid is working as a software engineer at the University of Applied Arts Vienna. In 2016 she joined the Portfolio/Showroom project, whose main aim is to enable artists and scientists to announce, store and publish their own work and to exchange ideas with colleagues. Her responsibilities concern the entire development process from requirements engineering to deployment. She had worked on high performance applications at the Austrian Federal Computing Center before. She holds a bachelor's degree in Engineering.",
-        "country": "AT",
+        "country": "Austria",
         "avatar": "img/speakers/emilie_sengstschmid.jpg",
         "links": {
         }
@@ -38,6 +39,7 @@
     {
         "name": "Roman Imankulov",
         "bio": "Roman is a software developer who started his career creating web apps with Django before it was cool. Eventually he sticks to Python for more than a decade, successfully using it as a golden hammer it to solve all kinds of problems. Originally Russian, at the moment he lives in Porto and works at Doist as head of the back-end development team.",
+        "country": "",
         "avatar": "img/speakers/roman_imankulov.jpg",
         "links": {
             "linkedin": "https://www.linkedin.com/in/roman-imankulov-91076144/",
@@ -56,7 +58,7 @@
     {
         "name": "Dom Weldon",
         "bio": "Dom Weldon is a Principal Software Engineer at decisionLab, a London-based mathematical modelling consultancy with expertise in machine learning, simulation, optimization and visualization. Dom's team specialize in taking models from data scientists and turning them into production ready tools. Current clients include the Royal Navy, Siemens and various UK public bodies.\n\nDom came to decisionLab from his PhD studies in Computational Geography at King's College London, his initial degree was in Natural Sciences at the University of Cambridge, and holds a master's in the historical and cultural geography of the Cold War United States. Outside of work, Dom is interested in languages and travelling, and holds a voluntary statutory appointment on a board monitoring the welfare and dignity of prisoners in a challenging North London jail.",
-        "country": "UK",
+        "country": "United Kingdom",
         "avatar": "img/speakers/dom_weldon.jpg",
         "links": {
             "link": "https://www.decisionlab.co.uk/"
