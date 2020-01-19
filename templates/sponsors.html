@@ -1,0 +1,183 @@
+{% extends "body.html" %}
+{% block content %}
+<section class="inner-page-banner {{ background}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('Our sponsors') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
+            </li>
+            <li>{{ _('Our sponsors') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Inner Page Banner Area End Here -->
+    <!-- Sponsors Area Start Here -->
+    <section class="section-space-default bg-light">
+        <div class="container">
+            <div class="section-heading title-black color-dark text-center">
+                <h2>{{_('Our sponsors and partners')}}</h2>
+                <p>{{_('We would be probably not able to make this event happen without support of our generous sponsors.')}}</p>
+                <p>{{_('Check who made this event possible!')}}</p>
+            </div>
+
+
+<!--          <div class="title-black color-dark text-center">-->
+<!--              <div class="sponsor-details">-->
+
+            <div class="sponsonrs-layout1">
+              <h3 class="color-dark title-black text-center sponsors-title">{{_('Diamond sponsor')}}</h3>
+              <div class="row sponsor-row">
+                  <div class="col-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/titans.svg') }}" alt="Titans freelancers logo"/>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <h3 class="color-dark title-black text-center sponsors-title">{{_('Platinum sponsors')}}</h3>
+              <div class="row sponsor-row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/exponea.jpg') }}" alt="Exponea logo"/>
+                          </a>
+                      </div>
+                  </div>
+<!--                  <div class="col-md-6 col-sm-12 col-xs-12">-->
+<!--                      <div class="sponsonrs-box sponsor-details">-->
+<!--                          <a href="#">-->
+<!--                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/exponea.jpg') }}" alt="Exponea logo"/>-->
+<!--                          </a>-->
+<!--                      </div>-->
+<!--                  </div>-->
+              </div>
+
+              <h3 class="color-dark title-black text-center sponsors-title">{{_('Gold sponsors')}}</h3>
+              <div class="row sponsor-row">
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 sponsor-row">
+                      <div class="sponsonrs-box sponsor-details sponsor-row">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/rbi.png') }}" alt="Red hat logo"/>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/pwc.svg') }}" alt="Red hat logo"/>
+                          </a>
+                      </div>
+                  </div>
+<!--                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">-->
+<!--                      <div class="sponsonrs-box sponsor-details">-->
+<!--                          <a href="#">-->
+<!--                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/redhat.svg') }}" alt="Red hat logo"/>-->
+<!--                          </a>-->
+<!--                      </div>-->
+<!--                  </div>-->
+              </div>
+
+              <h3 class="color-dark title-black text-center sponsors-title">{{_('Silver sponsors')}}</h3>
+              <div class="row sponsor-row">
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/kistler.svg') }}" alt="Red hat logo"/>
+                          </a>
+                      </div>
+                  </div>
+<!--                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">-->
+<!--                      <div class="sponsonrs-box sponsor-details">-->
+<!--                          <a href="#">-->
+<!--                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/redhat.svg') }}" alt="Red hat logo"/>-->
+<!--                          </a>-->
+<!--                      </div>-->
+<!--                  </div>-->
+<!--                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">-->
+<!--                      <div class="sponsonrs-box sponsor-details">-->
+<!--                          <a href="#">-->
+<!--                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/redhat.svg') }}" alt="Red hat logo"/>-->
+<!--                          </a>-->
+<!--                      </div>-->
+<!--                  </div>-->
+              </div>
+
+              <h3 class="color-dark title-black text-center sponsors-title">{{_('Bronze sponsors')}}</h3>
+              <div class="row sponsor-row">
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/jetbrains.svg') }}" alt="Red hat logo"/>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/oreilly.jpg') }}" alt="Red hat logo"/>
+                          </a>
+                      </div>
+                  </div>
+<!--                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">-->
+<!--                      <div class="sponsonrs-box sponsor-details">-->
+<!--                          <a href="#">-->
+<!--                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/redhat.svg') }}" alt="Red hat logo"/>-->
+<!--                          </a>-->
+<!--                      </div>-->
+<!--                  </div>-->
+              </div>
+
+              <h3 class="color-dark title-black text-center sponsors-title">{{_('Partners')}}</h3>
+              <div class="row sponsor-row">
+                  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/bts-group.png') }}" alt="Red hat logo"/>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/slido.svg') }}" alt="Red hat logo"/>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                      <div class="sponsonrs-box sponsor-details">
+                          <a href="#">
+                              <img class="img-responsive img-fluid" src="{{ url_for('static', filename='img/partners/fiit.svg') }}" alt="Red hat logo"/>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--                    <div class="row">-->
+<!--                        <div class="col-12 text-center">-->
+<!--                            <a href="#" title="Become a Sponsors" class="btn-fill size-lg color-yellow border-radius-5 margin-t-30">Become a Sponsors</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+
+
+<!-- Content Page Area End Here -->
+{% endblock %}
+
+{% block js %}
+{% endblock %}
