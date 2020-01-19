@@ -119,6 +119,11 @@ def cfv():
     return render_template('cfv.html', **_get_template_variables(li_cfv='active', background='bkg-cfv'))
 
 
+@app.route('/<lang_code>/sponsors.html')
+def sponsors():
+    return render_template('sponsors.html', **_get_template_variables(li_sponsors='active', background='bkg-index'))
+
+
 @app.route('/<lang_code>/thanks.html')
 def thanks():
     return render_template('thanks.html', **_get_template_variables(li_cfp='active', background='bkg-index'))

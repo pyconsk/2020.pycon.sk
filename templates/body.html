@@ -47,6 +47,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='backgrounds.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='pycon.css') }}">
 
   {% block header %}{% endblock %}
 
@@ -110,9 +111,9 @@
                                     <div class="eventalk-main-menu">
                                         <nav class="d-none d-lg-block">
                                             <ul>
-                                                <li{% if li_index %} class="menu-justify current"{% endif %}>
-                                                  <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
-                                                </li>
+<!--                                                <li{% if li_index %} class="menu-justify current"{% endif %}>-->
+<!--                                                  <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>-->
+<!--                                                </li>-->
                                                 <li{% if li_news %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>
                                                 </li>
@@ -121,6 +122,9 @@
                                                 </li>
                                                 <li{% if li_cfv %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
+                                                </li>
+                                                <li{% if li_sponsors %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
                                                 </li>
                                                 <li{% if li_coc %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>

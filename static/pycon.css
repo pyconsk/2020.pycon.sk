@@ -1,0 +1,34 @@
+.sponsor-web-link a i{
+	font-size: 14px;
+   width: 36px;
+   height: 36px;
+   line-height: 36px;
+   background: #303030;
+   border-radius: 100%;
+   margin: 10px 3px 0 3px;
+}
+
+.sponsors-title {
+    border-bottom: 1px solid
+    #dadada;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.sponsor-details {
+    margin-top: 20px;
+}
+
+.sponsor-info, .sponsor-name {
+    font-size: 23px;
+    margin-top: 20px;
+    color:
+    #ea531c;
+}
+
+.sponsor-row {
+    vertical-align:middle;
+}
+
