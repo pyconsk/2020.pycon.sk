@@ -90,6 +90,7 @@ def news_category(category):
             news.append(item)
 
     template_vars['news'] = news
+    template_vars['category'] = category
     return render_template('news.html', **template_vars)
 
 
@@ -110,7 +111,7 @@ def venue():
 
 @app.route('/<lang_code>/aboutus.html')
 def aboutus():
-    return render_template('aboutus.html', **_get_template_variables(li_venue='active', background='bkg-index'))
+    return render_template('aboutus.html', **_get_template_variables(li_aboutus='active', background='bkg-index'))
 
 
 @app.route('/<lang_code>/tickets.html')
@@ -155,14 +156,14 @@ def privacy_policy():
 
 @app.route('/<lang_code>/speakers/index.html')
 def speakers():
-    variables = _get_template_variables(li_schedule_nav='active', background='bkg-speaker', speakers=SPEAKERS)
+    variables = _get_template_variables(li_speakers='active', background='bkg-speaker', speakers=SPEAKERS)
 
     return render_template('speaker_list.html', **variables)
 
 @app.route('/<lang_code>/speakers/<name>.html')
 def profile(name):
     name = ' '.join(name.split('-')).title()
-    variables = _get_template_variables(li_schedule_nav='active', background='bkg-speaker')
+    variables = _get_template_variables(li_speakers='active', background='bkg-speaker')
 
     for speaker in SPEAKERS:
         if speaker['name'] == name:
