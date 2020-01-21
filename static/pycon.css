@@ -32,3 +32,109 @@
     vertical-align:middle;
 }
 
+/* Accordion */
+
+.panel-default>.panel-heading{
+	 background: none;
+	 border-radius: 0;
+	 position: relative;
+	 padding: 6px 6px;
+     border: 1px;
+}
+
+.panel-group .panel{
+	 border-radius: 0;
+	 margin-bottom: 10px;
+}
+
+.panel-body{
+	 padding: 20px 20px 10px 20px;
+}
+
+.panel-body > img{
+	 max-width: 100px;
+	 margin-bottom: 10px;
+     border:1px;
+}
+
+h4.panel-title{
+	 font-size: 16px;
+	 background: none;
+	 border: 1px;
+	 padding: 8px 0 8px 0;
+	 line-height: normal;
+	 border-radius: 0;
+}
+
+h4.panel-title a{
+	 color: #ea531c;
+}
+
+h4.panel-title span{
+	 float: right;
+}
+
+h4.panel-title a.collapsed{
+	 color: #333;
+}
+
+h4.panel-title a:before{
+		background: #ea531c;
+		color: #fff;
+		width: 26px;
+		height: 26px;
+		line-height: 26px;
+}
+
+h4.panel-title a.collapsed:before{
+	 background: #303030;
+	 color: #fff;
+}
+
+h4.panel-title a:before,
+h4.panel-title a.collapsed:before{
+	 font-family: "FontAwesome";
+	 position: absolute;
+	 z-index: 0;
+	 font-size: 14px;
+	 right: 15px;
+	 padding: 0 5px;
+	 text-align: center;
+	 top: 50%;
+	 -webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+}
+
+h4.panel-title a:before {
+	 content: "\f106";
+}
+
+h4.panel-title a.collapsed:before {
+	 content: "\f107";
+}
+
+
+/* Accordion classic */
+
+.panel-classic .panel-heading{
+	 padding-left: 15px;
+}
+
+.panel-classic h4.panel-title a:before,
+.panel-classic h4.panel-title a.collapsed:before{
+	 position: relative;
+	 content: '';
+	 font-size: 0;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.panel-default>.panel-heading:hover {
+    color: #222;
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}

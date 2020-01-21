@@ -98,6 +98,21 @@ def coc():
     return render_template('coc.html', **_get_template_variables(li_coc='active', background='bkg-chillout'))
 
 
+@app.route('/<lang_code>/faq.html')
+def faq():
+    return render_template('faq.html', **_get_template_variables(li_faq='active', background='bkg-chillout'))
+
+
+@app.route('/<lang_code>/venue.html')
+def venue():
+    return render_template('venue.html', **_get_template_variables(li_venue='active', background='bkg-chillout'))
+
+
+@app.route('/<lang_code>/aboutus.html')
+def aboutus():
+    return render_template('aboutus.html', **_get_template_variables(li_venue='active', background='bkg-index'))
+
+
 @app.route('/<lang_code>/tickets.html')
 def tickets():
     return render_template('tickets.html', **_get_template_variables(li_tickets='active', background='bkg-index'))
