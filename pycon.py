@@ -40,7 +40,11 @@ def sitemap():
                 # We want to avoid that when a page isn't localized.
                 values = {'lang_code': lang} if 'lang_code' in rule.arguments else {}
 
-                if 'category' in rule.arguments:
+                if 'name' in rule.arguments:
+                    for speaker in SPEAKERS:
+                        values['name'] = speaker['name'].lower().replace(' ', '-')
+                        pages.append(DOMAIN + url_for(rule.endpoint, **values))
+                elif 'category' in rule.arguments:
                     for category in CATEGORIES.keys():
                         values['category'] = category
                         pages.append(DOMAIN + url_for(rule.endpoint, **values))
