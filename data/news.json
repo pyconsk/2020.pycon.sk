@@ -1,4 +1,13 @@
 [
+   {
+    "date": "2020-02-01",
+    "title_en": "CfP has been closed.",
+    "meta_en": "We have received more than a hundred proposals, thanks everyone for the interest. Comittee is reviewing all the proposals and will contact everyone as soon possible.",
+    "title_sk": "Prihlasovanie prednášok bolo uzavreté.",
+    "meta_sk": "Obdržali sme viac ako sto návrhov na prednášky, ďakujeme všetkým za záujem. Komisia vyhodnocuje všetky vaše návrhy a bude kontaktovať všetkých čo najskôr.",
+    "categories": ["speakers"],
+    "url": "/en/cfp.html"
+  },
   {
     "date": "2020-01-09",
     "title_en": "We are extending CfP deadline.",
