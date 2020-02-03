@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+  <atom:link href="https://2020.pycon.sk/en/feed.rss" rel="self" type="application/rss+xml" />
+  <title>PyCon SK 2020 Newsroom</title>
+  <link>https://2020.pycon.sk/en/news.html</link>
+  <description>News from PyCon Sk 2020 community conference</description>
+  <language>en</language>
+  <item>
+    <title>Conference chat.</title>
+    <link>https://join.slack.com/t/pyconsk/shared_invite/enQtODQ4NjU1NzM2NzI3LTA2ZGNiOTA4YzM5OWM3NmQyZjAxMDlmNzJjOGIzNjM4ZjEwZGI0MTJiYzAxZmNhZmVjMTZjZjliNWQ4ZjVlNjE</link>
+    <description>Last year we have used Slack as our conference chat so you can get in touch with organizers and also with fellow participants. For PyCon SK 2020 chat we are going to use the Slack.</description>
+    <pubDate>Sat, 23 Nov 2019 00:00:00 +0100</pubDate>
+    <guid isPermaLink="false">X1297842880833849801</guid>
+    <category>media</category>
+  </item>
+  <item>
+    <title>First batch of speakers.</title>
+    <link>https://2020.pycon.sk</link>
+    <description>We are honoured to announce the first batch of speakers that will be part of PyCon SK 2020.</description>
+    <pubDate>Sat, 16 Nov 2019 00:00:00 +0100</pubDate>
+    <guid isPermaLink="false">X7011295520301786405</guid>
+    <category>speakers</category>
+  </item>
+  <item>
+    <title>We celebrate the Day of Fighting for Freedom and Democracy.</title>
+    <link>https://en.wikipedia.org/wiki/Velvet_Revolution</link>
+    <description>On 17th November we celebrate the Day of Fighting for Freedom and Democracy. Thanks to this event we can freely organize PyCon SK. We want you to celebrate with us. During the holiday you can use 17% discount for tickets using discount code &#34;30-rokov-slobody&#34;.</description>
+    <pubDate>Fri, 15 Nov 2019 00:00:00 +0100</pubDate>
+    <guid isPermaLink="false">1930167262659116288</guid>
+    <category>conference</category>
+  </item>
+  <item>
+    <title>The Call for Proposals is open!</title>
+    <link>https://2020.pycon.sk/en/cfp.html</link>
+    <description>Do you know anyone in underrepresented group in IT who would like to do a conference talk? Let us know, and try to encourage him/her to submit Call for Proposals for PyCon SK 2020. We are trying to support diversity. Anyone can be part of the conference.</description>
+    <pubDate>Sun, 20 Oct 2019 00:00:00 +0100</pubDate>
+    <guid isPermaLink="false">2475977916832491908</guid>
+    <category>speakers</category>
+  </item>
+</channel>
+
+</rss>

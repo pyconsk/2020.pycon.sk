@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-04 22:46+0100\n"
+"POT-Creation-Date: 2020-01-05 19:55+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -16,11 +16,23 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.7.0\n"
 
-#: pycon.py:8
+#: settings.py:4
 msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
 msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
+
+#: utils.py:72
+msgid "Unnamed message"
+msgstr "Správa bez názvu"
+
+#: utils.py:98
+msgid "PyCon SK 2020 Newsroom"
+msgstr "Novinky z PyCon SK 2020"
+
+#: utils.py:100
+msgid "News from PyCon Sk 2020 community conference"
+msgstr "Novinky z komunitnej konferencie PyCon SK"
 
 #: templates/body.html:8
 msgid "Official PyCon SK 2020 website"
@@ -38,11 +50,11 @@ msgstr ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python, ktorá sa bude konať v Bratislave 27. až 29. marca 2019."
 
-#: templates/body.html:67
+#: templates/body.html:69
 msgid "You are using an <strong>outdated</strong> browser."
 msgstr "Používate <strong>zastaraný</strong> prehliadač."
 
-#: templates/body.html:68
+#: templates/body.html:70
 msgid ""
 "Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to "
 "improve your experience."
@@ -50,46 +62,46 @@ msgstr ""
 "Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
-#: templates/body.html:117 templates/news.html:10 templates/news.html:18
+#: templates/body.html:119 templates/news.html:10 templates/news.html:18
 msgid "Newsroom"
 msgstr "Novinky"
 
-#: templates/body.html:120 templates/body.html:152 templates/cfp_form.html:15
+#: templates/body.html:122 templates/body.html:154 templates/cfp_form.html:15
 #: templates/recording.html:15
 msgid "Call for proposals"
 msgstr "Prihlás svoj príspevok"
 
-#: templates/body.html:123 templates/body.html:155
+#: templates/body.html:125 templates/body.html:157
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
-#: templates/body.html:126 templates/body.html:158 templates/coc.html:10
+#: templates/body.html:128 templates/body.html:160 templates/coc.html:10
 #: templates/coc.html:15
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:161 templates/body.html:186 templates/body.html:187
-#: templates/index.html:20 templates/index.html:277
+#: templates/body.html:163 templates/body.html:188 templates/body.html:189
+#: templates/index.html:20 templates/index.html:273
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:213
+#: templates/body.html:215
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:227
+#: templates/body.html:229
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:241
+#: templates/body.html:243
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:255
+#: templates/body.html:257
 msgid "Sponsor Queries"
 msgstr "Otázky o sponzorovaní"
 
-#: templates/body.html:271
+#: templates/body.html:273
 msgid ""
 "The PyCon SK 2020 conference, which will be held in Bratislava, is the "
 "annual gathering for the community using and developing the open-source "
@@ -99,16 +111,16 @@ msgstr ""
 "každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
 "programovací jazyk Python."
 
-#: templates/body.html:273 templates/body.html:323 templates/countdown.html:98
+#: templates/body.html:275 templates/body.html:325 templates/countdown.html:98
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi a dobrovoľníčkami z %(spy)s."
 
-#: templates/body.html:274 templates/body.html:324 templates/countdown.html:99
+#: templates/body.html:276 templates/body.html:326 templates/countdown.html:99
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:326 templates/countdown.html:94
+#: templates/body.html:328 templates/countdown.html:94
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -117,11 +129,11 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:328 templates/countdown.html:96
+#: templates/body.html:330 templates/countdown.html:96
 msgid "Python Software Foundation"
 msgstr "Python Software Foundation"
 
-#: templates/body.html:331 templates/countdown.html:102
+#: templates/body.html:333 templates/countdown.html:102
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is a community managed "
@@ -1066,11 +1078,11 @@ msgstr "Rečníci, ktorí už potvrdili účasť na PyCon SK 2020."
 msgid "You can fill the Call for Proposals and join this list..."
 msgstr "Vyplň návrh na prednášku a pridaj sa do zoznamu..."
 
-#: templates/index.html:275
+#: templates/index.html:271
 msgid "Get Your Ticket Now"
 msgstr "Kúp si lístok teraz"
 
-#: templates/index.html:276
+#: templates/index.html:272
 msgid ""
 "Conference tickets are available for purchase. So far each PyCon SK "
 "edition has sold out, so do not leave buying your ticket to the last "
@@ -1080,19 +1092,19 @@ msgstr ""
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
 
-#: templates/index.html:288
+#: templates/index.html:284
 msgid "Official Sponsors &amp; Partners"
 msgstr "Oficiálni sponzori a partneri"
 
-#: templates/index.html:289
+#: templates/index.html:285
 msgid "We are looking for sponsors and partners. Please get in touch with us."
 msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
-#: templates/index.html:290
+#: templates/index.html:286
 msgid "Check Who Makes This Event Possible!"
 msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
 
-#: templates/index.html:294 templates/index.html:295
+#: templates/index.html:290 templates/index.html:291
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
