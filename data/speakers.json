@@ -7,26 +7,14 @@
         "links": {
             "linkedin": "https://www.linkedin.com/in/tomdyson/",
             "link": "https://torchbox.com/team/tom-dyson/"
-        }
-    },
-    {
-        "name": "Hannah Hazi",
-        "bio": "I am an Engineer based in Cambridge, UK. I currently work at Stratasys as a C++, Python and Typescript developer, working on tools to support our GrabCAD Print software. In my spare time I love tinkering with Raspberry Pi and playing complicated board games.",
-        "country": "United Kingdom",
-        "avatar": "img/speakers/female.png",
-        "links": {
-        }
-    },
-    {
-        "name": "Nicholas Thapen",
-        "bio": "Nick is a founder of Sourcery, a startup that is using AI to help everyone write better code faster. He is a developer and architect with over a decade of experience in both academia and industry. He worked on machine learning and Twitter analytics at Imperial College London, and has also spent time as a developer and architect in the financial sector.",
-        "country": "",
-        "avatar": "img/speakers/nick_thapen.png",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/nicholas-thapen/",
-            "twitter": "https://twitter.com/nthapen",
-            "link": "https://sourcery.ai/"
-        }
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "To be announced...",
+                "text": "To be announced..."
+            }
+        ]
     },
     {
         "name": "Emilie Sengstschmid",
@@ -34,18 +22,63 @@
         "country": "Austria",
         "avatar": "img/speakers/emilie_sengstschmid.jpg",
         "links": {
-        }
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Portfolio: How to build a flexible web application using controlled vocabularies and data schemes",
+                "text": "The presentation of art works requires a very versatile and flexible web application. Artists use different media and presentation formats (exhibition, installation, performance, dance, music, etc.). Portfolio is a state-of-the-art research information system designed specifically for the needs of artists. Portfolio’s requirements included creating different and flexible object types which can be defined through a controlled vocabulary maintained by a special non-technical user group.\nPortfolio is built with Django. To fulfill the requirement of flexible and expandable object types a single PostgreSQL JSON database field is used to save object specific data. Data schemes for JSON serialized data are built with marshmallow, a library for simplified object serialization. Skosmos is used to publish, and provide a REST API for the controlled vocabulary which is maintained by non-technical users through VocBench, a web-based, collaborative development platform for managing SKOS thesauri. Portfolio provides a REST API for its Vue.js powered frontend and communication to other applications."
+            }
+        ]
     },
     {
         "name": "Roman Imankulov",
         "bio": "Roman is a software developer who started his career creating web apps with Django before it was cool. Eventually he sticks to Python for more than a decade, successfully using it as a golden hammer it to solve all kinds of problems. Originally Russian, at the moment he lives in Porto and works at Doist as head of the back-end development team.",
-        "country": "",
+        "country": "Portugal",
         "avatar": "img/speakers/roman_imankulov.jpg",
         "links": {
             "linkedin": "https://www.linkedin.com/in/roman-imankulov-91076144/",
             "twitter": "https://twitter.com/rdotpy",
             "github": "https://github.com/imankulov"
-        }
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Modernizing a twelve-year-old project",
+                "text": "To be announced..."
+            }
+        ]
+    },
+    {
+        "name": "Hannah Hazi",
+        "bio": "I am an Engineer based in Cambridge, UK. I currently work at Stratasys as a C++, Python and Typescript developer, working on tools to support our GrabCAD Print software. In my spare time I love tinkering with Raspberry Pi and playing complicated board games.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/female.png",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "The Knowledge In The Code: Or How I Learned to Stop Worrying and Love Legacy Code",
+                "text": "Legacy code. It's old, poorly documented, barely tested, a nightmare to work with. You've never met the people who wrote it, but if you did you'd have a thing or two to tell them! If you had the time, you'd love to re-write it all.\n\nBut what if I told you that there are gems hidden in your company's old code? That re-writing it from scratch would be a bad mistake?\n\nThis is the story of how I learned to love legacy code. And how you might, too!\n\nThis talk is a revised and improved version of one I originally gave at PyCon UK, with more of an emphasis on what good refactoring can look like."
+            }
+        ]
+    },
+    {
+        "name": "Michal Cyprian",
+        "bio": "Michal works as a software engineer at Kiwi.com. Python is his language of choice since high school. He likes challenges, travelling and learning new things.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/michal_cyprian.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/michal-cyprian-b5b915127/"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "How (not) to turn Kubernetes self-healing capabilities into self-destructive machinery",
+                "text": "Kubernetes won the container orchestration war in 2017 and become the de facto standard for deploying containerized applications at scale. Many software projects, including Python projects, are being migrated to Kubernetes nowadays. The vision of a beautiful Cloud-native ecosystem powered by Kubernetes, where the smallest misbehavior of services is detected and everything scales automatically is very nice. However, the way to such an ecosystem can be longer and harder than it seems to be. What are the real challenges of migrating complex Python system to Kubernetes? What are the threats you should be aware of?\n\nThis talk summarizes the experience gained during the migration of booking, one of the most critical Python services at Kiwi.com, to Google Kubernetes Engine. Booking is a mixture of legacy services, new services based on Flask and asynchronous Celery tasks. I will be talking about our approach, our success, but also our failures and things we've learned the hard way."
+            }
+        ]
     },
     {
         "name": "Filipa Andrade",
@@ -53,7 +86,14 @@
         "country": "Portugal",
         "avatar": "img/speakers/filipa_andrade.jpg",
         "links": {
-        }
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Breaking stereotypes in tech",
+                "text": "Like any other field, the tech world has many stereotypes, gender, ethnic or age stereotypes are fairly easy to spot. In this talk I will show you some of those stereotypes and present my ideas of where they come from. We will see why stereotypes are harmful, not only for the people involved but also for the tech world itself. I will share my personal perspective on how to break those stereotypes and open the way for more people to join our community."
+            }
+        ]
     },
     {
         "name": "Dom Weldon",
@@ -62,6 +102,46 @@
         "avatar": "img/speakers/dom_weldon.jpg",
         "links": {
             "link": "https://www.decisionlab.co.uk/"
-        }
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Oxidizing MyPy: Typed Python, Rust and Rust-in-Python.",
+                "text": "Python is a very readable, dynamically typed, interpreted, object oriented general purpose programming language that’s easy to learn, but offers almost unlimited power and flexibility to build almost whatever you want. However, as you go deeper into Python, some of the very features that made you fall in love with the language may start to limit what you can do: dynamic typing can make bugs hard to spot, large codebases can create a sea of objects, and the global interpreter lock (GIL) starts to impose a hard limit on performance. \n\nMeanwhile, Rust - a relatively new compiled systems programming language - is statically (and safely) typed, and offers and \"\"fearless\"\" concurrency without the limitations of the GIL; indeed, idiomatic Rust code runs at comparable speeds to C/C++. However, despite having a brilliant community, Rust is acknowledged as presenting a steep learning curve, and with so much Python being used in data science, academia, industry and beyond, switching entirely to Rust simply isn’t a sensible option for most teams. \n\nAt decisionLab, a mathematical modelling and data science consultancy based in central London, we wanted to improve our Python code quality and maintainability as much as possible, whilst also making use of the speed improvements that Rust could offer for some of our most performance critical algorithms.\n\nSo, we embraced typed Python, whilst also exploring Rust. So far, the effects on our code have been excellent. Not only did we spot bugs and improve our documentation using typed Python, but we were also able to use high level tools which leverage typed Python to build APIs and interfaces to our code and accelerate development. Best of all, using Rust from within our Python code was much easier than expected.\n\nThis talk will give a brief overview of typed Python, and how and why you would want to use it, alongside an overview of some excellent high-level tools that let your typed code fly. I'll also give an introduction to Rust the language, and the two major Rust-Python bindings: PyO3 and Rust-Python. We’ll then explore an example of how to write a Rust module and use it in Python.\n\nHopefully, I'll convince you that you don't need to be a computer science genius to work with a systems programming language, and that using Rust in your code doesn't require a complete re-write, but that you can actually start to swap-and-switch your code into Rust class by class, function by function.\n\nAt the same time, I'll reflect on the roles of Rust, Python and code generally in solving business problems. My aim in this talk is to show that Rust and Python are not enemies or competitors, but rather that they are different tools with different uses, and that when they are used in combination, great things can happen! In doing so, I'll offer my take on what I think the future of Rust is in Python."
+            }
+        ]
+    },
+    {
+        "name": "Ines Meršak",
+        "bio": "I hold a Master’s degree in mathematics and am currently a software developer at Bitstamp. I believe in writing and testing good software and am happiest when I get a lengthy peer review. I am also interested in data structures and algorithms and spend too much time playing RPGs (and too little time practising my guitar).",
+        "country": "Slovenia",
+        "avatar": "img/speakers/ines_mersak.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Pushing Django to its limit: rally of 2017",
+                "text": "Cyptocurrencies first came about in 2009 with Bitcoin. Two years later, Bitcoin’s price has risen above a dollar and two young men decided to start a cryptocurrency exchange in their own garage in Slovenia, armed with 1000 EUR starting capital and some knowledge of Python and Django.\nToday, Bitstamp is the longest-standing exchange. Still running on Django, it had the most uptime (the site was unavailable for only half an hour) amongst all cryptocurrency exchanges in the rally of December 2017.\n\nIn this talk, I will introduce the most important part of any cryptocurrency exchange: trading. We will take a look at different order types, explain when a match happens and touch upon the logic of our old matching engine. We will talk about the problems legacy code has brought us, the improvements we’ve had to make to survive the rally and why we (trading team at Bitstamp) are now moving from Python to Go."
+            }
+        ]
+    },
+    {
+        "name": "Nicholas Thapen",
+        "bio": "Nick is a founder of Sourcery, a startup that is using AI to help everyone write better code faster. He is a developer and architect with over a decade of experience in both academia and industry. He worked on machine learning and Twitter analytics at Imperial College London, and has also spent time as a developer and architect in the financial sector.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/nick_thapen.png",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/nicholas-thapen/",
+            "twitter": "https://twitter.com/nthapen",
+            "link": "https://sourcery.ai/"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Sourcery - Write better code faster with AI",
+                "text": "Sourcery is a new tool designed to take the hard work out of refactoring.\nIt uses AI to search the space of possible changes to the code in search of improvements, backed up by extensive static analysis to prevent changes to functionality.\nFind out how Sourcery was made and what it can do."
+            }
+        ]
     }
 ]

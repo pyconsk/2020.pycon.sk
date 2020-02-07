@@ -45,32 +45,31 @@
                     <p>{{ speaker['bio'] }}</p>
                 </div>
             </div>
+            {% for abstract in speaker['abstracts'] %}
+            <div class="col-12">
+                <div class="pt-5 event-description">
+                    <h2 class="title title-bold color-dark">{{ abstract['title'] }} <span class="pull-right badge badge-pill badge-primary">{{ abstract['type'] }}</span></h2>
+                    {% set paragraph = abstract['text'].split('\n') %}
+                    {% for p in paragraph %}
+                    <p>{{ p }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 <!--    <div class="container">-->
 <!--        <h3 class="title-bold color-dark title-bar">All Sessions By {{ speaker['name'] }}</h3>-->
 <!--        <div class="row">-->
+<!--            {% for abstract in speaker['abstracts'] %}-->
 <!--            <div class="col-lg-4 col-md-12 col-sm-12">-->
 <!--                <div class="profile-event">-->
-<!--                    <h3 class="title title-bold color-dark">Day_01</h3>-->
+<!--                    <h3 class="title title-bold color-dark">{{ abstract['title'] }}</h3>-->
 <!--                    <div class="profile-event-date">July 23, 2018 10.00-11.30</div>-->
 <!--                    <div class="profile-event-place">CineHall_1</div>-->
 <!--                </div>-->
 <!--            </div>-->
-<!--            <div class="col-lg-4 col-md-12 col-sm-12">-->
-<!--                <div class="profile-event">-->
-<!--                    <h3 class="title title-bold color-dark">Day_02</h3>-->
-<!--                    <div class="profile-event-date">August 17, 2018 10.00-11.30</div>-->
-<!--                    <div class="profile-event-place">CineHall_1</div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-4 col-md-12 col-sm-12">-->
-<!--                <div class="profile-event">-->
-<!--                    <h3 class="title title-bold color-dark">Day_03</h3>-->
-<!--                    <div class="profile-event-date">September 29, 2018 10.00-11.30</div>-->
-<!--                    <div class="profile-event-place">CineHall_1</div>-->
-<!--                </div>-->
-<!--            </div>-->
+<!--            {% endfor %}-->
 <!--        </div>-->
 <!--    </div>-->
 </section>
