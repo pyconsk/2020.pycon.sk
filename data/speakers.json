@@ -143,5 +143,67 @@
                 "text": "Sourcery is a new tool designed to take the hard work out of refactoring.\nIt uses AI to search the space of possible changes to the code in search of improvements, backed up by extensive static analysis to prevent changes to functionality.\nFind out how Sourcery was made and what it can do."
             }
         ]
+    },
+    {
+        "name": "Lilian Nandi",
+        "bio": "Lilian studied Computer Science at high school and did her PhD in Computer Modelling from University College London. She went on to looking at computer applications and programming in the pharmaceutical sector before entering formal teaching for the next generation. She is currently engaged in teaching Python programming, C# and Javascript. She has given lectures in conferences both in the UK and abroad about the teaching of Computer Programming to young people. She has ran computer clubs including that of 'computer-assisted' investment for children and is a full member of the British Computer Society.\n\nLilian firmly believes that in this emergent brave new world, the Anthrpocene age, the computer (with its associated technologies) is the harbinger to transform globally man's short slavish existence to a better one - a world community defined by longer, richer and freer life experiences. She believes it is imperative that our schools empower our young children with his new knowledge, and Lilian herself did help reshape the Computer Science Department of an independent boys' school as Head of Department. She has produced for children more than 75 YouTube (online) videos on Computer Science and Programming - and has had more than 12,000 hits globally.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/female.png",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Creating the Next Generation of (Technology) Billionaires - Part 2",
+                "text": "Our generation of young people in school (aged 5-18) have noticed the connection between Computer pRogramming, Technology & Success and Billionaires.On mass they are clamoring to master the skill of Computer pRogramming. We describe a successful working model for the teaching of Computer pRogamming.\n\nComputer Science is now regarded as one of the leading disciplines in the 21st century. Computers are ubiquitous and prevalent in most, if not all, sectors of our modern society – applications include using them in weather forecasting, robotic surgery, space exploration, e-commerce, smart cities, driverless cars, etc.\n\nTherefore, coding or computer programming is now regarded by many as an essential skill for the young person, and it has been dubbed the ‘4th’ R’ (computer pRogramming) along with Reading, wRiting and aRithmetic.\n\nIn recognition of the new status of computer programming, governments worldwide have launched initiatives to have it taught in schools from Kindergarten through to junior school and all the way through secondary school.\n\nSo, the question emerges is how do we best teach and motivate the next generation in acquiring this skill? Given the fact that this field is very much in its infancy, there are insufficient number of skilled Computer Science teachers and very little pedagogy to guide the educator. Therefore, the whole world is learning how best to teach this subject by trial and error.\n\nThe talk will describe a case study whereby coding/computer programming, in the form of Python programming, was introduced to a group of 110 young people from the ages of 11 to 18 (Years 7-13 in a U.K secondary school). The talk will include descriptions of the various teaching methodologies introduced to the young people for this purpose and the outcomes; the talk will also address various challenges and questions about how to teach coding to young people. The talk will conclude with helpful suggestions, based on the findings of the case study, on how to proceed with the teaching of computer programming to these people."
+            }
+        ]
+    },
+    {
+        "name": "Dmitry Dygalo",
+        "bio": "I am a team lead at kiwi.com in Prague. I started with Python in 2010 as a hobby during the university, then switched to a fulltime developer job after graduation. I love writing tests and cares about code maintainability. My hobbies are open source and traveling.",
+        "country": "Czech Republic",
+        "avatar": "img/speakers/dmitry_dygalo.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Stop writing tests for your web API! Try to generate them first",
+                "text": "Having a comprehensive test suite is a crucial part of modern software development. But often, writing tests at scale is a tiresome and error-prone process.\n\nIn this talk, I will share thoughts and ideas about the applicability of property-based testing for web applications, show concrete examples and tools that will improve your test suites with minimal efforts.\nWe'll go through problems in testing that we are facing in Kiwi.com and the story behind Schemathesis - a tool that brings a popular Hypothesis testing library to the world of web applications."
+            }
+        ]
+    },
+    {
+        "name": "Brendan Maginnis",
+        "bio": "Brendan is the cofounder of Sourcery, a startup who have just released their first product, a tool for automatically refactoring Python using AI.\n\nSourcery's goal is to help everyone write clean and simple code.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/brendan_maginnis.jpg",
+        "links": {
+            "link": "https://sourcery.ai/"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "The Future of Software Development",
+                "text": "AI is revolutionising everything it touches, and is of course written by software developers.\nWhat happens when we apply AI techniques to software development?\nWhat's the current state of the art, and where are things heading?"
+            }
+        ]
+    },
+    {
+        "name": "Peter Dolák",
+        "bio": "Contributing to Exponea's core product mostly as a backend developer in Python, Go and C++ for over 5 years since finishing studies at Computer Science at FMFI UK BA, helping Exponea to become one of the leaders in the CDP and Marketing Cloud market. Have developed many other for-profit and non-profit web applications, with the most popular one having been used by over 100k registered users across the globe.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/peter_dolak.jpg",
+        "links": {
+            "link": "https://exponea.com/"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "This too shall parse",
+                "text": "You used a parser the last time you ran any Python script. You created a simple parser the last time you wrote any regular expression. But when your program needs to understand languages that regexps just don't get, you may have to reach for a proper context-free parser. In this talk I will focus on the kind of problems that need such a parser, how to define artificial languages with grammars, what kinds of parsers there are and what are they suited for. I will also show off the Python parsing library \"lark\" and some cool stuff I made with it for Exponea - like our own query language."
+            }
+        ]
     }
 ]
