@@ -207,5 +207,22 @@
                 "text": "You used a parser the last time you ran any Python script. You created a simple parser the last time you wrote any regular expression. But when your program needs to understand languages that regexps just don't get, you may have to reach for a proper context-free parser. In this talk I will focus on the kind of problems that need such a parser, how to define artificial languages with grammars, what kinds of parsers there are and what are they suited for. I will also show off the Python parsing library \"lark\" and some cool stuff I made with it for Exponea - like our own query language."
             }
         ]
+    },
+    {
+        "name": "Michal Petrucha",
+        "bio": "Michal is a Pythonista at heart who started using the language back in high school, and never really found another one that could take its place.\nGenerally involved in server-side back-end work, enjoying some lower level systems programming and networking on occasion, also interested in security. Out in the real world, a crazy homebrewing experimenter, vegetable fermenter, heavy music aficionado, and martial artist.",
+        "country": "Slovakia / Sweden",
+        "avatar": "img/speakers/michal_petrucha.jpg",
+        "links": {
+            "twitter": "https://twitter.com/koniiiik",
+            "link": "http://koniiiik.org"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "title": "Autopsy of a serial burnout",
+                "text": "Alright, let's be real, burnout is a thing. It's been talked enough about already at various conferences for us to know at least that much. And yet, the more bone-headed among us will look for any excuse to refuse admitting it to ourselves. Not even after it knocks us out two, three, four times. Not even after our doctor offers help. (I wish I was making this up.)\n\nHearing about this in abstract terms is useful, of course. Every talk drives a different point home. It only gets you so far, though. That's why I'm going to take another approach here – I want to tell my personal story as someone who grew up around the block, and try to make a post-mortem of several instances of burnout, so that you can avoid making the same mistakes that I did. Spoiler: we'll go as far back as high school.\n\nLuckily, in this case, the autopsy does not involve any actual death (that I know of)!"
+            }
+        ]
     }
 ]
