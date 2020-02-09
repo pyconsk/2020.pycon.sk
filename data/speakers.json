@@ -240,6 +240,40 @@
         ]
     },
     {
+        "name": "Martin Brezáni",
+        "bio": "Martin je súčasťou AI tímu v PwC so zameraním na NLP a optimizačné problémy s použitím strojového učenia. Zaujíma sa o umelú inteligenciu a témy, ktoré by mohli byť v budúcnosti úzko späté s umelou inteligenciou. To zahŕňa aj tému kvantových počítačov s ich schopnosťou efektívne prehľadávať priestor nepolynomiálnych problémov.\n\nMartin is a part of the AI team in PwC, mostly focusing on NLP and optimization problems using Machine Learning. He is an enthusiast in AI and topics possibly connected to AI in future. This also includes quantum computers with their ability to effectively search through the space of non polynomial problems.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/martin_brezani.jpg",
+        "links": {
+            "link": ""
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Úvod do sveta kvantových počítačov",
+                "text": "Po mnohé roky vnímame počítače ako stroje, ktoré nám pomáhajú svojimi algoritmami pri riešení najrôznejších problémov. V dobe, keď sú tranzistory malé a Mooreov zákon prestáva byť platný, je len malá nádej na efektívne riešenie tzv. nepolyminálnych problémov pomocou klasických počítačov. Jedno z možných riešení na prehľadávanie priestoru určitých problémov sú kvantové počítače pracujúce na báze qubitov. Ich efektivita oproti počítačom s klasickými bitmi je neporovnateľná. Napriek tomu sú kvantové počítače stále vo svojich začiatkoch a len málokto má tú možnosť fyzicky s nimi pracovať. Dnes však môžeme pracovať s kvantovými počítačmi z pohodlia nášho domova - pomocou python knižnice Qiskit vytvoriť kvantové obvody a poslať ich do jedného z niekoľkých reálnych kvantových počítačov. Výsledky z kvantového počítača pracujúceho až s 15 qubitmi tak môže získať ktokoľvek. A to je len začiatok novej, stále neprebádanej éry."
+            }
+        ]
+    },
+    {
+        "name": "Jiří Kozel",
+        "bio": "Už 14 let mě baví a živí geoinformatika. Začal jsem jako zaměstnanec Masarykovy univerzity postupně na pozicích geoinformatik, vývojář, systémový analytik a nakonec vedoucí skupiny GIS na Ústavy výpočetní techniky. Dva roky jsem pro firmu MapTiler rozvíjel celosvětový projekt OpenMapTiles. Od roku 2016 pracuji naplno na volné noze.",
+        "country": "Česká republika",
+        "avatar": "img/speakers/jiri_kozel.jpg",
+        "links": {
+            "link": ""
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "A few times trapped by Celery",
+                "text": "When I first heard about Celery three years ago, my first idea was \"Why would anyone call a tool for managing async tasks 'Salary'?\" Nowadays I am realizing that similar misunderstandings were actually quite often during my work with this tool.\n\nI want to talk about my experiences with Celery, from total beginner to a-few-times-trapped user. Together with my colleagues, we started with simple tasks that were periodically gathering data and computing aggregate values of timeseries within a research project. This was actually copybook example of Celery usage, with little bit of Celery beat and tasks chaining. Saturated with success, I decided to use Celery for Layman, a web service that publishes even large geospatial datasets through REST API. Redis as a broker, Flask as web application framework. There came need to effectively and safely abort running task. Or actually chain of tasks. And sometimes from different process than the one that started the chain. That's where thing got unexpectedly complicated and story of AbortableAsyncResult, persisting results and tracking task states starts."
+            }
+        ]
+    },
+    {
         "name": "Zuzana Tkáčová",
         "bio": "Vyštudovala umelú inteligenciu na FEI TU v Košiciach. Učiteľka informatiky, t.č. pôsobí na Ústave informatiky PF UPJŠ, kde pripravuje a vedie kurzy pre učiteľov informatiky ZŠ a SŠ. Venuje sa didaktickým inováciám - aktivizujúcim a bádateľským metódam výučby informatiky, physical computingu, creative computingu, umelej inteligencii a prepájaniu informatiky a STE(A)M predmetov. Spolupracuje s občianskym združením Aj Ty v IT ako lektorka programátorských kurzov pre dievčatá a ženy.",
         "country": "Slovakia",
