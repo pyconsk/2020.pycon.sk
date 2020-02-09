@@ -245,7 +245,8 @@
         "country": "Slovakia",
         "avatar": "img/speakers/martin_brezani.jpg",
         "links": {
-            "link": ""
+            "linkedin": "http://linkedin.com/in/martin-brezáni-bab37912a",
+            "link": "https://www.pwc.com/sk/sk/"
         },
         "abstracts": [
             {
@@ -262,7 +263,9 @@
         "country": "Česká republika",
         "avatar": "img/speakers/jiri_kozel.jpg",
         "links": {
-            "link": ""
+            "twitter": "https://twitter.com/jrkzl",
+            "github": "https://github.com/jirik",
+            "link": "https://jirikozel.cz"
         },
         "abstracts": [
             {
