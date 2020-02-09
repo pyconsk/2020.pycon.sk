@@ -42,7 +42,10 @@
                             </li>{% endfor %}
                         </ul>
                     </div>
-                    <p>{{ speaker['bio'] }}</p>
+                    {% set bio = speaker['bio'].split('\n') %}
+                    {% for p in bio %}
+                    <p>{{ p }}</p>
+                    {% endfor %}
                 </div>
             </div>
             {% for abstract in speaker['abstracts'] %}

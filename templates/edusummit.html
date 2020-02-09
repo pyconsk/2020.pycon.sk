@@ -1,0 +1,68 @@
+{% extends "body.html" %}
+
+{% block content %}
+<!-- Inner Page Banner Area Start Here -->
+<section class="inner-page-banner {{ background}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumbs-area">
+          <h1>{{ _('EduSummit') }}</h1>
+          <ul>
+            <li>
+              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
+            </li>
+            <li>{{ _('EduSummit') }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Inner Page Banner Area End Here -->
+
+<!-- Edusummit Page Area Start Here -->
+<section class="section-space-less30">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="event-description">
+                    <h2 class="title title-bold color-dark">{{ _('Where Teachers meet Programmers') }}</h2>
+                    <p>
+                        {{ _('EduSummit is a special section of the conference focused on teaching programming at primary and secondary schools. After two years of having an EduTrack at PyCon SK, consisting of a single day of talks for teachers, we are now organising a two day summit during which teachers will be introduced to innovative ways and methods of teaching programming, share their knowledge of useful tools and last but not least participate in numerous workshops given by experienced educators.') }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="title title-bold color-dark">{{ _('Speakers') }}</h3>
+                {% for speaker in speakers %}
+                    {% if speaker['edusummit'] %}
+                    <div class="about-author mt-5">
+                        <div class="media media-none--xs">
+                            <div class="item-img">
+                                <img src="{{ url_for('static', filename=speaker['avatar']) }}" width="250px" class="img-fluid" alt="single-speaker">
+                            </div>
+                            <div class="media-body about-author-content">
+                                <h3 class="title title-medium color-dark size-sm">
+                                    <a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}">{{ speaker['name'] }}</a>
+                                </h3>
+                                {% set bio = speaker['bio'].split('\n') %}
+                                {% for p in bio %}
+                                <p>{{ p }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Edusummit Page Area End Here -->
+{% endblock %}
+
+{% block js %}
+{% endblock %}

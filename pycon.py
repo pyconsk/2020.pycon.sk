@@ -144,6 +144,12 @@ def sponsors():
     return render_template('sponsors.html', **_get_template_variables(li_sponsors='active', background='bkg-index'))
 
 
+@app.route('/<lang_code>/edusummit.html')
+def edusummit():
+    return render_template('edusummit.html', **_get_template_variables(li_edusummit='active', background='bkg-index',
+                                                                       speakers=SPEAKERS))
+
+
 @app.route('/<lang_code>/thanks.html')
 def thanks():
     return render_template('thanks.html', **_get_template_variables(li_cfp='active', background='bkg-index'))

@@ -130,6 +130,9 @@
                                                         </li>
                                                     </ul>
                                                 </li>
+                                                <li{% if li_edusummit %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('edusummit', lang_code=lang_code) }}">{{ _('EduSummit') }}</a>
+                                                </li>
                                                 <li{% if li_sponsors %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
                                                 </li>

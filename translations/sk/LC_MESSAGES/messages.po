@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-05 23:32+0100\n"
+"POT-Creation-Date: 2020-02-09 01:14+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -23,9 +23,9 @@ msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
 msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
 
 #: templates/aboutus.html:10 templates/aboutus.html:15
-#: templates/aboutus.html:29 templates/body.html:148 templates/cfv.html:14
+#: templates/aboutus.html:29 templates/body.html:151 templates/cfv.html:14
 msgid "About Us"
-msgstr ""
+msgstr "O nás"
 
 #: templates/aboutus.html:31
 msgid ""
@@ -68,7 +68,7 @@ msgstr ""
 msgid "Or visit our website"
 msgstr ""
 
-#: templates/aboutus.html:53 templates/body.html:151 templates/body.html:182
+#: templates/aboutus.html:53 templates/body.html:154 templates/body.html:185
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
@@ -110,56 +110,61 @@ msgid "Venue"
 msgstr "Miesto konania"
 
 #: templates/body.html:121 templates/body.html:126 templates/cfp.html:14
-#: templates/cfp_form.html:14 templates/index.html:97 templates/index.html:162
-#: templates/recording.html:14 templates/speaker.html:14
-#: templates/speaker_list.html:14
+#: templates/cfp_form.html:14 templates/edusummit.html:39
+#: templates/index.html:97 templates/index.html:162 templates/recording.html:14
+#: templates/speaker.html:14 templates/speaker_list.html:14
 msgid "Speakers"
 msgstr "Rečníci a rečníčky"
 
-#: templates/body.html:129 templates/body.html:179 templates/cfp_form.html:16
+#: templates/body.html:129 templates/body.html:182 templates/cfp_form.html:16
 #: templates/recording.html:16
 msgid "Call for proposals"
 msgstr "Prihlás svoj príspevok"
 
-#: templates/body.html:134
+#: templates/body.html:134 templates/edusummit.html:10
+#: templates/edusummit.html:15
+msgid "EduSummit"
+msgstr ""
+
+#: templates/body.html:137
 msgid "Sponsors"
 msgstr ""
 
-#: templates/body.html:137 templates/body.html:185 templates/coc.html:10
+#: templates/body.html:140 templates/body.html:188 templates/coc.html:10
 #: templates/coc.html:15
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:140
+#: templates/body.html:143
 msgid "About"
 msgstr ""
 
-#: templates/body.html:145
+#: templates/body.html:148
 msgid "FAQ"
 msgstr ""
 
-#: templates/body.html:188 templates/body.html:213 templates/body.html:214
+#: templates/body.html:191 templates/body.html:216 templates/body.html:217
 #: templates/index.html:20 templates/index.html:203
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:240
+#: templates/body.html:243
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:254
+#: templates/body.html:257
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:268
+#: templates/body.html:271
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:282
+#: templates/body.html:285
 msgid "Sponsor Queries"
 msgstr "Otázky o sponzorovaní"
 
-#: templates/body.html:298
+#: templates/body.html:301
 msgid ""
 "The PyCon SK 2020 conference, which will be held in Bratislava, is the "
 "annual gathering for the community using and developing the open-source "
@@ -169,16 +174,16 @@ msgstr ""
 "každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
 "programovací jazyk Python."
 
-#: templates/body.html:300 templates/body.html:350 templates/countdown.html:98
+#: templates/body.html:303 templates/body.html:353 templates/countdown.html:98
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi a dobrovoľníčkami z %(spy)s."
 
-#: templates/body.html:301 templates/body.html:351 templates/countdown.html:99
+#: templates/body.html:304 templates/body.html:354 templates/countdown.html:99
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:353 templates/countdown.html:94
+#: templates/body.html:356 templates/countdown.html:94
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -187,11 +192,11 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:355 templates/countdown.html:96
+#: templates/body.html:358 templates/countdown.html:96
 msgid "Python Software Foundation"
 msgstr "Python Software Foundation"
 
-#: templates/body.html:358 templates/countdown.html:102
+#: templates/body.html:361 templates/countdown.html:102
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is a community managed "
@@ -965,6 +970,29 @@ msgid ""
 msgstr ""
 "Kliknutím na odber súhlasíš, že odošleme tvoje informácie na spracovanie "
 "do Mailchimpu."
+
+#: templates/edusummit.html:30
+msgid "Where Teachers meet Programmers"
+msgstr "Stretnutie učiteľov s programátormi"
+
+#: templates/edusummit.html:32
+msgid ""
+"EduSummit is a special section of the conference focused on teaching "
+"programming at primary and secondary schools. After two years of having "
+"an EduTrack at PyCon SK, consisting of a single day of talks for "
+"teachers, we are now organising a two day summit during which teachers "
+"will be introduced to innovative ways and methods of teaching "
+"programming, share their knowledge of useful tools and last but not least"
+" participate in numerous workshops given by experienced educators."
+msgstr ""
+"EduSummit je špeciálna sekcia konferencie zameraná na vyučovanie "
+"programovania na základných a stredných školách. Po dvoch rokoch, keď sme"
+" v rámci PyCon SK organizovali EduTrack pozostávajúci z jedného dňa "
+"prednášok pre učiteľov, tentokrát pripravujeme rozšírený, dvojdňový "
+"program pre učiteľov a nadšencov vyučovania informatiky. Počas EduSummitu"
+" sa budeme venovať inovatívnym spôsobom a metódam vo vyučovaní "
+"informatiky, pričom si komunita učiteľov má možnosť zdieľať svoje "
+"skúsenosti a vedomosti o užitočných nástrojoch."
 
 #: templates/faq.html:10 templates/faq.html:15 templates/faq.html:27
 msgid "Frequently Asked Questions"
