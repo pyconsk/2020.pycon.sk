@@ -52,6 +52,12 @@
             <div class="col-12">
                 <div class="pt-5 event-description">
                     <h2 class="title title-bold color-dark">{{ abstract['title'] }} <span class="pull-right badge badge-pill badge-primary">{{ abstract['type'] }}</span></h2>
+                    <p><span class="pull-right badge badge-pill badge-primary">
+                        {% if abstract['lang'] == 'sk' %}{{ _('Slovak language') }}
+                        {% elif abstract['lang'] == 'en' %}{{ _('English language') }}
+                        {% elif abstract['lang'] == 'cz' %}{{ _('Czech language') }}{% endif %}
+                    </span></p>
+
                     {% set paragraph = abstract['text'].split('\n') %}
                     {% for p in paragraph %}
                     <p>{{ p }}</p>
