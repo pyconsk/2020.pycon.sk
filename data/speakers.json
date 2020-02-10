@@ -294,6 +294,22 @@
         ]
     },
     {
+        "name": "Michal Haták",
+        "bio": "Michal pracuje pres 8 let v Jihočeském Iniziu. Začínal s klasickými prezenčními weby, ale před pěti lety se mu do rukou dostal projekt pro zákazníka v Kanadě. Jedná se o automatizační platformu z prostředí Real Estate. Základy AUTOPROPu jsou v Pythonu a na AWS.",
+        "country": "Česká republika",
+        "avatar": "img/speakers/michal_hatak.png",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "cz",
+                "title": "AWS Lambda - Serverless prakticky",
+                "text": "V přednášce si ukážeme jak se pracuje se Serverless frameworkem a jak ho můžeme využít na svých projektech (ať už pro rychlá PoC a nebo v produkci)."
+            }
+        ]
+    },
+    {
         "name": "Zuzana Tkáčová",
         "bio": "Vyštudovala umelú inteligenciu na FEI TU v Košiciach. Učiteľka informatiky, t.č. pôsobí na Ústave informatiky PF UPJŠ, kde pripravuje a vedie kurzy pre učiteľov informatiky ZŠ a SŠ. Venuje sa didaktickým inováciám - aktivizujúcim a bádateľským metódam výučby informatiky, physical computingu, creative computingu, umelej inteligencii a prepájaniu informatiky a STE(A)M predmetov. Spolupracuje s občianskym združením Aj Ty v IT ako lektorka programátorských kurzov pre dievčatá a ženy.",
         "country": "Slovakia",
