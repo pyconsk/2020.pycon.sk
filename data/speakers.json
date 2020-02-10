@@ -277,6 +277,23 @@
         ]
     },
     {
+        "name": "Michal Chovanec",
+        "bio": "Som výskumník v oblasti hlbokého učenia. Momentálne pracujem v Bratislave, vo firme Tachyum, kde riešim problematiku návhru procesora pre AI. PhD. som získal na Fakulte Riadenia a Infromatiky na Žilinskej univerzite - v téme reinforcement learning.\nVo voľnom čase chodím na hory, leziem, strieľam z luku a venujem sa bojovým umeniam.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/michal_chovanec.jpg",
+        "links": {
+            "github": "https://github.com/michalnand"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "deep reinforcement learning pomocou pytorch frameworku",
+                "text": "Pytorch predstavuje silný nástroj pre ľudí precujúcich v oblasti deep learningu. Najčastejšie aplikácie sú z počítačového videnia, rozpoznávania textu a reči - rôzne úlohy klasifikácie alebo segmentácie.\n\nReinforcement learning (RL, učenie odmenou a trestom) predstavuje menej známi prístup. Bol to práve RL - program AlphaGO, ktorý v roku 2016 porazil svetového majstra v hre GO  a v roku 2019 pro-gamera v hre StarCraft (program AlphaStar).\n\nSpôsob učenia spočíva v hraní tisícok hier, získavania odmien a učenie sa z nich. Takýto agent je schopný hraním hry sám so sebou prekonať ľudských hráčov, aj \"\"hard coded\"\" botov.\n\nV prednáške ukážem základne myšlienky RL, ako vyzerá kód s použitím knižníc pytorch a aigym, ak nezabudnem, aj nejaké typy čo sa nedajú nájsť a čím sa trebalo popasovať - ono je pekné keď veci idú, ale keď nejdú je to ozaj boj ...\n\nPre nedočkavých prikladám video ako to pracuje : https://www.youtube.com/watch?v=rQIShnTz1kU\nA podobne aj kód (pre účely pyconu ale urobím menší repozitár) : https://github.com/michalnand/reinforcement_learning/tree/master/src\nkde budú jednoduhšie príklady a tréning sieti bude trvať len pár minút (namiesto pár dní)"
+            }
+        ]
+    },
+    {
         "name": "Zuzana Tkáčová",
         "bio": "Vyštudovala umelú inteligenciu na FEI TU v Košiciach. Učiteľka informatiky, t.č. pôsobí na Ústave informatiky PF UPJŠ, kde pripravuje a vedie kurzy pre učiteľov informatiky ZŠ a SŠ. Venuje sa didaktickým inováciám - aktivizujúcim a bádateľským metódam výučby informatiky, physical computingu, creative computingu, umelej inteligencii a prepájaniu informatiky a STE(A)M predmetov. Spolupracuje s občianskym združením Aj Ty v IT ako lektorka programátorských kurzov pre dievčatá a ženy.",
         "country": "Slovakia",
