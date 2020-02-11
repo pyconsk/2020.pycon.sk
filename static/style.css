@@ -7139,9 +7139,11 @@ div ~ :last-child .progress-layout2:before {
 .sponsonrs-layout1 .sponsonrs-box a {
   display: inline-block;
 }
+
+
 .sponsonrs-layout1 .sponsonrs-box a img {
   display: inline-block;
-  max-width: 25rem;
+  /*max-width: 25rem;*/
   margin: 0 auto;
   /*-webkit-filter: grayscale(100%);*/
   /*filter: grayscale(100%);*/
@@ -7154,6 +7156,32 @@ div ~ :last-child .progress-layout2:before {
 .sponsonrs-layout1 .sponsonrs-box a:hover img {
   /*-webkit-filter: grayscale(0);*/
 }
+
+.diamond a img {
+  max-width: 35rem;
+}
+
+.platinum a img {
+  max-width: 30rem;
+}
+
+.gold a img {
+  max-width: 25rem;
+}
+
+.silver a img {
+  max-width: 20rem;
+}
+
+.bronze a img {
+  max-width: 15rem;
+}
+
+.partners a img {
+  max-width: 25rem;
+}
+
+
 /*======================================================
 [17] Blog Area Style
 =======================================================*/
