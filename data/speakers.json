@@ -240,6 +240,23 @@
         ]
     },
     {
+        "name": "Tibor Zavadil",
+        "bio": "Expert in Data Science, Machine Learning, Textmining, Statistics and Economics with working experience from academia, (central) bank, (re-)insurance, AI startup, consultancy, entertainment and software engineering.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/tibor_zavadil.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/tibor-zavadil-9823263/"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "Automation of data quality assessment from solar stations",
+                "text": "To assess the photovoltaic (PV) potential of a specific site, stations measuring solar radiation are installed prior to the construction of a PV plant. Data from these stations are examined by quality control during which the erroneous data are removed from the assessment of the PV potential. The recognition of erroneous data is in many cases non-trivial, especially as the errors are hidden in changing weather conditions. Typical causes of erroneous data are e.g. shading, soiling, snow, dew and frost on the sensor. Nowadays, the quality assessment of the data is mainly performed by visual inspection and therefore must be done by domain-skilled data operator.\n\nThe poster will present to you, how by a combination of domain knowledge, agile process, statistics, machine learning, and Python such quality assessment can be automatized. Specifically, it will be shown, how all these areas are applied to automatically recognize the most usual issue – shading on the sensor by near and far objects. The poster will show you a real-world data example and will walk you through steps of algorithm which has a recall of 81.2% and a false-positive rate of 2.5%. Finally, the possibilities of improvements as well as the challenges and lessons learned will be also discussed.\n\nThe developed shading recognition algorithm described in the poster reduces the work of the domain data operator from hours to minutes. Moreover, it opens a possibility for customers to assess the data quality on their own without a need for a domain data operator. The combination of this automatic data quality control with existing vitalization and data-handling tools (all coded in Python) make this product unique on the market."
+            }
+        ]
+    },
+    {
         "name": "Martin Brezáni",
         "bio": "Martin je súčasťou AI tímu v PwC so zameraním na NLP a optimizačné problémy s použitím strojového učenia. Zaujíma sa o umelú inteligenciu a témy, ktoré by mohli byť v budúcnosti úzko späté s umelou inteligenciou. To zahŕňa aj tému kvantových počítačov s ich schopnosťou efektívne prehľadávať priestor nepolynomiálnych problémov.\n\nMartin is a part of the AI team in PwC, mostly focusing on NLP and optimization problems using Machine Learning. He is an enthusiast in AI and topics possibly connected to AI in future. This also includes quantum computers with their ability to effectively search through the space of non polynomial problems.",
         "country": "Slovakia",
