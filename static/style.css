@@ -7157,31 +7157,6 @@ div ~ :last-child .progress-layout2:before {
   /*-webkit-filter: grayscale(0);*/
 }
 
-.diamond a img {
-  max-width: 35rem;
-}
-
-.platinum a img {
-  max-width: 30rem;
-}
-
-.gold a img {
-  max-width: 25rem;
-}
-
-.silver a img {
-  max-width: 20rem;
-}
-
-.bronze a img {
-  max-width: 15rem;
-}
-
-.partners a img {
-  max-width: 25rem;
-}
-
-
 /*======================================================
 [17] Blog Area Style
 =======================================================*/

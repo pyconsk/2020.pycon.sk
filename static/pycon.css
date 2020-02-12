@@ -30,6 +30,27 @@
 
 .sponsor-row {
     vertical-align:middle;
+	margin-bottom: 5em;
+}
+
+.diamond a img {
+  max-width: 35rem;
+}
+
+.platinum a img {
+  max-width: 30rem;
+}
+
+.gold a img {
+  max-width: 25rem;
+}
+
+.silver a img {
+  max-width: 20rem;
+}
+
+.bronze a img, .partners a img {
+  max-width: 15rem;
 }
 
 /* Accordion */
