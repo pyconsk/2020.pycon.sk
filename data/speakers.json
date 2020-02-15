@@ -138,7 +138,7 @@
         "name": "Nicholas Thapen",
         "bio": "Nick is a founder of Sourcery, a startup that is using AI to help everyone write better code faster. He is a developer and architect with over a decade of experience in both academia and industry. He worked on machine learning and Twitter analytics at Imperial College London, and has also spent time as a developer and architect in the financial sector.",
         "country": "United Kingdom",
-        "avatar": "img/speakers/nick_thapen.png",
+        "avatar": "img/speakers/nick_thapen.jpg",
         "links": {
             "linkedin": "https://www.linkedin.com/in/nicholas-thapen/",
             "twitter": "https://twitter.com/nthapen",
@@ -166,6 +166,42 @@
                 "lang": "en",
                 "title": "Creating the Next Generation of (Technology) Billionaires - Part 2",
                 "text": "Our generation of young people in school (aged 5-18) have noticed the connection between Computer pRogramming, Technology & Success and Billionaires.On mass they are clamoring to master the skill of Computer pRogramming. We describe a successful working model for the teaching of Computer pRogamming.\n\nComputer Science is now regarded as one of the leading disciplines in the 21st century. Computers are ubiquitous and prevalent in most, if not all, sectors of our modern society – applications include using them in weather forecasting, robotic surgery, space exploration, e-commerce, smart cities, driverless cars, etc.\n\nTherefore, coding or computer programming is now regarded by many as an essential skill for the young person, and it has been dubbed the ‘4th’ R’ (computer pRogramming) along with Reading, wRiting and aRithmetic.\n\nIn recognition of the new status of computer programming, governments worldwide have launched initiatives to have it taught in schools from Kindergarten through to junior school and all the way through secondary school.\n\nSo, the question emerges is how do we best teach and motivate the next generation in acquiring this skill? Given the fact that this field is very much in its infancy, there are insufficient number of skilled Computer Science teachers and very little pedagogy to guide the educator. Therefore, the whole world is learning how best to teach this subject by trial and error.\n\nThe talk will describe a case study whereby coding/computer programming, in the form of Python programming, was introduced to a group of 110 young people from the ages of 11 to 18 (Years 7-13 in a U.K secondary school). The talk will include descriptions of the various teaching methodologies introduced to the young people for this purpose and the outcomes; the talk will also address various challenges and questions about how to teach coding to young people. The talk will conclude with helpful suggestions, based on the findings of the case study, on how to proceed with the teaching of computer programming to these people."
+            }
+        ]
+    },
+    {
+        "name": "Goce Anastasovski",
+        "bio": "Goce started working with Android in 2014 for alarm.com, a small security and home automation company, where he worked on an app that would let customers control various IoT devices, such as locks, garage doors, cameras, in their home. Since then, he has transitioned to a Mobile Tech Lead role at for the Video Team in Washington D.C. where he works closely with several Android and iOS engineers.\n\nIn his free time, you will find Goce traveling, cooking or learning a new spoken languages.",
+        "country": "United States",
+        "avatar": "img/speakers/goce_anastasovski.jpg",
+        "links": {
+            "facebook": "https://www.facebook.com/ganastasovski",
+            "linkedin": "https://www.linkedin.com/in/anastasovski-goce/"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "Code Review, A Software Engineer's Best Friend",
+                "text": "One of the most powerful software quality tools are code reviews - an activity in which a developer, other than the author, examines a software deliverable for defects, and improvement opportunities. For a new Engineer, a code review can be a valuable learning resource, and for a more experienced Engineer it can be a good teaching mechanism when done properly. Whether you are a fresh college graduate, or a Senior Engineer with multiple years of experience under your belt, this talk will take you on the journey of a team that transformed their code review process from being vague and lacking, to being the biggest investment of their resulting, high quality code output. On this short journey we will specifically\nfocus on:\n\n- The importance of the human factor in code reviews.\n- The value of knowing who the review is for (understanding your audience).\n- What code reviews are and how they should be used effectively.\n- Best practices as well as General Do's and Don'ts.\n\n\nBy the end of this talk your perspective on code reviews should change and you will approach code reviews as what they really are - a Software Engineer's Best Friend (woof! woof!)"
+            }
+        ]
+    },
+    {
+        "name": "Mauro Pelucchi",
+        "bio": "He received a Bachelor's degree in Informatics Engineering from the University of Bergamo (Italy) in 2016 with a thesis on \"Answering queries on Open Data\".\nIn 2016/2017, He has attended the Master Business Intelligence and Big Data Analytics at the University of Milano-Bicocca.\nHe works as Data Scientist and Data Engineer: designing and deploying large databases, extracting recurring patterns from unstructured data, applying machine learning techniques to classify and summarize data, realizing decision support systems and data visualization tools.\nIn the past, he has designed and developed Process Integration and Business Intelligence systems for large industries and public administrations.\nHis main research interests are OpenData and Open Government, Big Data Analysis, Data Presentation Techniques,\nArtificial Intelligence and Machine Learning and Deep Learning Modeling.\nFrom 2017, He collaborates with University of Milano-Bicocca as a lecturer at Master \nBusiness Intelligence and Big Data Analytics and with European Union as panelist and expert in Big Data and Machine Learning Conference.",
+        "country": "Italy",
+        "avatar": "img/speakers/mauro_pelucchi.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/mauropelucchi/",
+            "link": "www.mauropelucchi.com"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "Job-Me - An AI system to analyse resumes",
+                "text": "Firms spend a lot of amounts of effort in terms of time and money to find the right profile for an open position.\nJob-Me is an innovative system to reduce such time and expenses by application of artificial intelligence (AI).\nThe idea is simple: apply text mining and others AI tecniques to parse text from resume, extract skills according\nto a standard classification system and measure the relevance of the skills for the profile."
             }
         ]
     },
@@ -280,7 +316,7 @@
         "name": "Radoslav Kokuľa",
         "bio": "Rado začínal ako LabVIEW programátor, neskôr prešiel na Python a Robot Framework. V oblasti testingu sa pohybuje už viac ako 15 rokov a momentálne pracuje vo firme Kistler ako Test Lead.",
         "country": "Slovakia",
-        "avatar": "img/speakers/radoslav_kokula.png",
+        "avatar": "img/speakers/radoslav_kokula.jpg",
         "links": {
             "link": "http://www.kistler.com/"
         },
@@ -368,7 +404,7 @@
         "name": "Michal Haták",
         "bio": "Michal pracuje pres 8 let v Jihočeském Iniziu. Začínal s klasickými prezenčními weby, ale před pěti lety se mu do rukou dostal projekt pro zákazníka v Kanadě. Jedná se o automatizační platformu z prostředí Real Estate. Základy AUTOPROPu jsou v Pythonu a na AWS.",
         "country": "Česká republika",
-        "avatar": "img/speakers/michal_hatak.png",
+        "avatar": "img/speakers/michal_hatak.jpg",
         "links": {
             "twitter": "https://twitter.com/Twistacz"
         },
