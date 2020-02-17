@@ -47,8 +47,8 @@
             {
                 "type": "Talk",
                 "lang": "en",
-                "title": "Modernizing a twelve-year-old project",
-                "text": "To be announced..."
+                "title": "Evolution of a twelve-year-old project",
+                "text": "Imagine a tool, created by a student in his free time to solve his personal needs. Chances are the lifetime of such project counts in weeks or months. Yet that's exactly\nhow Todoist has been started in 2007. Fast forward, 12 years, and it's a successful project with millions of active users, active development and big plans ahead.\n\nI personally take care of Todoist since 2012, it's about 7 years. In his talk, I will share my challenges, wins failures, and things I learned working with the codebase."
             }
         ]
     },
@@ -397,6 +397,76 @@
                 "lang": "sk",
                 "title": "deep reinforcement learning pomocou pytorch frameworku",
                 "text": "Pytorch predstavuje silný nástroj pre ľudí precujúcich v oblasti deep learningu. Najčastejšie aplikácie sú z počítačového videnia, rozpoznávania textu a reči - rôzne úlohy klasifikácie alebo segmentácie.\n\nReinforcement learning (RL, učenie odmenou a trestom) predstavuje menej známi prístup. Bol to práve RL - program AlphaGO, ktorý v roku 2016 porazil svetového majstra v hre GO  a v roku 2019 pro-gamera v hre StarCraft (program AlphaStar).\n\nSpôsob učenia spočíva v hraní tisícok hier, získavania odmien a učenie sa z nich. Takýto agent je schopný hraním hry sám so sebou prekonať ľudských hráčov, aj \"\"hard coded\"\" botov.\n\nV prednáške ukážem základne myšlienky RL, ako vyzerá kód s použitím knižníc pytorch a aigym, ak nezabudnem, aj nejaké typy čo sa nedajú nájsť a čím sa trebalo popasovať - ono je pekné keď veci idú, ale keď nejdú je to ozaj boj ...\n\nPre nedočkavých prikladám video ako to pracuje : https://www.youtube.com/watch?v=rQIShnTz1kU\nA podobne aj kód (pre účely pyconu ale urobím menší repozitár) : https://github.com/michalnand/reinforcement_learning/tree/master/src\nkde budú jednoduhšie príklady a tréning sieti bude trvať len pár minút (namiesto pár dní)"
+            }
+        ]
+    },
+    {
+        "name": "Christopher Lozinski",
+        "bio": "Christopher Lozinski is an MIT graduate, serial entrepreneur, dual US-EU citizen, and polyglot. Instead of seeking Venture Capital, he moved from Silicon Valley to Poland. He runs a number of interesting websites, which all use MQTT for chat. PythonLinks.info is a catalogue of the best Python lightning talks. StopSmog.info is a map of organizations fighting smog and climate change. ForestWiki.com is a distributed chat wiki.",
+        "country": "Poland / United States",
+        "avatar": "img/speakers/christopher_lozinski.jpg",
+        "links": {
+            "link": "https://PythonLinks.info",
+            "link": "https://StopSmog.info",
+            "link": "https://ForestWiki.com"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "MQTT: For IoT, Cell Phones, Web and Chat\n\n",
+                "text": "MQTT is an industry-standard pub/sub protocol for communicating between distributed processes. MQTT is great for IoT because it offers guaranteed message delivery even when a device is asleep or offline. MQTT is great for managing complexity, because it lets you organize communication as a taxonomy of topics.\n\nMQTT is an important technology because there may soon be more devices running MQTT than HTTP! Come to this lecture to learn the basics of MQTT, to find out if it is right for your application, and to get advice on which MQTT libraries and tools Python developers should use.\n\nThe speaker teaches MQTT Classes in Python, Javascript, GoLang and Erlang.\n\n\nHere are the talk slides: https://pythonlinks.info/presentations/MQTTTalk.pdf\n\nHere is a tree of chat rooms, one for every talk at PyCon USA. https://pythonlinks.info/pycon-usa/chat#children\n\nHere is the list of MQTT classes I am giving. https://pythonlinks.info/mqtt-lecture-and-tutorial"
+            }
+        ]
+    },
+    {
+        "name": "Nandor Poka",
+        "bio": "PhD in Molecular Biology, MSc in Software Engineering. Working as Software Architect at Gerhardt Informatics. With insight into both areas Bioinformatics is a natural interest of mine.",
+        "country": "",
+        "avatar": "img/speakers/nandor_poka.jpg",
+        "links": {
+            "twitter": "https://twitter.com/Nandor_Poka",
+            "link": "https://np-bio.info",
+            "link": "https://gerhardt.io/team/nandor"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "Overview of Python for Bioinformatics and Computational Biology",
+                "text": "Bioinformatics and Computational Biology are in the intersection of Biology, Data Science, Mathematics, and Informatics. The challenges, tasks, and not to mention the data, are as heterogeneous as life itself. One may have to do a de-novo assembly of a new strain of a pathogen, detect rare gene variants, build models for gene regulation, create interaction networks - the list is almost infinite.\n\nPython offers various specialized libraries and collections of tools for Bioinformatics and Computational Biology such as Biopython, Bioconda, PyBio and more. You can use these for example for read alignment, sequence alignment, variant calling, and other domain specific tasks. Often, these collections contain hundreds of tools, and overlaps in function may occur.\n\nFor more general, but typical tasks of these areas of science - eg. data cleaning, statistics, clustering, classification or image analysis -, one would need other packages available in the Python ecosystem. Typical choices are:\n\n    SciPy\n    scikit-learn / scikit-image\n    NumPy\n    Pandas\n    graph-tool\n    matplotlib\n\n.. and many more.\n\nIt's not easy to find what to use for a given problem, especially if you are new to either of the scientific fields, or Python itself. This talk will give short examples of typical bioinformatics ( including some more general) tasks and how to solve them using some of these tools.\nThe presentation is aimed at the novice-to-intermediate level, and no prior knowledge in Biology (and therefore in Bioinformatics and / or Computational Biology) is needed."
+            }
+        ]
+    },
+    {
+        "name": "Marcel Kucharik",
+        "bio": "Marcel first encountered the field of bioinformatics on his master's studies in the Faculty of Mathematics, Physics, and Informatics (MatFyz) of the Comenius University in Bratislava. Soon after that, he went to the Vienna University for doctorate studies, where he finally get to know Python language. Currently, he works as a bioinformatician for Geneton company, where he develops new medical diagnoses mainly from sequencing genomic data. Python (with all its core routines (pandas, numpy, scikit-learn, ...) and libraries (dash, flask, restplus, ...) is his indispensable working tool in this field.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/marcel_kucharik.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Ako mení Python svet biomedicíny",
+                "text": "Momentálne zažívame veľký rozmach biomedicíny, spôsobený hlavne zlacnením a sprístupnením sekvenovania ľudského genómu pre širšie masy. Toto produkuje ohromné množstvá dát, ktoré treba automaticky spracovávať, uchovávať a hlavne odpovedať na diagnostické otázky. Širšia bioinformatická komunita používa na tieto účely Python kvôli jeho jednoduchosti, univerzálnosti a množstve knižníc, ktoré tento jazyk ponúka. V prezentácií prejdeme ako využívame Python v prenatálnom teste pre určenie pohlavia a genetických ochorení plodu dieťaťa už v 10.tom týždni tehotenstva. Od analýzy surových dát (biopython, pandas, numpy), cez automatizované spúšťanie vyhodnocovacích skriptov (snakemake), komunikáciu so serverom (flask, requests) až po reportovanie (WeasyPrint, html5lib) a vizualizovanie (matplotlib, seaborn, dash, plotly)."
+            }
+        ]
+    },
+    {
+        "name": "Matej Vetrak",
+        "bio": "I am a Senior Infrastructure Engineer at Exponea where I follow my passion of exploring the latest open-source technologies. Writing microservices using Golang and Python, running on top of Kubernetes, monitored by Prometheus and Grafana while horribly failing with integrating Istio.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/matej_vetrak.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Distributed Authorization at Scale",
+                "text": "Authorization is an important part of every system. When you have a monolithic application it is relatively easy to create one common authorization layer that is used by the entire system and most engineers don’t have to worry about. But what if you are running a lot of different microservices that are written in multiple languages and communicating with different protocols? This was one of my tasks in the past year and I’d like to share with you our processes of thinking that lead us to develop a distributed system written in Golang using various open-source technologies, such as Open Policy Agent, Envoy Proxy or gRCP, while running everything on top of Kubernetes."
             }
         ]
     },
