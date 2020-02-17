@@ -48,7 +48,7 @@
                 "type": "Talk",
                 "lang": "en",
                 "title": "Evolution of a twelve-year-old project",
-                "text": "Imagine a tool, created by a student in his free time to solve his personal needs. Chances are the lifetime of such project counts in weeks or months. Yet that's exactly\nhow Todoist has been started in 2007. Fast forward, 12 years, and it's a successful project with millions of active users, active development and big plans ahead.\n\nI personally take care of Todoist since 2012, it's about 7 years. In his talk, I will share my challenges, wins failures, and things I learned working with the codebase."
+                "text": "Imagine a tool, created by a student in his free time to solve his personal needs. Chances are the lifetime of such project counts in weeks or months. Yet that's exactly how Todoist has been started in 2007. Fast forward, 12 years, and it's a successful project with millions of active users, active development and big plans ahead.\n\nI personally take care of Todoist since 2012, it's about 7 years. In his talk, I will share my challenges, wins failures, and things I learned working with the codebase."
             }
         ]
     },
@@ -422,7 +422,7 @@
     {
         "name": "Nandor Poka",
         "bio": "PhD in Molecular Biology, MSc in Software Engineering. Working as Software Architect at Gerhardt Informatics. With insight into both areas Bioinformatics is a natural interest of mine.",
-        "country": "",
+        "country": "Germany",
         "avatar": "img/speakers/nandor_poka.jpg",
         "links": {
             "twitter": "https://twitter.com/Nandor_Poka",
@@ -460,6 +460,7 @@
         "country": "Slovakia",
         "avatar": "img/speakers/matej_vetrak.jpg",
         "links": {
+            "link": "https://exponea.com/"
         },
         "abstracts": [
             {
