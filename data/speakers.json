@@ -170,6 +170,55 @@
         ]
     },
     {
+        "name": "Adam Števko",
+        "bio": "Adam is currently working as Senior Security Engineer in Glovo, where he works hard to protect the company assets from threats and integrates security everywhere possible. He held many positions over his career where he dealt with lot of problems when building high available media systems and networks both on-premise and in the cloud. On his journey, he also helped teams of developers to automate application and infrastructure deployments. He is a UNIX Lover, devoted Python user, tech enthusiast and OSS contributor. His interests range from operating systems, networking and especially security.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/adam_stevko.jpg",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/xenol/"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "The day when I stopped worrying about exposed SSH ports",
+                "text": "Everyone running workloads on EC2 in AWS had to design their own access solution at some point. Following the best practices, people tend to end up with a considerable infrastructure to maintain: few bastion hosts exposing ports to the network, optional VPN service for protecting exposed bastions hosts, user directory service for authentication and permissions management, some log aggregation solution for collecting access logs and SSH key management pain points.\n\nIn this talk, we will describe how can we liberate DevOps and Security teams from running and maintaining such access solution leveraging the power of serverless technologies and reusing already used products such as AWS IAM for permission management, AWS CloudTrail for logging and auditing user accesses, SSM Session Manager for accessing and granting access to instances and aws-gate, open source tool wrapping all aforementioned. With this approach, your teams really won’t need to ever worry about exposed SSH ports again."
+            }
+        ]
+    },
+    {
+        "name": "Luka Raljević",
+        "bio": "I have 10 years of experience in web development, mostly with Python.\nI have made right choices, wrong choices and had to maintain someone else’s choices.\nI have built simple and complex web applications from scratch, took over complex systems, endured countless upgrades and dependency changes.\nI started as a fullstack developer and system administrator. I have been a team lead, a mentor and a software architect. However, I was always, first and foremost, a developer.",
+        "country": "Croatia",
+        "avatar": "img/speakers/luka_raljevic.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "Dive into codebase like a pro",
+                "text": "How to get familiar with codebase you need to maintain with minimum suffering?\nHow to leave codebase easier to deal with for your colleagues so they don’t have to suffer like you did?\nIf you are experienced developer or a junior just starting your journey, inheriting codebase can be a very challenging task. Especially if the codebase is not quite up to your standards, or it’s just huge and complex beast.\nI will convey my experience and tips and tricks on inheriting code I acquired during 10 years of software development on new and old projects.\nThe talk will provide guidelines to ease taking over code from somebody else, as well as remind developers of the importance that planning, preparation and documentation have in facilitating code change and project growth."
+            }
+        ]
+    },
+    {
+        "name": "Ján Šichula",
+        "bio": "Momentálne pracujem ako lektor v STEP IT Academy Bratislava, kde vyučujem široké spektrum predmetov. Z pohľadu záujmov mám najbližšie k technológiám, na ktorých beží web. Hlbšie v minulosti som sa venoval aj administrácii počítačových sietí na báze systému Windows. Do tejto škály záujmov som pribral aj Python a s nadšením objavil, ako sa dá krásne skombinovať s nástrojom Visual Studio Code.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/jan_sichula.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Python a Visual Studio Code – motivácia, inštalácia, konfigurácia, používanie, skúsenosti",
+                "text": "V STEP IT Academy Bratislava sme pri výuke jazyka Python v minulom roku nasadili ako vývojové prostredie Visual Studio Code. Veľmi som to uvítal, lebo Visual Studio Code som už predtým používal ako môj primárny vývojársky nástroj. I celkovo výsledný stav po nasadení hodnotím pozitívne a ako krok správnym smerom. Prednáška/workshop oboznámi poslucháčov s postupom ako nasadiť a používať kombináciu Pythonu a prostredia Visual Studia Code pod operačným systémom Windows. Po úvodnom popise základných čŕt Pythonu pod Windows a nástroja Visual Studio Code postúpime k opisu samotnej inštalácie a konfigurácie. Potom budeme demonštrovať niektoré typické postupy ako napr. otváranie nových projektov, funkciu IntelliSense či ladenie kódu. Prejdeme si aj popis architektúry celého riešenia s cieľom objasniť, ako je Python integrovaný s Visual Studio Code. Rovnako bude snaha spomenúť i niektoré skúsenosti z praxe."
+            }
+        ]
+    },
+    {
         "name": "Goce Anastasovski",
         "bio": "Goce started working with Android in 2014 for alarm.com, a small security and home automation company, where he worked on an app that would let customers control various IoT devices, such as locks, garage doors, cameras, in their home. Since then, he has transitioned to a Mobile Tech Lead role at for the Video Team in Washington D.C. where he works closely with several Android and iOS engineers.\n\nIn his free time, you will find Goce traveling, cooking or learning a new spoken languages.",
         "country": "United States",
@@ -184,6 +233,23 @@
                 "lang": "en",
                 "title": "Code Review, A Software Engineer's Best Friend",
                 "text": "One of the most powerful software quality tools are code reviews - an activity in which a developer, other than the author, examines a software deliverable for defects, and improvement opportunities. For a new Engineer, a code review can be a valuable learning resource, and for a more experienced Engineer it can be a good teaching mechanism when done properly. Whether you are a fresh college graduate, or a Senior Engineer with multiple years of experience under your belt, this talk will take you on the journey of a team that transformed their code review process from being vague and lacking, to being the biggest investment of their resulting, high quality code output. On this short journey we will specifically\nfocus on:\n\n- The importance of the human factor in code reviews.\n- The value of knowing who the review is for (understanding your audience).\n- What code reviews are and how they should be used effectively.\n- Best practices as well as General Do's and Don'ts.\n\n\nBy the end of this talk your perspective on code reviews should change and you will approach code reviews as what they really are - a Software Engineer's Best Friend (woof! woof!)"
+            }
+        ]
+    },
+    {
+        "name": "Věroš Kaplan",
+        "bio": "Věroš used to be Dev but he is now working mainly as an Operationss guy.\n\nWhile looking for DevOps enlightenment, he keeps himself best by hacking with random things and products - from Kubernetes to MicroPython.",
+        "country": "Czech Republic",
+        "avatar": "img/speakers/veros_kaplan.jpg",
+        "links": {
+            "link": "https://veroskaplan.cz/"
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "en",
+                "title": "Python powered Digital clock",
+                "text": "Build your own Python powered digital clock.\nOr display temperature. Or bitcoin price.\nOr play snake.\n\nWe are going to build  32x8 LED matrix and display messages over WiFi from desktop Python.\n\nYou should bring your laptop with installed Python."
             }
         ]
     },
