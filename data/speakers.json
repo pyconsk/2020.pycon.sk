@@ -324,6 +324,23 @@
         ]
     },
     {
+        "name": "Ondrej Sika",
+        "bio": "Jsem DevOps engineer and konzultant z Prahy. Pomáhám firmám zavádět a zlepšovat DevOps, aby zefektivnili proces vývoje, automatizovali nasazování software a zvýšili stabilitu při jeho provozování.",
+        "country": "Czech Republic",
+        "avatar": "img/speakers/ondrej_sika.jpg",
+        "links": {
+            "link": "https://ondrejsika.com/"
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "Monotorujte Vaši Python aplikaci pomocí Promethea",
+                "text": "Prometheus je moderní monitoringový nástroj, který sbírá metriky z aplikaci a na jejich základě může posílat notifikace. Prometheus nativně podporuje monitoring Kubernetes, serverů, databázi a mnoho dalšího. Také může monitorovat metriky z Váší aplikace, díky kterým můžete ohdalit problémy v jejich zárodku. Pojďme si ukázat jak toho docílit v Pythonu za pomoci oficiálního Python klienta. Ukážeme si to na třech příkladech, aplikace v Djangu, ve Flasku a vlatni aplikaci v Pythonu."
+            }
+        ]
+    },
+    {
         "name": "Michal Petrucha",
         "bio": "Michal is a Pythonista at heart who started using the language back in high school, and never really found another one that could take its place.\nGenerally involved in server-side back-end work, enjoying some lower level systems programming and networking on occasion, also interested in security. Out in the real world, a crazy homebrewing experimenter, vegetable fermenter, heavy music aficionado, and martial artist.",
         "country": "Slovakia / Sweden",
