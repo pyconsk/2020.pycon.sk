@@ -14,22 +14,29 @@
                 "lang": "en",
                 "title": "To be announced...",
                 "text": "To be announced..."
+            },
+            {
+                "type": "Workshop",
+                "lang": "en",
+                "title": "Wagtail workshop",
+                "text": "To be announced..."
             }
         ]
     },
     {
-        "name": "Emilie Sengstschmid",
-        "bio": "Emilie Sengstschmid is working as a software engineer at the University of Applied Arts Vienna. In 2016 she joined the Portfolio/Showroom project, whose main aim is to enable artists and scientists to announce, store and publish their own work and to exchange ideas with colleagues. Her responsibilities concern the entire development process from requirements engineering to deployment. She had worked on high performance applications at the Austrian Federal Computing Center before. She holds a bachelor's degree in Engineering.",
-        "country": "Austria",
-        "avatar": "img/speakers/emilie_sengstschmid.jpg",
+        "name": "Savannah Goodman",
+        "bio": "Savannah Goodman is currently leading the modeling and simulation team at Blueprint Power, a company that unlocks new revenue for real-estate owners by transforming their buildings into energy market connected power plants. Since joining in the summer of 2018, Savannah has architected and managed the development of machine learning and optimization models that enable autonomous operation of DERs for market participation. From her previous experience at companies including Tesla, NRG, Off Grid Electric, and SDG&E, Savannah has developed an expertise in global energy storage and DER applications. She has a particular knack for modeling operational strategies for DERs and their associated economic value streams. Savannah received a BS from the University of Illinois at Urbana-Champaign in Civil Engineering with minors in Electrical Engineering and Technology Management. She received an MS from Stanford University in Civil Engineering with a focus in renewable energy optimization. In her free time, Savannah enjoys traveling, crocheting, listening to audiobooks, and adventuring outdoors.",
+        "country": "United States",
+        "avatar": "img/speakers/savannah_goodman.jpg",
         "links": {
+            "linkedin": "https://www.linkedin.com/in/savannah-goodman/"
         },
         "abstracts": [
             {
                 "type": "Talk",
                 "lang": "en",
-                "title": "Portfolio: How to build a flexible web application using controlled vocabularies and data schemes",
-                "text": "The presentation of art works requires a very versatile and flexible web application. Artists use different media and presentation formats (exhibition, installation, performance, dance, music, etc.). Portfolio is a state-of-the-art research information system designed specifically for the needs of artists. Portfolio’s requirements included creating different and flexible object types which can be defined through a controlled vocabulary maintained by a special non-technical user group.\nPortfolio is built with Django. To fulfill the requirement of flexible and expandable object types a single PostgreSQL JSON database field is used to save object specific data. Data schemes for JSON serialized data are built with marshmallow, a library for simplified object serialization. Skosmos is used to publish, and provide a REST API for the controlled vocabulary which is maintained by non-technical users through VocBench, a web-based, collaborative development platform for managing SKOS thesauri. Portfolio provides a REST API for its Vue.js powered frontend and communication to other applications."
+                "title": "Leveraging Python to transform today’s electrical grid into an integrated system of clean and sustainable power-plants",
+                "text": "The expanding capacity of distributed energy resources (DERs), in addition to government incentives to decarbonise the electric grid, add to the complexity of an already complex and antiquated energy system. However, at Blueprint Power and MAKERS, we are leveraging data science, co-optimization, and machine learning together into one system to unlock the full potential of DERs to create a more robust, green, 21st-century electricity infrastructure.\n\nIn this talk, we will cover three main areas. First, we will explain how we are developing a Python-based Data Science platform that enables buildings to participate in electricity markets as clean, sustainable power plants. Next, we will explain what we’ve learned from building a scalable modeling architecture that is modular and robust enough for the energy trading world. Finally, we will do a deeper dive into how we leverage key libraries, such as pandas, Pyomo, and PyTorch, in our models."
             }
         ]
     },
@@ -53,18 +60,18 @@
         ]
     },
     {
-        "name": "Hannah Hazi",
-        "bio": "I am an Engineer based in Cambridge, UK. I currently work at Stratasys as a C++, Python and Typescript developer, working on tools to support our GrabCAD Print software. In my spare time I love tinkering with Raspberry Pi and playing complicated board games.",
-        "country": "United Kingdom",
-        "avatar": "img/speakers/female.png",
+        "name": "Emilie Sengstschmid",
+        "bio": "Emilie Sengstschmid is working as a software engineer at the University of Applied Arts Vienna. In 2016 she joined the Portfolio/Showroom project, whose main aim is to enable artists and scientists to announce, store and publish their own work and to exchange ideas with colleagues. Her responsibilities concern the entire development process from requirements engineering to deployment. She had worked on high performance applications at the Austrian Federal Computing Center before. She holds a bachelor's degree in Engineering.",
+        "country": "Austria",
+        "avatar": "img/speakers/emilie_sengstschmid.jpg",
         "links": {
         },
         "abstracts": [
             {
                 "type": "Talk",
                 "lang": "en",
-                "title": "The Knowledge In The Code: Or How I Learned to Stop Worrying and Love Legacy Code",
-                "text": "Legacy code. It's old, poorly documented, barely tested, a nightmare to work with. You've never met the people who wrote it, but if you did you'd have a thing or two to tell them! If you had the time, you'd love to re-write it all.\n\nBut what if I told you that there are gems hidden in your company's old code? That re-writing it from scratch would be a bad mistake?\n\nThis is the story of how I learned to love legacy code. And how you might, too!\n\nThis talk is a revised and improved version of one I originally gave at PyCon UK, with more of an emphasis on what good refactoring can look like."
+                "title": "Portfolio: How to build a flexible web application using controlled vocabularies and data schemes",
+                "text": "The presentation of art works requires a very versatile and flexible web application. Artists use different media and presentation formats (exhibition, installation, performance, dance, music, etc.). Portfolio is a state-of-the-art research information system designed specifically for the needs of artists. Portfolio’s requirements included creating different and flexible object types which can be defined through a controlled vocabulary maintained by a special non-technical user group.\nPortfolio is built with Django. To fulfill the requirement of flexible and expandable object types a single PostgreSQL JSON database field is used to save object specific data. Data schemes for JSON serialized data are built with marshmallow, a library for simplified object serialization. Skosmos is used to publish, and provide a REST API for the controlled vocabulary which is maintained by non-technical users through VocBench, a web-based, collaborative development platform for managing SKOS thesauri. Portfolio provides a REST API for its Vue.js powered frontend and communication to other applications."
             }
         ]
     },
@@ -187,18 +194,18 @@
         ]
     },
     {
-        "name": "Mariana Hurná",
-        "bio": "informatik, správca informačného systému mesta Prešov\nPísal sa rok 1996, doba, kedy sa mnohí z vás ešte len učili prvé písmenká alebo\nobjavovali kalkulačku. Presne toho roku sa Mariana Hurná začala starať o programy\na počítače na Mestskom úrade v Prešove. Vtedy na operačný systém bohate\npostačovalo 4 mega RAM, 80 mega na disku na 386 \uF04A\nMariana Hurná buduje a rozširuje Integrovaný informačný systém samosprávy mesta\nPrešov od roku 2000. Ten v súčasnosti zahŕňa 80 modulov v dokumentačnom,\nadministratívnom, evidenčnom, ekonomickom, geografickom a e-Government\nsubsystéme pre viac ako 480 používateľov.\nPoznajúc procesy na úrade, kde sa zbiera a spracúva veľké množstvo informácií,\nktoré môžu byť veľmi zaujímavé pre verejnosť, mesto v roku 2012 zaviedlo\nautomatizovaný spôsob zverejňovania živých datasetov, prehľadov a vizualizácií\nv rozumnej štruktúrovanej forme s otvorenou licenciou na použitie.\nVarenie ako typický ženský koníček ovláda Mariana perfektne, akurát k tomu\npotrebuje dobrú klávesnicu a hrniec plný kvalitných dát. O receptoch, ako dať\nmestským dátam novú chuť a zmysel, bude jej prednáška.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/mariana_hurna.jpg",
+        "name": "Hannah Hazi",
+        "bio": "I am an Engineer based in Cambridge, UK. I currently work at Stratasys as a C++, Python and Typescript developer, working on tools to support our GrabCAD Print software. In my spare time I love tinkering with Raspberry Pi and playing complicated board games.",
+        "country": "United Kingdom",
+        "avatar": "img/speakers/female.png",
         "links": {
         },
         "abstracts": [
             {
                 "type": "Talk",
-                "lang": "sk",
-                "title": "To be announced",
-                "text": ""
+                "lang": "en",
+                "title": "The Knowledge In The Code: Or How I Learned to Stop Worrying and Love Legacy Code",
+                "text": "Legacy code. It's old, poorly documented, barely tested, a nightmare to work with. You've never met the people who wrote it, but if you did you'd have a thing or two to tell them! If you had the time, you'd love to re-write it all.\n\nBut what if I told you that there are gems hidden in your company's old code? That re-writing it from scratch would be a bad mistake?\n\nThis is the story of how I learned to love legacy code. And how you might, too!\n\nThis talk is a revised and improved version of one I originally gave at PyCon UK, with more of an emphasis on what good refactoring can look like."
             }
         ]
     },
@@ -232,6 +239,22 @@
                 "lang": "en",
                 "title": "Dive into codebase like a pro",
                 "text": "How to get familiar with codebase you need to maintain with minimum suffering?\nHow to leave codebase easier to deal with for your colleagues so they don’t have to suffer like you did?\nIf you are experienced developer or a junior just starting your journey, inheriting codebase can be a very challenging task. Especially if the codebase is not quite up to your standards, or it’s just huge and complex beast.\nI will convey my experience and tips and tricks on inheriting code I acquired during 10 years of software development on new and old projects.\nThe talk will provide guidelines to ease taking over code from somebody else, as well as remind developers of the importance that planning, preparation and documentation have in facilitating code change and project growth."
+            }
+        ]
+    },
+    {
+        "name": "Mariana Hurná",
+        "bio": "informatik, správca informačného systému mesta Prešov\nPísal sa rok 1996, doba, kedy sa mnohí z vás ešte len učili prvé písmenká alebo\nobjavovali kalkulačku. Presne toho roku sa Mariana Hurná začala starať o programy\na počítače na Mestskom úrade v Prešove. Vtedy na operačný systém bohate\npostačovalo 4 mega RAM, 80 mega na disku na 386 \uF04A\nMariana Hurná buduje a rozširuje Integrovaný informačný systém samosprávy mesta\nPrešov od roku 2000. Ten v súčasnosti zahŕňa 80 modulov v dokumentačnom,\nadministratívnom, evidenčnom, ekonomickom, geografickom a e-Government\nsubsystéme pre viac ako 480 používateľov.\nPoznajúc procesy na úrade, kde sa zbiera a spracúva veľké množstvo informácií,\nktoré môžu byť veľmi zaujímavé pre verejnosť, mesto v roku 2012 zaviedlo\nautomatizovaný spôsob zverejňovania živých datasetov, prehľadov a vizualizácií\nv rozumnej štruktúrovanej forme s otvorenou licenciou na použitie.\nVarenie ako typický ženský koníček ovláda Mariana perfektne, akurát k tomu\npotrebuje dobrú klávesnicu a hrniec plný kvalitných dát. O receptoch, ako dať\nmestským dátam novú chuť a zmysel, bude jej prednáška.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/mariana_hurna.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "To be announced...",
+                "text": "To be announced..."
             }
         ]
     },
@@ -625,6 +648,86 @@
         ]
     },
     {
+        "name": "Jan Pipek",
+        "bio": "Jan is a data scientist at DTOne by profession, physicist by education, co-organizer of PyData Prague meetups and PyLadies data course coach... and a year-long Python enthusiast.",
+        "country": "Česká republika",
+        "avatar": "img/speakers/jan_pipek.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "en",
+                "title": "Introduction to pandas",
+                "text": "In this workshop, you will get your hands on the essential tool of any Python data analyst or scientist, the pandas library. Based on publicly available data, you will learn how to:\n\n- load, manipulate and clean your data;\n- gather insights using grouping, aggregation and joining data from various sources;\n- understand and present you data visually.\n\nThe course is intended for attendees with high-school (or even grammar-school) math knowledge and basic Python understanding; no advanced statistics or computer science theory will be required or taught.\n\n(a slightly updated version of https://cz.pycon.org/2019/programme/workshops/8/ - with the numpy part removed, also a bit inspired by our https://naucse.python.cz/2020/pydata-praha-jaro/ materials)"
+            }
+        ]
+    },
+    {
+        "name": "Andrej Krnáč",
+        "bio": "To be announced...",
+        "country": "Slovakia",
+        "avatar": "img/speakers/male.svg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "en",
+                "title": "Python application deployment in cloud using Kubernetes",
+                "text": "Main goals\n\n* Demonstrate ways of running Python application in production environment with Kubernetes\n* Describe the advantages and restrictions related to the Kubernetes environment\n* Provide practical guide on how to move from traditional application deployment philosophy to more stable and resilient architectures\n\nPartial goals\n* Show basic concepts of containerization with Docker as a requirement for using Kubernetes for application deployment\n* Describe the essential Kubernetes resources for running an application\n* Show the main concepts of Kubernetes on examples related to the application we are deploying and walk the audience through the process\n\nTechnical Requirements\n\n* Minikube \n* Kubectl\n* Docker\n* Docker Hub account\n"
+            }
+        ]
+    },
+    {
+        "name": "Martin Hauskrecht",
+        "bio": "To be announced...",
+        "country": "Slovakia",
+        "avatar": "img/speakers/male.svg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "en",
+                "title": "Python application deployment in cloud using Kubernetes",
+                "text": "Main goals\n\n* Demonstrate ways of running Python application in production environment with Kubernetes\n* Describe the advantages and restrictions related to the Kubernetes environment\n* Provide practical guide on how to move from traditional application deployment philosophy to more stable and resilient architectures\n\nPartial goals\n* Show basic concepts of containerization with Docker as a requirement for using Kubernetes for application deployment\n* Describe the essential Kubernetes resources for running an application\n* Show the main concepts of Kubernetes on examples related to the application we are deploying and walk the audience through the process\n\nTechnical Requirements\n\n* Minikube \n* Kubectl\n* Docker\n* Docker Hub account\n"
+            }
+        ]
+    },
+    {
+        "name": "Fabšíková Nina",
+        "bio": "To be announced...",
+        "country": "Slovakia",
+        "avatar": "img/speakers/female.png",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "OpenData block",
+                "text": "To be announced..."
+            }
+        ]
+    },
+    {
+        "name": "Iveta Ferčíková",
+        "bio": "To be announced...",
+        "country": "Slovakia",
+        "avatar": "img/speakers/female.png",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "OpenData block",
+                "text": "To be announced..."
+            }
+        ]
+    },
+    {
         "name": "Zuzana Tkáčová",
         "bio": "Vyštudovala umelú inteligenciu na FEI TU v Košiciach. Učiteľka informatiky, t.č. pôsobí na Ústave informatiky PF UPJŠ, kde pripravuje a vedie kurzy pre učiteľov informatiky ZŠ a SŠ. Venuje sa didaktickým inováciám - aktivizujúcim a bádateľským metódam výučby informatiky, physical computingu, creative computingu, umelej inteligencii a prepájaniu informatiky a STE(A)M predmetov. Spolupracuje s občianskym združením Aj Ty v IT ako lektorka programátorských kurzov pre dievčatá a ženy.",
         "country": "Slovakia",
@@ -672,6 +775,149 @@
                 "lang": "sk",
                 "title": "Programovací jazyk Robot Karel po novom a online.",
                 "text": "V mojom príspevku predstavím nové online prostredie a metodiku pre výučbu algoritmizácie prioritne pre druhý stupeň základných škôl. Prostredie a metodiku som vyvinul na základe mojich skúseností s vyučovaním na ZŠ a osemročnom gymnáziu. Založené je na známom koncepte programovania robota Karla v štvorcovej sieti. Spomeniem tiež praktické skúsenosti z výučby a reakcie žiakov pri programovaní Karla, ktoré mi pomohli pri ďalšom vývoji. Uvediem aj čo má táto prednáška spoločné s Pythonom a ako ma jazyk Python pri tvorbe inšpiroval."
+            }
+        ]
+    },
+    {
+        "name": "Peter Valachovič",
+        "bio": "Mgr. Ing. Peter Valachovič, je učiteľ informatiky na Piaristickom gymnáziu v Nitre, kde vyučuje, ako základný kurz programovania v Pythone v rámci informatiky, tak i kurz prípravy na maturitu na voliteľných seminároch z informatiky. V krátkosti prezentoval začiatky prechodu na Python na PyCon SK 2018 a v roku 2019 spolu so žiakmi okrem ďalších krokov prechodu na python predstavil s dvoma študentmi pracujúcimi na svojich pythonových projektoch v rámci školy. \n\nMatúš Masár, študent 3. ročníka Nitrianskeho Piaristického gymnázia, posunul tvorbu študentskej učebnice do úrovne mobilnej aplikácie, kde môžu študenti v slovenčine zadarmo a offline pozrieť prehľad základných príkazov a príkladov použitia.\n\nMichal Magula, študent 4. ročníka Nitrianskeho Piaristického gymnázia, spracoval možnosť použitia libreoffice.org Calc na ľahké vytvorenie GUI pre pythonovské skripty, o ktorú by sa rád podelil.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/peter_valachovic.jpg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Z maturity v pascale na pythonovskú novú maturitu, študenstká mobilná apka o pythone v pythone a jednoduché grafické rozhranie pomocou libreoffice calc",
+                "text": "Chceme sa v krátkosti podeliť o tom ako sa nám podarilo pripraviť sa na prvú a novú maturitu z informatiky v pythone a ako sa veci u nás vyvinuli za prvé štyri roky výučby tohto jazyka. Predstavíme výukovú mobilnú aplikáciu písanú rečou žiakov o pythone vytvorenú študentom v pythone a ukážeme aké sú možnosti použitia libreoffice calc pre grafické užívateľské rozhranie s použitím pythonových skriptov."
+            }
+        ]
+    },
+    {
+        "name": "Roman Krnáč",
+        "bio": "Bakalár Aplikovanej informatiky, Magister Učiteľstva informatiky a Techniky a momentálne doktorand na Katedre Informatiky v odbore Teória vyučovania informatiky. Absolvent kurzov pre prácu s mládežou, dlhoročný voľnočasový vedúci pri práci s deťmi na táboroch a školách v prírode. Učiteľ na súkromnej základnej škole v Nitre.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/roman_krnac.jpg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Zábava a informatika idú ruka v ruke ! :)",
+                "text": "Vo workshope sa budem zaoberať prácou s harvérom i bez neho. V prvej časti workshopu sa pozrieme na prácu so zariadením BBC Micro:bit, ktoré som aplikoval ako učebnú pomôcku vo vyučovaní na viacerých základných školách a letných krúžkoch informatiky pre deti. So zariadením som pracoval v diplomovej práci, kde som vytvoril niekoľko metodických pokynov, podľa ktorých je možné vyučovať informatiku. Prácu so zariadením a jeho zdokonaľovanie som aplikoval i do svojej dizertačnej práce počas doktorandského štúdia, ktoré momentálne študujem. Predstavím vám niekoľko zo svojich aktivít, ktoré mám overené z vlastnej skúsenosti a viem, že sú pre deti veľmi pútavé. V druhej časti bez počítača si ukážeme jednoduché kódovanie informácií kde sa zahrám na gragické prostredie počítača - podobné vývojovému prostrediu kresliacej korytnačky a vo viacerých úlohám predvediem deťom, že nie je vždy tak jednoduché zadávať do počítača informácie tak, aby sme na prvý pokus dostali želaný výsledok."
+            }
+        ]
+    },
+    {
+        "name": "Martin \"Dráčik\" Cápay",
+        "bio": "Martin Cápay Pokiaľ práve neučí v škole, snaží sa rozvíjať neformálne vzdelávanie v oblasti práce s mládežou. Organizuje popularizačné zážitkové aktivity, edukačné workshopy a webináre, či informatický letný tábor a detský počítačový krúžok na KI FPV UKF v Nitre. Je absolventom projektu Komenského inštitút a KomPrax – Kompetencie pre prax, členom programu Microsoft Innovative Educator Expert a spoluzakladateľom občianskeho združenia eTeacher.sk, o.z. Spolu s Maggie odviedli sériu workshopov o využití micro:bitov vo vzdelávaní.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/martin_capay.jpg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Buď SMART s micro:bitom",
+                "text": "Cieľom workshopu bude poskytnúť praktické návody na zaujímavé a pritom jednoduché riešenia využívajúce mikropočítačové dosky, ktoré sa dajú aplikovať pri výučbe informatiky na školách. Účastníci workshopu sa dozvedia, ako s využitím micro:bitov prepojiť hodiny informatiky s reálnym životom. Budeme riešiť otázku: \"Ako funguje inteligentná domácnosť?\". Témou inteligentné domácnosti (SMART houses) chceme priblížiť fungovanie senzorov pri automatizovanom spúšťaní alebo vypínaní komponentov, ako napr. rozsvecovanie svetiel, zapínanie klimatizácie, či zavlažovanie kvetov. Na realizáciu projektov využívame zabudované komponenty a senzory zo sady ELECFREAKS micro:bit Smart Home Kit a budeme ich programovať cez bloky."
+            },
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Vzbuďme v študentoch chuť programovať!",
+                "text": "Programovanie mikropočítačov so senzormi je v posledných rokoch veľmi populárne. Mnohé programovateľné zariadenia nie sú však úplne použiteľné na hodinách informatiky na ZŠ, a to najmä kvôli nutnosti komplikovaného zapojenia hardvérových prvkov. S príchodom mikropočítača BBC micro:bit, ktorý bol špeciálne vyvinutý pre edukačné účely, sa však situácia výrazne zmenila. Micro:bit má v základnej výbave integrované množstvo technológií, ktoré z neho robia silný nástroj v oblasti „physical computing“ a STEM.  Aktivity, ktoré budeme popisovať boli realizované na detskom informatickom krúžku ale aj priamo na základných školách. Sú navrhnuté tak, aby deti mohli úlohu najskôr analyzovať, diskutovať o nej mimo počítača, následne na počítači naprogramovať správanie sa micro:bita a funkčnosť programu overiť opäť mimo počítača v nejakej hravej forme."
+            }
+        ]
+    },
+    {
+        "name": "Magdaléna \"Maggie\" Bellayová",
+        "bio": "Magdaléna Bellayová je študentka prvého ročníka na Fakulte Informačních Technologií na VUT v Brne, členka eTeacher, o.z., AI ambasádorka. Účastníčka prvého Microsoft AI Bootcampu, Aktívne sa zapája do mimoškolských aktivít zaoberajúcich sa popularizáciou informatiky ako vedecký deň detí, či letný informatický tábor. Pomáhala s realizáciou detského počítačového krúžku na KI FPV v Nitre, kde mimo iného využívala aj BBC micro:bitov. Na základe aktivít z počítačového krúžku následne spolu s Martinom odviedli sériu workshopov a prezentácií o učení s micro:bitom.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/magdalena_bellayova.jpg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Buď SMART s micro:bitom",
+                "text": "Cieľom workshopu bude poskytnúť praktické návody na zaujímavé a pritom jednoduché riešenia využívajúce mikropočítačové dosky, ktoré sa dajú aplikovať pri výučbe informatiky na školách. Účastníci workshopu sa dozvedia, ako s využitím micro:bitov prepojiť hodiny informatiky s reálnym životom. Budeme riešiť otázku: \"Ako funguje inteligentná domácnosť?\". Témou inteligentné domácnosti (SMART houses) chceme priblížiť fungovanie senzorov pri automatizovanom spúšťaní alebo vypínaní komponentov, ako napr. rozsvecovanie svetiel, zapínanie klimatizácie, či zavlažovanie kvetov. Na realizáciu projektov využívame zabudované komponenty a senzory zo sady ELECFREAKS micro:bit Smart Home Kit a budeme ich programovať cez bloky."
+            },
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Vzbuďme v študentoch chuť programovať!",
+                "text": "Programovanie mikropočítačov so senzormi je v posledných rokoch veľmi populárne. Mnohé programovateľné zariadenia nie sú však úplne použiteľné na hodinách informatiky na ZŠ, a to najmä kvôli nutnosti komplikovaného zapojenia hardvérových prvkov. S príchodom mikropočítača BBC micro:bit, ktorý bol špeciálne vyvinutý pre edukačné účely, sa však situácia výrazne zmenila. Micro:bit má v základnej výbave integrované množstvo technológií, ktoré z neho robia silný nástroj v oblasti „physical computing“ a STEM.  Aktivity, ktoré budeme popisovať boli realizované na detskom informatickom krúžku ale aj priamo na základných školách. Sú navrhnuté tak, aby deti mohli úlohu najskôr analyzovať, diskutovať o nej mimo počítača, následne na počítači naprogramovať správanie sa micro:bita a funkčnosť programu overiť opäť mimo počítača v nejakej hravej forme."
+            }
+        ]
+    },
+    {
+        "name": "Miroslav Biňas",
+        "bio": "Odborný asistent na Katedre počítačov a informatiky, TUKE, kde učí “detiská” programovať najmä v jazyku C. Stále dúfa, že keď vyrastie, bude z neho Linuxák. Alebo Batman.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/mirek_binas.jpg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Ako sa dá s Python zvládnuť štvorročné štúdium na strednej škole",
+                "text": "Jazyk Python je univerzálny programovací jazyk so strmou krivkou učenia sa. Práve preto učíme detiská vytvárať webové stránky v PHP, programovať mikrokontroléry v jazyku C, kvôli objektovému programovaniu ich trápime s Javou. A pritom si vôbec neuvedomujeme, že to všetko sa dá robiť aj v Python-e. Prehľad rozličných (ne)tušených možností využitia Python-u vo výučbe na strednej škole vám ukážem počas tejto prednášky. A detiská sa konečne nebudú musieť každý rok učiť nový jazyk, ale budú sa zdokonaľovať len v tom jednom - v tom Python-e."
+            },
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Robíme IoT na mikrokontroléri ESP32 v jazyku MicroPython",
+                "text": "Mikrokontrolér ESP32 je cenovo dostupné a nadupané zariadenie vhodné pre oblasť IoT vybavené WiFi a Bluetooth LE. Čo je však úplne fantastické, viete na ňom rozbehnúť firmvér s jazykom MicroPython. Na tomto workshope si spolu vytvoríme jednoduché IoT riešenie, ktoré rovno prepojíme s niektorou online službou poskytujúcou zber a vizualizáciu údajov. Ak sa rozhodnete prísť na tento workshop a budete chcieť robiť na vlastnom laptope, prosím postupujte podľa pokynov v tomto dokumente: http://bit.ly/2P54h5O (stačí len časť o inštalácii editora Mu a v prípade windowsákov aj inštalácia ovládačov)."
+            }
+        ]
+    },
+    {
+        "name": "Patrik Voštinár",
+        "bio": "Katedra informatiky FPV UMB",
+        "country": "Slovakia",
+        "avatar": "img/speakers/patrik_vostinar.jpg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Naprogramuj si robota Ozobot EVO",
+                "text": "Ozobot EVO je robotická didaktická pomôcka, ktorá umožňuje pochopenie základných princípov robotiky a programovania. V rámci workshopu predstavíme rôzne motivačné úlohy pre Ozobota."
+            },
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Programovanie vlastných micro:bit herných ovládačov a autíčok",
+                "text": "V rámci workshopu predstavíme rozšírenia pre edukačnú dosku BBC micro:bit - micro:bit autíčka a herné ovládače. Účastníci si najprv naprogramujú vlastný herný ovládač, ktorý bude ovládať micro:bit autíčko a následne vyskúšajú úlohy s micro:bit rozšírením - semafórom."
+            }
+        ]
+    },
+    {
+        "name": "CoderDojo Slovensko",
+        "bio": "CoderDojo je globálna sieť bezplatných programovacích klubov pre deti od 7 do 17 rokov. Kluby CoderDojo sú vedené dobrovoľníkmi a sú organizované formou “hackerspaceov”. Deti majú možnosť pracovať na svojich vlastných nápadoch a majú prístup k technickým mentorom z profesionálneho sveta. Máme pobočky v Bratislave, Senci a v Žiline.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/male.svg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Naučte sa programovať s CoderDojo",
+                "text": "Príďte si vyskúšať špeciálne CoderDojo na PyCone. Máme pre vás pripravené programovanie v Scratchi, Pythone, na micro:bitoch alebo Arduino. Máte vlastný projekt? Prineste nám ho ukázať!"
             }
         ]
     }

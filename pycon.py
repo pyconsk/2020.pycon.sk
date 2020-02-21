@@ -172,7 +172,7 @@ def profile(name):
     variables = _get_template_variables(li_speakers='active', background='bkg-speaker')
 
     for speaker in SPEAKERS:
-        if speaker['name'] == name:
+        if speaker['name'].lower() == name.lower():
             variables['speaker'] = speaker
             break
 
