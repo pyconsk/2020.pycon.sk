@@ -728,6 +728,38 @@
         ]
     },
     {
+        "name": "Martin Forstner",
+        "bio": "To be announced...",
+        "country": "Slovakia",
+        "avatar": "img/speakers/male.svg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "en",
+                "title": "Visualizing Wikipedia edit streams with Redis and Plotly Dash",
+                "text": "To be announced..."
+            }
+        ]
+    },
+    {
+        "name": "Guy Korland",
+        "bio": "To be announced...",
+        "country": "Slovakia",
+        "avatar": "img/speakers/male.svg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "en",
+                "title": "Visualizing Wikipedia edit streams with Redis and Plotly Dash",
+                "text": "To be announced..."
+            }
+        ]
+    },
+    {
         "name": "Zuzana Tkáčová",
         "bio": "Vyštudovala umelú inteligenciu na FEI TU v Košiciach. Učiteľka informatiky, t.č. pôsobí na Ústave informatiky PF UPJŠ, kde pripravuje a vedie kurzy pre učiteľov informatiky ZŠ a SŠ. Venuje sa didaktickým inováciám - aktivizujúcim a bádateľským metódam výučby informatiky, physical computingu, creative computingu, umelej inteligencii a prepájaniu informatiky a STE(A)M predmetov. Spolupracuje s občianskym združením Aj Ty v IT ako lektorka programátorských kurzov pre dievčatá a ženy.",
         "country": "Slovakia",
