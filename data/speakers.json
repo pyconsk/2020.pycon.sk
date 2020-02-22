@@ -631,6 +631,22 @@
         ]
     },
     {
+        "name": "Craig Franklin",
+        "bio": "Craig is a professional web developer by way of digital marketing and an amateur data scientist by way of wanting to understand what in the world all these numbers mean. Writing Ruby by day, his passion projects are centered around sports, data, and machine learning, all for the ultimate prize of bragging rights. Originally from the suburbs of Seattle, WA, he currently lives in Melbourne, Australia.",
+        "country": "United States / Australia",
+        "avatar": "img/speakers/craig_franklin.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "The Traps and Challenges of Machine Learning Outside the Kaggle Cloister",
+                "text": "Machine learning is more art than science, and it isn't alway clear how you go from Kaggle competitions to building your own machine learning project from scratch. You have a cool idea, but how do you turn it into an application that you can show off to your friends, basking in the warmth of their envy? More importantly, what mistakes do you need to avoid in order to keep the hope of such basking alive?\n\nCome along and hear of my missteps, assumptions exposed and exploded, and the unpleasant surprises that come from doing machine learning in the wild. You'll learn about how to deal with haphazard data entry, depending on the kindness of strangers, boxes of different shapes and sizes, and, finally, what to do when all of this changes, because it will.\n\nIf you're interested in machine learning and are familiar with the basic tools and techniques, but are unsure of how to take a project idea to production, this talk will at least show you what not to do and how not to do it."
+            }
+        ]
+    },
+    {
         "name": "Michal Haták",
         "bio": "Michal pracuje pres 8 let v Jihočeském Iniziu. Začínal s klasickými prezenčními weby, ale před pěti lety se mu do rukou dostal projekt pro zákazníka v Kanadě. Jedná se o automatizační platformu z prostředí Real Estate. Základy AUTOPROPu jsou v Pythonu a na AWS.",
         "country": "Česká republika",
