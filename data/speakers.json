@@ -24,23 +24,6 @@
         ]
     },
     {
-        "name": "Savannah Goodman",
-        "bio": "Savannah Goodman is currently leading the modeling and simulation team at Blueprint Power, a company that unlocks new revenue for real-estate owners by transforming their buildings into energy market connected power plants. Since joining in the summer of 2018, Savannah has architected and managed the development of machine learning and optimization models that enable autonomous operation of DERs for market participation. From her previous experience at companies including Tesla, NRG, Off Grid Electric, and SDG&E, Savannah has developed an expertise in global energy storage and DER applications. She has a particular knack for modeling operational strategies for DERs and their associated economic value streams. Savannah received a BS from the University of Illinois at Urbana-Champaign in Civil Engineering with minors in Electrical Engineering and Technology Management. She received an MS from Stanford University in Civil Engineering with a focus in renewable energy optimization. In her free time, Savannah enjoys traveling, crocheting, listening to audiobooks, and adventuring outdoors.",
-        "country": "United States",
-        "avatar": "img/speakers/savannah_goodman.jpg",
-        "links": {
-            "linkedin": "https://www.linkedin.com/in/savannah-goodman/"
-        },
-        "abstracts": [
-            {
-                "type": "Talk",
-                "lang": "en",
-                "title": "Leveraging Python to transform today’s electrical grid into an integrated system of clean and sustainable power-plants",
-                "text": "The expanding capacity of distributed energy resources (DERs), in addition to government incentives to decarbonise the electric grid, add to the complexity of an already complex and antiquated energy system. However, at Blueprint Power and MAKERS, we are leveraging data science, co-optimization, and machine learning together into one system to unlock the full potential of DERs to create a more robust, green, 21st-century electricity infrastructure.\n\nIn this talk, we will cover three main areas. First, we will explain how we are developing a Python-based Data Science platform that enables buildings to participate in electricity markets as clean, sustainable power plants. Next, we will explain what we’ve learned from building a scalable modeling architecture that is modular and robust enough for the energy trading world. Finally, we will do a deeper dive into how we leverage key libraries, such as pandas, Pyomo, and PyTorch, in our models."
-            }
-        ]
-    },
-    {
         "name": "Roman Imankulov",
         "bio": "Roman is a software developer who started his career creating web apps with Django before it was cool. Eventually he sticks to Python for more than a decade, successfully using it as a golden hammer it to solve all kinds of problems. Originally Russian, at the moment he lives in Porto and works at Doist as head of the back-end development team.",
         "country": "Portugal",
