@@ -243,6 +243,22 @@
         ]
     },
     {
+        "name": "Anton Caceres",
+        "bio": "Anton is a developer running own software agency in Munich. He is known as a Python community activist and organizer of the PyConWeb conference, for which he was recognized as a Python Software Foundation Fellow. Anton prefers weird ways to get to the conferences and often makes pointless lightning talks about that.",
+        "country": "Ukraine",
+        "avatar": "img/speakers/anton_caceres.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "Why Using Serverless With Python is a Good Idea",
+                "text": "These days we hear about trendy serverless deployments way too often: the mysterious way we can prepare, push, and execute applications with zero effort on the infrastructure side. This talk explores serverless use-cases for Python developers.\n\nThis is not another pitch of AWS Lambda. While including the lambda, we will rather discuss Python framework options, how to build more sophisticated workflows and integrations, how to deploy our code across different cloud providers, and finally, how to test and debug the apps, all based on the open-source serverless framework."
+            }
+        ]
+    },
+    {
         "name": "Mariana Hurná",
         "bio": "informatik, správca informačného systému mesta Prešov\nPísal sa rok 1996, doba, kedy sa mnohí z vás ešte len učili prvé písmenká alebo\nobjavovali kalkulačku. Presne toho roku sa Mariana Hurná začala starať o programy\na počítače na Mestskom úrade v Prešove. Vtedy na operačný systém bohate\npostačovalo 4 mega RAM, 80 mega na disku na 386 \uF04A\nMariana Hurná buduje a rozširuje Integrovaný informačný systém samosprávy mesta\nPrešov od roku 2000. Ten v súčasnosti zahŕňa 80 modulov v dokumentačnom,\nadministratívnom, evidenčnom, ekonomickom, geografickom a e-Government\nsubsystéme pre viac ako 480 používateľov.\nPoznajúc procesy na úrade, kde sa zbiera a spracúva veľké množstvo informácií,\nktoré môžu byť veľmi zaujímavé pre verejnosť, mesto v roku 2012 zaviedlo\nautomatizovaný spôsob zverejňovania živých datasetov, prehľadov a vizualizácií\nv rozumnej štruktúrovanej forme s otvorenou licenciou na použitie.\nVarenie ako typický ženský koníček ovláda Mariana perfektne, akurát k tomu\npotrebuje dobrú klávesnicu a hrniec plný kvalitných dát. O receptoch, ako dať\nmestským dátam novú chuť a zmysel, bude jej prednáška.",
         "country": "Slovakia",

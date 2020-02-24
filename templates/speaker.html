@@ -19,6 +19,7 @@
     </div>
   </div>
 </section>
+    <a id=bio></a>
 <!-- Inne Page Banner Area End Here -->
 <!-- Speaker Page Area Start Here -->
 <section class="section-space-less30">
@@ -50,6 +51,7 @@
             </div>
             {% for abstract in speaker['abstracts'] %}
             <div class="col-12">
+                <a id="abstract{{ loop.index }}"></a>
                 <div class="pt-5 event-description">
                     <h2 class="title title-bold color-dark">{{ abstract['title'] }} <span class="pull-right badge badge-pill badge-primary">{{ abstract['type'] }}</span></h2>
                     <p><span class="pull-right badge badge-pill badge-primary">

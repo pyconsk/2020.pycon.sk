@@ -160,6 +160,12 @@ def privacy_policy():
     return render_template('privacy-policy.html', **_get_template_variables(li_privacy='active', background='bkg-privacy'))
 
 
+@app.route('/<lang_code>/program/index.html')
+def program():
+    variables = _get_template_variables(li_program='active', background='bkg-speaker', speakers=SPEAKERS)
+
+    return render_template('program.html', **variables)
+
 @app.route('/<lang_code>/speakers/index.html')
 def speakers():
     variables = _get_template_variables(li_speakers='active', background='bkg-speaker', speakers=SPEAKERS)

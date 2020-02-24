@@ -114,11 +114,14 @@
                                                 <li{% if li_news %} class="menu-justify current"{% endif %}>
                                                   <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>
                                                 </li>
-                                                <li class="dropdown{% if li_speakers or li_cfp %} current{% endif %}">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Speakers') }}
+                                                <li class="dropdown{% if li_speakers or li_cfp or li_program %} current{% endif %}">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Program') }}
     <!--                                                    <i class="fa fa-angle-down"></i>-->
                                                     </a>
                                                     <ul class="rt-dropdown-menu" role="menu">
+                                                        <li{% if li_program %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('program', lang_code=lang_code) }}">{{ _('Program') }}</a>
+                                                        </li>
                                                         <li{% if li_speakers %} class="menu-justify current"{% endif %}>
                                                             <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a>
                                                         </li>
