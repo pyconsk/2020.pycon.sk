@@ -685,6 +685,8 @@
         "country": "Česká republika",
         "avatar": "img/speakers/jan_pipek.jpg",
         "links": {
+            "twitter": "https://twitter.com/JanPipek",
+            "github": "https://github.com/janpipek"
         },
         "abstracts": [
             {
