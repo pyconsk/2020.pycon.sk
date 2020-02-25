@@ -275,6 +275,23 @@
         ]
     },
     {
+        "name": "Sylvia Ličková",
+        "bio": "Vyštudovala slovenský a francúzsky jazyk v kombinácii so psychológiou a pedagogikou na Komenského univerzite. Za 15 rokov aktívneho pôsobenia v oblasti ľudských zdrojov a headhuntingu prečítala tisíce profilov uchádzačov o prácu a viedla stovky pracovných pohovorov. Posledných 7 rokov pôsobí ako Senior Sourcing Specialist v spoločnosti TITANS freelancers, ktorá ako líder v oblasti outsorcingu dodáva stovky IT špecialistov na zaujímavé projekty na Slovensku a v zahraničí. V roku 2019 absolvovala program MiniTech MBA for women. Je aktívnou podporovateľkou programu Teach for Slovakia. Príležitostne sa venuje kariérnemu poradenstvu. A popri tom svojim dvom deťom, vlčiakovi, písaniu poviedok, nordik walkingu a zborovému spevu. Počúva Anténu Rock:-)",
+        "country": "Slovakia",
+        "avatar": "img/speakers/sylvia_lickova.jpg",
+        "links": {
+            "link": "https://www.titans.sk/"
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Zahviezdi na pohovore ako #Pythonstar",
+                "text": "Pohovor je vec stresujúca. Navyše tu platí pravidlo, že šanca presvedčiť a zaujať je len jedna. Správnou prípravou ale tento stres ľahko odbúraš, navyše získaš konkurenčnú výhodu pred ostatnými kandidátmi. Chceš vedieť ako? Príď na workshop a uvidíš. Odhalené ti budú všetky #zákutia výberových procesov a na ďalšom pohovore už určite pocítiš rozdiel.\n\n1.     #Screening kandidátov (10 min)\na.     Ako si ťa recruiter preveruje a kde\nb.     Ako si upraviť profil tak, aby si neskončil v procese ešte skôr ako začneš\n2.     #Úskalia interviews (15 min)\na.     Najčastejšie technické a netechnické otázky na Python pohovoroch\nb.     Ako vystupovať, aby si ťa klient pozitívne zapamätal a čomu sa vyhnúť\nc.     Najväčšie chyby pri self-prezentácii\nd.   Časté problémy po interview a ako s nimi pracovať\n3.    #Partner pre hľadanie pozície či projektu (10 min)\na.    Výhody a nevýhody hľadania projektu „napriamo“\nb.    Ako si vybrať vhodného partnera či klienta\n4.     Diskusia, otázky (10 min)"
+            }
+        ]
+    },
+    {
         "name": "Ján Šichula",
         "bio": "Momentálne pracujem ako lektor v STEP IT Academy Bratislava, kde vyučujem široké spektrum predmetov. Z pohľadu záujmov mám najbližšie k technológiám, na ktorých beží web. Hlbšie v minulosti som sa venoval aj administrácii počítačových sietí na báze systému Windows. Do tejto škály záujmov som pribral aj Python a s nadšením objavil, ako sa dá krásne skombinovať s nástrojom Visual Studio Code.",
         "country": "Slovakia",
