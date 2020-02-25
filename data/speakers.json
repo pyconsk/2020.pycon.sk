@@ -955,10 +955,44 @@
         ]
     },
     {
+        "name": "Peter Palát",
+        "bio": "Softvérový Architekt v spoločnosti ESET s.r.o\n\n„Ajťák“, ktorý sa síce aktívne nevenuje programovaniu, ale dozoruje nad vývojom komplexných riešení. Vyštudoval Softvérove inžinierstvo na Fakulte Informatiky a Informačných Technológií Slovenskej Tehnickej Univerzity v Bratislave. Vo voľnom čase sa venuje dobrovoľníckemu programu DigiSkills, ktorý zastrešuje školenia učiteľov o programovaní a digitálnej bezpečnosti.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/peter_palat.jpg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Internetová bezpečnosť",
+                "text": "Máte pocit, že sa svet rýchlo vyvíja a nestíhate držať tempo s dobou? Stratili ste ideály o tom ako internet pomôže ľuďom sa vzdelávať vďaka voľnému a rýchlemu prístupu k informáciám? Nepodliehajte panike, voči nástrahám na internete sa dá ľahko chránit a spolu si prejdeme účinné techniky obrany voči najčastejším útokom."
+            }
+        ]
+    },
+    {
+        "name": "Michaela Gažová",
+        "bio": "Softvérová inžinierka v ESETe\n\nMichaela vyštudovala Bezpečnosť informačných sýstemov aplikovanej informatiky na Fakulte elektrotechniky a informatiky Slovenskej Technickej Univerzity v Bratislave (FEI STU). Momentálne pracuje v technologickej divízii v Esete na vývoji rôznych produktov. V rámci dobrovoľníckych aktivít popri práci sa podieľa na školeniach Digital Skills pre učiteľov, kde školí digitálnu bezpečnosť.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/michaela_gazova.jpg",
+        "edusummit": true,
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Internetová bezpečnosť v skratke",
+                "text": "Je internet bezpečný? Aké nastráhy na nás čihajú vo virtuálnom svete? V krátkom segmente si v skratke prejdeme dôležité postrehy ohľadom internetovej bezpečnosti, ako sa (ne)správať na internete, aby sme my a naše údaje boli v bezpečí."
+            }
+        ]
+    },
+    {
         "name": "CoderDojo Slovensko",
         "bio": "CoderDojo je globálna sieť bezplatných programovacích klubov pre deti od 7 do 17 rokov. Kluby CoderDojo sú vedené dobrovoľníkmi a sú organizované formou “hackerspaceov”. Deti majú možnosť pracovať na svojich vlastných nápadoch a majú prístup k technickým mentorom z profesionálneho sveta. Máme pobočky v Bratislave, Senci a v Žiline.",
         "country": "Slovakia",
-        "avatar": "img/speakers/male.svg",
+        "avatar": "img/speakers/coderdojo.png",
         "edusummit": true,
         "links": {
         },
