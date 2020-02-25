@@ -763,9 +763,9 @@
     },
     {
         "name": "Martin Forstner",
-        "bio": "To be announced...",
-        "country": "Slovakia",
-        "avatar": "img/speakers/male.svg",
+        "bio": "Martin has been working as a Software Engineer for 11 years before he joined Redis Labs as a Solution Architect. He has developed server- and clientside solutions in several languages and paradigms. He's specialized in distributed systems programming using appropriate networking protocols and database technologies. In addition to that, he has been deploying applications in different cloud environments and was responsible for its smooth operation. He's a smooth operator!",
+        "country": "Germany",
+        "avatar": "img/speakers/martin_forstner.jpg",
         "links": {
         },
         "abstracts": [
@@ -773,23 +773,7 @@
                 "type": "Workshop",
                 "lang": "en",
                 "title": "Visualizing Wikipedia edit streams with Redis and Plotly Dash",
-                "text": "To be announced..."
-            }
-        ]
-    },
-    {
-        "name": "Guy Korland",
-        "bio": "To be announced...",
-        "country": "Slovakia",
-        "avatar": "img/speakers/male.svg",
-        "links": {
-        },
-        "abstracts": [
-            {
-                "type": "Workshop",
-                "lang": "en",
-                "title": "Visualizing Wikipedia edit streams with Redis and Plotly Dash",
-                "text": "To be announced..."
+                "text": "This workshop focuses on data processing and visualizing with Redis and Plotly Dash.\n\nWe'll start by introducing the concept of Event Data Pipelines and explain how to implement it with Python and Redis Pub/Sub. Then with our help, you will read and process the stream of Wikipedia edits and create a web application visualizing the rate of these changes.\n\nYou will get hands-on experience on how to process and visualize data streams in real-time, familiarize yourself with Redis, Python client for Redis, and Dash, an Open Source visualization platform from Plotly. In Redis specifically, you will learn the concept of pub-sub events and familiarize yourself with core Redis data types.\n\nConsider this as a white/yellow belt overall difficulty, but all levels of expertise can use this to both learn or remember essential concepts."
             }
         ]
     },
