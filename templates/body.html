@@ -178,37 +178,69 @@
                                         <!-- Mobile Menu start -->
                                         <nav id="dropdown" class="d-md-none">
                                           <ul>
-                                            <li>
-                                              <a href="{{ url_for('index', lang_code=lang_code) }}">PyCon SK 2020</a>
-                                            </li>
-                                            <li>
-                                              <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('Call for proposals') }}</a>
-                                            </li>
-                                            <li>
-                                              <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
-                                            </li>
-                                            <li>
-                                              <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
-                                            </li>
-                                            <li>
-                                              <a href="{{ url_for('tickets', lang_code=lang_code) }}" title="{{ _('Buy Tickets') }}">{{ _('Buy Tickets') }}</a>
-                                            </li>
-                                            {% if lang_code == 'sk' %}
-                                            <li>
-                                              <a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to English"
-                                                 hreflang="en">
-                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACJElEQVQokYWQW0jTYQDFv8ceehELCx96CoqlYaxSQYaZoWBCNTNl6JbLkKGV+RBZy3mp8Ia3LooammGY5TIyAzOHKVmRQ52xdIREMMlVkLKm///362HVk9B5OnA4F45oaB5m0LVE8a1xzGXjmMtGMdlGcHt8PMyx0Wu04vb4SLYMkJQ7SJzBTqbtOa1HzlDcNobouv8GHvcgJcwtLNNpn+NO3zxSAk3VUFuBlNDQMU1Nm5OJ15+RlZeQaoC6fifiZLmDoYlvcK8bHC8AuHrTBQCn8sBoAqCodorlzl78VVUAtPdMsVV7OxjQYfdgrXexMPwJpfQK/2AwQPqJIM/PA68X57yP+ORuCktfERJRj3B7fMG56yEtDVJT15WkhHezi4he02VovA5mM2RnQ0YG6PVBY0oKMjGRVZ2OQEwMfq2WlchIVjQaAscOUbEt9j8L4uJQ9kX/7QRAVVUUVWFNUZhweRG6rH6qWyfJzB1kxvUdfEsEcrKDlj1a1nZH/QlQ+XIgnpfNT9kS3oLe2IcItSD2H3/E3b7g6z9tVn5UVmIoGgdA0USwulMDUhKr6yIALLe04TUaKL3xHhFyGtH4ZBopVfzXLjA2Mse5EgcFJaNICao+ibWjCUhVJT13gLSsBzwb/Yiq/OKr8TCWwi7ExfYRmg7mkJDXSciuVjbuaGTD9jomZ71UhEdTHqbl7cwiIuw8YvNZRGg+m6Ks1Ax9IHFvAb8B0rMYCWdRNDQAAAAASUVORK5CYII=" alt="english language">
-                                              </a>
-                                            </li>
-                                            {% else %}
-                                            <li>
-                                              <a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovečinu"
-                                                 hreflang="sk">
-                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACO0lEQVQokXXMTUiTARzH8T94FOrgyYsddkkQJcFIyhQ1kUzQUHMTRRMNU6xMLXpRMLVS8gWkrKhDXesk0TFKIgzTXPMt2ea0JWOutT179uzlefbtUlKHfvA5/r5iqBqGqv5LUYgrCvGAQtQfQPP7UX1+VK8PxeMlsOPB73bj23YjhqrxZ4lEYo9hJDAMA13X0XWdeDxOLBYjGo0SiUTQNA2vaxsxVBWA8NNnhCfuo45PERqdJDQ6/t9jOBxG0zR27E4k37zOi9c/ULpvkGhuwnA4MIYGiVnqmHjk4s70N4amthiY3KRvzMm1ETu9tze4+8CJJL1CkkxzDD7eJdDRjfFpHsO3i77lQqut42aflZrOr9ScX6Gy1cap5i+UNixRaFmk4dIyIk8QOTDHrYde/G1d6C2N6A4H8bvDRC0WLl61cbpjncpzK5Q32yhtsFJkWeL4mUXqLuwFFhmY9mB9a2e4Z5b2nmXaOxfYnJnFfNlOedsGJ1vWONG0SkH9CsfMNo5UW6nqXEPkOfJGBNeVEb4PT2F/v0Zjr53Vd+u4+sewFpj5fLSahcMVzB8q42NGKXMHi/hgymehqI57IkhUBL21lVhxMbHuLn6+nCFwvR8tM5NwejqqyUQoLQ0lNZVgSgqB/fsIJCcTzMrCKYJoIsSbzhKrrydaW0u0qppIRQVaWRlaSQnhwkLUvDxCubkoOTkEs7MJZmURzMjALoKoIigiBETwi+D7zSuCR4QdEdwibIvgEsEpgv0vvwCcffbRnUTGYAAAAABJRU5ErkJggg==" alt="slovenský jazyk">
-                                              </a>
-                                            </li>
-                                            {% endif %}
-                                          </ul>
+                                                <li{% if li_news %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('news', lang_code=lang_code) }}">{{ _('Newsroom') }}</a>
+                                                </li>
+                                                <li class="dropdown{% if li_speakers or li_cfp or li_program %} current{% endif %}">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('Program') }}
+    <!--                                                    <i class="fa fa-angle-down"></i>-->
+                                                    </a>
+                                                    <ul class="rt-dropdown-menu" role="menu">
+                                                        <li{% if li_program %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('program', lang_code=lang_code) }}">{{ _('Program') }}</a>
+                                                        </li>
+                                                        <li{% if li_speakers %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Speakers') }}</a>
+                                                        </li>
+                                                        <li{% if li_cfp %} class="menu-justify current"{% endif %}>
+                                                            <a href="{{ url_for('cfp', lang_code=lang_code) }}">{{ _('Call for proposals') }}</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li{% if li_edusummit %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('edusummit', lang_code=lang_code) }}">{{ _('EduSummit') }}</a>
+                                                </li>
+                                                <li{% if li_sponsors %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponsors') }}</a>
+                                                </li>
+                                                <li{% if li_coc %} class="menu-justify current"{% endif %}>
+                                                  <a href="{{ url_for('coc', lang_code=lang_code) }}">{{ _('Code of Conduct') }}</a>
+                                                </li>
+                                                <li class="dropdown {% if li_aboutus or li_cfv or li_venue %} current{% endif %}">
+                                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ _('About') }}
+<!--                                                    <i class="fa fa-angle-down"></i>-->
+                                                  </a>
+                                                  <ul class="rt-dropdown-menu" role="menu">
+<!--                                                    <li{% if li_faq %} class="menu-justify current"{% endif %}>-->
+<!--                                                      <a href="{{ url_for('faq', lang_code=lang_code) }}">{{ _('FAQ') }}</a>-->
+<!--                                                    </li>-->
+                                                    <li{% if li_aboutus %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('aboutus', lang_code=lang_code) }}">{{ _('About Us') }}</a>
+                                                    </li>
+                                                    <li{% if li_venue %} class="menu-justify current"{% endif %}>
+                                                      <a href="{{ url_for('venue', lang_code=lang_code) }}">{{ _('Venue') }}</a>
+                                                    </li>
+                                                    <li{% if li_cfv %} class="menu-justify current"{% endif %}>
+                                                        <a href="{{ url_for('cfv', lang_code=lang_code) }}">{{ _('Call for volunteers') }}</a>
+                                                    </li>
+                                                  </ul>
+                                                </li>
+                                                {% if lang_code == 'sk' %}
+                                                <li>
+                                                  <a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to English"
+                                                     hreflang="en"><img
+                                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACJElEQVQokYWQW0jTYQDFv8ceehELCx96CoqlYaxSQYaZoWBCNTNl6JbLkKGV+RBZy3mp8Ia3LooammGY5TIyAzOHKVmRQ52xdIREMMlVkLKm///362HVk9B5OnA4F45oaB5m0LVE8a1xzGXjmMtGMdlGcHt8PMyx0Wu04vb4SLYMkJQ7SJzBTqbtOa1HzlDcNobouv8GHvcgJcwtLNNpn+NO3zxSAk3VUFuBlNDQMU1Nm5OJ15+RlZeQaoC6fifiZLmDoYlvcK8bHC8AuHrTBQCn8sBoAqCodorlzl78VVUAtPdMsVV7OxjQYfdgrXexMPwJpfQK/2AwQPqJIM/PA68X57yP+ORuCktfERJRj3B7fMG56yEtDVJT15WkhHezi4he02VovA5mM2RnQ0YG6PVBY0oKMjGRVZ2OQEwMfq2WlchIVjQaAscOUbEt9j8L4uJQ9kX/7QRAVVUUVWFNUZhweRG6rH6qWyfJzB1kxvUdfEsEcrKDlj1a1nZH/QlQ+XIgnpfNT9kS3oLe2IcItSD2H3/E3b7g6z9tVn5UVmIoGgdA0USwulMDUhKr6yIALLe04TUaKL3xHhFyGtH4ZBopVfzXLjA2Mse5EgcFJaNICao+ibWjCUhVJT13gLSsBzwb/Yiq/OKr8TCWwi7ExfYRmg7mkJDXSciuVjbuaGTD9jomZ71UhEdTHqbl7cwiIuw8YvNZRGg+m6Ks1Ax9IHFvAb8B0rMYCWdRNDQAAAAASUVORK5CYII="
+                                                      alt="english language"></a>
+                                                </li>
+                                                {% else %}
+                                                <li>
+                                                  <a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovečinu"
+                                                     hreflang="sk"><img
+                                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAACO0lEQVQokXXMTUiTARzH8T94FOrgyYsddkkQJcFIyhQ1kUzQUHMTRRMNU6xMLXpRMLVS8gWkrKhDXesk0TFKIgzTXPMt2ea0JWOutT179uzlefbtUlKHfvA5/r5iqBqGqv5LUYgrCvGAQtQfQPP7UX1+VK8PxeMlsOPB73bj23YjhqrxZ4lEYo9hJDAMA13X0XWdeDxOLBYjGo0SiUTQNA2vaxsxVBWA8NNnhCfuo45PERqdJDQ6/t9jOBxG0zR27E4k37zOi9c/ULpvkGhuwnA4MIYGiVnqmHjk4s70N4amthiY3KRvzMm1ETu9tze4+8CJJL1CkkxzDD7eJdDRjfFpHsO3i77lQqut42aflZrOr9ScX6Gy1cap5i+UNixRaFmk4dIyIk8QOTDHrYde/G1d6C2N6A4H8bvDRC0WLl61cbpjncpzK5Q32yhtsFJkWeL4mUXqLuwFFhmY9mB9a2e4Z5b2nmXaOxfYnJnFfNlOedsGJ1vWONG0SkH9CsfMNo5UW6nqXEPkOfJGBNeVEb4PT2F/v0Zjr53Vd+u4+sewFpj5fLSahcMVzB8q42NGKXMHi/hgymehqI57IkhUBL21lVhxMbHuLn6+nCFwvR8tM5NwejqqyUQoLQ0lNZVgSgqB/fsIJCcTzMrCKYJoIsSbzhKrrydaW0u0qppIRQVaWRlaSQnhwkLUvDxCubkoOTkEs7MJZmURzMjALoKoIigiBETwi+D7zSuCR4QdEdwibIvgEsEpgv0vvwCcffbRnUTGYAAAAABJRU5ErkJggg=="
+                                                      alt="slovenský jazyk"></a>
+                                                </li>
+                                                {% endif %}
+                                            </ul>
                                         </nav>
                                         <!-- Mobile Menu End -->
                                     </div>
