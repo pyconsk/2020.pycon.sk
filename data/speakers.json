@@ -449,6 +449,22 @@
         ]
     },
     {
+        "name": "Conor Lyman",
+        "bio": "Conor Lyman is a modeling engineer at Blueprint Power, a company that provides real-estate owners with new revenue streams by transforming their buildings into power plants connected to new energy markets. Since joining the modeling team in the beginning of 2019, Conor has developed a suite of descriptive, predictive, and proscriptive models that distill the complicated world of energy markets into a production-ready platform for automated market participation. Beyond the core model development, Conor is dedicated to ensuring the models are scalable for new markets and customers and to growing Blueprint’s Modeling and Simulation team. Conor received a BS from The George Washington University in Mechanical Engineering with a minor in Sustainability and his previous experience includes work at both Google and Lockheed Martin’s Skunk Works. Outside of work, Conor enjoys playing and listening to music and maximizing his time outdoors.",
+        "country": "United States",
+        "avatar": "img/speakers/male.svg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "en",
+                "title": "Leveraging Python to transform today’s electrical grid into an integrated system of clean and sustainable power-plants",
+                "text": "The expanding capacity of distributed energy resources (DERs), in addition to government incentives to decarbonize the electric grid, add to the complexity of an already complex and antiquated energy system. However, at Blueprint Power and MAKERS, we are leveraging data science, co-optimization, and machine learning together into one system to unlock the full potential of DERs to create a more robust, green, 21st-century electricity infrastructure.\n\nIn this talk, we will cover three main areas. First, we will explain how we are developing a Python-based Data Science platform that enables buildings to participate in electricity markets as clean, sustainable power plants. Next, we will explain what we’ve learned from building a scalable modeling architecture that is modular and robust enough for the energy trading world. Finally, we will do a deeper dive into how we leverage key libraries, such as pandas, Pyomo, and PyTorch, in our models."
+            }
+        ]
+    },
+    {
         "name": "William Galindez Arias",
         "bio": "Born and raised in Colombia, studied Electronic Engineering specialized in Digital Electronics, former exchange student in Czech Technical University in the faculty of Data Science. Started professional career working in Intel as Field Engineer and Oracle as Solution Architect in Colombia. After some years in the industry became a student again in Prague (CZ) in the field of Machine Learning,  jumped back to Enterprise Software industry as  Solution Architect in CA Technologies for Europe. Currently performs as advisor of Colombian Startup focused in building NLU Chatbots and Web Applications  and at the same time works as Engineer in French Company developing Bots for automation.",
         "country": "Colombia",
