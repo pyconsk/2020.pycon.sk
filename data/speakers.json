@@ -242,22 +242,6 @@
         ]
     },
     {
-        "name": "Mariana Hurná",
-        "bio": "informatik, správca informačného systému mesta Prešov\nPísal sa rok 1996, doba, kedy sa mnohí z vás ešte len učili prvé písmenká alebo\nobjavovali kalkulačku. Presne toho roku sa Mariana Hurná začala starať o programy\na počítače na Mestskom úrade v Prešove. Vtedy na operačný systém bohate\npostačovalo 4 mega RAM, 80 mega na disku na 386 \uF04A\nMariana Hurná buduje a rozširuje Integrovaný informačný systém samosprávy mesta\nPrešov od roku 2000. Ten v súčasnosti zahŕňa 80 modulov v dokumentačnom,\nadministratívnom, evidenčnom, ekonomickom, geografickom a e-Government\nsubsystéme pre viac ako 480 používateľov.\nPoznajúc procesy na úrade, kde sa zbiera a spracúva veľké množstvo informácií,\nktoré môžu byť veľmi zaujímavé pre verejnosť, mesto v roku 2012 zaviedlo\nautomatizovaný spôsob zverejňovania živých datasetov, prehľadov a vizualizácií\nv rozumnej štruktúrovanej forme s otvorenou licenciou na použitie.\nVarenie ako typický ženský koníček ovláda Mariana perfektne, akurát k tomu\npotrebuje dobrú klávesnicu a hrniec plný kvalitných dát. O receptoch, ako dať\nmestským dátam novú chuť a zmysel, bude jej prednáška.",
-        "country": "Slovakia",
-        "avatar": "img/speakers/mariana_hurna.jpg",
-        "links": {
-        },
-        "abstracts": [
-            {
-                "type": "Talk",
-                "lang": "sk",
-                "title": "Open Data panel",
-                "text": "To be announced..."
-            }
-        ]
-    },
-    {
         "name": "Michal Brandis",
         "bio": "Vyštudoval telekomunikácie na FEI STU BA. Ako freelancer na trhu pôsobí už viac ako 5 rokov. Má za sebou niekoľkoročnú prax ako IT Application Support Specialist, ktorú získal prácou na viacerých veľkých projektoch. Posledné 2 roky pôsobí v TITANS freelancers na pozícií Account Manager so špecializáciou na Cloud, Big data a Python pozície. Zastrešuje výber tých najlepších IT špecialistov pre viac ako 100 projektov ročne a denne komunikuje s vedúcimi zástupcami mnohých veľkých firiem na Slovensku i v zahraničí.",
         "country": "Slovakia",
@@ -746,6 +730,22 @@
         ]
     },
     {
+        "name": "Mariana Hurná",
+        "bio": "informatik, správca informačného systému mesta Prešov\nPísal sa rok 1996, doba, kedy sa mnohí z vás ešte len učili prvé písmenká alebo\nobjavovali kalkulačku. Presne toho roku sa Mariana Hurná začala starať o programy\na počítače na Mestskom úrade v Prešove. Vtedy na operačný systém bohate\npostačovalo 4 mega RAM, 80 mega na disku na 386 \uF04A\nMariana Hurná buduje a rozširuje Integrovaný informačný systém samosprávy mesta\nPrešov od roku 2000. Ten v súčasnosti zahŕňa 80 modulov v dokumentačnom,\nadministratívnom, evidenčnom, ekonomickom, geografickom a e-Government\nsubsystéme pre viac ako 480 používateľov.\nPoznajúc procesy na úrade, kde sa zbiera a spracúva veľké množstvo informácií,\nktoré môžu byť veľmi zaujímavé pre verejnosť, mesto v roku 2012 zaviedlo\nautomatizovaný spôsob zverejňovania živých datasetov, prehľadov a vizualizácií\nv rozumnej štruktúrovanej forme s otvorenou licenciou na použitie.\nVarenie ako typický ženský koníček ovláda Mariana perfektne, akurát k tomu\npotrebuje dobrú klávesnicu a hrniec plný kvalitných dát. O receptoch, ako dať\nmestským dátam novú chuť a zmysel, bude jej prednáška.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/mariana_hurna.jpg",
+        "links": {
+        },
+        "abstracts": [
+            {
+                "type": "Talk",
+                "lang": "sk",
+                "title": "Open Data panel",
+                "text": "To be announced..."
+            }
+        ]
+    },
+    {
         "name": "Fabšíková Nina",
         "bio": "To be announced...",
         "country": "Slovakia",
@@ -755,7 +755,7 @@
         "abstracts": [
             {
                 "type": "Talk",
-                "lang": "en",
+                "lang": "sk",
                 "title": "Open Data panel",
                 "text": "To be announced..."
             }
@@ -771,7 +771,7 @@
         "abstracts": [
             {
                 "type": "Talk",
-                "lang": "en",
+                "lang": "sk",
                 "title": "Open Data panel: Open Data v samosprávach: Kde sme a kde by sme mohli byť?",
                 "text": "Zverejňovanie otvorených dát prináša samosprávam niekoľko benefitov, a to z hľadiska efektívneho fungovania samosprávy, zapojenia verejnosti do chodu vecí verejných a podpory vzniknu nových riešení. Množstvo samospráv, ktoré zverejňujú v SR otvorené dáta je však stále veľmi limitované. Kde sme a kde by sme mohli byť aj v kontexte toho, čo sa deje v zahraničí?"
             }
