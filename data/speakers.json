@@ -699,9 +699,9 @@
     },
     {
         "name": "Andrej Krnáč",
-        "bio": "To be announced...",
+        "bio": "Infrastructure & DevOps & Kubernetes Consultant at LabyrinthLabs\n\nHelping companies build, run, deploy and scale software and infrastructure by embracing the right technologies and principles.",
         "country": "Slovakia",
-        "avatar": "img/speakers/male.svg",
+        "avatar": "img/speakers/andrej_krnac.jpg",
         "links": {
         },
         "abstracts": [
@@ -715,9 +715,9 @@
     },
     {
         "name": "Martin Hauskrecht",
-        "bio": "To be announced...",
+        "bio": "DevOps engineer at LabyrinthLabs\n\nPowering highly available applications on AWS using Kubernetes. Implementing DevOps and Infrastructure as Code principles.",
         "country": "Slovakia",
-        "avatar": "img/speakers/male.svg",
+        "avatar": "img/speakers/martin_hauskrecht.jpg",
         "links": {
         },
         "abstracts": [
