@@ -246,7 +246,7 @@
      jQuery MeanMenu activation code
      --------------------------------------*/
     $('nav#dropdown').meanmenu({
-        siteLogo: "<div class='mobile-menu-nav-back'><a href='index.html'><img src='img/logo.png'/></a></div>"
+        siteLogo: "<div class='mobile-menu-nav-back'><a href='index.html'><img src='/static/img/pycon_logo_square_60x60.png'/></a></div>"
     });
 
     /*-------------------------------------
