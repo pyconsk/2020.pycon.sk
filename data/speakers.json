@@ -436,8 +436,10 @@
         "name": "Conor Lyman",
         "bio": "Conor Lyman is a modeling engineer at Blueprint Power, a company that provides real-estate owners with new revenue streams by transforming their buildings into power plants connected to new energy markets. Since joining the modeling team in the beginning of 2019, Conor has developed a suite of descriptive, predictive, and proscriptive models that distill the complicated world of energy markets into a production-ready platform for automated market participation. Beyond the core model development, Conor is dedicated to ensuring the models are scalable for new markets and customers and to growing Blueprint’s Modeling and Simulation team. Conor received a BS from The George Washington University in Mechanical Engineering with a minor in Sustainability and his previous experience includes work at both Google and Lockheed Martin’s Skunk Works. Outside of work, Conor enjoys playing and listening to music and maximizing his time outdoors.",
         "country": "United States",
-        "avatar": "img/speakers/male.svg",
+        "avatar": "img/speakers/conor_lyman.jpg",
         "links": {
+            "linkedin": "https://www.linkedin.com/in/conor-lyman-2a09278b/",
+            "link": "https://www.blueprintpower.com/"
         },
         "abstracts": [
             {
