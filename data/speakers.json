@@ -758,8 +758,8 @@
             {
                 "type": "Talk",
                 "lang": "sk",
-                "title": "Open Data panel",
-                "text": "To be announced..."
+                "title": "Open Data panel: Open Data v Bratislave: Cesta k transparentnému mestu",
+                "text": "V septembri minulého roka spustila Bratislava svoj open data portál, ktorý v dnešnej dobe obsahuje už stovky datasetov. Aké dáta sú na portáli k dispozícii a ktoré sú najpopulárnejšie? Ako vyzeral proces prípravy portálu a akým výzvam pri ňom mesto muselo čeliť? A v neposlednom rade, aké sú vízie mesta do budúcnosti?"
             }
         ]
     },
@@ -1003,6 +1003,25 @@
                 "lang": "sk",
                 "title": "Internetová bezpečnosť v skratke",
                 "text": "Je internet bezpečný? Aké nastráhy na nás čihajú vo virtuálnom svete? V krátkom segmente si v skratke prejdeme dôležité postrehy ohľadom internetovej bezpečnosti, ako sa (ne)správať na internete, aby sme my a naše údaje boli v bezpečí."
+            }
+        ]
+    },
+    {
+        "name": "Marek Mansell",
+        "bio": "Som zanieteným edukátorom, organizátorom a experimentátorom. Snažím sa posúvať veci vpred najmä v oblasti vzdelávania pomocou projektu Učíme s Hardvérom, kde spolupracujeme so školami a motivujeme žiakov hravými aktivitami rozvíjať si ich digitálne zručnosti. Dôležitou súčasťou je tvorba metodík, lektorovanie učiteľov informatiky a realizácia výskumu v tejto oblasti. To by nebolo možné bez skvelého tímu dobrovoľníkov, s ktorými na projekte pracujeme. Popri tom organizujem IT-čkarsku konferenciu PyCon a pomáham s produkciou na mojej srdcovke - letnom festivale Atmosféra. Tiež študujem informatiku na FIIT STU a líderstvo v Nexteria Leadership Academy.",
+        "country": "Slovakia",
+        "avatar": "img/speakers/marek_mansell.jpg",
+        "edusummit": true,
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/marekmansell/",
+            "link": "https://marekmansell.sk/"
+        },
+        "abstracts": [
+            {
+                "type": "Workshop",
+                "lang": "sk",
+                "title": "Jednoduchý blog vo Flasku",
+                "text": "Flask je nadupaný Python framework, vďaka ktorému spravíš všetku základnú funkcionalitu blogu za niekoľko desiatok minút :-)  Vyskúšame si naprogramovať našu prvú stránku v Mu editore, ideálnom pre vyučovanie základov Pythonu. Pridáme k tomu aj štýlovanie pomocou Bootstrapu (je to CSS knižnica, aby Vaša stránka nie len fungovala, ale aj pekne vyzerala). Na konci si ukážeme, ako náš web zadarmo nahodiť na web server, aby bol dostupný pre kohokoľvek na internete :-)"
             }
         ]
     },
