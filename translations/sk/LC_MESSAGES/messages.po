@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-15 13:46+0100\n"
+"POT-Creation-Date: 2020-02-27 11:41+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -16,14 +16,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: pycon.py:8
 msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
 msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
 
 #: templates/aboutus.html:10 templates/aboutus.html:15
-#: templates/aboutus.html:29 templates/body.html:148 templates/cfv.html:14
+#: templates/aboutus.html:29 templates/body.html:151 templates/body.html:218
+#: templates/cfv.html:14
 msgid "About Us"
 msgstr "O nás"
 
@@ -87,7 +88,7 @@ msgstr ""
 msgid "Or visit our website"
 msgstr "alebo navštívte našu web stránku"
 
-#: templates/aboutus.html:53 templates/body.html:154 templates/body.html:185
+#: templates/aboutus.html:53 templates/body.html:157 templates/body.html:224
 msgid "Call for volunteers"
 msgstr "Pridaj sa k nám"
 
@@ -119,72 +120,78 @@ msgstr ""
 "Prosím, <a href=\"http://browsehappy.com/\">nainštalujte si novšiu verziu"
 " prehliadača</a>, aby ste si zlepšili zážitok z prehliadania stránok."
 
-#: templates/body.html:115 templates/news.html:10 templates/news.html:18
+#: templates/body.html:115 templates/body.html:182 templates/news.html:10
+#: templates/news.html:18
 msgid "Newsroom"
 msgstr "Novinky"
 
-#: templates/body.html:118 templates/body.html:123 templates/cfp.html:14
-#: templates/cfp_form.html:14 templates/edusummit.html:39
+#: templates/body.html:118 templates/body.html:123 templates/body.html:185
+#: templates/body.html:190 templates/program.html:9 templates/program.html:14
+msgid "Program"
+msgstr "Program"
+
+#: templates/body.html:126 templates/body.html:193 templates/cfp.html:14
+#: templates/cfp_form.html:14 templates/edusummit.html:42
 #: templates/index.html:97 templates/index.html:162 templates/recording.html:14
 #: templates/speaker.html:14 templates/speaker_list.html:14
 #: templates/speaker_list2.html:14
 msgid "Speakers"
 msgstr "Rečníci a rečníčky"
 
-#: templates/body.html:126 templates/body.html:182 templates/cfp_form.html:16
+#: templates/body.html:129 templates/body.html:196 templates/cfp_form.html:16
 #: templates/recording.html:16
 msgid "Call for proposals"
 msgstr "Prihlás svoj príspevok"
 
-#: templates/body.html:131 templates/edusummit.html:10
+#: templates/body.html:134 templates/body.html:201 templates/edusummit.html:10
 #: templates/edusummit.html:15
 msgid "EduSummit"
 msgstr "EduSummit"
 
-#: templates/body.html:134
+#: templates/body.html:137 templates/body.html:204
 msgid "Sponsors"
 msgstr "Sponzori"
 
-#: templates/body.html:137 templates/body.html:188 templates/coc.html:10
+#: templates/body.html:140 templates/body.html:207 templates/coc.html:10
 #: templates/coc.html:15
 msgid "Code of Conduct"
 msgstr "Kódex správania"
 
-#: templates/body.html:140
+#: templates/body.html:143 templates/body.html:210
 msgid "About"
 msgstr ""
 
-#: templates/body.html:145
+#: templates/body.html:148 templates/body.html:215
 msgid "FAQ"
 msgstr "FAQ"
 
-#: templates/body.html:151 templates/tickets.html:49 templates/venue.html:35
-#: templates/venue.html:40
+#: templates/body.html:154 templates/body.html:221 templates/tickets.html:49
+#: templates/venue.html:35 templates/venue.html:40
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:191 templates/body.html:216 templates/body.html:217
-#: templates/index.html:20 templates/index.html:203
+#: templates/body.html:251 templates/body.html:252 templates/index.html:20
+#: templates/index.html:203
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
-#: templates/body.html:243
+#: templates/body.html:278
 msgid "Event Organiser"
 msgstr "Organizátor podujatia"
 
-#: templates/body.html:257
+#: templates/body.html:292
 msgid "General Queries"
 msgstr "Všeobecné otázky"
 
-#: templates/body.html:271
+#: templates/body.html:306
 msgid "Ticket Queries"
 msgstr "Otázky o vstupenkách"
 
-#: templates/body.html:285
+#: templates/body.html:320
 msgid "Sponsor Queries"
 msgstr "Otázky o sponzorovaní"
 
-#: templates/body.html:301
+#: templates/body.html:336
 msgid ""
 "The PyCon SK 2020 conference, which will be held in Bratislava, is the "
 "annual gathering for the community using and developing the open-source "
@@ -194,16 +201,16 @@ msgstr ""
 "každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
 "programovací jazyk Python."
 
-#: templates/body.html:303 templates/body.html:353 templates/countdown.html:98
+#: templates/body.html:338 templates/body.html:388 templates/countdown.html:98
 #, python-format
 msgid "PyCon SK is organized by volunteers from %(spy)s."
 msgstr "PyCon SK je organizovaný dobrovoľníkmi a dobrovoľníčkami z %(spy)s."
 
-#: templates/body.html:304 templates/body.html:354 templates/countdown.html:99
+#: templates/body.html:339 templates/body.html:389 templates/countdown.html:99
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/body.html:356 templates/countdown.html:94
+#: templates/body.html:391 templates/countdown.html:94
 #, python-format
 msgid ""
 "%(pycontm)s is a trademark for worldwide conference activities claimed by"
@@ -212,11 +219,11 @@ msgstr ""
 "%(pycontm)s je ochranná známka %(psf)s pre celosvetové konferenčné "
 "aktivity."
 
-#: templates/body.html:358 templates/countdown.html:96
+#: templates/body.html:393 templates/countdown.html:96
 msgid "Python Software Foundation"
 msgstr "Python Software Foundation"
 
-#: templates/body.html:361 templates/countdown.html:102
+#: templates/body.html:396 templates/countdown.html:102
 #, python-format
 msgid ""
 "Found a bug? Missing some information? This is a community managed "
@@ -577,7 +584,7 @@ msgstr ""
 "Abstrakt tvojho príspevku bude zverejnený na našom webe, ak bude "
 "príspevok akceptovaný."
 
-#: templates/cfp_form.html:182
+#: templates/cfp_form.html:182 templates/program.html:113
 msgid "Type"
 msgstr "Typ"
 
@@ -597,7 +604,8 @@ msgstr "Workshop"
 msgid "Hardware Projects Showcase"
 msgstr "Ukážka hardvérových projektov"
 
-#: templates/cfp_form.html:218
+#: templates/cfp_form.html:218 templates/program.html:51
+#: templates/program.html:82
 msgid "Language"
 msgstr "Jazyk"
 
@@ -1004,22 +1012,23 @@ msgstr "Stretnutie učiteľov s programátormi"
 
 #: templates/edusummit.html:32
 msgid ""
-"EduSummit is a special section of the conference focused on teaching "
-"programming at primary and secondary schools. After two years of having "
-"an EduTrack at PyCon SK, consisting of a single day of talks for "
-"teachers, we are now organising a two day summit during which teachers "
-"will be introduced to innovative ways and methods of teaching "
-"programming, share their knowledge of useful tools and last but not least"
-" participate in numerous workshops given by experienced educators."
+"EduSummit je špecializovaná časť konferencie zameraná na vyučovanie "
+"programovania na základných a stredných školách. Už po štvrtý raz "
+"organizujeme dvojdňový summit, počas ktorého  sa budeme venovať "
+"inovatívnym spôsobom a metódam vo vyučovaní informatiky, pričom komunita "
+"učiteľov má možnosť zdieľať svoje skúsenosti a vedomosti o užitočných "
+"nástrojoch."
 msgstr ""
-"EduSummit je špeciálna sekcia konferencie zameraná na vyučovanie "
-"programovania na základných a stredných školách. Po dvoch rokoch, keď sme"
-" v rámci PyCon SK organizovali EduTrack pozostávajúci z jedného dňa "
-"prednášok pre učiteľov, tentokrát pripravujeme rozšírený, dvojdňový "
-"program pre učiteľov a nadšencov vyučovania informatiky. Počas EduSummitu"
-" sa budeme venovať inovatívnym spôsobom a metódam vo vyučovaní "
-"informatiky, pričom si komunita učiteľov má možnosť zdieľať svoje "
-"skúsenosti a vedomosti o užitočných nástrojoch."
+
+#: templates/edusummit.html:35
+msgid ""
+"Tohtoročný EduSummit PyCon SK 2020 sa uskutoční v termíne 27.-28.3.2020 "
+"na FIIT STU. V piatkovom programe majú učitelia prednášky a v sobotu "
+"praktické workshopy. Okrem toho pripravujeme pre žiakov Young Coders Day,"
+" kde v piatok budú workshopy pre žiakov SŠ a v sobotu pre žiakov ZŠ. V "
+"piatok sa navyše koná finále súťaže SPyCup a vyhodnotenie súťaže Python "
+"Cup, ale aj výstava žiackych projektov Hardware showcase."
+msgstr ""
 
 #: templates/faq.html:10 templates/faq.html:15 templates/faq.html:27
 msgid "Frequently Asked Questions"
@@ -1668,6 +1677,31 @@ msgstr ""
 "požiadaj o vyňatie emailu z hromadného emailingu. Ak už si prihlásený/-á,"
 " môžeš sa odhlásiť kedykoľvek kliknutím na link na konci emailu."
 
+#: templates/program.html:49 templates/program.html:80
+#: templates/program.html:111
+msgid "Speaker"
+msgstr "Rečník"
+
+#: templates/program.html:50 templates/program.html:81
+#: templates/program.html:112
+msgid "Topic"
+msgstr "Téma"
+
+#: templates/program.html:63 templates/program.html:94
+#: templates/speaker.html:58
+msgid "Slovak language"
+msgstr "Slovenský jazyk"
+
+#: templates/program.html:64 templates/program.html:95
+#: templates/speaker.html:59
+msgid "English language"
+msgstr "Anglický jazyk"
+
+#: templates/program.html:65 templates/program.html:96
+#: templates/speaker.html:60
+msgid "Czech language"
+msgstr "Český jazyk"
+
 #: templates/recording.html:32
 msgid ""
 "See the <a href=\"http://pyvideo.org\">http://pyvideo.org</a> for one "
@@ -1768,18 +1802,6 @@ msgstr ""
 " webstránkach SPy o.z. alebo na ďalších web stránkach určených PSF "
 "(vrátane, ale nie nutne výlučne YouTube)."
 
-#: templates/speaker.html:56
-msgid "Slovak language"
-msgstr "Slovenský jazyk"
-
-#: templates/speaker.html:57
-msgid "English language"
-msgstr "Anglický jazyk"
-
-#: templates/speaker.html:58
-msgid "Czech language"
-msgstr "Český jazyk"
-
 #: templates/sponsors.html:8 templates/sponsors.html:13
 msgid "Our sponsors"
 msgstr "Naši sponzori"
@@ -1816,11 +1838,15 @@ msgstr "Zlatí sponzori"
 msgid "Silver sponsors"
 msgstr "Strieborní sponzori"
 
-#: templates/sponsors.html:108
+#: templates/sponsors.html:115
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsors.html:140
+#: templates/sponsors.html:154
+msgid "Main media partner"
+msgstr "Hlavný mediálny partner"
+
+#: templates/sponsors.html:165
 msgid "Partners"
 msgstr "Partneri"
 
