@@ -709,7 +709,7 @@
         "abstracts": [
             {
                 "type": "Workshop",
-                "lang": "en",
+                "lang": "sk",
                 "title": "Python application deployment in cloud using Kubernetes",
                 "text": "Main goals\n\n* Demonstrate ways of running Python application in production environment with Kubernetes\n* Describe the advantages and restrictions related to the Kubernetes environment\n* Provide practical guide on how to move from traditional application deployment philosophy to more stable and resilient architectures\n\nPartial goals\n* Show basic concepts of containerization with Docker as a requirement for using Kubernetes for application deployment\n* Describe the essential Kubernetes resources for running an application\n* Show the main concepts of Kubernetes on examples related to the application we are deploying and walk the audience through the process\n\nTechnical Requirements\n\n* Minikube \n* Kubectl\n* Docker\n* Docker Hub account\n"
             }
@@ -725,7 +725,7 @@
         "abstracts": [
             {
                 "type": "Workshop",
-                "lang": "en",
+                "lang": "sk",
                 "title": "Python application deployment in cloud using Kubernetes",
                 "text": "Main goals\n\n* Demonstrate ways of running Python application in production environment with Kubernetes\n* Describe the advantages and restrictions related to the Kubernetes environment\n* Provide practical guide on how to move from traditional application deployment philosophy to more stable and resilient architectures\n\nPartial goals\n* Show basic concepts of containerization with Docker as a requirement for using Kubernetes for application deployment\n* Describe the essential Kubernetes resources for running an application\n* Show the main concepts of Kubernetes on examples related to the application we are deploying and walk the audience through the process\n\nTechnical Requirements\n\n* Minikube \n* Kubectl\n* Docker\n* Docker Hub account\n"
             }
