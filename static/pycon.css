@@ -159,3 +159,11 @@ h4.panel-title a.collapsed:before {
     background-color: #f0f0f0;
     border-color: #ccc;
 }
+
+ul.discs {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 30px;
+}
