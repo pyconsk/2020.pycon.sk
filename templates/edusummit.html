@@ -39,27 +39,72 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h3 class="title title-bold color-dark">{{ _('Speakers') }}</h3>
-                {% for speaker in speakers %}
-                    {% if speaker['edusummit'] %}
-                    <div class="about-author mt-5">
-                        <div class="media media-none--xs">
-                            <div class="item-img">
-                                <img src="{{ url_for('static', filename=speaker['avatar']) }}" width="250px" class="img-fluid" alt="single-speaker">
-                            </div>
-                            <div class="media-body about-author-content">
-                                <h3 class="title title-medium color-dark size-sm">
-                                    <a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}">{{ speaker['name'] }}</a>
-                                </h3>
-                                {% set bio = speaker['bio'].split('\n') %}
-                                {% for p in bio %}
-                                <p>{{ p }}</p>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                    {% endif %}
-                {% endfor %}
+                <h3 class="title title-bold color-dark">{{ _('Program na PIATOK - 27.3.2020 - Aula Minor') }}</h3>
+                <ul>
+                    <li>Eva Klimeková: Otvorenie 4. ročníka EduSummit na PyCon SK</li>
+                    <li>Marek Mansell: Učíme s hardvérom</li>
+                    <li>Finále súťaže SPy Cup</li>
+                    <li>Martin Cápay a Magdaléna Bellayová: Vzbuďme v študentoch chuť programovať!</li>
+                </ul>
+            </div>
+            <div class="col-12">
+                <p><strong>Keynote: Miroslav Biňas: Ako sa dá s Python zvládnuť štvorročné štúdium na strednej škole</strong></p>
+                <p><strong>EDUTalks</strong>
+                    <ul>
+                        <li>Julian Gerhart: Zmudri</li>
+                        <li>Alena Kanabová z Accenture: Spojili sme sa pre lepšie digitálne zručnosti</li>
+                        <li>Mário Mikuš: FLL Explore (Junior)</li>
+                        <li>Michaela Gažová z ESET: Internetová bezpečnosť v skratke</li>
+                        <li>Róbert Tomolya: Potulky s microbitom</li>
+                        <li>Peter Palát: Internetová bezpečnosť: základy sebaobrany</li>
+                        <li>Peter Kučera: Programujeme v Pythone hardvér</li>
+                        <li>Zuzana Tkáčová: Python ako nástroj pre STE(A)M problémy a úlohy</li>
+                        <li>Jaroslav Výbošťok: Programovací jazyk Robot Karel po novom a online</li>
+                        <li>Vyhlásenie výsledkov SPy Cup a Python Cup</li>
+                        <li>Peter Valachovič, Michal Magula, Jakub Hrnčár: Nová maturita v Pythone a jednoduché grafické rozhranie pomocou libreoffice calc</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-12">
+                <p><strong><h4>Piatkový program doplní:</h4></strong></p>
+                <p>Hardware showcase - výstava žiackych hardvérových projektov:
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_lzsyg-NkUXkOnbHDV5QRIxVDliXgZFvNGepdHQTcoMi1Zg/viewform?usp=sf_link" alt="Prihlasovanie na Hardware showcase">prihlasovanie</a>
+                </p>
+                <p>Young Coder Day Senior (žiaci SŠ):
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfibheTqgKUmGXgGBBai2kOxOCNk2mhFAa2Y57IGLeCTNuCNA/viewform?usp=sf_link" alt="Prihlasovanie na Young Coder Day Senior">prihlasovanie</a>
+                </p>
+                <p>
+                    <ul>
+                        <li>Jaroslav Knežník, Miroslav Blšák: Programovanie vlastných micro:bit herných ovládačov a autíčok</li>
+                        <li>Sylvia Ličková: Životopis predáva</li>
+                        <li>Magdaléna "Maggie" Bellayová, Martin "Dráčik" Cápay: Buď SMART s micro:bitom</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-12">
+                <h3 class="title title-bold color-dark">{{ _('Program na SOBOTU - 28.3.2020 - DigiLab - workshopy') }}</h3>
+                <ul>
+                    <li>Miroslav Biňas: Robíme IoT na mikrokontroléri ESP32 v jazyku MicroPython</li>
+                    <li>Marek Mansell: Jednoduchý blog vo Flasku</li>
+                    <li>Martin Cápay, Magdaléna Bellayová: Buď SMART s micro:bitom</li>
+                    <li>Jaroslav Výbošťok, Marek Mansell: Využitie otvorených dát a GPS s použitím tkinter a Jupyter.</li>
+                </ul>
+            </div>
+            <div class="col-12">
+                <p><strong><h4>Sobotňajší program doplní:</h4></strong></p>
+                <p>Young Coder Day Junior (žiaci ZŠ):
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdZYJc82Pz__R2UWaU0wyLShBCT5N_JmXDzxY1tmopsrf8VoA/viewform?usp=sf_link" alt="Prihlasovanie na Young Coder Day Junior">prihlasovanie</a>
+                </p>
+                <p>
+                    <ul>
+                        <li>Roman Krnáč: Zábava a informatika idú ruka v ruke!</li>
+                        <li>CoderDojo: Naučte sa programovať s CoderDojo</li>
+                        <li>Patrik Voštinár, Jaroslav Knežník, Miroslav Blšák: Naprogramuj si robota Ozobot EVO</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-12">
+                <p>V prípade záujmu o pozývací list nás neváhajte kontaktovať na eva.klimekova@pycon.sk. Potvrdenie o účasti na konferencii vystavujeme priamo na mieste.</p>
             </div>
         </div>
     </div>
