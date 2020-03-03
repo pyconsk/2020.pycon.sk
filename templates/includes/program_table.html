@@ -1,0 +1,46 @@
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>{{ _('Speakers') }}</th>
+        <th>{{ _('Topic') }}</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for spot in day %}
+        <tr>
+            <td>
+                {% if 'speakers' in spot %}
+                    {% for speaker in spot['speakers'] %}
+
+                        {% for spkr in speakers %}{% if spkr['name'] == speaker %}
+                            <a href="{{ url_for('profile', lang_code=lang_code, name=spkr['name'].lower().replace(' ', '-')) }}#bio">
+                        {% endif %}{% endfor %}
+
+                        {{ speaker }}
+
+                        {% for spkr in speakers %}{% if spkr['name'] == speaker %}
+                            </a>
+                        {% endif %}{% endfor %}
+                        <br/>
+                    {% endfor %}
+                {% endif %}
+            </td>
+            <td>
+                {% if 'title' in spot['talk'] %}
+                    <a data-toggle="collapse" href="#{{ name }}{{ loop.index }}" role="button" aria-expanded="false"
+                       aria-controls="{{ name }}{{ loop.index }}">{{ spot['talk']['title'] }}</a>
+
+                    <div class="collapse multi-collapse" id="{{ name }}{{ loop.index }}">
+                        <div class="card card-body">
+                            {{ spot['talk']['text'] }}
+                        </div>
+                    </div>
+
+                {% else %}
+                    {{ spot['talk'] }}
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

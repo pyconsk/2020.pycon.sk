@@ -1,0 +1,151 @@
+[
+  {
+    "speakers": [
+      "Zuzana Tkáčová"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Python ako nástroj pre STE(A)M problémy a úlohy",
+    "text": "Výučba programovania nemusí byť limitovaná len tradičnými matematicko-logicky orientovanými úlohami. Reálny život a prepojenie na reálne technické, prírodovedné alebo umelecké témy prinášajú priestor pre nové nápady a aktívne zapojenie aj žiakov, ktorí nemajú k programovaniu prirodzene pozitívny postoj. Cieľom príspevku je ukázať Python nie ako nástroj na výučbu programovania (t.j. Python pre informatiku), ale nástroj pre riešenie prírodovedných, umeleckých a technických problémov v kontexte stredoškolskej informatiky (t.j. Python pre prírodné a technické vedy a umenie) a ako využívať jeho reálny potenciál na hodinách informatiky nad rámec tradičných \"programátorských\" úloh."
+  },
+  {
+    "speakers": [
+      "Peter Kučera"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Programujeme v Pythone hardvér",
+    "text": "Už niekoľko rokov s našimi študentmi programujeme v Pythone. Okrem klasického programovania ich najnovšie učíme programovať v jazyku Python aj hardvér. Má sa škola venovať programovaniu hardvéru? Aké to má výhody? Ako začať a čomu sa venovať? Podelíme sa s našimi skúsenosťami. Ukážeme vám, ako študenti vytvorili školskú meteostanicu, paličku pre nevidiacich či automatické zavlažovanie.\nV príspevku porovnáme skúsenosti s programovaním hardvéru a klasickým programovaním. Uvedieme, že programovanie hardvéru je komplexnejšia záležitosť. Okrem samotného programovania rozvíja i ďalšie zručnosti, učí systematicky hľadať chyby a tvorivo myslieť. Po zvládnutí základov považujeme za dôležité, aby študenti v tímoch vytvárali vlastné hardvérové projekty, čím učiteľ ustúpi do úzadia a prácu na získavaní poznatkov prevezmú žiaci. Darí sa nám takto organizovať vzdelávanie a povieme vám, ako na to."
+  },
+  {
+    "speakers": [
+      "Jaroslav Výbošťok"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Programovací jazyk Robot Karel po novom a online.",
+    "text": "V mojom príspevku predstavím nové online prostredie a metodiku pre výučbu algoritmizácie prioritne pre druhý stupeň základných škôl. Prostredie a metodiku som vyvinul na základe mojich skúseností s vyučovaním na ZŠ a osemročnom gymnáziu. Založené je na známom koncepte programovania robota Karla v štvorcovej sieti. Spomeniem tiež praktické skúsenosti z výučby a reakcie žiakov pri programovaní Karla, ktoré mi pomohli pri ďalšom vývoji. Uvediem aj čo má táto prednáška spoločné s Pythonom a ako ma jazyk Python pri tvorbe inšpiroval."
+  },
+  {
+    "speakers": [
+      "Peter Valachovič",
+      "Michal Magula",
+      "Jakub Hrnčár"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Z maturity v pascale na pythonovskú novú maturitu, študenstká mobilná apka o pythone v pythone a jednoduché grafické rozhranie pomocou libreoffice calc",
+    "text": "Chceme sa v krátkosti podeliť o tom ako sa nám podarilo pripraviť sa na prvú a novú maturitu z informatiky v pythone a ako sa veci u nás vyvinuli za prvé štyri roky výučby tohto jazyka. Predstavíme výukovú mobilnú aplikáciu písanú rečou žiakov o pythone vytvorenú študentom v pythone a ukážeme aké sú možnosti použitia libreoffice calc pre grafické užívateľské rozhranie s použitím pythonových skriptov."
+  },
+  {
+    "speakers": [
+      "Roman Krnáč"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Zábava a informatika idú ruka v ruke ! :)",
+    "text": "Vo workshope sa budem zaoberať prácou s harvérom i bez neho. V prvej časti workshopu sa pozrieme na prácu so zariadením BBC Micro:bit, ktoré som aplikoval ako učebnú pomôcku vo vyučovaní na viacerých základných školách a letných krúžkoch informatiky pre deti. So zariadením som pracoval v diplomovej práci, kde som vytvoril niekoľko metodických pokynov, podľa ktorých je možné vyučovať informatiku. Prácu so zariadením a jeho zdokonaľovanie som aplikoval i do svojej dizertačnej práce počas doktorandského štúdia, ktoré momentálne študujem. Predstavím vám niekoľko zo svojich aktivít, ktoré mám overené z vlastnej skúsenosti a viem, že sú pre deti veľmi pútavé. V druhej časti bez počítača si ukážeme jednoduché kódovanie informácií kde sa zahrám na gragické prostredie počítača - podobné vývojovému prostrediu kresliacej korytnačky a vo viacerých úlohám predvediem deťom, že nie je vždy tak jednoduché zadávať do počítača informácie tak, aby sme na prvý pokus dostali želaný výsledok."
+  },
+  {
+    "speakers": [
+      "Martin \"Dráčik\" Cápay",
+      "Magdaléna \"Maggie\" Bellayová"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Buď SMART s micro:bitom",
+    "text": "Cieľom workshopu bude poskytnúť praktické návody na zaujímavé a pritom jednoduché riešenia využívajúce mikropočítačové dosky, ktoré sa dajú aplikovať pri výučbe informatiky na školách. Účastníci workshopu sa dozvedia, ako s využitím micro:bitov prepojiť hodiny informatiky s reálnym životom. Budeme riešiť otázku: \"Ako funguje inteligentná domácnosť?\". Témou inteligentné domácnosti (SMART houses) chceme priblížiť fungovanie senzorov pri automatizovanom spúšťaní alebo vypínaní komponentov, ako napr. rozsvecovanie svetiel, zapínanie klimatizácie, či zavlažovanie kvetov. Na realizáciu projektov využívame zabudované komponenty a senzory zo sady ELECFREAKS micro:bit Smart Home Kit a budeme ich programovať cez bloky."
+  },
+  {
+    "speakers": [
+      "Martin \"Dráčik\" Cápay",
+      "Magdaléna \"Maggie\" Bellayová"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Vzbuďme v študentoch chuť programovať!",
+    "text": "Programovanie mikropočítačov so senzormi je v posledných rokoch veľmi populárne. Mnohé programovateľné zariadenia nie sú však úplne použiteľné na hodinách informatiky na ZŠ, a to najmä kvôli nutnosti komplikovaného zapojenia hardvérových prvkov. S príchodom mikropočítača BBC micro:bit, ktorý bol špeciálne vyvinutý pre edukačné účely, sa však situácia výrazne zmenila. Micro:bit má v základnej výbave integrované množstvo technológií, ktoré z neho robia silný nástroj v oblasti „physical computing“ a STEM.  Aktivity, ktoré budeme popisovať boli realizované na detskom informatickom krúžku ale aj priamo na základných školách. Sú navrhnuté tak, aby deti mohli úlohu najskôr analyzovať, diskutovať o nej mimo počítača, následne na počítači naprogramovať správanie sa micro:bita a funkčnosť programu overiť opäť mimo počítača v nejakej hravej forme."
+  },
+  {
+    "speakers": [
+      "Miroslav Biňas"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Ako sa dá s Python zvládnuť štvorročné štúdium na strednej škole",
+    "text": "Jazyk Python je univerzálny programovací jazyk so strmou krivkou učenia sa. Práve preto učíme detiská vytvárať webové stránky v PHP, programovať mikrokontroléry v jazyku C, kvôli objektovému programovaniu ich trápime s Javou. A pritom si vôbec neuvedomujeme, že to všetko sa dá robiť aj v Python-e. Prehľad rozličných (ne)tušených možností využitia Python-u vo výučbe na strednej škole vám ukážem počas tejto prednášky. A detiská sa konečne nebudú musieť každý rok učiť nový jazyk, ale budú sa zdokonaľovať len v tom jednom - v tom Python-e."
+  },
+  {
+    "speakers": [
+      "Miroslav Biňas"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Robíme IoT na mikrokontroléri ESP32 v jazyku MicroPython",
+    "text": "Mikrokontrolér ESP32 je cenovo dostupné a nadupané zariadenie vhodné pre oblasť IoT vybavené WiFi a Bluetooth LE. Čo je však úplne fantastické, viete na ňom rozbehnúť firmvér s jazykom MicroPython. Na tomto workshope si spolu vytvoríme jednoduché IoT riešenie, ktoré rovno prepojíme s niektorou online službou poskytujúcou zber a vizualizáciu údajov. Ak sa rozhodnete prísť na tento workshop a budete chcieť robiť na vlastnom laptope, prosím postupujte podľa pokynov v tomto dokumente: http://bit.ly/2P54h5O (stačí len časť o inštalácii editora Mu a v prípade windowsákov aj inštalácia ovládačov)."
+  },
+  {
+    "speakers": [
+      "Patrik Voštinár"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Naprogramuj si robota Ozobot EVO",
+    "text": "Ozobot EVO je robotická didaktická pomôcka, ktorá umožňuje pochopenie základných princípov robotiky a programovania. V rámci workshopu predstavíme rôzne motivačné úlohy pre Ozobota."
+  },
+  {
+    "speakers": [
+      "Jaroslav Knežník",
+      "Miroslav Blšák"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Programovanie vlastných micro:bit herných ovládačov a autíčok",
+    "text": "V rámci workshopu predstavíme rozšírenia pre edukačnú dosku BBC micro:bit - micro:bit autíčka a herné ovládače. Účastníci si najprv naprogramujú vlastný herný ovládač, ktorý bude ovládať micro:bit autíčko a následne vyskúšajú úlohy s micro:bit rozšírením - semafórom."
+  },
+  {
+    "speakers": [
+      "Peter Palát"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Internetová bezpečnosť",
+    "text": "Máte pocit, že sa svet rýchlo vyvíja a nestíhate držať tempo s dobou? Stratili ste ideály o tom ako internet pomôže ľuďom sa vzdelávať vďaka voľnému a rýchlemu prístupu k informáciám? Nepodliehajte panike, voči nástrahám na internete sa dá ľahko chránit a spolu si prejdeme účinné techniky obrany voči najčastejším útokom."
+  },
+  {
+    "speakers": [
+      "Michaela Gažová"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Internetová bezpečnosť v skratke",
+    "text": "Je internet bezpečný? Aké nastráhy na nás čihajú vo virtuálnom svete? V krátkom segmente si v skratke prejdeme dôležité postrehy ohľadom internetovej bezpečnosti, ako sa (ne)správať na internete, aby sme my a naše údaje boli v bezpečí."
+  },
+  {
+    "speakers": [
+      "Sylvia Ličková"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Životopis predáva",
+    "text": "Čím pútavejší obsahom a originálnejší formou, tým väčšia šanca, že ním zaujmeš.\nA nazbieraš cenné body u recruiterov, nad ktorými visí otázka, či ťa posunúť do ďalšieho\nvýberového kola. Reč je o životopise. Čo doňho zahrnúť a čomu sa, naopak, vyhnúť? Príď na\nworkshop a zisti, ako vyšperkovať tento – v pracovnom svete často skloňovaný -\n#magicpaper.\nABSTRAKT:\n1. #Forma životopisu predáva (10 min)\na. Rozdiel medzi kontextovým, beletrizovaným a štruktúrovaným životopisom\nb. Ako zaujať formou životopisu na prvý pohľad\n2. #Obsah životopisu musí zaujať (15 min)\na. Členenie životopisu\nb. Ako o sebe neprezradiť viac, než je potrebné\nc. Ako o sebe povedať všetko podstatné a nezabudnúť na to najdôležitejšie\n3. #Znaky moderného životopisu (10 min)\na. Emoji a grafické prvky v životopise\nb. Nech žijú appky!\n4. Diskusia, otázky (10 min)"
+  },
+  {
+    "speakers": [
+      "Marek Mansell"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Jednoduchý blog vo Flasku",
+    "text": "Flask je nadupaný Python framework, vďaka ktorému spravíš všetku základnú funkcionalitu blogu za niekoľko desiatok minút :-)  Vyskúšame si naprogramovať našu prvú stránku v Mu editore, ideálnom pre vyučovanie základov Pythonu. Pridáme k tomu aj štýlovanie pomocou Bootstrapu (je to CSS knižnica, aby Vaša stránka nie len fungovala, ale aj pekne vyzerala). Na konci si ukážeme, ako náš web zadarmo nahodiť na web server, aby bol dostupný pre kohokoľvek na internete :-)"
+  },
+  {
+    "speakers": [
+      "CoderDojo Slovensko"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Naučte sa programovať s CoderDojo",
+    "text": "Príďte si vyskúšať špeciálne CoderDojo na PyCone. Máme pre vás pripravené programovanie v Scratchi, Pythone, na micro:bitoch alebo Arduino. Máte vlastný projekt? Prineste nám ho ukázať!"
+  }
+]

@@ -1,9 +1,10 @@
+import os
 from datetime import date
 
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext, lazy_gettext
 
-from utils import get_news, get_speakers
+from utils import get_news, get_speakers, get_edu_speakers, get_edu_talks
 
 EVENT = gettext('PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia')
 DOMAIN = 'https://2020.pycon.sk'
@@ -24,6 +25,8 @@ CATEGORIES = {
 }
 
 SPEAKERS = get_speakers()
+EDU_SPEAKERS = get_edu_speakers()
+EDU_TALKS = get_edu_talks()
 NEWS = get_news()
 
 
@@ -146,8 +149,143 @@ def sponsors():
 
 @app.route('/<lang_code>/edusummit.html')
 def edusummit():
+
+    FRIDAY = [
+        {
+            'time': '9:25 - 9:30',
+            'speakers': ['Eva Klimeková'],
+            'talk': 'Otvorenie 4. ročníka EduSummit na PyCon SK',
+        },
+        {
+            'time': '9:30 - 9:45',
+            'talk': 'Učíme s hardvérom'
+        },
+        {
+            'time': '9:45 - 10:15',
+            'talk': 'Finále súťaže SPy Cup'
+        },
+        {
+            'time': '10:20 - 10:50',
+            'talk': 'Vzbuďme v študentoch chuť programovať!'
+        },
+        {
+            'time': '11:05 - 12:05',
+            'talk': 'Ako sa dá s Python zvládnuť štvorročné štúdium na strednej škole',
+            'keynote': 'True'
+        },
+        {
+            'time': '13:10 - 13:35',
+            'talk': 'EDUTalks'
+        },
+        {
+            'time': '13:35- 13:55',
+            'speakers': ['Peter Palát'],
+            'talk': 'Internetová bezpečnosť: základy sebaobrany'
+        },
+        {
+            'time': '14:00- 14:30',
+            'talk': "Programujeme v Pythone hardvér",
+        },
+        {
+            'time': '14:45- 15:30',
+            'talk': "Python ako nástroj pre STE(A)M problémy a úlohy",
+        },
+        {
+            'time': '15:35- 16:05',
+            'talk': "Programovací jazyk Robot Karel po novom a online.",
+        },
+        {
+            'time': '16:20- 16:50',
+            'talk': 'Vyhlásenie výsledkov SPy Cup a Python Cup'
+        },
+        {
+            'time': '16:55- 17:25',
+            'talk': "Z maturity v pascale na pythonovskú novú maturitu, študenstká mobilná apka o pythone v pythone a jednoduché grafické rozhranie pomocou libreoffice calc",
+        }
+    ]
+
+    FRIDAY2 = [
+        {
+            'time': '11:05- 12:10',
+            'talk': "Programovanie vlastných micro:bit herných ovládačov a autíčok",
+        },
+        {
+            'time': '13:10 - 13:55',
+            'talk': "Životopis predáva",
+        },
+        {
+            'time': '14:00 - 16:00',
+            'talk': "Buď SMART s micro:bitom",
+        }
+    ]
+
+    SATURDAY = [
+        {
+            'time': '9:00 - 10:50',
+            'talk': "Robíme IoT na mikrokontroléri ESP32 v jazyku MicroPython"
+        },
+        {
+            'time': '11:05 - 12:10',
+            'talk': "Jednoduchý blog vo Flasku",
+        },
+        {
+            'time': '13:10 - 15:00',
+            'talk': "Buď SMART s micro:bitom",
+        },
+        {
+            'time': '15:20 - 16:50',
+            'speakers': ['Jaroslav Výbošťok', 'Marek Mansell'],
+            'talk': "Využitie otvorených dát a GPS s použitím tkinter a Jupyter"
+        }
+    ]
+
+    SATURDAY2 = [
+        {
+            'time': '9:00 - 10:50',
+            'talk': "Zábava a informatika idú ruka v ruke ! :)",
+        },
+        {
+            'time': '11:05 - 12:10',
+            'talk': "Naučte sa programovať s CoderDojo",
+        },
+        {
+            'time': '13:10 - 14:10',
+            'talk': "Naprogramuj si robota Ozobot EVO",
+        },
+    ]
+
+    for spot in FRIDAY:
+        for talk in EDU_TALKS:
+            if spot['talk'] == talk['title']:
+                spot['talk'] = talk
+                spot['speakers'] = talk['speakers']
+                continue
+
+    for spot in FRIDAY2:
+        for talk in EDU_TALKS:
+            if spot['talk'] == talk['title']:
+                spot['talk'] = talk
+                spot['speakers'] = talk['speakers']
+                continue
+
+    for spot in SATURDAY:
+        for talk in EDU_TALKS:
+            if spot['talk'] == talk['title']:
+                spot['talk'] = talk
+                spot['speakers'] = talk['speakers']
+                continue
+
+    for spot in SATURDAY2:
+        for talk in EDU_TALKS:
+            if spot['talk'] == talk['title']:
+                spot['talk'] = talk
+                spot['speakers'] = talk['speakers']
+                continue
+
     return render_template('edusummit.html', **_get_template_variables(li_edusummit='active', background='bkg-index',
-                                                                       speakers=SPEAKERS))
+                                                                       friday=FRIDAY, saturday=SATURDAY,
+                                                                       friday2=FRIDAY2, saturday2=SATURDAY2,
+                                                                       speakers=EDU_SPEAKERS, talks=EDU_TALKS))
 
 
 @app.route('/<lang_code>/thanks.html')
@@ -168,7 +306,7 @@ def program():
 
 @app.route('/<lang_code>/speakers/index.html')
 def speakers():
-    variables = _get_template_variables(li_speakers='active', background='bkg-speaker', speakers=SPEAKERS)
+    variables = _get_template_variables(li_speakers='active', background='bkg-speaker', speakers=SPEAKERS+EDU_SPEAKERS)
 
     return render_template('speaker_list.html', **variables)
 
@@ -177,7 +315,7 @@ def profile(name):
     name = ' '.join(name.split('-')).title()
     variables = _get_template_variables(li_speakers='active', background='bkg-speaker')
 
-    for speaker in SPEAKERS:
+    for speaker in SPEAKERS+EDU_SPEAKERS:
         if speaker['name'].lower() == name.lower():
             variables['speaker'] = speaker
             break

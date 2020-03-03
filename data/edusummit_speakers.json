@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Zuzana Tkáčová",
+    "bio": "Vyštudovala umelú inteligenciu na FEI TU v Košiciach. Učiteľka informatiky, t.č. pôsobí na Ústave informatiky PF UPJŠ, kde pripravuje a vedie kurzy pre učiteľov informatiky ZŠ a SŠ. Venuje sa didaktickým inováciám - aktivizujúcim a bádateľským metódam výučby informatiky, physical computingu, creative computingu, umelej inteligencii a prepájaniu informatiky a STE(A)M predmetov. Spolupracuje s občianskym združením Aj Ty v IT ako lektorka programátorských kurzov pre dievčatá a ženy.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/zuzana_tkacova.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Peter Kučera",
+    "bio": "Stredoškolský učiteľ informatiky, autor učebníc Pythonu\n\nPôsobí ako učiteľ informatiky na 1. súkromnom gymnáziu v Bratislave. Vytvoril sériu učebníc Programujeme v Pythone spolu s Príručkami pre učiteľa, maturitnou zbierkou úloh a zbierkou testov. Vedie Klub učiteľov informatiky. Realizuje školenia jazyka Python pre učiteľov. Na praxi pripravuje študentov učiteľstva informatiky (fakultný učiteľ FMFI UK).",
+    "country": "Slovakia",
+    "avatar": "img/speakers/peter_kucera.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Jaroslav Výbošťok",
+    "bio": "Viac ako 13 rokov vyučuje informatiku a semináre z programovania pre maturantov na Gymnáziu Jura Hronca v Bratislave. Učil tiež na osemročnom gymnáziu na Bajkalskej v Bratislave a základnej škole v Detve. Je spoluautorom učebníc Programujeme v Pythone – druhý a tretí diel a Maturujeme v Pythone. Na praxi pripravuje študentov učiteľstva informatiky ako fakultný učiteľ FMFI UK.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/jaroslav_vybostok.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Peter Valachovič",
+    "bio": "Mgr. Ing. Peter Valachovič, je učiteľ informatiky na Piaristickom gymnáziu v Nitre, kde vyučuje, ako základný kurz programovania v Pythone v rámci informatiky, tak i kurz prípravy na maturitu na voliteľných seminároch z informatiky. V krátkosti prezentoval začiatky prechodu na Python na PyCon SK 2018 a v roku 2019 spolu so žiakmi okrem ďalších krokov prechodu na python predstavil s dvoma študentmi pracujúcimi na svojich pythonových projektoch v rámci školy. \n\nMatúš Masár, študent 3. ročníka Nitrianskeho Piaristického gymnázia, posunul tvorbu študentskej učebnice do úrovne mobilnej aplikácie, kde môžu študenti v slovenčine zadarmo a offline pozrieť prehľad základných príkazov a príkladov použitia.\n\nMichal Magula, študent 4. ročníka Nitrianskeho Piaristického gymnázia, spracoval možnosť použitia libreoffice.org Calc na ľahké vytvorenie GUI pre pythonovské skripty, o ktorú by sa rád podelil.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/peter_valachovic.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Roman Krnáč",
+    "bio": "Bakalár Aplikovanej informatiky, Magister Učiteľstva informatiky a Techniky a momentálne doktorand na Katedre Informatiky v odbore Teória vyučovania informatiky. Absolvent kurzov pre prácu s mládežou, dlhoročný voľnočasový vedúci pri práci s deťmi na táboroch a školách v prírode. Učiteľ na súkromnej základnej škole v Nitre.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/roman_krnac.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Martin \"Dráčik\" Cápay",
+    "bio": "Martin Cápay Pokiaľ práve neučí v škole, snaží sa rozvíjať neformálne vzdelávanie v oblasti práce s mládežou. Organizuje popularizačné zážitkové aktivity, edukačné workshopy a webináre, či informatický letný tábor a detský počítačový krúžok na KI FPV UKF v Nitre. Je absolventom projektu Komenského inštitút a KomPrax – Kompetencie pre prax, členom programu Microsoft Innovative Educator Expert a spoluzakladateľom občianskeho združenia eTeacher.sk, o.z. Spolu s Maggie odviedli sériu workshopov o využití micro:bitov vo vzdelávaní.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/martin_capay.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Magdaléna \"Maggie\" Bellayová",
+    "bio": "Magdaléna Bellayová je študentka prvého ročníka na Fakulte Informačních Technologií na VUT v Brne, členka eTeacher, o.z., AI ambasádorka. Účastníčka prvého Microsoft AI Bootcampu, Aktívne sa zapája do mimoškolských aktivít zaoberajúcich sa popularizáciou informatiky ako vedecký deň detí, či letný informatický tábor. Pomáhala s realizáciou detského počítačového krúžku na KI FPV v Nitre, kde mimo iného využívala aj BBC micro:bitov. Na základe aktivít z počítačového krúžku následne spolu s Martinom odviedli sériu workshopov a prezentácií o učení s micro:bitom.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/magdalena_bellayova.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Miroslav Biňas",
+    "bio": "Odborný asistent na Katedre počítačov a informatiky, TUKE, kde učí “detiská” programovať najmä v jazyku C. Stále dúfa, že keď vyrastie, bude z neho Linuxák. Alebo Batman.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/mirek_binas.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Patrik Voštinár",
+    "bio": "Katedra informatiky FPV UMB",
+    "country": "Slovakia",
+    "avatar": "img/speakers/patrik_vostinar.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Peter Palát",
+    "bio": "Softvérový Architekt v spoločnosti ESET s.r.o\n\n„Ajťák“, ktorý sa síce aktívne nevenuje programovaniu, ale dozoruje nad vývojom komplexných riešení. Vyštudoval Softvérove inžinierstvo na Fakulte Informatiky a Informačných Technológií Slovenskej Tehnickej Univerzity v Bratislave. Vo voľnom čase sa venuje dobrovoľníckemu programu DigiSkills, ktorý zastrešuje školenia učiteľov o programovaní a digitálnej bezpečnosti.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/peter_palat.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Michaela Gažová",
+    "bio": "Softvérová inžinierka v ESETe\n\nMichaela vyštudovala Bezpečnosť informačných sýstemov aplikovanej informatiky na Fakulte elektrotechniky a informatiky Slovenskej Technickej Univerzity v Bratislave (FEI STU). Momentálne pracuje v technologickej divízii v Esete na vývoji rôznych produktov. V rámci dobrovoľníckych aktivít popri práci sa podieľa na školeniach Digital Skills pre učiteľov, kde školí digitálnu bezpečnosť.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/michaela_gazova.jpg",
+    "links": {
+    }
+  },
+  {
+    "name": "Marek Mansell",
+    "bio": "Som zanieteným edukátorom, organizátorom a experimentátorom. Snažím sa posúvať veci vpred najmä v oblasti vzdelávania pomocou projektu Učíme s Hardvérom, kde spolupracujeme so školami a motivujeme žiakov hravými aktivitami rozvíjať si ich digitálne zručnosti. Dôležitou súčasťou je tvorba metodík, lektorovanie učiteľov informatiky a realizácia výskumu v tejto oblasti. To by nebolo možné bez skvelého tímu dobrovoľníkov, s ktorými na projekte pracujeme. Popri tom organizujem IT-čkarsku konferenciu PyCon a pomáham s produkciou na mojej srdcovke - letnom festivale Atmosféra. Tiež študujem informatiku na FIIT STU a líderstvo v Nexteria Leadership Academy.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/marek_mansell.jpg",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/marekmansell/",
+      "link": "https://marekmansell.sk/"
+    }
+  },
+  {
+    "name": "Sylvia Ličková",
+    "bio": "Vyštudovala slovenský a francúzsky jazyk v kombinácii so psychológiou a pedagogikou na Komenského univerzite. Za 15 rokov aktívneho pôsobenia v oblasti ľudských zdrojov a headhuntingu prečítala tisíce profilov uchádzačov o prácu a viedla stovky pracovných pohovorov. Posledných 7 rokov pôsobí ako Senior Sourcing Specialist v spoločnosti TITANS freelancers, ktorá ako líder v oblasti outsorcingu dodáva stovky IT špecialistov na zaujímavé projekty na Slovensku a v zahraničí. V roku 2019 absolvovala program MiniTech MBA for women. Je aktívnou podporovateľkou programu Teach for Slovakia. Príležitostne sa venuje kariérnemu poradenstvu. A popri tom svojim dvom deťom, vlčiakovi, písaniu poviedok, nordik walkingu a zborovému spevu. Počúva Anténu Rock:-)",
+    "country": "Slovakia",
+    "avatar": "img/speakers/sylvia_lickova.jpg",
+    "edusummit": true,
+    "links": {
+      "link": "https://www.titans.sk/"
+    }
+  },
+  {
+    "name": "CoderDojo Slovensko",
+    "bio": "CoderDojo je globálna sieť bezplatných programovacích klubov pre deti od 7 do 17 rokov. Kluby CoderDojo sú vedené dobrovoľníkmi a sú organizované formou “hackerspaceov”. Deti majú možnosť pracovať na svojich vlastných nápadoch a majú prístup k technickým mentorom z profesionálneho sveta. Máme pobočky v Bratislave, Senci a v Žiline.",
+    "country": "Slovakia",
+    "avatar": "img/speakers/coderdojo.png",
+    "links": {
+    }
+  }
+]

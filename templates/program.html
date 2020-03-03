@@ -58,7 +58,7 @@
                                                         {% if abstract['type'] == "Talk" %}
                                                     <tr>
                                                         <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#bio">{{ speaker['name'] }}</a></td>
-                                                        <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#abstract{{ loop.index }}cxzdcx cza">{{ abstract['title'] }}</a></td>
+                                                        <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#abstract{{ loop.index }}">{{ abstract['title'] }}</a></td>
                                                         <td>
                                                             {% if abstract['lang'] == 'sk' %}{{ _('Slovak language') }}
                                                             {% elif abstract['lang'] == 'en' %}{{ _('English language') }}

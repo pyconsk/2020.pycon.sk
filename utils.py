@@ -43,3 +43,9 @@ def get_news(lang='sk', items=None):
 
 def get_speakers():
     return read_json_file(os.path.join('data', 'speakers.json'))
+
+def get_edu_speakers():
+    return read_json_file(os.path.join('data', 'edusummit_speakers.json'))
+
+def get_edu_talks():
+    return read_json_file(os.path.join('data', 'edusummit_talks.json'))
