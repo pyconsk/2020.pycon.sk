@@ -27,7 +27,6 @@ CATEGORIES = {
 SPEAKERS = get_speakers()
 EDU_SPEAKERS = get_edu_speakers()
 EDU_TALKS = get_edu_talks()
-NEWS = get_news()
 
 
 @app.route('/sitemap.xml')
@@ -88,7 +87,7 @@ def news_category(category):
     template_vars = _get_template_variables(li_news='active', categories=CATEGORIES, background='bkg-news')
     news = []
 
-    for item in NEWS:
+    for item in get_news(get_locale()):
         if category in item['categories']:
             news.append(item)
 
