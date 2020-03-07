@@ -137,11 +137,14 @@
                                     <div class="media-body media-body-box">
                                         <div class="item-title">
                                             <h3 class="title title-medium color-dark hover-primary">
-                                              <a href="{{ item.url }}"{% if item['url']|first != '/' %} target="_blank"{% endif %}>{{ item.title }}</a>
+                                              {% if item['url'] %}<a href="{{ item.url }}"{% if item['url']|first != '/' %} target="_blank"{% endif %}>{% endif %}{{ item.title }}{% if item['url'] %}</a>{% endif %}
                                             </h3>
                                         </div>
                                         <div class="item-description">
-                                            <p>{{ item.meta }}</p>
+                                            {% set paragraph = item.meta.split('\n') %}
+                                            {% for p in paragraph %}
+                                            <p>{% if p %}{{ p }}{% else %}&nbsp;{% endif %}</p>
+                                            {% endfor %}
                                             {% if item['url'] %}
                                                 <a href="{{ item.url }}" title="{{ _('Read more') }}"{% if item['url']|first != '/' %} target="_blank"{% endif %} class="btn-text color-green hover-yellow pull-right">{{ _('Read more') }}</a>
                                             {% endif %}

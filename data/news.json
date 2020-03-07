@@ -1,4 +1,12 @@
 [
+    {
+    "date": "2020-03-07",
+    "title_en": "PyCon SK will be postponed.",
+    "meta_en": "COVID-19 virus is spreading across the Europe and unfortunately Slovakia is no exception.\n\nWe have monitored the situation closely and we have been discussing with the Public Health Authority and being advice to postpone the conference. We have discussed number of proactive measures, but we are not able to guarantee health and safety of our attendees. We have discussed also the option to do the PyCon SK online, but we believe that the spirit of the community is by getting together.\n\nWe have made a responsible decision to postpone PyCon SK to later date. Conference will happen in September 2020.\n\nWe do apologize for the trouble and we hope you'll understand our decision. We do hope our decision will not cause you too much inconvenience.",
+    "title_sk": "PyCon SK bude v neskoršom termíne.",
+    "meta_sk": "Vírus COVID-19 sa šíri po celej Európe a žiaľ Slovensko, nie je výnimkou.\n\nSituáciu sme pozorne sledovali a diskutovali sme s Úradom verejného zdravotníctva a odporúčili nám odložiť konferenciu. Diskutovali sme o viacerých proaktívnych opatreniach, ale nedokážeme zaručiť zdravie a bezpečnosť našich účastníkov. Diskutovali sme tiež o možnosti urobiť PyCon SK online, ale rozhodli sme sa, že duchom komunity je stretávanie sa.\n\nPreto sme sa zodpovedne rozhodli presunúť PyCon SK na neskorší termín. Konferencia sa uskutoční v Septembri 2020.\n\nOspravedlňujem sa za problémy a dúfam, že pochopíte naše rozhodnutie. Pevne veríme, že naše rozhodnutie nespôsobí príliš veľa nepríjemností.",
+    "categories": ["conference"]
+   },
    {
     "date": "2020-03-03",
     "title_en": "PyCon SK risk assessment on COVID-19.",

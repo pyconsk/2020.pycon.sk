@@ -50,7 +50,10 @@
                                 </li>
                                 {% endfor %}
                             </ul>
-                            <p>{{ item.meta }}</p>
+                            {% set paragraph = item.meta.split('\n') %}
+                            {% for p in paragraph %}
+                            <p>{{ p }}</p>
+                            {% endfor %}
                             {% if item['url'] %}
                               <a href="{{ item.url }}" title="{{ _('Read more') }}" class="btn-text color-green hover-yellow">{{ _('Read more') }}</a>
                             {% endif %}
