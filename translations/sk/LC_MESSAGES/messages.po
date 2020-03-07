@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-27 11:41+0100\n"
+"POT-Creation-Date: 2020-03-07 10:05+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -16,11 +16,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: pycon.py:8
-msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
-msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
+#: pycon.py:9
+msgid "PyCon SK 2020 | September 2020 | Bratislava, Slovakia"
+msgstr "PyCon SK 2020 | September 2020 | Bratislava"
 
 #: templates/aboutus.html:10 templates/aboutus.html:15
 #: templates/aboutus.html:29 templates/body.html:151 templates/body.html:218
@@ -103,10 +103,10 @@ msgstr "PyCon SK 2020, Bratislava"
 #: templates/body.html:18 templates/body.html:23
 msgid ""
 "PyCon SK is a community-organized conference for the Python programming "
-"language, which will be held in Bratislava on March 27 - 29, 2020."
+"language, which will be held in Bratislava on September, 2020."
 msgstr ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
-"Python, ktorá sa bude konať v Bratislave 27. až 29. marca 2019."
+"Python, ktorá sa bude konať v Bratislave v septembri 2020."
 
 #: templates/body.html:68
 msgid "You are using an <strong>outdated</strong> browser."
@@ -131,8 +131,8 @@ msgid "Program"
 msgstr "Program"
 
 #: templates/body.html:126 templates/body.html:193 templates/cfp.html:14
-#: templates/cfp_form.html:14 templates/edusummit.html:42
-#: templates/index.html:97 templates/index.html:162 templates/recording.html:14
+#: templates/cfp_form.html:14 templates/includes/program_table.html:4
+#: templates/index.html:97 templates/index.html:165 templates/recording.html:14
 #: templates/speaker.html:14 templates/speaker_list.html:14
 #: templates/speaker_list2.html:14
 msgid "Speakers"
@@ -171,7 +171,7 @@ msgid "Venue"
 msgstr "Miesto konania"
 
 #: templates/body.html:251 templates/body.html:252 templates/index.html:20
-#: templates/index.html:203
+#: templates/index.html:206
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
@@ -1006,11 +1006,11 @@ msgstr ""
 "Kliknutím na odber súhlasíš, že odošleme tvoje informácie na spracovanie "
 "do Mailchimpu."
 
-#: templates/edusummit.html:30
+#: templates/edusummit.html:29
 msgid "Where Teachers meet Programmers"
 msgstr "Stretnutie učiteľov s programátormi"
 
-#: templates/edusummit.html:32
+#: templates/edusummit.html:31
 msgid ""
 "EduSummit je špecializovaná časť konferencie zameraná na vyučovanie "
 "programovania na základných a stredných školách. Už po štvrtý raz "
@@ -1020,7 +1020,7 @@ msgid ""
 "nástrojoch."
 msgstr ""
 
-#: templates/edusummit.html:35
+#: templates/edusummit.html:34
 msgid ""
 "Tohtoročný EduSummit PyCon SK 2020 sa uskutoční v termíne 27.-28.3.2020 "
 "na FIIT STU. V piatkovom programe majú učitelia prednášky a v sobotu "
@@ -1029,6 +1029,21 @@ msgid ""
 "piatok sa navyše koná finále súťaže SPyCup a vyhodnotenie súťaže Python "
 "Cup, ale aj výstava žiackych projektov Hardware showcase."
 msgstr ""
+
+#: templates/edusummit.html:37
+msgid ""
+"V prípade záujmu o pozývací list nás neváhajte kontaktovať na "
+"eva.klimekova@pycon.sk. Potvrdenie o účasti na konferencii vystavujeme "
+"priamo na mieste."
+msgstr ""
+
+#: templates/edusummit.html:51 templates/edusummit.html:56
+msgid "Friday"
+msgstr "Piatok"
+
+#: templates/edusummit.html:61 templates/edusummit.html:66
+msgid "Saturday"
+msgstr "Sobota"
 
 #: templates/faq.html:10 templates/faq.html:15 templates/faq.html:27
 msgid "Frequently Asked Questions"
@@ -1257,8 +1272,8 @@ msgstr ""
 "Ďalšie drinky si platí každý za seba."
 
 #: templates/index.html:12 templates/index.html:43
-msgid "27 - 29 March 2020"
-msgstr "27.-29. marec 2020"
+msgid "September 2020"
+msgstr "September 2020"
 
 #: templates/index.html:13
 msgid "Bratislava, Slovakia"
@@ -1337,23 +1352,23 @@ msgid ""
 "them..."
 msgstr "Okolo konferencie sa stále deje kopec vecí... Tu je niekoľko z nich..."
 
-#: templates/index.html:146 templates/news.html:55
+#: templates/index.html:149 templates/news.html:58
 msgid "Read more"
 msgstr "Čítaj viac"
 
-#: templates/index.html:164
+#: templates/index.html:167
 msgid "Speakers that who have already confirmed attendance at PyCon SK 2020."
 msgstr "Rečníci, ktorí už potvrdili účasť na PyCon SK 2020."
 
-#: templates/index.html:165
+#: templates/index.html:168
 msgid "You can fill the Call for Proposals and join this list..."
 msgstr "Vyplň návrh na prednášku a pridaj sa do zoznamu..."
 
-#: templates/index.html:201
+#: templates/index.html:204
 msgid "Get Your Ticket Now"
 msgstr "Kúp si lístok teraz"
 
-#: templates/index.html:202
+#: templates/index.html:205
 msgid ""
 "Conference tickets are available for purchase. So far each PyCon SK "
 "edition has sold out, so do not leave buying your ticket to the last "
@@ -1363,19 +1378,19 @@ msgstr ""
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
 
-#: templates/index.html:214
+#: templates/index.html:217
 msgid "Official Sponsors &amp; Partners"
 msgstr "Oficiálni sponzori a partneri"
 
-#: templates/index.html:215
+#: templates/index.html:218
 msgid "We are looking for sponsors and partners. Please get in touch with us."
 msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
-#: templates/index.html:216
+#: templates/index.html:219
 msgid "Check Who Makes This Event Possible!"
 msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
 
-#: templates/index.html:220 templates/index.html:221
+#: templates/index.html:223 templates/index.html:224
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
@@ -1436,11 +1451,11 @@ msgstr ""
 msgid "Category"
 msgstr "Kategória"
 
-#: templates/news.html:84 templates/news.html:137
+#: templates/news.html:87 templates/news.html:140
 msgid "Categories"
 msgstr "Kategórie"
 
-#: templates/news.html:92
+#: templates/news.html:95
 msgid "All"
 msgstr "Všetky"
 
@@ -1682,8 +1697,8 @@ msgstr ""
 msgid "Speaker"
 msgstr "Rečník"
 
-#: templates/program.html:50 templates/program.html:81
-#: templates/program.html:112
+#: templates/includes/program_table.html:5 templates/program.html:50
+#: templates/program.html:81 templates/program.html:112
 msgid "Topic"
 msgstr "Téma"
 
@@ -2298,4 +2313,21 @@ msgstr ""
 "title=\"stránky mesta pre návštevníkov\" target=\"_blank\" "
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
+
+#~ msgid ""
+#~ "PyCon SK is a community-organized "
+#~ "conference for the Python programming "
+#~ "language, which will be held in "
+#~ "Bratislava on March 27 - 29, 2020."
+#~ msgstr ""
+#~ "PyCon SK je komunitou organizovaná "
+#~ "konferencia pre programovací jazyk Python, "
+#~ "ktorá sa bude konať v Bratislave "
+#~ "27. až 29. marca 2019."
+
+#~ msgid "27 - 29 March 2020"
+#~ msgstr "27.-29. marec 2020"
+
+#~ msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
+#~ msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
 

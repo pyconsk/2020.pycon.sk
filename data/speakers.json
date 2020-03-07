@@ -392,7 +392,7 @@
             {
                 "type": "Talk",
                 "lang": "en",
-                "title": "Monotorujte Vaši Python aplikaci pomocí Promethea",
+                "title": "Monitorujte Vaši Python aplikaci pomocí Promethea",
                 "text": "Prometheus je moderní monitoringový nástroj, který sbírá metriky z aplikaci a na jejich základě může posílat notifikace. Prometheus nativně podporuje monitoring Kubernetes, serverů, databázi a mnoho dalšího. Také může monitorovat metriky z Váší aplikace, díky kterým můžete ohdalit problémy v jejich zárodku. Pojďme si ukázat jak toho docílit v Pythonu za pomoci oficiálního Python klienta. Ukážeme si to na třech příkladech, aplikace v Djangu, ve Flasku a vlatni aplikaci v Pythonu."
             }
         ]

@@ -6,7 +6,7 @@ from flask_babel import Babel, gettext, lazy_gettext
 
 from utils import get_news, get_speakers, get_edu_speakers, get_edu_talks
 
-EVENT = gettext('PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia')
+EVENT = gettext('PyCon SK 2020 | September 2020 | Bratislava, Slovakia')
 DOMAIN = 'https://2020.pycon.sk'
 API_DOMAIN = 'https://api.pycon.sk'
 
@@ -68,7 +68,7 @@ def root():
 def index():
     template_vars = _get_template_variables(li_index='active', news=get_news(get_locale(), items=3),
                                             categories=CATEGORIES, background_filename='img/about/header1.jpg',
-                                            speakers=SPEAKERS)
+                                            speakers=SPEAKERS+EDU_SPEAKERS)
     return render_template('index.html', **template_vars)
 
 
