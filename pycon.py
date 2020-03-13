@@ -4,9 +4,9 @@ from datetime import date
 from flask import Flask, g, request, render_template, abort, make_response, url_for, redirect
 from flask_babel import Babel, gettext, lazy_gettext
 
-from utils import get_news, get_speakers, get_edu_speakers, get_edu_talks
+from utils import get_news, get_speakers, get_talks, get_edu_speakers, get_edu_talks
 
-EVENT = gettext('PyCon SK 2020 | September 2020 | Bratislava, Slovakia')
+EVENT = gettext('PyCon SK 2020 | 11 - 13. September 2020 | Bratislava, Slovakia')
 DOMAIN = 'https://2020.pycon.sk'
 API_DOMAIN = 'https://api.pycon.sk'
 
@@ -25,6 +25,7 @@ CATEGORIES = {
 }
 
 SPEAKERS = get_speakers()
+TALKS = get_talks()
 EDU_SPEAKERS = get_edu_speakers()
 EDU_TALKS = get_edu_talks()
 
@@ -300,6 +301,22 @@ def privacy_policy():
 @app.route('/<lang_code>/program/index.html')
 def program():
     variables = _get_template_variables(li_program='active', background='bkg-speaker', speakers=SPEAKERS)
+    variables['talks_list'] = []
+    variables['workshops_link'] = []
+
+    for talk in TALKS:
+        if talk['type'] == 'Talk':
+            variables['talks_list'].append({
+                'talk': talk,
+                'speakers': talk['speakers']
+            })
+            continue
+        elif talk['type'] == 'Workshop':
+            variables['workshops_link'].append({
+                'talk': talk,
+                'speakers': talk['speakers']
+            })
+            continue
 
     return render_template('program.html', **variables)
 

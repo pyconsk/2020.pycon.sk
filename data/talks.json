@@ -1,0 +1,408 @@
+[
+  {
+    "speakers": [
+      "Tom Dyson"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "To be announced...",
+    "text": "To be announced..."
+  },
+  {
+    "speakers": [
+      "Tom Dyson"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Wagtail workshop",
+    "text": "To be announced..."
+  },
+  {
+    "speakers": [
+      "Roman Imankulov"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Evolution of a twelve-year-old project",
+    "text": "Imagine a tool, created by a student in his free time to solve his personal needs. Chances are the lifetime of such project counts in weeks or months. Yet that's exactly how Todoist has been started in 2007. Fast forward, 12 years, and it's a successful project with millions of active users, active development and big plans ahead.\n\nI personally take care of Todoist since 2012, it's about 7 years. In his talk, I will share my challenges, wins failures, and things I learned working with the codebase."
+  },
+  {
+    "speakers": [
+      "Emilie Sengstschmid"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Portfolio: How to build a flexible web application using controlled vocabularies and data schemes",
+    "text": "The presentation of art works requires a very versatile and flexible web application. Artists use different media and presentation formats (exhibition, installation, performance, dance, music, etc.). Portfolio is a state-of-the-art research information system designed specifically for the needs of artists. Portfolio’s requirements included creating different and flexible object types which can be defined through a controlled vocabulary maintained by a special non-technical user group.\nPortfolio is built with Django. To fulfill the requirement of flexible and expandable object types a single PostgreSQL JSON database field is used to save object specific data. Data schemes for JSON serialized data are built with marshmallow, a library for simplified object serialization. Skosmos is used to publish, and provide a REST API for the controlled vocabulary which is maintained by non-technical users through VocBench, a web-based, collaborative development platform for managing SKOS thesauri. Portfolio provides a REST API for its Vue.js powered frontend and communication to other applications."
+  },
+  {
+    "speakers": [
+      "Michal Cyprian"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "How (not) to turn Kubernetes self-healing capabilities into self-destructive machinery",
+    "text": "Kubernetes won the container orchestration war in 2017 and become the de facto standard for deploying containerized applications at scale. Many software projects, including Python projects, are being migrated to Kubernetes nowadays. The vision of a beautiful Cloud-native ecosystem powered by Kubernetes, where the smallest misbehavior of services is detected and everything scales automatically is very nice. However, the way to such an ecosystem can be longer and harder than it seems to be. What are the real challenges of migrating complex Python system to Kubernetes? What are the threats you should be aware of?\n\nThis talk summarizes the experience gained during the migration of booking, one of the most critical Python services at Kiwi.com, to Google Kubernetes Engine. Booking is a mixture of legacy services, new services based on Flask and asynchronous Celery tasks. I will be talking about our approach, our success, but also our failures and things we've learned the hard way."
+  },
+  {
+    "speakers": [
+      "Filipa Andrade"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Breaking stereotypes in tech",
+    "text": "Like any other field, the tech world has many stereotypes, gender, ethnic or age stereotypes are fairly easy to spot. In this talk I will show you some of those stereotypes and present my ideas of where they come from. We will see why stereotypes are harmful, not only for the people involved but also for the tech world itself. I will share my personal perspective on how to break those stereotypes and open the way for more people to join our community."
+  },
+  {
+    "speakers": [
+      "Dom Weldon"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Oxidizing MyPy: Typed Python, Rust and Rust-in-Python.",
+    "text": "Python is a very readable, dynamically typed, interpreted, object oriented general purpose programming language that’s easy to learn, but offers almost unlimited power and flexibility to build almost whatever you want. However, as you go deeper into Python, some of the very features that made you fall in love with the language may start to limit what you can do: dynamic typing can make bugs hard to spot, large codebases can create a sea of objects, and the global interpreter lock (GIL) starts to impose a hard limit on performance. \n\nMeanwhile, Rust - a relatively new compiled systems programming language - is statically (and safely) typed, and offers and \"\"fearless\"\" concurrency without the limitations of the GIL; indeed, idiomatic Rust code runs at comparable speeds to C/C++. However, despite having a brilliant community, Rust is acknowledged as presenting a steep learning curve, and with so much Python being used in data science, academia, industry and beyond, switching entirely to Rust simply isn’t a sensible option for most teams. \n\nAt decisionLab, a mathematical modelling and data science consultancy based in central London, we wanted to improve our Python code quality and maintainability as much as possible, whilst also making use of the speed improvements that Rust could offer for some of our most performance critical algorithms.\n\nSo, we embraced typed Python, whilst also exploring Rust. So far, the effects on our code have been excellent. Not only did we spot bugs and improve our documentation using typed Python, but we were also able to use high level tools which leverage typed Python to build APIs and interfaces to our code and accelerate development. Best of all, using Rust from within our Python code was much easier than expected.\n\nThis talk will give a brief overview of typed Python, and how and why you would want to use it, alongside an overview of some excellent high-level tools that let your typed code fly. I'll also give an introduction to Rust the language, and the two major Rust-Python bindings: PyO3 and Rust-Python. We’ll then explore an example of how to write a Rust module and use it in Python.\n\nHopefully, I'll convince you that you don't need to be a computer science genius to work with a systems programming language, and that using Rust in your code doesn't require a complete re-write, but that you can actually start to swap-and-switch your code into Rust class by class, function by function.\n\nAt the same time, I'll reflect on the roles of Rust, Python and code generally in solving business problems. My aim in this talk is to show that Rust and Python are not enemies or competitors, but rather that they are different tools with different uses, and that when they are used in combination, great things can happen! In doing so, I'll offer my take on what I think the future of Rust is in Python."
+  },
+  {
+    "speakers": [
+      "Ines Meršak"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Pushing Django to its limit: rally of 2017",
+    "text": "Cyptocurrencies first came about in 2009 with Bitcoin. Two years later, Bitcoin’s price has risen above a dollar and two young men decided to start a cryptocurrency exchange in their own garage in Slovenia, armed with 1000 EUR starting capital and some knowledge of Python and Django.\nToday, Bitstamp is the longest-standing exchange. Still running on Django, it had the most uptime (the site was unavailable for only half an hour) amongst all cryptocurrency exchanges in the rally of December 2017.\n\nIn this talk, I will introduce the most important part of any cryptocurrency exchange: trading. We will take a look at different order types, explain when a match happens and touch upon the logic of our old matching engine. We will talk about the problems legacy code has brought us, the improvements we’ve had to make to survive the rally and why we (trading team at Bitstamp) are now moving from Python to Go."
+  },
+  {
+    "speakers": [
+      "Nicholas Thapen"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Sourcery - Write better code faster with AI",
+    "text": "Sourcery is a new tool designed to take the hard work out of refactoring.\nIt uses AI to search the space of possible changes to the code in search of improvements, backed up by extensive static analysis to prevent changes to functionality.\nFind out how Sourcery was made and what it can do."
+  },
+  {
+    "speakers": [
+      "Lilian Nandi"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Creating the Next Generation of (Technology) Billionaires - Part 2",
+    "text": "Our generation of young people in school (aged 5-18) have noticed the connection between Computer pRogramming, Technology & Success and Billionaires.On mass they are clamoring to master the skill of Computer pRogramming. We describe a successful working model for the teaching of Computer pRogamming.\n\nComputer Science is now regarded as one of the leading disciplines in the 21st century. Computers are ubiquitous and prevalent in most, if not all, sectors of our modern society – applications include using them in weather forecasting, robotic surgery, space exploration, e-commerce, smart cities, driverless cars, etc.\n\nTherefore, coding or computer programming is now regarded by many as an essential skill for the young person, and it has been dubbed the ‘4th’ R’ (computer pRogramming) along with Reading, wRiting and aRithmetic.\n\nIn recognition of the new status of computer programming, governments worldwide have launched initiatives to have it taught in schools from Kindergarten through to junior school and all the way through secondary school.\n\nSo, the question emerges is how do we best teach and motivate the next generation in acquiring this skill? Given the fact that this field is very much in its infancy, there are insufficient number of skilled Computer Science teachers and very little pedagogy to guide the educator. Therefore, the whole world is learning how best to teach this subject by trial and error.\n\nThe talk will describe a case study whereby coding/computer programming, in the form of Python programming, was introduced to a group of 110 young people from the ages of 11 to 18 (Years 7-13 in a U.K secondary school). The talk will include descriptions of the various teaching methodologies introduced to the young people for this purpose and the outcomes; the talk will also address various challenges and questions about how to teach coding to young people. The talk will conclude with helpful suggestions, based on the findings of the case study, on how to proceed with the teaching of computer programming to these people."
+  },
+  {
+    "speakers": [
+      "Marek Greško"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Spoznaj zákutia IT freelancingu",
+    "text": "Láka ťa svet freelancerov a rád by si zistil viac o tom, ako to vyzerá „na druhom brehu“? Odskoč si na workshop a odhaľ tajomstvá, ktoré so sebou prináša skutočný #freelanceworld. Dozvieš sa aj to, aké mýty či legendy sprevádzajú toto univerzum alebo to, v čom sa líši #mindset IT freelancera v porovnaní s ostatnými IT-čkármi.\n\n\n1.     #DNA freelancera (10 min)\n  a.     Aké je nastavenie mysle a technické predpoklady freelancera\n  b.     Čo je dôležité vedieť, keď prechádzaš z TPP na freelance\n2.     #Mýty a #legendy o svete freelancingu (10 min)\n  a.     Aký je skutočný život freelancera\n  b.     Čo sa očakáva od freelancera na projekte\n  c.     Typy projektov\n3.     #Financie freelancera (10 min)\n  a.     Porovnanie TPP vs. freelance\n  b.     Ako si vypočítaš svoj RATE\n4.     Diskusia, otázky (10 min)"
+  },
+  {
+    "speakers": [
+      "Hannah Hazi"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "The Knowledge In The Code: Or How I Learned to Stop Worrying and Love Legacy Code",
+    "text": "Legacy code. It's old, poorly documented, barely tested, a nightmare to work with. You've never met the people who wrote it, but if you did you'd have a thing or two to tell them! If you had the time, you'd love to re-write it all.\n\nBut what if I told you that there are gems hidden in your company's old code? That re-writing it from scratch would be a bad mistake?\n\nThis is the story of how I learned to love legacy code. And how you might, too!\n\nThis talk is a revised and improved version of one I originally gave at PyCon UK, with more of an emphasis on what good refactoring can look like."
+  },
+  {
+    "speakers": [
+      "Adam Števko"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "The day when I stopped worrying about exposed SSH ports",
+    "text": "Everyone running workloads on EC2 in AWS had to design their own access solution at some point. Following the best practices, people tend to end up with a considerable infrastructure to maintain: few bastion hosts exposing ports to the network, optional VPN service for protecting exposed bastions hosts, user directory service for authentication and permissions management, some log aggregation solution for collecting access logs and SSH key management pain points.\n\nIn this talk, we will describe how can we liberate DevOps and Security teams from running and maintaining such access solution leveraging the power of serverless technologies and reusing already used products such as AWS IAM for permission management, AWS CloudTrail for logging and auditing user accesses, SSM Session Manager for accessing and granting access to instances and aws-gate, open source tool wrapping all aforementioned. With this approach, your teams really won’t need to ever worry about exposed SSH ports again."
+  },
+  {
+    "speakers": [
+      "Luka Raljević"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Dive into codebase like a pro",
+    "text": "How to get familiar with codebase you need to maintain with minimum suffering?\nHow to leave codebase easier to deal with for your colleagues so they don’t have to suffer like you did?\nIf you are experienced developer or a junior just starting your journey, inheriting codebase can be a very challenging task. Especially if the codebase is not quite up to your standards, or it’s just huge and complex beast.\nI will convey my experience and tips and tricks on inheriting code I acquired during 10 years of software development on new and old projects.\nThe talk will provide guidelines to ease taking over code from somebody else, as well as remind developers of the importance that planning, preparation and documentation have in facilitating code change and project growth."
+  },
+  {
+    "speakers": [
+      "Anton Caceres"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Why Using Serverless With Python is a Good Idea",
+    "text": "These days we hear about trendy serverless deployments way too often: the mysterious way we can prepare, push, and execute applications with zero effort on the infrastructure side. This talk explores serverless use-cases for Python developers.\n\nThis is not another pitch of AWS Lambda. While including the lambda, we will rather discuss Python framework options, how to build more sophisticated workflows and integrations, how to deploy our code across different cloud providers, and finally, how to test and debug the apps, all based on the open-source serverless framework."
+  },
+  {
+    "speakers": [
+      "Michal Brandis"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Zahviezdi na pohovore ako #Pythonstar",
+    "text": "Pohovor je vec stresujúca. Navyše tu platí pravidlo, že šanca presvedčiť a\nzaujať je len jedna. Správnou prípravou ale tento stres ľahko odbúraš, navyše získaš\nkonkurenčnú výhodu pred ostatnými kandidátmi. Chceš vedieť ako? Príď na workshop a\nuvidíš. Odhalené ti budú všetky #zákutia výberových procesov a na ďalšom pohovore už\nurčite pocítiš rozdiel.\n\n1.     #Screening kandidátov (10 min)\na.     Ako si ťa recruiter preveruje a kde\nb.     Ako si upraviť profil tak, aby si neskončil v procese ešte skôr ako začneš\n2.     #Úskalia interviews (15 min)\na.     Najčastejšie technické a netechnické otázky na Python pohovoroch\nb.     Ako vystupovať, aby si ťa klient pozitívne zapamätal a čomu sa vyhnúť\nc.     Najväčšie chyby pri self-prezentácií\nd.   Časté problémy po interview a ako s nimi pracovať\n3.    #Partner pre hľadanie pozície či projektu (10 min)\na.    Výhody a nevýhody hľadania projektu „napriamo“\nb.    Ako si vybrať vhodného partnera či klienta\n4.     Diskusia, otázky (10 min)"
+  },
+  {
+    "speakers": [
+      "Ján Šichula"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Python a Visual Studio Code – motivácia, inštalácia, konfigurácia, používanie, skúsenosti",
+    "text": "V STEP IT Academy Bratislava sme pri výuke jazyka Python v minulom roku nasadili ako vývojové prostredie Visual Studio Code. Veľmi som to uvítal, lebo Visual Studio Code som už predtým používal ako môj primárny vývojársky nástroj. I celkovo výsledný stav po nasadení hodnotím pozitívne a ako krok správnym smerom. Prednáška/workshop oboznámi poslucháčov s postupom ako nasadiť a používať kombináciu Pythonu a prostredia Visual Studia Code pod operačným systémom Windows. Po úvodnom popise základných čŕt Pythonu pod Windows a nástroja Visual Studio Code postúpime k opisu samotnej inštalácie a konfigurácie. Potom budeme demonštrovať niektoré typické postupy ako napr. otváranie nových projektov, funkciu IntelliSense či ladenie kódu. Prejdeme si aj popis architektúry celého riešenia s cieľom objasniť, ako je Python integrovaný s Visual Studio Code. Rovnako bude snaha spomenúť i niektoré skúsenosti z praxe."
+  },
+  {
+    "speakers": [
+      "Goce Anastasovski"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Code Review, A Software Engineer's Best Friend",
+    "text": "One of the most powerful software quality tools are code reviews - an activity in which a developer, other than the author, examines a software deliverable for defects, and improvement opportunities. For a new Engineer, a code review can be a valuable learning resource, and for a more experienced Engineer it can be a good teaching mechanism when done properly. Whether you are a fresh college graduate, or a Senior Engineer with multiple years of experience under your belt, this talk will take you on the journey of a team that transformed their code review process from being vague and lacking, to being the biggest investment of their resulting, high quality code output. On this short journey we will specifically\nfocus on:\n\n- The importance of the human factor in code reviews.\n- The value of knowing who the review is for (understanding your audience).\n- What code reviews are and how they should be used effectively.\n- Best practices as well as General Do's and Don'ts.\n\n\nBy the end of this talk your perspective on code reviews should change and you will approach code reviews as what they really are - a Software Engineer's Best Friend (woof! woof!)"
+  },
+  {
+    "speakers": [
+      "Věroš Kaplan"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Python powered Digital clock",
+    "text": "Build your own Python powered digital clock.\nOr display temperature. Or bitcoin price.\nOr play snake.\n\nWe are going to build  32x8 LED matrix and display messages over WiFi from desktop Python.\n\nYou should bring your laptop with installed Python."
+  },
+  {
+    "speakers": [
+      "Mauro Pelucchi"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Job-Me - An AI system to analyse resumes",
+    "text": "Firms spend a lot of amounts of effort in terms of time and money to find the right profile for an open position.\nJob-Me is an innovative system to reduce such time and expenses by application of artificial intelligence (AI).\nThe idea is simple: apply text mining and others AI tecniques to parse text from resume, extract skills according\nto a standard classification system and measure the relevance of the skills for the profile."
+  },
+  {
+    "speakers": [
+      "Dmitry Dygalo"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Stop writing tests for your web API! Try to generate them first",
+    "text": "Having a comprehensive test suite is a crucial part of modern software development. But often, writing tests at scale is a tiresome and error-prone process.\n\nIn this talk, I will share thoughts and ideas about the applicability of property-based testing for web applications, show concrete examples and tools that will improve your test suites with minimal efforts.\nWe'll go through problems in testing that we are facing in Kiwi.com and the story behind Schemathesis - a tool that brings a popular Hypothesis testing library to the world of web applications."
+  },
+  {
+    "speakers": [
+      "Brendan Maginnis"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "The Future of Software Development",
+    "text": "AI is revolutionising everything it touches, and is of course written by software developers.\nWhat happens when we apply AI techniques to software development?\nWhat's the current state of the art, and where are things heading?"
+  },
+  {
+    "speakers": [
+      "Peter Dolák"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "This too shall parse",
+    "text": "You used a parser the last time you ran any Python script. You created a simple parser the last time you wrote any regular expression. But when your program needs to understand languages that regexps just don't get, you may have to reach for a proper context-free parser. In this talk I will focus on the kind of problems that need such a parser, how to define artificial languages with grammars, what kinds of parsers there are and what are they suited for. I will also show off the Python parsing library \"lark\" and some cool stuff I made with it for Exponea - like our own query language."
+  },
+  {
+    "speakers": [
+      "Ondrej Sika"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Monitorujte Vaši Python aplikaci pomocí Promethea",
+    "text": "Prometheus je moderní monitoringový nástroj, který sbírá metriky z aplikaci a na jejich základě může posílat notifikace. Prometheus nativně podporuje monitoring Kubernetes, serverů, databázi a mnoho dalšího. Také může monitorovat metriky z Váší aplikace, díky kterým můžete ohdalit problémy v jejich zárodku. Pojďme si ukázat jak toho docílit v Pythonu za pomoci oficiálního Python klienta. Ukážeme si to na třech příkladech, aplikace v Djangu, ve Flasku a vlatni aplikaci v Pythonu."
+  },
+  {
+    "speakers": [
+      "Michal Petrucha"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Autopsy of a serial burnout",
+    "text": "Alright, let's be real, burnout is a thing. It's been talked enough about already at various conferences for us to know at least that much. And yet, the more bone-headed among us will look for any excuse to refuse admitting it to ourselves. Not even after it knocks us out two, three, four times. Not even after our doctor offers help. (I wish I was making this up.)\n\nHearing about this in abstract terms is useful, of course. Every talk drives a different point home. It only gets you so far, though. That's why I'm going to take another approach here – I want to tell my personal story as someone who grew up around the block, and try to make a post-mortem of several instances of burnout, so that you can avoid making the same mistakes that I did. Spoiler: we'll go as far back as high school.\n\nLuckily, in this case, the autopsy does not involve any actual death (that I know of)!"
+  },
+  {
+    "speakers": [
+      "Conor Lyman"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Leveraging Python to transform today’s electrical grid into an integrated system of clean and sustainable power-plants",
+    "text": "The expanding capacity of distributed energy resources (DERs), in addition to government incentives to decarbonize the electric grid, add to the complexity of an already complex and antiquated energy system. However, at Blueprint Power and MAKERS, we are leveraging data science, co-optimization, and machine learning together into one system to unlock the full potential of DERs to create a more robust, green, 21st-century electricity infrastructure.\n\nIn this talk, we will cover three main areas. First, we will explain how we are developing a Python-based Data Science platform that enables buildings to participate in electricity markets as clean, sustainable power plants. Next, we will explain what we’ve learned from building a scalable modeling architecture that is modular and robust enough for the energy trading world. Finally, we will do a deeper dive into how we leverage key libraries, such as pandas, Pyomo, and PyTorch, in our models."
+  },
+  {
+    "speakers": [
+      "William Galindez Arias"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "What if a Chatbot can become your language teacher?",
+    "text": "How does a Colombian expat  living in Prague learn a notoriously difficult language? While going beyond dry lessons and into actually understanding how to hold conversations?  Discover the intersection between  people  and algorithms when it comes to learn words and meaning.  Join the discussion of how  leveraging recent state-of-the-art  NLP models (from RNN to Transformers) can have an impact in the way we learn, communicate and educate."
+  },
+  {
+    "speakers": [
+      "Adrian Gonzalez Martin"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Production Machine Learning with Seldon and MLflow",
+    "text": "Deploying and managing machine learning models at scale introduces new complexities. Fortunately, there are tools that simplify this process. In this talk we walk you through an end-to-end hands on example showing how you can go from research to production without much complexity by leveraging the Seldon Core and MLflow frameworks. We will train a set of ML models, and we will showcase a simple way to deploy them to a Kubernetes cluster through sophisticated deployment methods, including canary deployments, shadow deployments and we’ll touch upon richer ML graphs such as explainer deployments."
+  },
+  {
+    "speakers": [
+      "Radoslav Kokuľa"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Robot Framework: automatizované testy rýchlo a jednoducho",
+    "text": "Robot framework je open source framework naprogramovaný v jazyku Python určený pre automatizáciu testov. Vďaka množstvu dostupných knižníc je možné využiť ho na testovanie rôznych druhov aplikácií a zariadení s využitím širokej škály rozhraní, protokolov a dátových typov. Počas workshopu si budú môct účastníci aj bez predošlých skúseností s týmto nástrojom prakticky vyskúšať vytváranie testov pre testovanie užívateľského rozhrania webovej aplikácie (pomocou Selenium knižnice) a testovanie backendu na úrovni REST API  rozhrania (HTTP protokol). Tutorial je zameraný na základy práce s Robot Frameworkom: základnú syntax, definovanie testovacích prípadov, definovanie setup a teardown procedúr, spušťanie testov a vyhodnotenie výsledkov vrátane test reportov."
+  },
+  {
+    "speakers": [
+      "Tibor Zavadil"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Automation of data quality assessment from solar stations",
+    "text": "To assess the photovoltaic (PV) potential of a specific site, stations measuring solar radiation are installed prior to the construction of a PV plant. Data from these stations are examined by quality control during which the erroneous data are removed from the assessment of the PV potential. The recognition of erroneous data is in many cases non-trivial, especially as the errors are hidden in changing weather conditions. Typical causes of erroneous data are e.g. shading, soiling, snow, dew and frost on the sensor. Nowadays, the quality assessment of the data is mainly performed by visual inspection and therefore must be done by domain-skilled data operator.\n\nThe poster will present to you, how by a combination of domain knowledge, agile process, statistics, machine learning, and Python such quality assessment can be automatized. Specifically, it will be shown, how all these areas are applied to automatically recognize the most usual issue – shading on the sensor by near and far objects. The poster will show you a real-world data example and will walk you through steps of algorithm which has a recall of 81.2% and a false-positive rate of 2.5%. Finally, the possibilities of improvements as well as the challenges and lessons learned will be also discussed.\n\nThe developed shading recognition algorithm described in the poster reduces the work of the domain data operator from hours to minutes. Moreover, it opens a possibility for customers to assess the data quality on their own without a need for a domain data operator. The combination of this automatic data quality control with existing vitalization and data-handling tools (all coded in Python) make this product unique on the market."
+  },
+  {
+    "speakers": [
+      "Martin Brezáni"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Úvod do sveta kvantových počítačov",
+    "text": "Po mnohé roky vnímame počítače ako stroje, ktoré nám pomáhajú svojimi algoritmami pri riešení najrôznejších problémov. V dobe, keď sú tranzistory malé a Mooreov zákon prestáva byť platný, je len malá nádej na efektívne riešenie tzv. nepolyminálnych problémov pomocou klasických počítačov. Jedno z možných riešení na prehľadávanie priestoru určitých problémov sú kvantové počítače pracujúce na báze qubitov. Ich efektivita oproti počítačom s klasickými bitmi je neporovnateľná. Napriek tomu sú kvantové počítače stále vo svojich začiatkoch a len málokto má tú možnosť fyzicky s nimi pracovať. Dnes však môžeme pracovať s kvantovými počítačmi z pohodlia nášho domova - pomocou python knižnice Qiskit vytvoriť kvantové obvody a poslať ich do jedného z niekoľkých reálnych kvantových počítačov. Výsledky z kvantového počítača pracujúceho až s 15 qubitmi tak môže získať ktokoľvek. A to je len začiatok novej, stále neprebádanej éry."
+  },
+  {
+    "speakers": [
+      "Jiří Kozel"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "A few times trapped by Celery",
+    "text": "When I first heard about Celery three years ago, my first idea was \"Why would anyone call a tool for managing async tasks 'Salary'?\" Nowadays I am realizing that similar misunderstandings were actually quite often during my work with this tool.\n\nI want to talk about my experiences with Celery, from total beginner to a-few-times-trapped user. Together with my colleagues, we started with simple tasks that were periodically gathering data and computing aggregate values of timeseries within a research project. This was actually copybook example of Celery usage, with little bit of Celery beat and tasks chaining. Saturated with success, I decided to use Celery for Layman, a web service that publishes even large geospatial datasets through REST API. Redis as a broker, Flask as web application framework. There came need to effectively and safely abort running task. Or actually chain of tasks. And sometimes from different process than the one that started the chain. That's where thing got unexpectedly complicated and story of AbortableAsyncResult, persisting results and tracking task states starts."
+  },
+  {
+    "speakers": [
+      "Michal Chovanec"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "deep reinforcement learning pomocou pytorch frameworku",
+    "text": "Pytorch predstavuje silný nástroj pre ľudí precujúcich v oblasti deep learningu. Najčastejšie aplikácie sú z počítačového videnia, rozpoznávania textu a reči - rôzne úlohy klasifikácie alebo segmentácie.\n\nReinforcement learning (RL, učenie odmenou a trestom) predstavuje menej známi prístup. Bol to práve RL - program AlphaGO, ktorý v roku 2016 porazil svetového majstra v hre GO  a v roku 2019 pro-gamera v hre StarCraft (program AlphaStar).\n\nSpôsob učenia spočíva v hraní tisícok hier, získavania odmien a učenie sa z nich. Takýto agent je schopný hraním hry sám so sebou prekonať ľudských hráčov, aj \"\"hard coded\"\" botov.\n\nV prednáške ukážem základne myšlienky RL, ako vyzerá kód s použitím knižníc pytorch a aigym, ak nezabudnem, aj nejaké typy čo sa nedajú nájsť a čím sa trebalo popasovať - ono je pekné keď veci idú, ale keď nejdú je to ozaj boj ...\n\nPre nedočkavých prikladám video ako to pracuje : https://www.youtube.com/watch?v=rQIShnTz1kU\nA podobne aj kód (pre účely pyconu ale urobím menší repozitár) : https://github.com/michalnand/reinforcement_learning/tree/master/src\nkde budú jednoduhšie príklady a tréning sieti bude trvať len pár minút (namiesto pár dní)"
+  },
+  {
+    "speakers": [
+      "Christopher Lozinski"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "MQTT: For IoT, Cell Phones, Web and Chat\n\n",
+    "text": "MQTT is an industry-standard pub/sub protocol for communicating between distributed processes. MQTT is great for IoT because it offers guaranteed message delivery even when a device is asleep or offline. MQTT is great for managing complexity, because it lets you organize communication as a taxonomy of topics.\n\nMQTT is an important technology because there may soon be more devices running MQTT than HTTP! Come to this lecture to learn the basics of MQTT, to find out if it is right for your application, and to get advice on which MQTT libraries and tools Python developers should use.\n\nThe speaker teaches MQTT Classes in Python, Javascript, GoLang and Erlang.\n\n\nHere are the talk slides: https://pythonlinks.info/presentations/MQTTTalk.pdf\n\nHere is a tree of chat rooms, one for every talk at PyCon USA. https://pythonlinks.info/pycon-usa/chat#children\n\nHere is the list of MQTT classes I am giving. https://pythonlinks.info/mqtt-lecture-and-tutorial"
+  },
+  {
+    "speakers": [
+      "Nandor Poka"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "Overview of Python for Bioinformatics and Computational Biology",
+    "text": "Bioinformatics and Computational Biology are in the intersection of Biology, Data Science, Mathematics, and Informatics. The challenges, tasks, and not to mention the data, are as heterogeneous as life itself. One may have to do a de-novo assembly of a new strain of a pathogen, detect rare gene variants, build models for gene regulation, create interaction networks - the list is almost infinite.\n\nPython offers various specialized libraries and collections of tools for Bioinformatics and Computational Biology such as Biopython, Bioconda, PyBio and more. You can use these for example for read alignment, sequence alignment, variant calling, and other domain specific tasks. Often, these collections contain hundreds of tools, and overlaps in function may occur.\n\nFor more general, but typical tasks of these areas of science - eg. data cleaning, statistics, clustering, classification or image analysis -, one would need other packages available in the Python ecosystem. Typical choices are:\n\n    SciPy\n    scikit-learn / scikit-image\n    NumPy\n    Pandas\n    graph-tool\n    matplotlib\n\n.. and many more.\n\nIt's not easy to find what to use for a given problem, especially if you are new to either of the scientific fields, or Python itself. This talk will give short examples of typical bioinformatics ( including some more general) tasks and how to solve them using some of these tools.\nThe presentation is aimed at the novice-to-intermediate level, and no prior knowledge in Biology (and therefore in Bioinformatics and / or Computational Biology) is needed."
+  },
+  {
+    "speakers": [
+      "Marcel Kucharik"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Ako mení Python svet biomedicíny",
+    "text": "Momentálne zažívame veľký rozmach biomedicíny, spôsobený hlavne zlacnením a sprístupnením sekvenovania ľudského genómu pre širšie masy. Toto produkuje ohromné množstvá dát, ktoré treba automaticky spracovávať, uchovávať a hlavne odpovedať na diagnostické otázky. Širšia bioinformatická komunita používa na tieto účely Python kvôli jeho jednoduchosti, univerzálnosti a množstve knižníc, ktoré tento jazyk ponúka. V prezentácií prejdeme ako využívame Python v prenatálnom teste pre určenie pohlavia a genetických ochorení plodu dieťaťa už v 10.tom týždni tehotenstva. Od analýzy surových dát (biopython, pandas, numpy), cez automatizované spúšťanie vyhodnocovacích skriptov (snakemake), komunikáciu so serverom (flask, requests) až po reportovanie (WeasyPrint, html5lib) a vizualizovanie (matplotlib, seaborn, dash, plotly)."
+  },
+  {
+    "speakers": [
+      "Matej Vetrak"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Distributed Authorization at Scale",
+    "text": "Authorization is an important part of every system. When you have a monolithic application it is relatively easy to create one common authorization layer that is used by the entire system and most engineers don’t have to worry about. But what if you are running a lot of different microservices that are written in multiple languages and communicating with different protocols? This was one of my tasks in the past year and I’d like to share with you our processes of thinking that lead us to develop a distributed system written in Golang using various open-source technologies, such as Open Policy Agent, Envoy Proxy or gRCP, while running everything on top of Kubernetes."
+  },
+  {
+    "speakers": [
+      "Craig Franklin"
+    ],
+    "type": "Talk",
+    "lang": "en",
+    "title": "The Traps and Challenges of Machine Learning Outside the Kaggle Cloister",
+    "text": "Machine learning is more art than science, and it isn't alway clear how you go from Kaggle competitions to building your own machine learning project from scratch. You have a cool idea, but how do you turn it into an application that you can show off to your friends, basking in the warmth of their envy? More importantly, what mistakes do you need to avoid in order to keep the hope of such basking alive?\n\nCome along and hear of my missteps, assumptions exposed and exploded, and the unpleasant surprises that come from doing machine learning in the wild. You'll learn about how to deal with haphazard data entry, depending on the kindness of strangers, boxes of different shapes and sizes, and, finally, what to do when all of this changes, because it will.\n\nIf you're interested in machine learning and are familiar with the basic tools and techniques, but are unsure of how to take a project idea to production, this talk will at least show you what not to do and how not to do it."
+  },
+  {
+    "speakers": [
+      "Michal Haták"
+    ],
+    "type": "Talk",
+    "lang": "cz",
+    "title": "AWS Lambda - Serverless prakticky",
+    "text": "V přednášce si ukážeme jak se pracuje se Serverless frameworkem a jak ho můžeme využít na svých projektech (ať už pro rychlá PoC a nebo v produkci)."
+  },
+  {
+    "speakers": [
+      "Jan Pipek"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Introduction to pandas",
+    "text": "In this workshop, you will get your hands on the essential tool of any Python data analyst or scientist, the pandas library. Based on publicly available data, you will learn how to:\n\n- load, manipulate and clean your data;\n- gather insights using grouping, aggregation and joining data from various sources;\n- understand and present you data visually.\n\nThe course is intended for attendees with high-school (or even grammar-school) math knowledge and basic Python understanding; no advanced statistics or computer science theory will be required or taught.\n\n(a slightly updated version of https://cz.pycon.org/2019/programme/workshops/8/ - with the numpy part removed, also a bit inspired by our https://naucse.python.cz/2020/pydata-praha-jaro/ materials)"
+  },
+  {
+    "speakers": [
+      "Andrej Krnáč",
+      "Martin Hauskrecht"
+    ],
+    "type": "Workshop",
+    "lang": "sk",
+    "title": "Python application deployment in cloud using Kubernetes",
+    "text": "Main goals\n\n* Demonstrate ways of running Python application in production environment with Kubernetes\n* Describe the advantages and restrictions related to the Kubernetes environment\n* Provide practical guide on how to move from traditional application deployment philosophy to more stable and resilient architectures\n\nPartial goals\n* Show basic concepts of containerization with Docker as a requirement for using Kubernetes for application deployment\n* Describe the essential Kubernetes resources for running an application\n* Show the main concepts of Kubernetes on examples related to the application we are deploying and walk the audience through the process\n\nTechnical Requirements\n\n* Minikube \n* Kubectl\n* Docker\n* Docker Hub account\n"
+  },
+  {
+    "speakers": [
+      "Mariana Hurná"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Open Data panel",
+    "text": "To be announced..."
+  },
+  {
+    "speakers": [
+      "Fabšíková Nina"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Open Data panel: Open Data v Bratislave: Cesta k transparentnému mestu",
+    "text": "V septembri minulého roka spustila Bratislava svoj open data portál, ktorý v dnešnej dobe obsahuje už stovky datasetov. Aké dáta sú na portáli k dispozícii a ktoré sú najpopulárnejšie? Ako vyzeral proces prípravy portálu a akým výzvam pri ňom mesto muselo čeliť? A v neposlednom rade, aké sú vízie mesta do budúcnosti?"
+  },
+  {
+    "speakers": [
+      "Iveta Ferčíková"
+    ],
+    "type": "Talk",
+    "lang": "sk",
+    "title": "Open Data panel: Open Data v samosprávach: Kde sme a kde by sme mohli byť?",
+    "text": "Zverejňovanie otvorených dát prináša samosprávam niekoľko benefitov, a to z hľadiska efektívneho fungovania samosprávy, zapojenia verejnosti do chodu vecí verejných a podpory vzniknu nových riešení. Množstvo samospráv, ktoré zverejňujú v SR otvorené dáta je však stále veľmi limitované. Kde sme a kde by sme mohli byť aj v kontexte toho, čo sa deje v zahraničí?"
+  },
+  {
+    "speakers": [
+      "Martin Forstner"
+    ],
+    "type": "Workshop",
+    "lang": "en",
+    "title": "Visualizing Wikipedia edit streams with Redis and Plotly Dash",
+    "text": "This workshop focuses on data processing and visualizing with Redis and Plotly Dash.\n\nWe'll start by introducing the concept of Event Data Pipelines and explain how to implement it with Python and Redis Pub/Sub. Then with our help, you will read and process the stream of Wikipedia edits and create a web application visualizing the rate of these changes.\n\nYou will get hands-on experience on how to process and visualize data streams in real-time, familiarize yourself with Redis, Python client for Redis, and Dash, an Open Source visualization platform from Plotly. In Redis specifically, you will learn the concept of pub-sub events and familiarize yourself with core Redis data types.\n\nConsider this as a white/yellow belt overall difficulty, but all levels of expertise can use this to both learn or remember essential concepts."
+  }
+]

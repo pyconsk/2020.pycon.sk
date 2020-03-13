@@ -25,108 +25,32 @@
                     <div class="schedule-layout2">
                         <ul class="schedule-nav nav nav-tabs">
                             <li class="nav-item">
-                                <a href="#talks" data-toggle="tab" aria-expanded="false" class="active">
+                                <a href="#talks_list" data-toggle="tab" aria-expanded="false" class="active">
                                     <div class="day-number">Talks</div>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#workshops" data-toggle="tab" aria-expanded="false">
+                                <a href="#workshops_link" data-toggle="tab" aria-expanded="false">
                                     <div class="day-number">Workshops</div>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#edusummit" data-toggle="tab" aria-expanded="false">
-                                    <div class="day-number">EduSummit</div>
                                 </a>
                             </li>
                         </ul>
                         <div class="schedule-content">
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade active show" id="talks">
-                                    <table class="table table-striped table-responsive">
-                                        <thead>
-                                            <tr>
-                                                <th>{{ _('Speaker') }}</th>
-                                                <th>{{ _('Topic') }}</th>
-                                                <th>{{ _('Language') }}</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {% for speaker in speakers %}
-                                                {% if 'edusummit' not in speaker %}
-                                                    {% for abstract in speaker['abstracts'] %}
-                                                        {% if abstract['type'] == "Talk" %}
-                                                    <tr>
-                                                        <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#bio">{{ speaker['name'] }}</a></td>
-                                                        <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#abstract{{ loop.index }}">{{ abstract['title'] }}</a></td>
-                                                        <td>
-                                                            {% if abstract['lang'] == 'sk' %}{{ _('Slovak language') }}
-                                                            {% elif abstract['lang'] == 'en' %}{{ _('English language') }}
-                                                            {% elif abstract['lang'] == 'cz' %}{{ _('Czech language') }}{% endif %}
-                                                        </td>
-                                                    </tr>
-                                                        {% endif %}
-                                                    {% endfor %}
-                                                {% endif %}
-                                            {% endfor %}
-                                        </tbody>
-                                    </table>
+                                <div role="tabpanel" class="tab-pane fade active show" id="talks_list">
+                                    <div role="tabpanel" class="tab-pane fade active show" id="talks_list">
+                                        {% with day=talks_list, name='talks_list' %}
+                                        {% include 'includes/program_table.html' %}
+                                        {% endwith %}
+                                    </div>
                                 </div>
 
-                                <div role="tabpanel" class="tab-pane fade" id="workshops">
-                                    <table class="table table-striped table-responsive">
-                                        <thead>
-                                            <tr>
-                                                <th>{{ _('Speaker') }}</th>
-                                                <th>{{ _('Topic') }}</th>
-                                                <th>{{ _('Language') }}</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {% for speaker in speakers %}
-                                                {% if 'edusummit' not in speaker %}
-                                                    {% for abstract in speaker['abstracts'] %}
-                                                        {% if abstract['type'] == "Workshop" %}
-                                                    <tr>
-                                                        <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#bio">{{ speaker['name'] }}</a></td>
-                                                        <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#abstract{{ loop.index }}">{{ abstract['title'] }}</a></td>
-                                                        <td>
-                                                            {% if abstract['lang'] == 'sk' %}{{ _('Slovak language') }}
-                                                            {% elif abstract['lang'] == 'en' %}{{ _('English language') }}
-                                                            {% elif abstract['lang'] == 'cz' %}{{ _('Czech language') }}{% endif %}
-                                                        </td>
-                                                    </tr>
-                                                        {% endif %}
-                                                    {% endfor %}
-                                                {% endif %}
-                                            {% endfor %}
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                                <div role="tabpanel" class="tab-pane fade" id="edusummit">
-                                    <table class="table table-striped table-responsive">
-                                        <thead>
-                                            <tr>
-                                                <th>{{ _('Speaker') }}</th>
-                                                <th>{{ _('Topic') }}</th>
-                                                <th>{{ _('Type') }}</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {% for speaker in speakers %}
-                                                {% if 'edusummit' in speaker %}
-                                                    {% for abstract in speaker['abstracts'] %}
-                                                    <tr>
-                                                        <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#bio">{{ speaker['name'] }}</a></td>
-                                                        <td><a href="{{ url_for('profile', lang_code=lang_code, name=speaker['name'].lower().replace(' ', '-')) }}#abstract{{ loop.index }}">{{ abstract['title'] }}</a></td>
-                                                        <td>{{ abstract['type'] }}</td>
-                                                    </tr>
-                                                    {% endfor %}
-                                                {% endif %}
-                                            {% endfor %}
-                                        </tbody>
-                                    </table>
+                                <div role="tabpanel" class="tab-pane fade" id="workshops_link">
+                                    <div role="tabpanel" class="tab-pane fade active show" id="workshops_link">
+                                        {% with day=workshops_link, name='workshops_link' %}
+                                        {% include 'includes/program_table.html' %}
+                                        {% endwith %}
+                                    </div>
                                 </div>
 
                             </div>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-07 10:05+0100\n"
+"POT-Creation-Date: 2020-03-12 23:34+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: pycon.py:9
-msgid "PyCon SK 2020 | September 2020 | Bratislava, Slovakia"
-msgstr "PyCon SK 2020 | September 2020 | Bratislava"
+msgid "PyCon SK 2020 | 11 - 13. September 2020 | Bratislava, Slovakia"
+msgstr ""
 
 #: templates/aboutus.html:10 templates/aboutus.html:15
 #: templates/aboutus.html:29 templates/body.html:151 templates/body.html:218
@@ -103,10 +103,10 @@ msgstr "PyCon SK 2020, Bratislava"
 #: templates/body.html:18 templates/body.html:23
 msgid ""
 "PyCon SK is a community-organized conference for the Python programming "
-"language, which will be held in Bratislava on September, 2020."
+"language, which will be held in Bratislava on September 11 - 13, 2020."
 msgstr ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
-"Python, ktorá sa bude konať v Bratislave v septembri 2020."
+"Python, ktorá sa bude konať v Bratislave 11. až 13. septembra 2020."
 
 #: templates/body.html:68
 msgid "You are using an <strong>outdated</strong> browser."
@@ -1272,8 +1272,8 @@ msgstr ""
 "Ďalšie drinky si platí každý za seba."
 
 #: templates/index.html:12 templates/index.html:43
-msgid "September 2020"
-msgstr "September 2020"
+msgid "11 - 13. September 2020"
+msgstr ""
 
 #: templates/index.html:13
 msgid "Bratislava, Slovakia"
@@ -2330,4 +2330,21 @@ msgstr ""
 
 #~ msgid "PyCon SK 2020 | 27 - 29 March 2020 | Bratislava, Slovakia"
 #~ msgstr "PyCon SK 2020 | 27. - 29. marec 2020 | Bratislava"
+
+#~ msgid "PyCon SK 2020 | September 2020 | Bratislava, Slovakia"
+#~ msgstr "PyCon SK 2020 | September 2020 | Bratislava"
+
+#~ msgid ""
+#~ "PyCon SK is a community-organized "
+#~ "conference for the Python programming "
+#~ "language, which will be held in "
+#~ "Bratislava on September, 2020."
+#~ msgstr ""
+#~ "PyCon SK je komunitou organizovaná "
+#~ "konferencia pre programovací jazyk Python, "
+#~ "ktorá sa bude konať v Bratislave v"
+#~ " septembri 2020."
+
+#~ msgid "September 2020"
+#~ msgstr "September 2020"
 
