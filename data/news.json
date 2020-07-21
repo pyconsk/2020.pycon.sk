@@ -1,5 +1,13 @@
 [
-    {
+   {
+    "date": "2020-07-17",
+    "title_en": "PyCon SK posponed to June 2021",
+    "meta_en": "In early March we took the difficult decision to postpone PyCon SK. To minimize the potential for COVID-19 community spread, we decided to act swiftly and responsibly, even before the authorities banned large gatherings. In the past few days, we have been faced with a similar situation and, after discussions with many of you, we are postponing PyCon SK to June 2021. We'll announce the exact date soon.",
+    "title_sk": "PyCon SK bude v neskoršom termíne.",
+    "meta_sk": "Pred niekoľkými mesiacmi sme stáli pred rozhodnutím, či PyCon SK 2020 v marci presunúť, alebo nie. Nakoniec sme sa rozhodli zodpovedne, ešte pred oficiálnymi pokynmi zo strany štátnych orgánov. Podobné rozhodnutie pred nami stálo aj teraz, a z bezpečnostných dôvodov sme sa rozhodli PyCon SK presunúť na jún 2021. Presný termín ešte dolaďujeme.",
+    "categories": ["conference"]
+   },
+   {
     "date": "2020-03-07",
     "title_en": "PyCon SK will be postponed.",
     "meta_en": "COVID-19 virus is spreading across the Europe and unfortunately Slovakia is no exception.\n\nWe have monitored the situation closely and we have been discussing with the Public Health Authority and being advice to postpone the conference. We prepared number of proactive measures, but we are not able to guarantee health and safety of our attendees. We have considered the option to do the PyCon SK online, but we believe that the spirit of the community is by getting together.\n\nWe have made a responsible decision to postpone PyCon SK to later date. Conference will happen in September 2020.\n\nWe do apologize for the trouble and we hope you'll understand our decision. We do hope our decision will not cause you too much inconvenience.\n\nThank you for your support and look forward to the September 2020 meeting.",

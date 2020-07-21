@@ -6,7 +6,7 @@ from flask_babel import Babel, gettext, lazy_gettext
 
 from utils import get_news, get_speakers, get_talks, get_edu_speakers, get_edu_talks
 
-EVENT = gettext('PyCon SK 2020 | 11 - 13. September 2020 | Bratislava, Slovakia')
+EVENT = gettext('PyCon SK 2020 | Bratislava, Slovakia')
 DOMAIN = 'https://2020.pycon.sk'
 API_DOMAIN = 'https://api.pycon.sk'
 
