@@ -10,6 +10,7 @@ LANGUAGES = (
 
 app.config['FREEZER_DESTINATION'] = 'docs'  # GitHub pages directory for static site
 # app.config['APPLICATION_ROOT'] = '/2019.pycon.sk/'
+WEBSITE_DOMAIN = '2020.pycon.sk'
 
 freezer = Freezer(app)
 
@@ -35,6 +36,16 @@ def fix_calendar():
                     f.write(cal_content.replace('\n', '\r\n'))
 
 
+def add_cname():
+    """
+    After successful freeze, add CNAME record for GitHub Pages.
+    """
+    cname = os.path.join(freezer.root, 'CNAME')
+    with open(cname, 'w') as f:
+        f.write(WEBSITE_DOMAIN)
+
+
 if __name__ == '__main__':
     freezer.freeze()
     # fix_calendar()
+    add_cname()
