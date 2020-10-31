@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-12 23:34+0100\n"
+"POT-Creation-Date: 2020-10-31 17:15+0100\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: pycon.py:9
-msgid "PyCon SK 2020 | 11 - 13. September 2020 | Bratislava, Slovakia"
+msgid "PyCon SK 2020 | Bratislava, Slovakia"
 msgstr ""
 
 #: templates/aboutus.html:10 templates/aboutus.html:15
@@ -103,10 +103,8 @@ msgstr "PyCon SK 2020, Bratislava"
 #: templates/body.html:18 templates/body.html:23
 msgid ""
 "PyCon SK is a community-organized conference for the Python programming "
-"language, which will be held in Bratislava on September 11 - 13, 2020."
+"language."
 msgstr ""
-"PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
-"Python, ktorá sa bude konať v Bratislave 11. až 13. septembra 2020."
 
 #: templates/body.html:68
 msgid "You are using an <strong>outdated</strong> browser."
@@ -584,7 +582,7 @@ msgstr ""
 "Abstrakt tvojho príspevku bude zverejnený na našom webe, ak bude "
 "príspevok akceptovaný."
 
-#: templates/cfp_form.html:182 templates/program.html:113
+#: templates/cfp_form.html:182
 msgid "Type"
 msgstr "Typ"
 
@@ -604,8 +602,7 @@ msgstr "Workshop"
 msgid "Hardware Projects Showcase"
 msgstr "Ukážka hardvérových projektov"
 
-#: templates/cfp_form.html:218 templates/program.html:51
-#: templates/program.html:82
+#: templates/cfp_form.html:218
 msgid "Language"
 msgstr "Jazyk"
 
@@ -1272,7 +1269,7 @@ msgstr ""
 "Ďalšie drinky si platí každý za seba."
 
 #: templates/index.html:12 templates/index.html:43
-msgid "11 - 13. September 2020"
+msgid "June 2021"
 msgstr ""
 
 #: templates/index.html:13
@@ -1692,31 +1689,6 @@ msgstr ""
 "požiadaj o vyňatie emailu z hromadného emailingu. Ak už si prihlásený/-á,"
 " môžeš sa odhlásiť kedykoľvek kliknutím na link na konci emailu."
 
-#: templates/program.html:49 templates/program.html:80
-#: templates/program.html:111
-msgid "Speaker"
-msgstr "Rečník"
-
-#: templates/includes/program_table.html:5 templates/program.html:50
-#: templates/program.html:81 templates/program.html:112
-msgid "Topic"
-msgstr "Téma"
-
-#: templates/program.html:63 templates/program.html:94
-#: templates/speaker.html:58
-msgid "Slovak language"
-msgstr "Slovenský jazyk"
-
-#: templates/program.html:64 templates/program.html:95
-#: templates/speaker.html:59
-msgid "English language"
-msgstr "Anglický jazyk"
-
-#: templates/program.html:65 templates/program.html:96
-#: templates/speaker.html:60
-msgid "Czech language"
-msgstr "Český jazyk"
-
 #: templates/recording.html:32
 msgid ""
 "See the <a href=\"http://pyvideo.org\">http://pyvideo.org</a> for one "
@@ -1817,6 +1789,18 @@ msgstr ""
 " webstránkach SPy o.z. alebo na ďalších web stránkach určených PSF "
 "(vrátane, ale nie nutne výlučne YouTube)."
 
+#: templates/speaker.html:58
+msgid "Slovak language"
+msgstr "Slovenský jazyk"
+
+#: templates/speaker.html:59
+msgid "English language"
+msgstr "Anglický jazyk"
+
+#: templates/speaker.html:60
+msgid "Czech language"
+msgstr "Český jazyk"
+
 #: templates/sponsors.html:8 templates/sponsors.html:13
 msgid "Our sponsors"
 msgstr "Naši sponzori"
@@ -1845,23 +1829,23 @@ msgstr "Diamantový sponzor"
 msgid "Platinum sponsors"
 msgstr "Platinoví sponzori"
 
-#: templates/sponsors.html:65
+#: templates/sponsors.html:52
 msgid "Gold sponsors"
 msgstr "Zlatí sponzori"
 
-#: templates/sponsors.html:90
+#: templates/sponsors.html:63
 msgid "Silver sponsors"
 msgstr "Strieborní sponzori"
 
-#: templates/sponsors.html:115
+#: templates/sponsors.html:74
 msgid "Bronze sponsors"
 msgstr "Bronzoví sponzori"
 
-#: templates/sponsors.html:154
+#: templates/sponsors.html:113
 msgid "Main media partner"
 msgstr "Hlavný mediálny partner"
 
-#: templates/sponsors.html:165
+#: templates/sponsors.html:124
 msgid "Partners"
 msgstr "Partneri"
 
@@ -2314,6 +2298,10 @@ msgstr ""
 "class=\"external\">oficiálne stránky mesta, určené pre návštevníkov</a>, "
 "kde nájdete aj iné udalosti, ktoré sa práve odohrávajú v Bratislave."
 
+#: templates/includes/program_table.html:5
+msgid "Topic"
+msgstr "Téma"
+
 #~ msgid ""
 #~ "PyCon SK is a community-organized "
 #~ "conference for the Python programming "
@@ -2347,4 +2335,25 @@ msgstr ""
 
 #~ msgid "September 2020"
 #~ msgstr "September 2020"
+
+#~ msgid "PyCon SK 2020 | 11 - 13. September 2020 | Bratislava, Slovakia"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "PyCon SK is a community-organized "
+#~ "conference for the Python programming "
+#~ "language, which will be held in "
+#~ "Bratislava on September 11 - 13, "
+#~ "2020."
+#~ msgstr ""
+#~ "PyCon SK je komunitou organizovaná "
+#~ "konferencia pre programovací jazyk Python, "
+#~ "ktorá sa bude konať v Bratislave "
+#~ "11. až 13. septembra 2020."
+
+#~ msgid "11 - 13. September 2020"
+#~ msgstr ""
+
+#~ msgid "Speaker"
+#~ msgstr "Rečník"
 
