@@ -1,5 +1,13 @@
 [
    {
+    "date": "2021-05-14",
+    "title_en": "PyCon SK posponed to 2022",
+    "meta_en": "Due to the lasting COVID-19 situation PyCon SK will not take place in 2021. Instead, we have decided to return back to organizing online Python meetups - for more details subscribe to our Newsletter.",
+    "title_sk": "PyCon SK presunutý na rok 2022",
+    "meta_sk": "Vzhľadom na pretrvávajúcu pandemickú situáciu sa PyCon SK neuskutoční ani v roku 2021. Namiesto toho sme sa rozhodli opäť rozbehnúť Python online meetupy, konkrétne termíny už čoskoro pošleme cez Newsletter - pre viac info sa prihláste na odber nižšie.",
+    "categories": ["conference"]
+   },
+   {
     "date": "2020-07-17",
     "title_en": "PyCon SK posponed to June 2021",
     "meta_en": "In early March we took the difficult decision to postpone PyCon SK. To minimize the potential for COVID-19 community spread, we decided to act swiftly and responsibly, even before the authorities banned large gatherings. In the past few days, we have been faced with a similar situation and, after discussions with many of you, we are postponing PyCon SK to June 2021. We'll announce the exact date soon.",
