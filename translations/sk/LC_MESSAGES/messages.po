@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-10-31 17:15+0100\n"
+"POT-Creation-Date: 2021-05-14 22:10+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -130,7 +130,7 @@ msgstr "Program"
 
 #: templates/body.html:126 templates/body.html:193 templates/cfp.html:14
 #: templates/cfp_form.html:14 templates/includes/program_table.html:4
-#: templates/index.html:97 templates/index.html:165 templates/recording.html:14
+#: templates/index.html:96 templates/index.html:164 templates/recording.html:14
 #: templates/speaker.html:14 templates/speaker_list.html:14
 #: templates/speaker_list2.html:14
 msgid "Speakers"
@@ -168,8 +168,8 @@ msgstr "FAQ"
 msgid "Venue"
 msgstr "Miesto konania"
 
-#: templates/body.html:251 templates/body.html:252 templates/index.html:20
-#: templates/index.html:206
+#: templates/body.html:251 templates/body.html:252 templates/index.html:19
+#: templates/index.html:205
 msgid "Buy Tickets"
 msgstr "Kúp si lístok"
 
@@ -969,11 +969,11 @@ msgstr ""
 msgid "Read more about code of conduct"
 msgstr "Prečítať si viac o kódexe správania"
 
-#: templates/countdown.html:32 templates/mailchimp.html:11
+#: templates/countdown.html:32
 msgid "Your Email Here"
 msgstr "Napíš sem svoj email"
 
-#: templates/countdown.html:33 templates/mailchimp.html:12
+#: templates/countdown.html:33
 msgid "email address for the newsletter"
 msgstr "emailová adresa pre odoberanie noviniek"
 
@@ -981,21 +981,21 @@ msgstr "emailová adresa pre odoberanie noviniek"
 msgid "Subscribe"
 msgstr "Prihlásiť sa"
 
-#: templates/countdown.html:43 templates/mailchimp.html:48
+#: templates/countdown.html:43 templates/mailchimp.html:47
 msgid ""
 "You can unsubscribe at any time by clicking the link in the footer of our"
 " emails."
 msgstr "Odhlásiť sa môžeš kedykoľvek kliknutím na link na konci našich emailov."
 
-#: templates/countdown.html:45 templates/mailchimp.html:50
+#: templates/countdown.html:45
 msgid "View previous campaigns."
 msgstr "Zobraziť predchádzajúce kampane."
 
-#: templates/countdown.html:49 templates/mailchimp.html:54
+#: templates/countdown.html:49 templates/mailchimp.html:51
 msgid "We use Mailchimp as our marketing platform."
 msgstr "Ako našu marketingovú platformu používame Mailchimp."
 
-#: templates/countdown.html:50 templates/mailchimp.html:54
+#: templates/countdown.html:50 templates/mailchimp.html:51
 msgid ""
 "By clicking Subscribe, you acknowledge that your information will be "
 "transferred to Mailchimp for processing."
@@ -1268,29 +1268,26 @@ msgstr ""
 "špeciálny lístok. Lístok zahŕňa večeru vo forme bufetu a welcome drinku. "
 "Ďalšie drinky si platí každý za seba."
 
-#: templates/index.html:12 templates/index.html:43
-msgid "June 2021"
-msgstr ""
-
-#: templates/index.html:13
+#: templates/index.html:12
 msgid "Bratislava, Slovakia"
 msgstr "Bratislava"
 
-#: templates/index.html:32
+#: templates/index.html:31
 msgid "About PyCon SK"
 msgstr "O konferencii PyCon SK"
 
-#: templates/index.html:45
+#: templates/index.html:42
+msgid "2022"
+msgstr ""
+
+#: templates/index.html:44
 msgid ""
-"The PyCon SK 2020 conference, which will be held in Bratislava, is an "
+"The PyCon SK 2022 conference, which will be held in Bratislava, is an "
 "annual gathering of the community using and developing the open-source "
 "Python programming language."
 msgstr ""
-"Konferencia PyCon SK 2020, ktorá sa bude konať v Bratislave, je "
-"každoročné stretnutie komunity využívajúcej a vyvíjajúcej open sourcový "
-"programovací jazyk Python."
 
-#: templates/index.html:46
+#: templates/index.html:45
 msgid ""
 "It is organized by volunteers from the SPy o.z., civic association "
 "dedicated to advancing and promoting Python and other Open Source "
@@ -1300,7 +1297,7 @@ msgstr ""
 "SPy o.z. zameraného na šírenie jazyka Python a ďalších open sourcových "
 "technológií a myšlienok."
 
-#: templates/index.html:47
+#: templates/index.html:46
 msgid ""
 "Through PyCon, the SPy o.z. advances its mission of growing the Slovak "
 "(and also international) community of Python programmers and Open Source "
@@ -1310,11 +1307,11 @@ msgstr ""
 "aj medzinárodnú) komunitu Python programátorov a programátoriek a ľudí "
 "podporujúcich open source."
 
-#: templates/index.html:56
+#: templates/index.html:55
 msgid "Edu Summit"
 msgstr "Edu Summit"
 
-#: templates/index.html:58
+#: templates/index.html:57
 msgid ""
 "EduSummit is a special section of the conference focused on teaching "
 "programming at primary and secondary schools."
@@ -1322,7 +1319,7 @@ msgstr ""
 "EduSummit je špecializovaná časť konferencie zameraná na vyučovanie "
 "programovania na základných a stredných školách."
 
-#: templates/index.html:59
+#: templates/index.html:58
 msgid ""
 "We are now organising the fourth edition, a two day summit during which "
 "teachers will be introduced to innovative ways and methods of teaching "
@@ -1335,37 +1332,37 @@ msgstr ""
 "sa spolu zúčastníme workshopov pod vedením skúsených mentorov a "
 "mentoriek."
 
-#: templates/index.html:109
+#: templates/index.html:108
 msgid "Participants"
 msgstr "účastníkov a účastníčok"
 
-#: templates/index.html:122
+#: templates/index.html:121
 msgid "News"
 msgstr "Novinky"
 
-#: templates/index.html:123
+#: templates/index.html:122
 msgid ""
 "There are a lot of things going on around conference... Here are some of "
 "them..."
 msgstr "Okolo konferencie sa stále deje kopec vecí... Tu je niekoľko z nich..."
 
-#: templates/index.html:149 templates/news.html:58
+#: templates/index.html:148 templates/news.html:58
 msgid "Read more"
 msgstr "Čítaj viac"
 
-#: templates/index.html:167
+#: templates/index.html:166
 msgid "Speakers that who have already confirmed attendance at PyCon SK 2020."
 msgstr "Rečníci, ktorí už potvrdili účasť na PyCon SK 2020."
 
-#: templates/index.html:168
+#: templates/index.html:167
 msgid "You can fill the Call for Proposals and join this list..."
 msgstr "Vyplň návrh na prednášku a pridaj sa do zoznamu..."
 
-#: templates/index.html:204
+#: templates/index.html:203
 msgid "Get Your Ticket Now"
 msgstr "Kúp si lístok teraz"
 
-#: templates/index.html:205
+#: templates/index.html:204
 msgid ""
 "Conference tickets are available for purchase. So far each PyCon SK "
 "edition has sold out, so do not leave buying your ticket to the last "
@@ -1375,67 +1372,57 @@ msgstr ""
 "vypredal, takže si nenechávaj nákup lístka na poslednú chvíľu, lebo už "
 "môžu byť vypredané..."
 
-#: templates/index.html:217
+#: templates/index.html:216
 msgid "Official Sponsors &amp; Partners"
 msgstr "Oficiálni sponzori a partneri"
 
-#: templates/index.html:218
+#: templates/index.html:217
 msgid "We are looking for sponsors and partners. Please get in touch with us."
 msgstr "Hľadáme sponzorov a partnerov. Prosím, kontaktujte nás."
 
-#: templates/index.html:219
+#: templates/index.html:218
 msgid "Check Who Makes This Event Possible!"
 msgstr "Pozri sa, bez koho by táto konferencia nebola možná!"
 
-#: templates/index.html:223 templates/index.html:224
+#: templates/index.html:222 templates/index.html:223
 msgid "Become a Sponsor"
 msgstr "Staň sa sponzorom"
 
-#: templates/mailchimp.html:2
-msgid "Subscribe to our newsletter"
-msgstr "Prihlás sa na odber newslettra"
+#: templates/mailchimp.html:6
+msgid "Subscribe to one of our newsletters"
+msgstr "Prihláste sa na odber jedného z našich newslettrov"
 
-#: templates/mailchimp.html:23
-msgid "Which newsletters do you wish to subscribe to?"
-msgstr "Na ktorý newsletter sa chceš prihlásiť?"
+#: templates/mailchimp.html:20
+msgid "Newsletter in SLOVAK"
+msgstr "Newsletter v Slovenčine"
 
-#: templates/mailchimp.html:26
-msgid "PyCon SK Newsletter"
-msgstr "PyCon SK Newsletter"
-
-#: templates/mailchimp.html:27
-msgid "(conference updates in English)"
-msgstr "(informácie o konferencii v angličtine)"
-
-#: templates/mailchimp.html:31
-msgid "SPy o.z. Newsletter"
-msgstr "SPy o.z. Newsletter"
+#: templates/mailchimp.html:25
+msgid ""
+"Receive updates <strong>in Slovak</strong> about PyCon SK\n"
+"              <br>& Python meetups held in <strong>Slovak or "
+"English</strong>\n"
+"              <br>(approximately one email every 1-2 months)"
+msgstr ""
+"Dostávajte novinky <strong>v Slovenčine</strong> o PyCon SK\n"
+"              <br>& Python meetupoch s prednáškami <br><strong>v Slovenčine alebo "
+"Angličtine</strong>\n"
+"              <br>(približne jeden mail každý 1-2 mesiace)"
 
 #: templates/mailchimp.html:32
+msgid "Newsletter in ENGLISH"
+msgstr "Newsletter v Angličtine"
+
+#: templates/mailchimp.html:37
 msgid ""
-"(monthly updates on Python meetups, PyCon SK and Učíme s Hardvérom in "
-"Slovak)"
+"Receive updates <strong>in English</strong> about PyCon SK\n"
+"              <br>& Python meetups held in <strong>English only</strong>\n"
+"              <br>(3-5 emails per year)"
 msgstr ""
-"(mesačný newsletter o Python meetupoch, PyCon SK a Učíme s Hardvérom v "
-"slovenčine)"
+"Dostávajte novinky <strong>v Angličtine</strong> o PyCon SK\n"
+"              <br>& Python meetupoch s prednáškami <br><strong>iba v Angličtine</strong>\n"
+"              <br>(3-5 mailov za rok)"
 
-#: templates/mailchimp.html:38
-msgid "Email Marketing Permissions"
-msgstr "Povolenia pre emailový marketing"
-
-#: templates/mailchimp.html:39
-msgid "Please select all the ways you would like to hear from SPy o.z.:"
-msgstr "Prosím, vyber si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
-
-#: templates/mailchimp.html:41
-msgid "Email"
-msgstr "Email"
-
-#: templates/mailchimp.html:44
-msgid "Direct Mail"
-msgstr "Osobný email"
-
-#: templates/mailchimp.html:55
+#: templates/mailchimp.html:52
 #, python-format
 msgid ""
 "For information about privacy practices, please visit our <a "
@@ -2356,4 +2343,56 @@ msgstr "Téma"
 
 #~ msgid "Speaker"
 #~ msgstr "Rečník"
+
+#~ msgid "June 2021"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The PyCon SK 2020 conference, which "
+#~ "will be held in Bratislava, is an"
+#~ " annual gathering of the community "
+#~ "using and developing the open-source "
+#~ "Python programming language."
+#~ msgstr ""
+#~ "Konferencia PyCon SK 2020, ktorá sa "
+#~ "bude konať v Bratislave, je každoročné"
+#~ " stretnutie komunity využívajúcej a "
+#~ "vyvíjajúcej open sourcový programovací jazyk"
+#~ " Python."
+
+#~ msgid "Subscribe to our newsletter"
+#~ msgstr "Prihlás sa na odber newslettra"
+
+#~ msgid "Which newsletters do you wish to subscribe to?"
+#~ msgstr "Na ktorý newsletter sa chceš prihlásiť?"
+
+#~ msgid "PyCon SK Newsletter"
+#~ msgstr "PyCon SK Newsletter"
+
+#~ msgid "(conference updates in English)"
+#~ msgstr "(informácie o konferencii v angličtine)"
+
+#~ msgid "SPy o.z. Newsletter"
+#~ msgstr "SPy o.z. Newsletter"
+
+#~ msgid ""
+#~ "(monthly updates on Python meetups, "
+#~ "PyCon SK and Učíme s Hardvérom in"
+#~ " Slovak)"
+#~ msgstr ""
+#~ "(mesačný newsletter o Python meetupoch, "
+#~ "PyCon SK a Učíme s Hardvérom v "
+#~ "slovenčine)"
+
+#~ msgid "Email Marketing Permissions"
+#~ msgstr "Povolenia pre emailový marketing"
+
+#~ msgid "Please select all the ways you would like to hear from SPy o.z.:"
+#~ msgstr "Prosím, vyber si, akými spôsobmi chceš dostávať informácie od SPy o.z.:"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Direct Mail"
+#~ msgstr "Osobný email"
 
