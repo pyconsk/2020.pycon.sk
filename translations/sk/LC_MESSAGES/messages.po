@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-14 22:10+0200\n"
+"POT-Creation-Date: 2022-08-01 19:20+0200\n"
 "PO-Revision-Date: 2018-11-27 22:00+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1277,15 +1277,19 @@ msgid "About PyCon SK"
 msgstr "O konferencii PyCon SK"
 
 #: templates/index.html:42
-msgid "2022"
-msgstr ""
+msgid "2020"
+msgstr "2020"
 
 #: templates/index.html:44
 msgid ""
-"The PyCon SK 2022 conference, which will be held in Bratislava, is an "
+"The PyCon SK 2020 conference, which will be held in Bratislava, is an "
 "annual gathering of the community using and developing the open-source "
 "Python programming language."
 msgstr ""
+"Konferencia PyCon SK 2020, ktorá sa bude konať v Bratislave, je každoročné "
+"stretnutie komunity, ktorá používa a vyvíja open-sourcový programovací "
+"jazyk Python."
+
 
 #: templates/index.html:45
 msgid ""
@@ -1404,8 +1408,8 @@ msgid ""
 "              <br>(approximately one email every 1-2 months)"
 msgstr ""
 "Dostávajte novinky <strong>v Slovenčine</strong> o PyCon SK\n"
-"              <br>& Python meetupoch s prednáškami <br><strong>v Slovenčine alebo "
-"Angličtine</strong>\n"
+"              <br>& Python meetupoch s prednáškami <br><strong>v "
+"slovenčine alebo angličtine</strong>\n"
 "              <br>(približne jeden mail každý 1-2 mesiace)"
 
 #: templates/mailchimp.html:32
@@ -1418,8 +1422,9 @@ msgid ""
 "              <br>& Python meetups held in <strong>English only</strong>\n"
 "              <br>(3-5 emails per year)"
 msgstr ""
-"Dostávajte novinky <strong>v Angličtine</strong> o PyCon SK\n"
-"              <br>& Python meetupoch s prednáškami <br><strong>iba v Angličtine</strong>\n"
+"Dostávajte novinky <strong>v angličtine</strong> o PyCon SK\n"
+"              <br>& Python meetupoch s prednáškami <br><strong>iba v "
+"angličtine</strong>\n"
 "              <br>(3-5 mailov za rok)"
 
 #: templates/mailchimp.html:52
@@ -2395,4 +2400,15 @@ msgstr "Téma"
 
 #~ msgid "Direct Mail"
 #~ msgstr "Osobný email"
+
+#~ msgid "2022"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The PyCon SK 2022 conference, which "
+#~ "will be held in Bratislava, is an"
+#~ " annual gathering of the community "
+#~ "using and developing the open-source "
+#~ "Python programming language."
+#~ msgstr ""
 
